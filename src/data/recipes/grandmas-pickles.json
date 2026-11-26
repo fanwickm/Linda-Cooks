@@ -5,7 +5,7 @@
   "order": 77,
   "source": "From Grandma",
   "contributors": [
-    "grandma"
+    "linda-mitchell"
   ],
   "occasionText": null,
   "yield": {
@@ -172,8 +172,8 @@
   "openQuestion": "This is a best guess — classic garlicky dill pickles kept in the refrigerator. We don’t know whether Grandma’s pickles were dill, bread-and-butter, or sour, or whether she canned them for the pantry. Tell me which, and anything you remember about how they were cut, what was in the jar, and when she made them.",
   "isBestGuess": true,
   "contributorName": "Grandma",
-  "lindasTouch": false,
-  "lindasTouchReason": null,
+  "lindasTouch": true,
+  "lindasTouchReason": "Linda’s own recipe (she’s Grandma)",
   "occasions": [],
   "keyIngredients": [],
   "course": null,

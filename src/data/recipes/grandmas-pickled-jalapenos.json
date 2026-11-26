@@ -5,7 +5,7 @@
   "order": 78,
   "source": "From Grandma",
   "contributors": [
-    "grandma"
+    "linda-mitchell"
   ],
   "occasionText": null,
   "yield": {
@@ -166,8 +166,8 @@
   "openQuestion": "This is a best guess — sliced jalapeños in a quick refrigerator brine, with optional carrot and onion the way taquerias serve them. Tell me how Grandma made hers: sliced or whole, with carrots or just peppers, sweet or plain, canned or kept in the refrigerator — and what she put them on.",
   "isBestGuess": true,
   "contributorName": "Grandma",
-  "lindasTouch": false,
-  "lindasTouchReason": null,
+  "lindasTouch": true,
+  "lindasTouchReason": "Linda’s own recipe (she’s Grandma)",
   "occasions": [],
   "keyIngredients": [],
   "course": null,

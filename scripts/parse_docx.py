@@ -63,10 +63,11 @@ PEOPLE = {
     "Menaka": "menaka",
     "Angela’s mom": "angelas-mom",
     "Wendy’s mom": "wendys-mom",
-    "Grandma": "grandma",
-    "Mrs. Blum": "mrs-blum",
+    "Grandma": "linda-mitchell",  # Grandma is Linda
     "Alex Audino Ferrari": "alex-audino-ferrari",
 }
+# "From ..." names that are part of a dish's title, not a person.
+NOT_PEOPLE = {"Mrs. Blum"}
 
 
 def slugify(s: str) -> str:
@@ -319,8 +320,11 @@ def main():
                     m = re.match(r"^From\s+(.+?)(?:\s+·\s+(.+))?$", italic)
                     if m:
                         who = m.group(1).strip()
-                        recipe["contributors"] = [PEOPLE.get(who, slugify(who))]
-                        recipe["contributorName"] = who
+                        if who in NOT_PEOPLE:
+                            recipe["source"] = None
+                        else:
+                            recipe["contributors"] = [PEOPLE.get(who, slugify(who))]
+                            recipe["contributorName"] = who
                         recipe["occasionText"] = m.group(2)
                     else:
                         recipe["occasionText"] = italic
@@ -364,6 +368,8 @@ def main():
         r["keyIngredients"] = ov.get("keyIngredients", [])
         r["course"] = ov.get("course")
         r["cardScan"] = ov.get("cardScan")
+        if ov.get("openQuestion"):
+            r["openQuestion"] = ov["openQuestion"]
         if ov.get("extraContributors"):
             r["contributors"] = sorted(set(r["contributors"] + ov["extraContributors"]))
         for n in r["notes"]:

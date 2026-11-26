@@ -251,6 +251,17 @@
       "occasions": [
         "sunday-dinner"
       ]
+    },
+    "grandmas-pickles": {
+      "lindasTouch": true,
+      "lindasTouchReason": "Linda’s own recipe (she’s Grandma)"
+    },
+    "grandmas-pickled-jalapenos": {
+      "lindasTouch": true,
+      "lindasTouchReason": "Linda’s own recipe (she’s Grandma)"
+    },
+    "mrs-blums-pie": {
+      "openQuestion": "I don’t know this one, and I would rather ask than guess. What kind of pie is Mrs. Blum’s pie — fruit, cream, custard, chocolate? When does the pie come out? If there is a recipe card, a photo of it is all I need to write it properly."
     }
   }
 }

@@ -1,5 +1,5 @@
 [
-  { "id": "linda-mitchell", "name": "Linda Mitchell", "short": "Linda", "aliases": ["Linda"], "relationship": "The hostess and the heart of the book", "photo": "/images/people/linda-avatar.jpg", "isLinda": true },
+  { "id": "linda-mitchell", "name": "Linda Mitchell", "short": "Linda", "aliases": ["Linda", "Grandma"], "relationship": "The hostess, Grandma to the grandchildren, and the heart of the book", "photo": "/images/people/linda-avatar.jpg", "isLinda": true },
   { "id": "bob-mitchell", "name": "Bob Mitchell", "short": "Bob", "aliases": ["Bob", "Small Bob"], "relationship": "Family cook — roasts, soups and fresh pasta", "photo": null },
   { "id": "karen-massimino", "name": "Karen Massimino", "short": "Aunt Karen", "aliases": ["Aunt Karen", "Karen"], "relationship": "Aunt Karen — bread, Brie and Christmas toffee", "photo": null },
   { "id": "lorraine-massimino", "name": "Lorraine Massimino", "short": "Lorraine", "aliases": ["Lorraine"], "relationship": "Meatballs and Sunday sauce", "photo": null },
@@ -10,8 +10,6 @@
   { "id": "menaka", "name": "Menaka", "short": "Menaka", "aliases": [], "relationship": "Keema matar", "photo": null },
   { "id": "angelas-mom", "name": "Angela’s mom", "short": "Angela’s mom", "aliases": [], "relationship": "Gnocchi", "photo": null },
   { "id": "wendys-mom", "name": "Wendy’s mom", "short": "Wendy’s mom", "aliases": [], "relationship": "Dumplings", "photo": null },
-  { "id": "grandma", "name": "Grandma", "short": "Grandma", "aliases": [], "relationship": "Jellies, pickles and the preserves shelf", "photo": null },
-  { "id": "mrs-blum", "name": "Mrs. Blum", "short": "Mrs. Blum", "aliases": [], "relationship": "A pie we still need to learn about", "photo": null },
   { "id": "alex-audino-ferrari", "name": "Alex Audino Ferrari", "short": "Alex", "aliases": ["Alexandra Audino Ferrari"], "relationship": "Sent Linda the pignoli cookie recipe in 2015", "photo": null },
   { "id": "family-files", "name": "The family files", "short": "Family files", "aliases": [], "relationship": "Old handwritten and printed cards of unknown origin", "photo": null }
 ]

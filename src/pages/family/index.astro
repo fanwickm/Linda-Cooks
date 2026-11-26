@@ -23,7 +23,7 @@ const open = openQuestions.filter((q) => q.question).length;
 
     <div class="mt-6 grid gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] items-start">
       <figure class="card p-2 sm:p-4" data-tree>
-        <svg viewBox={`0 0 ${W} ${H}`} class="w-full h-auto" role="group" aria-label="Family tree of recipes">
+        <svg viewBox={`-70 0 ${W + 140} ${H}`} class="w-full h-auto" role="group" aria-label="Family tree of recipes">
           <circle cx={cx} cy={cy} r={R} fill="none" stroke="#e5d9c3" stroke-dasharray="4 6" />
           {nodes.map((n) => <line x1={cx} y1={cy} x2={n.x} y2={n.y} stroke="#e5d9c3" stroke-width={1 + n.recipes.length * 0.5} data-line={n.id} />)}
           <circle cx={cx} cy={cy} r="88" fill="#fffdf8" stroke="#c9962f" stroke-width="3" />
