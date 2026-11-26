@@ -31,6 +31,11 @@ const plate = size === "lg" ? "w-[46%] max-w-[15rem]" : size === "sm" ? "w-[52%]
 ---
 {recipe.photo ? (
   <img src={recipe.photo} alt={recipe.title} class={`object-cover w-full h-full ${cls}`} loading={eager ? "eager" : "lazy"} decoding="async" />
+) : recipe.standIn ? (
+  <div class={`relative w-full h-full ${cls}`}>
+    <img src={recipe.standIn} alt={`Stand-in photo for ${recipe.title} (not the family's own dish)`} width="1200" height="900" class="object-cover w-full h-full" loading={eager ? "eager" : "lazy"} decoding="async" />
+    {size !== "sm" && <span class="absolute right-2 bottom-2 rounded-full bg-black/55 text-white px-2.5 py-0.5 text-[.7rem] font-semibold tracking-wide" aria-hidden="true">Stand-in photo</span>}
+  </div>
 ) : (
   <div
     class={`dish-art relative w-full h-full overflow-hidden grid place-items-center ${cls}`}

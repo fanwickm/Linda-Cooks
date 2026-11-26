@@ -44,6 +44,8 @@ export interface Recipe {
   totalMinutes: number | null;
   cardScan?: string | null;
   photo?: string | null;
+  /** Stock photo standing in until the family adds a real one. */
+  standIn?: string | null;
 }
 
 export interface Chapter { slug: string; title: string; number: number; intro: string; recipes: string[] }
@@ -65,6 +67,8 @@ const recipeModules = import.meta.glob<Recipe>("../data/recipes/*.json", { eager
 
 // Optional dish photos: drop a file named <slug>.jpg (or .webp/.png) into public/images/recipes/
 const photoFiles = import.meta.glob("/public/images/recipes/*.{jpg,jpeg,png,webp}", { eager: false });
+// Stand-in stock photos (Unsplash), shown with a "Stand-in photo" tag until a real photo is added.
+const standInFiles = import.meta.glob("/public/images/stand-ins/*.{jpg,jpeg,png,webp}", { eager: false });
 const cardFiles = import.meta.glob("/public/images/cards/*.{jpg,jpeg,png,webp}", { eager: false });
 function findImage(files: Record<string, unknown>, slug: string): string | null {
   for (const p of Object.keys(files)) {
@@ -75,7 +79,7 @@ function findImage(files: Record<string, unknown>, slug: string): string | null 
 }
 
 export const recipes: Recipe[] = Object.values(recipeModules)
-  .map((r) => ({ ...r, photo: findImage(photoFiles, r.slug), cardScan: findImage(cardFiles, r.slug) }))
+  .map((r) => ({ ...r, photo: findImage(photoFiles, r.slug), standIn: findImage(standInFiles, r.slug), cardScan: findImage(cardFiles, r.slug) }))
   .sort((a, b) => a.order - b.order);
 
 export const chapters = chaptersJson as Chapter[];
