@@ -1,6 +1,6 @@
 # Stand-in photos
 
-The photos in `public/images/stand-ins/` are stock photos from [Unsplash](https://unsplash.com/license), used until the family adds real ones. They are not the family's own dishes, and the site tags each one "Stand-in photo".
+The photos in `public/images/stand-ins/` are stock photos from [Unsplash](https://unsplash.com/license), used until the family adds real ones. They are not the family's own dishes, and the site shows each one in black and white with a "Stand-in photo" tag.
 
 To replace one, add the real photo as `public/images/recipes/<recipe-slug>.jpg`; it takes over automatically. To drop a stand-in and go back to the illustration, delete its file from `public/images/stand-ins/`.
 
