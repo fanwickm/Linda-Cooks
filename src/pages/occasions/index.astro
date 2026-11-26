@@ -1,7 +1,8 @@
 ---
 import Base from "../../layouts/Base.astro";
 import Countdown from "../../components/Countdown.astro";
-import { occasions, recipeBySlug } from "../../lib/data";
+import Icon from "../../components/Icon.astro";
+import { occasions, recipeBySlug, occasionIcon } from "../../lib/data";
 ---
 <Base title="Occasions">
   <div class="container-page pt-6 sm:pt-10">
@@ -15,7 +16,7 @@ import { occasions, recipeBySlug } from "../../lib/data";
         const first = Object.values(o.menu).flat().slice(0, 3).map((s) => recipeBySlug.get(s!)?.title).filter(Boolean);
         return (
           <a href={`/occasions/${o.slug}`} class="card card-lift p-5 sm:p-6 no-underline flex flex-col gap-2" data-rule={JSON.stringify(o.dateRule)}>
-            <span class="text-5xl" aria-hidden="true">{o.emoji}</span>
+            <Icon name={occasionIcon(o.slug)} size={36} class="text-gold" />
             <h2 class="font-serif text-2xl font-semibold">{o.name}</h2>
             <p class="text-ink-soft">{o.intro}</p>
             <p class="text-sm text-ink-soft mt-auto pt-2">{n} recipes · {first.join(", ")}…</p>

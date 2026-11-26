@@ -2,9 +2,9 @@
 interface Props { small?: boolean; title?: string | null }
 const { small = false, title } = Astro.props;
 ---
-<span class:list={["linda-badge", small && "text-base!"]} title={title ?? "Linda's Touch — Linda made or annotated this recipe"}>
+<span class:list={["linda-badge", small && "text-sm!"]} title={title ?? "Linda's Touch — Linda made or annotated this recipe"}>
   <svg viewBox="0 0 32 32" width={small ? 18 : 22} height={small ? 18 : 22} aria-hidden="true">
-    <circle cx="16" cy="16" r="15" fill="#c9962f" />
+    <circle cx="16" cy="16" r="15" fill="#a98338" />
     <path d="M10 9c1 6 0 11-1 14 3-1 7-1 10 0M18 13c1 3 1 6 0 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" />
   </svg>
   Linda’s Touch

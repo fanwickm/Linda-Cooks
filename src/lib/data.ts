@@ -87,6 +87,17 @@ export const people = peopleJson as Person[];
 export const occasions = occasionsJson as Occasion[];
 export const openQuestions = openQuestionsJson as OpenQuestion[];
 
+/** Line icon (Phosphor) for each occasion, used instead of emoji. */
+export const OCCASION_ICON: Record<string, string> = {
+  "christmas-eve": "ph:tree-evergreen",
+  "christmas-morning": "ph:gift",
+  thanksgiving: "ph:grains",
+  "easter-spring": "ph:flower-tulip",
+  summer: "ph:sun",
+  "sunday-dinner": "ph:fork-knife",
+};
+export const occasionIcon = (slug: string) => OCCASION_ICON[slug] ?? "ph:calendar-blank";
+
 export const recipeBySlug = new Map(recipes.map((r) => [r.slug, r]));
 export const chapterBySlug = new Map(chapters.map((c) => [c.slug, c]));
 export const personById = new Map(people.map((p) => [p.id, p]));

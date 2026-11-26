@@ -1,51 +1,49 @@
 ---
 // Photo slot. Shows the real photo if public/images/recipes/<slug>.jpg exists,
-// otherwise a warm illustrated placeholder with the dish name.
-import type { Recipe } from "../lib/data";
-import art from "../data/dish-art.json";
-import emojiSet from "@iconify-json/fluent-emoji-flat/icons.json";
+// then a stand-in stock photo if there is one, otherwise a cloth-bound cover with the dish name.
+import Icon from "./Icon.astro";
+import { chapterBySlug, type Recipe } from "../lib/data";
 
 interface Props { recipe: Recipe; size?: "sm" | "md" | "lg"; class?: string; eager?: boolean }
 const { recipe, size = "md", class: cls = "", eager = false } = Astro.props;
 
-const PALETTE: Record<string, [string, string, string]> = {
-  "starters-snacks": ["#f6d9c8", "#b2372a", "#fbe9df"],
-  soups: ["#f3e1b7", "#8a5a12", "#faf0d6"],
-  salads: ["#dfe8d9", "#3d5a3a", "#eef4ea"],
-  "sauces-dressings": ["#e9e3c9", "#5f5a1f", "#f5f2e2"],
-  "pasta-dumplings-grains": ["#f5e6c4", "#8f5b1a", "#fbf2de"],
-  meat: ["#efd0c8", "#7d2a1f", "#f8e5e0"],
-  poultry: ["#f3dcc0", "#8a4b17", "#faeedf"],
-  "fish-shellfish": ["#d6e4e8", "#2a5561", "#eaf2f4"],
-  "vegetables-sides": ["#e1e8cf", "#4a5e1f", "#f0f4e5"],
-  "breads-breakfast": ["#f2e0c2", "#7a4f16", "#faf0de"],
-  desserts: ["#f1d8dc", "#7a2c3a", "#f9eaec"],
-  "preserves-pickles-condiments": ["#e5dcef", "#4d3a6b", "#f2edf7"],
+// Cloth colours for the cover that stands in when there is no photo, one per chapter.
+const COVER: Record<string, string> = {
+  "starters-snacks": "#7b2f25",
+  soups: "#8a6a2c",
+  salads: "#3f5640",
+  "sauces-dressings": "#5f5b2e",
+  "pasta-dumplings-grains": "#96702e",
+  meat: "#5a231f",
+  poultry: "#7a5232",
+  "fish-shellfish": "#2e4c59",
+  "vegetables-sides": "#4b5a30",
+  "breads-breakfast": "#6c5234",
+  desserts: "#6a3041",
+  "preserves-pickles-condiments": "#493d5d",
 };
-const [bg, fg, bg2] = PALETTE[recipe.chapter] ?? ["#eee", "#333", "#f8f8f8"];
-// Illustration for the plate: Fluent Emoji (MIT, Microsoft), picked per recipe in src/data/dish-art.json.
-const emojiName = (art.recipes as Record<string, string>)[recipe.slug] ?? (art.chapters as Record<string, string>)[recipe.chapter];
-const emoji = (emojiSet as any).icons[emojiName];
-if (!emoji) throw new Error(`dish-art.json: no illustration called "${emojiName}" (for ${recipe.slug})`);
-const plate = size === "lg" ? "w-[46%] max-w-[15rem]" : size === "sm" ? "w-[52%]" : "w-[48%]";
+const cover = COVER[recipe.chapter] ?? "#3a3530";
+const chapterTitle = chapterBySlug.get(recipe.chapter)?.title ?? "";
+const shortTitle = recipe.title.replace(/ with .*/, "");
+const titleSize = size === "lg" ? "text-3xl sm:text-4xl" : size === "sm" ? "text-base sm:text-lg" : "text-xl sm:text-2xl";
+const iconSize = size === "lg" ? 40 : size === "sm" ? 22 : 28;
 ---
 {recipe.photo ? (
   <img src={recipe.photo} alt={recipe.title} class={`object-cover w-full h-full ${cls}`} loading={eager ? "eager" : "lazy"} decoding="async" />
 ) : recipe.standIn ? (
   <div class={`relative w-full h-full ${cls}`}>
     <img src={recipe.standIn} alt={`Stand-in photo for ${recipe.title} (not the family's own dish)`} width="1000" height="750" class="object-cover w-full h-full grayscale" loading={eager ? "eager" : "lazy"} decoding="async" />
-    {size !== "sm" && <span class="absolute right-2 bottom-2 rounded-full bg-black/55 text-white px-2.5 py-0.5 text-[.7rem] font-semibold tracking-wide" aria-hidden="true">Stand-in photo</span>}
+    {size !== "sm" && <span class="absolute right-2 bottom-2 rounded-full bg-black/60 text-white px-2.5 py-1 text-[.6rem] font-semibold tracking-[.18em] uppercase" aria-hidden="true">Stand-in photo</span>}
   </div>
 ) : (
   <div
-    class={`dish-art relative w-full h-full overflow-hidden grid place-items-center ${cls}`}
-    style={`--art-bg:${bg};--art-bg2:${bg2};--art-fg:${fg}`}
+    class={`dish-cover relative w-full h-full overflow-hidden flex flex-col items-center justify-center text-center gap-2 px-6 py-5 ${cls}`}
+    style={`--cover:${cover}`}
     role="img"
-    aria-label={`${recipe.title} (illustration, photo coming soon)`}
+    aria-label={`${recipe.title} (no photo yet)`}
   >
-    <div class={`dish-plate ${plate}`}>
-      <svg viewBox="0 0 32 32" class="w-[58%] h-[58%] drop-shadow-[0_3px_3px_rgba(60,40,20,.25)]" aria-hidden="true" set:html={emoji.body} />
-    </div>
-    {size === "lg" && <span class="absolute right-3 bottom-3 rounded-full bg-white/75 px-3 py-1 text-xs font-semibold tracking-wide" style={`color:${fg}`} aria-hidden="true">Photo coming soon</span>}
+    <Icon name={recipe.chapter} size={iconSize} class="opacity-80" />
+    <span class={`cover-title ${titleSize}`} aria-hidden="true">{shortTitle}</span>
+    {size !== "sm" && <span class="cover-label" aria-hidden="true">{chapterTitle}</span>}
   </div>
 )}

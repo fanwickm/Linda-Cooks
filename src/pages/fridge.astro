@@ -7,10 +7,10 @@ const list = recipes.filter(isComplete).map((r) => ({ r, tags: fridgeTags(r) }))
 <Base title="Fridge Raid">
   <div class="container-page pt-6 sm:pt-10">
     <p class="eyebrow">What’s in the kitchen?</p>
-    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">🧊 Fridge Raid</h1>
+    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">Fridge Raid</h1>
     <p class="mt-2 text-lg text-ink-soft max-w-2xl">Tap what you’ve got. We’ll find the family recipes that use the most of it.</p>
     <div class="mt-6 flex flex-wrap gap-2" role="group" aria-label="What you have">
-      {FRIDGE_ITEMS.map((f) => <button type="button" class="chip" data-item={f.id} aria-pressed="false"><span aria-hidden="true">{f.emoji}</span> {f.label}</button>)}
+      {FRIDGE_ITEMS.map((f) => <button type="button" class="chip" data-item={f.id} aria-pressed="false">{f.label}</button>)}
     </div>
     <p class="mt-6 text-ink-soft" data-fr-count aria-live="polite">Pick a few things to get started.</p>
     <div class="mt-4 grid gap-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" data-fr-grid>

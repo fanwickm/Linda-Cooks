@@ -1,5 +1,6 @@
 ---
-import "@fontsource-variable/fraunces";
+import "@fontsource-variable/fraunces/full.css";
+import "@fontsource-variable/fraunces/full-italic.css";
 import "@fontsource-variable/inter";
 import "@fontsource/caveat/500.css";
 import "../styles/global.css";
@@ -30,7 +31,7 @@ const extra = [
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
-    <meta name="theme-color" content="#fbf6ec" />
+    <meta name="theme-color" content="#f8f5ef" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -47,22 +48,22 @@ const extra = [
   <body class="pb-[calc(5rem+env(safe-area-inset-bottom))] md:pb-0">
     <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] btn btn-primary">Skip to content</a>
 
-    <header class="site-header sticky top-0 z-40 bg-paper/90 backdrop-blur border-b border-line">
-      <div class="container-page flex items-center gap-4 h-16">
-        <a href="/" class="flex items-center gap-2 no-underline mr-auto" aria-label="Linda’s Kitchen home">
-          <img src="/favicon.svg" alt="" width="34" height="34" class="rounded-full" />
-          <span class="font-serif text-xl sm:text-2xl font-semibold tracking-tight">Linda’s Kitchen</span>
+    <header class="site-header sticky top-0 z-40 bg-paper/92 backdrop-blur border-b border-line">
+      <div class="container-page flex items-center gap-4 h-16 md:h-[4.5rem]">
+        <a href="/" class="flex items-baseline gap-3 no-underline mr-auto" aria-label="Linda’s Kitchen home">
+          <span class="font-serif text-2xl sm:text-[1.7rem] tracking-tight leading-none">Linda’s Kitchen</span>
+          <span class="hidden lg:inline text-[.62rem] tracking-[.24em] uppercase text-ink-soft font-semibold">The Linda M Cookbook</span>
         </a>
         <nav aria-label="Main" class="hidden md:flex items-center gap-1">
           {[...nav.slice(1, 3), ...extra].map((n) => (
-            <a href={n.href} class:list={["px-3 py-2 rounded-full no-underline font-medium hover:bg-paper-2", n.match(path) && "bg-paper-2 text-tomato"]} aria-current={n.match(path) ? "page" : undefined}>{n.label}</a>
+            <a href={n.href} class:list={["px-3 py-2 no-underline text-[.74rem] font-semibold tracking-[.16em] uppercase border-b hover:text-tomato", n.match(path) ? "text-tomato border-tomato" : "border-transparent"]} aria-current={n.match(path) ? "page" : undefined}>{n.label}</a>
           ))}
           <a href="/search" class="p-2.5 rounded-full hover:bg-paper-2" aria-label="Search"><Icon name="search" /></a>
           <a href="/saved" class="p-2.5 rounded-full hover:bg-paper-2 relative" aria-label="Saved recipes">
             <Icon name="heart" /><span data-fav-count class="absolute -top-0.5 -right-0.5 min-w-5 h-5 px-1 rounded-full bg-tomato text-white text-xs font-bold grid place-items-center" hidden></span>
           </a>
         </nav>
-        <a href="/occasions" class="md:hidden chip !min-h-[40px] !px-3 text-sm">Occasions</a>
+        <a href="/occasions" class="md:hidden text-[.72rem] font-semibold tracking-[.16em] uppercase no-underline min-h-[44px] inline-flex items-center px-1">Occasions</a>
       </div>
     </header>
 
@@ -70,24 +71,24 @@ const extra = [
       <slot />
     </main>
 
-    <footer class="site-footer mt-16 border-t border-line bg-paper-2/60">
-      <div class="container-page py-10 grid gap-6 sm:grid-cols-3 text-ink-soft">
+    <footer class="site-footer mt-20 bg-ink text-paper/70">
+      <div class="container-page py-12 grid gap-8 sm:grid-cols-3">
         <div>
-          <p class="font-serif text-xl text-ink font-semibold">Linda’s Kitchen</p>
+          <p class="font-serif text-2xl text-paper">Linda’s Kitchen</p>
           <p class="mt-1 text-sm">The Linda M Cookbook — our favourite recipes, all in one place. A family draft, still being finished together.</p>
         </div>
         <ul class="text-sm space-y-1">
-          <li><a href="/occasions" class="hover:text-tomato">Occasions & menus</a></li>
-          <li><a href="/family" class="hover:text-tomato">The Family Table</a></li>
-          <li><a href="/family/help" class="hover:text-tomato">Help finish the book</a></li>
-          <li><a href="/family/photos" class="hover:text-tomato">Family photo wall</a></li>
+          <li><a href="/occasions" class="hover:text-paper">Occasions & menus</a></li>
+          <li><a href="/family" class="hover:text-paper">The Family Table</a></li>
+          <li><a href="/family/help" class="hover:text-paper">Help finish the book</a></li>
+          <li><a href="/family/photos" class="hover:text-paper">Family photo wall</a></li>
         </ul>
         <ul class="text-sm space-y-1">
-          <li><a href="/spin" class="hover:text-tomato">What should we make?</a></li>
-          <li><a href="/fridge" class="hover:text-tomato">Fridge Raid</a></li>
-          <li><a href="/menu" class="hover:text-tomato">Menu Builder</a></li>
-          <li><a href="/passport" class="hover:text-tomato">My recipe passport</a></li>
-          <li><a href="/ask" class="hover:text-tomato">Ask Linda’s Kitchen</a></li>
+          <li><a href="/spin" class="hover:text-paper">What should we make?</a></li>
+          <li><a href="/fridge" class="hover:text-paper">Fridge Raid</a></li>
+          <li><a href="/menu" class="hover:text-paper">Menu Builder</a></li>
+          <li><a href="/passport" class="hover:text-paper">My recipe passport</a></li>
+          <li><a href="/ask" class="hover:text-paper">Ask Linda’s Kitchen</a></li>
         </ul>
       </div>
     </footer>
@@ -98,12 +99,12 @@ const extra = [
     </section>
     <p id="timer-live" class="sr-only" aria-live="assertive"></p>
 
-    <nav class="bottom-nav md:hidden fixed bottom-0 inset-x-0 z-50 bg-card/95 backdrop-blur border-t border-line pb-[env(safe-area-inset-bottom)]" aria-label="Main">
+    <nav class="bottom-nav md:hidden fixed bottom-0 inset-x-0 z-50 bg-paper/95 backdrop-blur border-t border-line pb-[env(safe-area-inset-bottom)]" aria-label="Main">
       <ul class="grid grid-cols-5">
         {nav.map((n) => (
           <li>
-            <a href={n.href} class:list={["flex flex-col items-center justify-center gap-0.5 h-16 no-underline text-[.78rem] font-semibold relative", n.match(path) ? "text-tomato" : "text-ink-soft"]} aria-current={n.match(path) ? "page" : undefined}>
-              <Icon name={n.icon} size={24} />
+            <a href={n.href} class:list={["flex flex-col items-center justify-center gap-0.5 h-16 no-underline text-[.62rem] font-semibold tracking-[.12em] uppercase relative", n.match(path) ? "text-tomato" : "text-ink-soft"]} aria-current={n.match(path) ? "page" : undefined}>
+              <Icon name={n.icon} size={22} />
               {n.label}
               {n.icon === "heart" && <span data-fav-count class="absolute top-2 right-[calc(50%-1.4rem)] min-w-5 h-5 px-1 rounded-full bg-tomato text-white text-[.7rem] font-bold grid place-items-center" hidden></span>}
             </a>

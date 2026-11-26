@@ -5,39 +5,42 @@ import Icon from "../components/Icon.astro";
 import Spinner from "../components/Spinner.astro";
 import Countdown from "../components/Countdown.astro";
 import LindaBadge from "../components/LindaBadge.astro";
-import { recipes, chapters, occasions, LINDA, LINDA_SIGNATURES, getRecipe, lindaRecipes, openQuestions } from "../lib/data";
+import { recipes, chapters, occasions, people, occasionIcon, LINDA, LINDA_SIGNATURES, getRecipe, lindaRecipes, openQuestions } from "../lib/data";
 
 const signatures = LINDA_SIGNATURES.map(getRecipe);
 const touched = lindaRecipes().filter((r) => !LINDA_SIGNATURES.includes(r.slug));
 const napaQuote = getRecipe("lindas-napa-cabbage-salad").quotes[0];
+const cooks = people.filter((p) => p.id !== "family-files" && recipes.some((r) => r.contributors.includes(p.id))).length;
 const openCount = openQuestions.filter((q) => q.question).length;
 ---
 <Base description="Linda’s Kitchen — the Linda M Cookbook. 79 family recipes, with Linda at the heart of the table.">
   <!-- HERO -->
-  <section class="relative overflow-hidden">
-    <div class="container-page pt-6 sm:pt-12 pb-8 grid md:grid-cols-[1fr_1.1fr] gap-8 md:gap-12 items-center">
-      <div class="relative mx-auto w-[78%] max-w-sm md:w-full md:max-w-[26rem] md:justify-self-center">
-        <div class="relative rounded-t-[999px] rounded-b-3xl overflow-hidden border-[10px] border-card shadow-[0_20px_40px_-20px_rgba(60,40,20,.5)] aspect-[5/6] bg-paper-2">
+  <section class="border-b border-line">
+    <div class="container-page pt-8 sm:pt-16 pb-12 sm:pb-20 grid md:grid-cols-[1fr_1.15fr] gap-10 md:gap-16 items-center">
+      <figure class="mx-auto w-[72%] max-w-xs md:w-full md:max-w-[24rem] md:justify-self-center">
+        <div class="rounded-t-[999px] overflow-hidden aspect-[5/6] bg-paper-2 ring-1 ring-ink/15 ring-offset-[6px] ring-offset-paper">
           <img src="/images/people/linda.jpg" alt="Linda Mitchell, smiling, in a family portrait" class="w-full h-full object-cover object-[50%_20%]" width="880" height="1056" fetchpriority="high" />
         </div>
-        <div class="absolute -bottom-5 -right-3 sm:-right-8 rotate-[-4deg]">
-          <span class="linda-badge !text-2xl !px-4 !py-1.5 shadow-md bg-[#fbefd3]">♥ Linda</span>
-        </div>
-      </div>
+        <figcaption class="mt-5 text-center text-[.68rem] tracking-[.26em] uppercase font-semibold text-ink-soft">Linda Mitchell</figcaption>
+      </figure>
       <div class="text-center md:text-left">
         <p class="eyebrow">The Linda M Cookbook</p>
-        <h1 class="mt-2 text-5xl sm:text-7xl font-semibold leading-[0.95]">Linda’s<br class="hidden sm:block" /> Kitchen</h1>
-        <p class="mt-4 text-xl sm:text-2xl font-serif italic text-ink-soft">Our favourite recipes, all in one place — gathered around Linda’s table.</p>
-        <p class="mt-3 text-base text-ink-soft">{recipes.length} recipes · {chapters.length} chapters · one very well-loved recipe box.</p>
-        <div class="mt-6 flex flex-wrap gap-3 justify-center md:justify-start">
-          <a href="/recipes" class="btn btn-primary text-lg !min-h-[52px]">Open the recipe box</a>
-          <a href="/linda" class="btn btn-ghost text-lg !min-h-[52px]">Meet Linda</a>
+        <h1 class="mt-4 text-6xl sm:text-8xl leading-[0.92]">Linda’s <em class="font-light">Kitchen</em></h1>
+        <p class="mt-6 text-xl sm:text-2xl font-serif italic font-light text-ink-soft max-w-md mx-auto md:mx-0">Our favourite recipes, all in one place, gathered around Linda’s table.</p>
+        <div class="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
+          <a href="/recipes" class="btn btn-primary">Open the recipe box</a>
+          <a href="/linda" class="btn btn-ghost">Meet Linda</a>
         </div>
+        <dl class="mt-10 pt-6 border-t border-line flex justify-center md:justify-start gap-10 text-left">
+          <div><dt class="eyebrow !text-ink-soft">Recipes</dt><dd class="font-serif text-4xl font-light mt-1">{recipes.length}</dd></div>
+          <div><dt class="eyebrow !text-ink-soft">Chapters</dt><dd class="font-serif text-4xl font-light mt-1">{chapters.length}</dd></div>
+          <div><dt class="eyebrow !text-ink-soft">Family cooks</dt><dd class="font-serif text-4xl font-light mt-1">{cooks}</dd></div>
+        </dl>
       </div>
     </div>
   </section>
 
-  <div class="container-page space-y-14 sm:space-y-20 mt-4">
+  <div class="container-page space-y-16 sm:space-y-24 mt-10 sm:mt-14">
     <Countdown />
 
     <!-- LINDA'S SIGNATURES -->
@@ -47,7 +50,7 @@ const openCount = openQuestions.filter((q) => q.question).length;
           <p class="eyebrow">Her own dishes</p>
           <h2 id="sig-h" class="text-3xl sm:text-4xl font-semibold mt-1">Linda’s Signatures</h2>
         </div>
-        <a href="/recipes?linda=1" class="hidden sm:inline text-tomato font-semibold underline underline-offset-4">Everything with Linda’s Touch →</a>
+        <a href="/recipes?linda=1" class="hidden sm:inline text-[.74rem] font-semibold tracking-[.16em] uppercase text-tomato no-underline border-b border-tomato pb-1">Everything with Linda’s Touch</a>
       </div>
       <div class="mt-5 -mx-4 px-4 flex gap-4 overflow-x-auto snap-x scroll-px-4 snap-mandatory pb-4 [scrollbar-width:thin] md:grid md:grid-cols-3 md:overflow-visible md:mx-0 md:px-0">
         {signatures.map((r, i) => (
@@ -71,8 +74,8 @@ const openCount = openQuestions.filter((q) => q.question).length;
       <div class="mt-5 -mx-4 px-4 flex gap-3 overflow-x-auto snap-x scroll-px-4 pb-3 sm:grid sm:grid-cols-3 lg:grid-cols-6 sm:overflow-visible sm:mx-0 sm:px-0">
         {occasions.map((o) => (
           <a href={`/occasions/${o.slug}`} class="snap-start shrink-0 w-40 sm:w-auto card card-lift p-4 no-underline flex flex-col gap-2">
-            <span class="text-4xl" aria-hidden="true">{o.emoji}</span>
-            <span class="font-serif text-xl font-semibold leading-tight">{o.name}</span>
+            <Icon name={occasionIcon(o.slug)} size={30} class="text-gold" />
+            <span class="font-serif text-xl leading-tight mt-1">{o.name}</span>
             <span class="text-sm text-ink-soft line-clamp-3">{o.intro}</span>
           </a>
         ))}
@@ -80,7 +83,7 @@ const openCount = openQuestions.filter((q) => q.question).length;
     </section>
 
     <!-- LINDA'S TOUCH -->
-    <section aria-labelledby="touch-h" class="rounded-3xl bg-[#fbefd3]/60 border border-[#ecd39a] p-5 sm:p-8">
+    <section aria-labelledby="touch-h" class="bg-paper-2/70 border-y border-line -mx-4 sm:-mx-6 px-4 sm:px-6 py-10 sm:py-14 lg:mx-0 lg:border lg:px-10">
       <div class="flex flex-wrap items-center gap-3"><LindaBadge /></div>
       <h2 id="touch-h" class="text-3xl font-semibold mt-3">Recipes Linda has made her own</h2>
       <p class="mt-2 text-ink-soft max-w-2xl">She likes the roast boned and tied back on, settled the pignoli cookies at 15 minutes, and seals the mint jelly jars upside down. Look for her mark.</p>
@@ -93,41 +96,43 @@ const openCount = openQuestions.filter((q) => q.question).length;
     <section aria-labelledby="ch-h">
       <p class="eyebrow">The chapters</p>
       <h2 id="ch-h" class="text-3xl sm:text-4xl font-semibold mt-1">Open the recipe box</h2>
-      <div class="mt-5 grid gap-3 grid-cols-2 lg:grid-cols-4">
+      <ol class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-10 border-t border-ink">
         {chapters.map((c) => (
-          <a href={`/chapters/${c.slug}`} class="card card-lift p-4 sm:p-5 no-underline flex flex-col gap-2 min-h-[9.5rem]">
-            <span class="flex items-center justify-between text-tomato">
-              <Icon name={c.slug} size={34} />
-              <span class="font-serif text-ink-soft/60 text-lg">{String(c.number).padStart(2, "0")}</span>
-            </span>
-            <span class="font-serif text-xl font-semibold leading-tight">{c.title}</span>
-            <span class="text-sm text-ink-soft line-clamp-2">{c.intro}</span>
-          </a>
+          <li class="border-b border-line">
+            <a href={`/chapters/${c.slug}`} class="group no-underline flex items-start gap-4 py-5 min-h-[6.5rem]">
+              <span class="font-serif italic font-light text-3xl text-gold w-10 shrink-0 leading-none pt-1">{String(c.number).padStart(2, "0")}</span>
+              <span class="flex-1">
+                <span class="font-serif text-xl leading-tight block group-hover:text-tomato transition-colors">{c.title}</span>
+                <span class="text-sm text-ink-soft line-clamp-2 mt-1 block">{c.intro}</span>
+              </span>
+              <Icon name={c.slug} size={26} class="text-ink-soft group-hover:text-tomato transition-colors shrink-0 mt-1" />
+            </a>
+          </li>
         ))}
-      </div>
+      </ol>
     </section>
 
     <!-- FUN -->
     <section class="grid gap-4 sm:grid-cols-3" aria-label="More ways to cook">
       <a href="/fridge" class="card card-lift p-5 no-underline flex gap-4 items-start">
-        <span class="text-4xl" aria-hidden="true">🧊</span>
-        <span><span class="font-serif text-xl font-semibold block">Fridge Raid</span><span class="text-ink-soft text-sm">Pick what you’ve got, see what you can make.</span></span>
+        <Icon name="fridge" size={30} class="text-gold shrink-0 mt-1" />
+        <span><span class="font-serif text-xl block">Fridge Raid</span><span class="text-ink-soft text-sm">Pick what you’ve got, see what you can make.</span></span>
       </a>
       <a href="/menu" class="card card-lift p-5 no-underline flex gap-4 items-start">
-        <span class="text-4xl" aria-hidden="true">📝</span>
-        <span><span class="font-serif text-xl font-semibold block">Menu Builder</span><span class="text-ink-soft text-sm">Plan a dinner and get one shopping list to share.</span></span>
+        <Icon name="ph:list-checks" size={30} class="text-gold shrink-0 mt-1" />
+        <span><span class="font-serif text-xl block">Menu Builder</span><span class="text-ink-soft text-sm">Plan a dinner and get one shopping list to share.</span></span>
       </a>
       <a href="/family" class="card card-lift p-5 no-underline flex gap-4 items-start">
-        <span class="text-4xl" aria-hidden="true">🌳</span>
-        <span><span class="font-serif text-xl font-semibold block">The Family Table</span><span class="text-ink-soft text-sm">Who brought what — from Linda to Aunt Karen.</span></span>
+        <Icon name="ph:users-three" size={30} class="text-gold shrink-0 mt-1" />
+        <span><span class="font-serif text-xl block">The Family Table</span><span class="text-ink-soft text-sm">Who brought what — from Linda to Aunt Karen.</span></span>
       </a>
     </section>
 
-    <section class="rounded-3xl border-2 border-dashed border-tomato/40 p-6 sm:p-8 text-center">
+    <section class="border-y border-ink py-12 sm:py-16 text-center">
       <p class="eyebrow">Help finish the book</p>
-      <h2 class="text-3xl font-semibold mt-1">{openCount} recipes have a question only the family can answer</h2>
-      <p class="mt-2 text-ink-soft">When did Linda start making the tartare? What exactly are Snick Snacks? Tell us what you know.</p>
-      <a href="/family/help" class="btn btn-primary mt-5">See the questions</a>
+      <h2 class="text-3xl sm:text-5xl mt-3 max-w-3xl mx-auto">{openCount} recipes have a question only the family can answer</h2>
+      <p class="mt-4 text-ink-soft font-serif italic text-lg">When did Linda start making the tartare? What exactly are Snick Snacks? Tell us what you know.</p>
+      <a href="/family/help" class="btn btn-primary mt-7">See the questions</a>
     </section>
   </div>
 </Base>

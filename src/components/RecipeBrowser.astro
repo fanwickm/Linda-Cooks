@@ -27,7 +27,7 @@ const selectCls = "w-full min-h-[48px] rounded-xl border border-line bg-card px-
       />
     </label>
     <div class="mt-3 flex gap-2 overflow-x-auto pb-1 -mx-1 px-1 [scrollbar-width:none]">
-      <button type="button" class="chip !border-[#ecd39a]" data-linda aria-pressed="false">✍︎ Linda’s Touch</button>
+      <button type="button" class="chip !border-gold" data-linda aria-pressed="false">Linda’s Touch</button>
       {times.map((t) => <button type="button" class="chip" data-time-filter={t.id} aria-pressed="false">{t.label}</button>)}
       <button type="button" class="chip" data-more-filters aria-expanded="false" aria-controls="more-filters">More filters</button>
     </div>

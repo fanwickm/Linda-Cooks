@@ -9,7 +9,7 @@ import { recipes } from "../lib/data";
     <p class="mt-2 text-ink-soft">Tap the ♥ on any recipe to keep it here. Saved on this device — no account needed.</p>
     <div class="mt-4 flex flex-wrap gap-2">
       <a href="/passport" class="chip no-underline">🎉 My recipe passport</a>
-      <a href="/menu" class="chip no-underline">📝 My menu</a>
+      <a href="/menu" class="chip no-underline">My menu</a>
     </div>
     <div class="mt-6 grid gap-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" data-saved-grid>
       {recipes.map((r) => <div data-saved={r.slug} hidden><RecipeCard recipe={r} /></div>)}

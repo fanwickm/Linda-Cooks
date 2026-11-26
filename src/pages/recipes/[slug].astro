@@ -60,7 +60,7 @@ const stepLabel = (i: number, lead: string) => `Step ${i + 1}: ${lead.replace(/\
           <p class="mt-2 flex flex-wrap gap-2 no-print">
             {r.occasions.map((o) => {
               const oc = occasionBySlug.get(o);
-              return oc && <a href={`/occasions/${o}`} class="chip text-sm">{oc.emoji} {oc.name}</a>;
+              return oc && <a href={`/occasions/${o}`} class="chip text-sm">{oc.name}</a>;
             })}
           </p>
         )}
@@ -109,7 +109,7 @@ const stepLabel = (i: number, lead: string) => `Step ${i + 1}: ${lead.replace(/\
       </div>
 
       <div class="order-1 md:order-2 card-hide">
-        <div class="flip-wrap relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg" data-flip={r.cardScan ? "1" : undefined}>
+        <div class="flip-wrap relative aspect-[4/3] overflow-hidden" data-flip={r.cardScan ? "1" : undefined}>
           <div class="flip-inner relative w-full h-full transition-transform duration-700 [transform-style:preserve-3d]">
             <div class="absolute inset-0 [backface-visibility:hidden]"><DishArt recipe={r} size="lg" eager /></div>
             {r.cardScan && (
@@ -128,8 +128,8 @@ const stepLabel = (i: number, lead: string) => `Step ${i + 1}: ${lead.replace(/\
     </header>
 
     {r.isBestGuess && (
-      <aside class="no-print mt-6 rounded-2xl border-2 border-dashed border-tomato/50 bg-[#fff6f2] p-4 flex gap-3 items-start" role="note">
-        <span class="text-2xl" aria-hidden="true">🤔</span>
+      <aside class="no-print mt-6 border-l-2 border-tomato bg-paper-2/70 p-4 flex gap-3 items-start" role="note">
+        <Icon name="ph:question" size={26} class="text-tomato shrink-0" />
         <p class="text-base">
           <strong>This is our best guess.</strong> Know how {r.title.match(/Grandma/) ? "Grandma" : contributors[0]?.short ?? "it was"} really made it?
           <a href="#help" class="font-semibold text-tomato underline underline-offset-4">Tell us.</a>
@@ -172,7 +172,7 @@ const stepLabel = (i: number, lead: string) => `Step ${i + 1}: ${lead.replace(/\
             )}
           </div>
           {isHalibut && (
-            <p class="no-print mt-2 text-sm bg-[#fbefd3] border border-[#ecd39a] rounded-xl px-3 py-2 text-gold-ink">
+            <p class="no-print mt-2 text-sm bg-paper-2 border border-gold/50 rounded-xl px-3 py-2 text-gold-ink">
               <strong>Linda’s triple batch</strong> is already built in at 1×: the pickle is three times the magazine’s amount, because everyone takes more at the table.
             </p>
           )}
@@ -207,14 +207,14 @@ const stepLabel = (i: number, lead: string) => `Step ${i + 1}: ${lead.replace(/\
           {lindaTips.length > 0 && (
             <div class="no-print mt-3 flex flex-wrap gap-2" aria-label="Ask Linda">
               {lindaTips.map((n, i) => (
-                <button type="button" class="chip !border-[#ecd39a] !bg-[#fbefd3] text-gold-ink" data-tip-btn={i} aria-expanded="false" aria-controls={`tip-${i}`}>
-                  <span aria-hidden="true">💬</span> Ask Linda: {n.label}
+                <button type="button" class="chip !border-gold !bg-transparent text-gold-ink" data-tip-btn={i} aria-expanded="false" aria-controls={`tip-${i}`}>
+                  Ask Linda: {n.label}
                 </button>
               ))}
             </div>
           )}
           {lindaTips.map((n, i) => (
-            <div id={`tip-${i}`} class="no-print mt-3 rounded-2xl bg-[#fbefd3] border border-[#ecd39a] p-4 text-base" hidden>
+            <div id={`tip-${i}`} class="no-print mt-3 rounded-2xl bg-paper-2 border border-gold/50 p-4 text-base" hidden>
               <p><strong>{n.label}</strong> — <span set:html={richText(n.text, n.gaps)} /></p>
             </div>
           ))}
@@ -248,7 +248,7 @@ const stepLabel = (i: number, lead: string) => `Step ${i + 1}: ${lead.replace(/\
               <h2 id="notes-h" class="text-2xl font-semibold">Notes</h2>
               <ul class="mt-3 space-y-3">
                 {r.notes.map((n) => (
-                  <li class:list={["rounded-xl p-4", n.byLinda ? "bg-[#fbefd3]/70 border-l-4 border-gold" : "bg-card border border-line"]}>
+                  <li class:list={["rounded-xl p-4", n.byLinda ? "bg-paper-2 border-l-4 border-gold" : "bg-card border border-line"]}>
                     {n.byLinda && <span class="font-hand text-xl text-gold-ink block -mb-1">Linda’s note</span>}
                     <p><strong>{n.label}</strong>{n.label && " — "}<span set:html={richText(n.text, n.gaps)} /></p>
                   </li>

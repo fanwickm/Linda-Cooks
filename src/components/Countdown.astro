@@ -8,19 +8,18 @@ const oc = occasionBySlug.get(occasion)!;
 ---
 <a
   href={`/occasions/${oc.slug}`}
-  class={`countdown no-underline block rounded-3xl p-5 sm:p-6 text-white shadow-lg relative overflow-hidden ${cls}`}
-  style="background: linear-gradient(135deg, #1f4d3a, #2f6b50 60%, #a4161a 140%)"
+  class={`countdown no-underline block p-6 sm:p-9 text-[#f3e7cf] relative overflow-hidden text-center ${cls}`}
+  style="background: #1f3229; box-shadow: inset 0 0 0 .5rem #1f3229, inset 0 0 0 calc(.5rem + 1px) rgba(243,231,207,.35)"
   data-countdown={JSON.stringify(oc.dateRule)}
   data-always={always ? "1" : undefined}
   data-name={oc.name}
   hidden={!always}
 >
-  <span class="absolute -right-4 -top-6 text-[7rem] opacity-15 select-none" aria-hidden="true">{oc.emoji}</span>
-  <p class="text-sm font-semibold tracking-widest uppercase opacity-90">Countdown</p>
-  <p class="mt-1 font-serif text-3xl sm:text-4xl font-semibold leading-tight" data-headline>
+  <p class="text-[.7rem] font-semibold tracking-[.26em] uppercase text-[#d9b56a]">The countdown</p>
+  <p class="mt-3 font-serif text-3xl sm:text-5xl leading-tight" data-headline>
     <span data-days>—</span> until {oc.name}.
   </p>
-  <p class="mt-1 text-lg opacity-95">Here’s Linda’s menu, and what to make ahead →</p>
+  <p class="mt-3 font-serif italic text-lg opacity-90">Here’s Linda’s menu, and what to make ahead <span aria-hidden="true">→</span></p>
 </a>
 <script>
   import { nextDate, daysUntil } from "../lib/dates";

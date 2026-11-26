@@ -19,7 +19,10 @@ const CHAPTER: Record<string, string> = {
   desserts: "cake",
   "preserves-pickles-condiments": "jar-label",
 };
-const chapterIcon = CHAPTER[name] ? (ph as any).icons[CHAPTER[name]]?.body : undefined;
+// Any other Phosphor icon can be used as name="ph:<icon>". The light weight is used throughout.
+const phName = CHAPTER[name] ?? (name.startsWith("ph:") ? name.slice(3) : undefined);
+const chapterIcon = phName ? ((ph as any).icons[`${phName}-light`] ?? (ph as any).icons[phName])?.body : undefined;
+if (phName && !chapterIcon) throw new Error(`Icon: no Phosphor icon called "${phName}"`);
 
 // Simple line icons for the interface.
 const P: Record<string, string> = {
@@ -62,7 +65,7 @@ const body = P[name] ?? P.book;
 ) : (
   <svg
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={size} height={size}
-    fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+    fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
     class={cls} role={label ? "img" : undefined} aria-label={label} aria-hidden={label ? undefined : "true"}
     set:html={body}
   />

@@ -1,6 +1,7 @@
 ---
 // "What should we make?" — a slot-machine reel of family recipes.
 import { occasions } from "../lib/data";
+import Icon from "./Icon.astro";
 interface Props { big?: boolean }
 const { big = false } = Astro.props;
 ---
@@ -12,18 +13,18 @@ const { big = false } = Astro.props;
         ? <h1 id="spin-h" class="font-semibold mt-1 text-4xl">What should we make?</h1>
         : <h2 id="spin-h" class="font-semibold mt-1 text-3xl">What should we make?</h2>}
     </div>
-    <span class="text-4xl" aria-hidden="true">🎰</span>
+    <Icon name="ph:dice-five" size={36} class="text-gold" />
   </div>
 
   <div class="mt-4 flex gap-2 flex-wrap" role="group" aria-label="Narrow it down">
-    <button type="button" class="chip !border-[#ecd39a]" data-f="linda" aria-pressed="false">Something Linda makes</button>
+    <button type="button" class="chip !border-gold" data-f="linda" aria-pressed="false">Something Linda makes</button>
     <button type="button" class="chip" data-f="quick" aria-pressed="false">Under an hour</button>
-    {occasions.map((o) => <button type="button" class="chip" data-f={`o:${o.slug}`} aria-pressed="false">{o.emoji} {o.name}</button>)}
+    {occasions.map((o) => <button type="button" class="chip" data-f={`o:${o.slug}`} aria-pressed="false">{o.name}</button>)}
   </div>
 
-  <div class="mt-5 relative rounded-2xl border-4 border-ink bg-[#fffaf0] h-28 sm:h-32 overflow-hidden shadow-inner">
-    <div class="absolute inset-x-0 top-0 h-8 bg-gradient-to-b from-[#fffaf0] to-transparent z-10 pointer-events-none"></div>
-    <div class="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-[#fffaf0] to-transparent z-10 pointer-events-none"></div>
+  <div class="mt-5 relative border border-ink bg-card h-28 sm:h-32 overflow-hidden shadow-inner">
+    <div class="absolute inset-x-0 top-0 h-8 bg-gradient-to-b from-card to-transparent z-10 pointer-events-none"></div>
+    <div class="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-card to-transparent z-10 pointer-events-none"></div>
     <ul class="reel will-change-transform" data-reel aria-hidden="true">
       <li class="h-28 sm:h-32 grid place-items-center px-4 text-center font-serif text-2xl sm:text-3xl font-semibold text-ink-soft">Pull the lever →</li>
     </ul>
@@ -31,7 +32,7 @@ const { big = false } = Astro.props;
   <p class="sr-only" aria-live="polite" data-spin-live></p>
 
   <div class="mt-5 flex flex-wrap items-center gap-3">
-    <button type="button" class="btn btn-primary text-lg !min-h-[56px] !px-7" data-spin>🎲 Spin!</button>
+    <button type="button" class="btn btn-primary !min-h-[52px] !px-9" data-spin>Spin</button>
     <a href="#" class="btn btn-ghost hidden" data-spin-go>Let’s make it →</a>
   </div>
 </section>
@@ -94,7 +95,7 @@ const { big = false } = Astro.props;
         reel.style.transform = `translateY(${end}px)`;
       }
       spinBtn.disabled = false;
-      spinBtn.textContent = "🎲 Spin again";
+      spinBtn.textContent = "Spin again";
       go.href = link(`/recipes/${pick.s}`);
       go.classList.remove("hidden");
       live.textContent = `How about ${pick.t}?`;
