@@ -246,11 +246,13 @@ const stepLabel = (i: number, lead: string) => `Step ${i + 1}: ${lead.replace(/\
           {r.notes.length > 0 && (
             <section class="mt-10" aria-labelledby="notes-h">
               <h2 id="notes-h" class="text-2xl font-semibold">Notes</h2>
-              <ul class="mt-3 space-y-3">
+              <ul class="mt-4 space-y-4">
                 {r.notes.map((n) => (
-                  <li class:list={["rounded-xl p-4", n.byLinda ? "bg-paper-2 border-l-4 border-gold" : "bg-card border border-line"]}>
-                    {n.byLinda && <span class="font-hand text-xl text-gold-ink block -mb-1">Linda’s note</span>}
-                    <p><strong>{n.label}</strong>{n.label && " — "}<span set:html={richText(n.text, n.gaps)} /></p>
+                  <li class="note-card">
+                    {(n.label || n.byLinda) && (
+                      <p class="note-head"><span>{n.label || "Note"}</span>{n.byLinda && <span class="note-hand">Linda’s note</span>}</p>
+                    )}
+                    <p><span set:html={richText(n.text, n.gaps)} /></p>
                   </li>
                 ))}
               </ul>

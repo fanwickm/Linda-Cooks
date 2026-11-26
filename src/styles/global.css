@@ -104,22 +104,46 @@ html.festive {
 
   .eyebrow { font-size: .72rem; letter-spacing: .22em; text-transform: uppercase; font-weight: 600; color: var(--color-tomato); }
 
-  /* Linda's handwritten notes */
+  /* Linda's handwritten notes, on ruled index cards from the recipe box.
+     Every line of handwriting is one rule tall (--rule), so the words sit on the lines. */
   .sticky-note {
-    font-family: var(--font-hand); font-size: 1.6rem; line-height: 1.2; color: #2b2a6b;
-    background: var(--color-note);
-    background-image: linear-gradient(transparent 0 0), radial-gradient(rgba(0,0,0,.03) 1px, transparent 1px);
-    background-size: auto, 6px 6px;
-    padding: 1.1rem 1.2rem 1rem; border-radius: 2px; position: relative;
-    box-shadow: 0 1px 1px rgba(0,0,0,.06), 0 14px 22px -16px rgba(60,45,10,.5);
-    transform: rotate(-1deg);
+    --rule: 2.1rem; --head: 2.6rem;
+    font-family: var(--font-hand); font-size: 1.6rem; line-height: var(--rule); color: #2b2a6b;
+    background-color: #fbf8ee;
+    background-image:
+      linear-gradient(to bottom, transparent calc(var(--head) - 1.5px), #d98c84 calc(var(--head) - 1.5px), #d98c84 var(--head), transparent var(--head)),
+      linear-gradient(#fbf8ee, #fbf8ee),
+      repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--rule) - 1px), #bcd0e0 calc(var(--rule) - 1px), #bcd0e0 var(--rule));
+    background-position: 0 0, 0 0, 0 var(--head);
+    background-size: auto, 100% var(--head), auto;
+    background-repeat: no-repeat, no-repeat, repeat-y;
+    padding: var(--head) 1.4rem calc(var(--rule) * .5); border-radius: 5px; position: relative;
+    border: 1px solid #e6dfcd;
+    /* a second card peeking out behind, as in a full box */
+    box-shadow: 5px 5px 0 -1px #f4efe1, 5px 5px 0 0 #e6dfcd, 0 18px 24px -18px rgba(60, 45, 10, .45);
+    transform: rotate(-.8deg);
   }
   .sticky-note::before {
-    content: ""; position: absolute; top: -10px; left: 50%; width: 84px; height: 22px; transform: translateX(-50%) rotate(2deg);
-    background: rgba(255,255,255,.55); box-shadow: 0 1px 2px rgba(0,0,0,.08);
+    content: "From the kitchen of Linda"; position: absolute; top: 0; left: 1.4rem; right: 1.4rem; height: var(--head);
+    display: flex; align-items: center;
+    font-family: var(--font-sans); font-size: .62rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: #a8574e;
   }
-  .sticky-note:nth-of-type(even) { transform: rotate(.8deg); }
-  .sticky-note .by { display: block; margin-top: .4rem; font-size: 1.25rem; color: var(--color-tomato-dark); }
+  .sticky-note:nth-of-type(even) { transform: rotate(.6deg); }
+  .sticky-note blockquote { margin: 0; }
+  .sticky-note .by { display: block; font-size: 1.3rem; line-height: var(--rule); color: var(--color-tomato-dark); }
+
+  /* Typed notes on a recipe: plain index cards with a red header rule. */
+  .note-card {
+    background: #fbf8ee; border: 1px solid #e6dfcd; border-radius: 5px; padding: .85rem 1.1rem 1rem;
+    box-shadow: 3px 3px 0 -1px #f4efe1, 3px 3px 0 0 #e6dfcd;
+  }
+  .note-card .note-head {
+    display: flex; align-items: baseline; justify-content: space-between; gap: .75rem;
+    padding-bottom: .5rem; margin-bottom: .65rem; border-bottom: 1.5px solid #d98c84;
+    font-size: .68rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--color-ink);
+  }
+  .note-card .note-head + p::first-letter { text-transform: uppercase; }
+  .note-card .note-hand { font-family: var(--font-hand); font-size: 1.25rem; letter-spacing: 0; text-transform: none; color: #2b2a6b; line-height: 1; }
 
   .linda-badge {
     display: inline-flex; align-items: center; gap: .4rem; padding: .2rem .65rem .2rem .3rem;
@@ -160,8 +184,7 @@ html.festive {
   mark.gap { border: none; } mark.gap::after { content: ""; }
   .timer-chip { background: none; padding: 0; color: inherit; font-weight: inherit; }
   .timer-chip span { display: none; }
-  .sticky-note { transform: none; box-shadow: none; border: 1px dashed #aaa; }
-  .sticky-note::before { display: none; }
+  .sticky-note, .note-card { transform: none; box-shadow: none; border: 1px solid #aaa; }
   html.print-card body { width: 6in; }
   html.print-card .card-hide { display: none !important; }
   html.print-card .recipe-body { font-size: 9pt; columns: 2; column-gap: 1.5rem; }
