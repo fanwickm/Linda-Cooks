@@ -44,7 +44,7 @@ const complete = recipes.filter((r) => r.steps.length);
     </div>
   </div>
   <script>
-    import { load } from "../../scripts/store";
+    import { load, link } from "../../scripts/store";
     const form = document.querySelector<HTMLFormElement>("[data-photo-form]")!;
     const status = form.querySelector<HTMLElement>("[data-photo-status]")!;
     const preview = form.querySelector<HTMLImageElement>("[data-preview]")!;
@@ -111,7 +111,7 @@ const complete = recipes.filter((r) => r.steps.length);
           cap.textContent = `${p.caption ? p.caption + " — " : ""}${p.name}`;
           if (p.recipeTitle) {
             const a = document.createElement("a");
-            a.href = `/recipes/${p.slug}`;
+            a.href = link(`/recipes/${p.slug}`);
             a.className = "block font-sans text-xs text-tomato underline pb-1";
             a.textContent = p.recipeTitle;
             cap.after(a);

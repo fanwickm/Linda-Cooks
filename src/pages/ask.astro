@@ -54,7 +54,7 @@ const examples = [
       while ((m = re.exec(text))) {
         li.append(text.slice(last, m.index));
         const a = document.createElement("a");
-        a.href = `/recipes/${m[1]}`;
+        a.href = (globalThis as any).__lkLink ? (globalThis as any).__lkLink(`/recipes/${m[1]}`) : `/recipes/${m[1]}`;
         a.className = "text-tomato underline underline-offset-4 font-semibold";
         a.textContent = m[2];
         li.append(a);

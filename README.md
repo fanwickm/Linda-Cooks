@@ -61,6 +61,12 @@ npm run dev        # http://localhost:4321 (pages only; the /api functions need 
 npm run build      # validates the data, then builds to dist/
 ```
 
+For a static preview that works from any sub-path (no Netlify functions; family submissions and the chat are inactive):
+
+```bash
+PREVIEW=1 npx astro build && node scripts/make-preview.mjs ../preview
+```
+
 `npm run validate` checks every recipe has a title, a chapter, ingredients and steps, that every table-of-contents title has a file, that occasion menus point at real recipes, and that no reviewer scaffolding leaked into recipe text. The build stops with a plain-English message if anything is wrong.
 
 ## Deploying on Netlify (free tier)

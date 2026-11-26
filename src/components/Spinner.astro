@@ -35,11 +35,11 @@ const { big = false } = Astro.props;
 </section>
 
 <script>
-  import { reducedMotion } from "../scripts/store";
+  import { reducedMotion, link } from "../scripts/store";
   type Entry = { s: string; t: string; o: string[]; l: boolean; tb: string | null; ok: boolean };
   let data: Entry[] | null = null;
   async function getData(): Promise<Entry[]> {
-    data ??= (await (await fetch("/search-index.json")).json()) as Entry[];
+    data ??= (await (await fetch(link("/search-index.json"))).json()) as Entry[];
     return data!.filter((r) => r.ok);
   }
 
@@ -93,7 +93,7 @@ const { big = false } = Astro.props;
       }
       spinBtn.disabled = false;
       spinBtn.textContent = "🎲 Spin again";
-      go.href = `/recipes/${pick.s}`;
+      go.href = link(`/recipes/${pick.s}`);
       go.classList.remove("hidden");
       live.textContent = `How about ${pick.t}?`;
       try { navigator.vibrate?.(40); } catch {}

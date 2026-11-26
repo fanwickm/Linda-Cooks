@@ -2,7 +2,7 @@
 // "We made it!" stamps, Ask Linda tips, print, card flip, family answers,
 // and Cook Mode (wake lock, swipe, keyboard, voice).
 import { formatQty } from "../lib/format";
-import { load, save, stamps, toast, confetti, reducedMotion } from "./store";
+import { load, save, stamps, toast, confetti, reducedMotion, link } from "./store";
 
 export function initRecipePage() {
   const found = document.querySelector<HTMLElement>("[data-recipe]");
@@ -104,7 +104,7 @@ export function initRecipePage() {
     madeCount.hidden = s.length === 0;
     const last = s[0] ? new Date(s[0].date).toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" }) : "";
     madeCount.innerHTML = s.length
-      ? `🎉 You’ve made this ${s.length === 1 ? "once" : `${s.length} times`} — last on ${last}. <a href="/passport" class="underline text-tomato">See your passport</a>`
+      ? `🎉 You’ve made this ${s.length === 1 ? "once" : `${s.length} times`} — last on ${last}. <a href="${link("/passport")}" class="underline text-tomato">See your passport</a>`
       : "";
   }
   root.querySelector("[data-made-it]")?.addEventListener("click", () => {

@@ -63,12 +63,12 @@ const COURSES = [
   </div>
 
   <script>
-    import { menu, toast, type MenuCourse } from "../scripts/store";
+    import { menu, toast, link, type MenuCourse } from "../scripts/store";
     type Entry = { s: string; t: string; co: string; ok: boolean; ing: { n: string | null; items: string[] }[]; y: string | null };
     const COURSES: MenuCourse[] = ["starter", "main", "side", "dessert"];
     const courseFor = (co: string): MenuCourse => (COURSES.includes(co as MenuCourse) ? (co as MenuCourse) : co === "breakfast" ? "main" : "side");
 
-    const data: Entry[] = (await (await fetch("/search-index.json")).json()).filter((r: Entry) => r.ok);
+    const data: Entry[] = (await (await fetch(link("/search-index.json"))).json()).filter((r: Entry) => r.ok);
     const bySlug = new Map(data.map((r) => [r.s, r]));
     const params = new URLSearchParams(location.search);
 
@@ -130,7 +130,7 @@ const COURSES = [
           if (!r) continue;
           const li = document.createElement("li");
           li.className = "flex items-center gap-2 bg-paper-2/70 rounded-xl pl-3";
-          li.innerHTML = `<a class="flex-1 py-2 font-medium leading-tight underline decoration-line underline-offset-4" href="/recipes/${s}"></a><button type="button" class="grid place-items-center size-11 rounded-full text-ink-soft hover:text-tomato" aria-label="">✕</button>`;
+          li.innerHTML = `<a class="flex-1 py-2 font-medium leading-tight underline decoration-line underline-offset-4" href="${link(`/recipes/${s}`)}"></a><button type="button" class="grid place-items-center size-11 rounded-full text-ink-soft hover:text-tomato" aria-label="">✕</button>`;
           li.querySelector("a")!.textContent = r.t;
           const b = li.querySelector("button")!;
           b.setAttribute("aria-label", `Remove ${r.t}`);
@@ -178,7 +178,7 @@ const COURSES = [
 
     function shareUrl(): string {
       const enc = btoa(String.fromCharCode(...new TextEncoder().encode(JSON.stringify(state))));
-      return `${location.origin}/menu?m=${encodeURIComponent(enc)}`;
+      return new URL(link(`/menu?m=${encodeURIComponent(enc)}`), document.baseURI).href;
     }
 
     // drag & drop onto course boxes

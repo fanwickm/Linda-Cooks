@@ -1,3 +1,9 @@
+/** Site-root path -> URL. Normally unchanged; the static preview build maps it to its own file layout. */
+export function link(path: string): string {
+  const f = (globalThis as any).__lkLink as ((p: string) => string) | undefined;
+  return f ? f(path) : path;
+}
+
 // Small localStorage wrapper. Every read/write is guarded: private windows and
 // blocked storage must never break the page.
 export function load<T>(key: string, fallback: T): T {
