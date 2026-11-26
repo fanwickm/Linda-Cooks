@@ -1,0 +1,172 @@
+{
+  "slug": "lindas-tuna-tartare-with-wasabi-and-lime",
+  "title": "Linda’s Tuna Tartare with Wasabi and Lime",
+  "chapter": "starters-snacks",
+  "order": 1,
+  "source": "From Linda  ·  Every family holiday gathering",
+  "contributors": [
+    "linda-mitchell"
+  ],
+  "occasionText": "Every family holiday gathering",
+  "yield": {
+    "text": "Makes about 30 bites",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Chill",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    }
+  ],
+  "headnote": "Linda’s tuna tartare has become a beloved appetizer at every family holiday gathering. She buys her tuna at Stiles Market in Westport.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Tartare",
+      "items": [
+        {
+          "raw": "1 pound sushi-grade tuna, very cold",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "2 tablespoons soy sauce",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 tablespoon toasted sesame oil",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 tablespoon fresh lime juice",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 teaspoon wasabi paste, or more to taste",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 teaspoon fresh ginger, finely grated",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 scallions, thinly sliced",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "1 tablespoon chopped cilantro (optional)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "Flaky salt and freshly ground black pepper"
+        }
+      ]
+    },
+    {
+      "name": "To serve",
+      "items": [
+        {
+          "raw": "Rice crackers or wonton chips"
+        },
+        {
+          "raw": "1 tablespoon sesame seeds, toasted",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 avocado or ½ English cucumber, thinly sliced (optional)",
+          "qty": 1.0,
+          "qtyText": "1"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Chop the tuna.",
+      "text": "Work with a very sharp knife and cold fish. Cut the tuna into ¼-inch dice — chopped, not minced. You want to feel the pieces. Keep it in a bowl set over ice while you make the dressing."
+    },
+    {
+      "lead": "Make the dressing.",
+      "text": "Whisk the soy sauce, sesame oil, lime juice, wasabi, and ginger together in a small bowl until the wasabi dissolves completely. Taste it now, before it hits the fish, and adjust the wasabi — it should be sharp enough to make you blink."
+    },
+    {
+      "lead": "Dress the tuna.",
+      "text": "Pour the dressing over the tuna and add the scallions and cilantro. Fold gently with a rubber spatula, just enough to coat. Season with a little salt and pepper."
+    },
+    {
+      "lead": "Chill briefly.",
+      "text": "Cover and refrigerate 15 to 20 minutes. Any longer and the lime and soy begin to cure the fish, turning it opaque and firm."
+    },
+    {
+      "lead": "Assemble at the last minute.",
+      "text": "Lay the crackers out on a platter. Top each with a slice of avocado or cucumber if using, then a small spoonful of tartare. Scatter the sesame seeds over everything."
+    },
+    {
+      "lead": "Serve immediately.",
+      "text": "Crackers go soft within about fifteen minutes, so bring the platter out the moment it is built. Any leftover tartare can be served in a small bowl with crackers alongside."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Where to buy",
+      "text": "Linda gets hers at Stiles Market in Westport. Ask for a center-cut piece of yellowfin or bigeye and tell them it is for tartare. If it smells like anything but clean ocean, do not buy it.",
+      "byLinda": true
+    },
+    {
+      "label": "Ahead of time",
+      "text": "the dressing can be made a day ahead. Chop and dress the tuna no more than 30 minutes before serving.",
+      "byLinda": false
+    },
+    {
+      "label": "Variations",
+      "text": "a small dice of ripe mango adds sweetness against the wasabi. A few drops of chili oil over the finished platter is also very good.",
+      "byLinda": false
+    },
+    {
+      "label": "Raw fish",
+      "text": "skip it for anyone pregnant, elderly, or immune-compromised.",
+      "byLinda": false
+    },
+    {
+      "label": "Serving in a bowl",
+      "text": "for a less fussy version, mound the tartare in a chilled bowl, ring it with crackers, and let people build their own.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "When did Linda start making this, and is there anything about how she serves it that belongs here?",
+  "isBestGuess": false,
+  "contributorName": "Linda",
+  "lindasTouch": true,
+  "lindasTouchReason": "Linda’s own recipe",
+  "occasions": [
+    "christmas-eve"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 35
+}

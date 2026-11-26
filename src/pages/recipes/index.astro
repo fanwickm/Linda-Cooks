@@ -1,0 +1,18 @@
+---
+import Base from "../../layouts/Base.astro";
+import RecipeBrowser from "../../components/RecipeBrowser.astro";
+import Icon from "../../components/Icon.astro";
+import { chapters } from "../../lib/data";
+---
+<Base title="All recipes">
+  <div class="container-page pt-6 sm:pt-10">
+    <p class="eyebrow">The recipe box</p>
+    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">All recipes</h1>
+    <nav class="mt-5 flex gap-2 overflow-x-auto pb-2 -mx-4 px-4 [scrollbar-width:none]" aria-label="Chapters">
+      {chapters.map((c) => (
+        <a href={`/chapters/${c.slug}`} class="chip shrink-0 no-underline"><Icon name={c.slug} size={18} /> {c.title}</a>
+      ))}
+    </nav>
+    <div class="mt-2"><RecipeBrowser /></div>
+  </div>
+</Base>

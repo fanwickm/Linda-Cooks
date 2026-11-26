@@ -1,0 +1,174 @@
+{
+  "slug": "zuni-cafe-roast-chicken-with-bread-salad",
+  "title": "Zuni Café Roast Chicken with Bread Salad",
+  "chapter": "poultry",
+  "order": 40,
+  "source": "Family gatherings and special occasions",
+  "contributors": [],
+  "occasionText": "Family gatherings and special occasions",
+  "yield": {
+    "text": "Serves 2–4",
+    "servings": 2
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "label": "Cook",
+      "text": "About 1 hr",
+      "min": 60,
+      "max": 60
+    },
+    {
+      "label": "Salt",
+      "text": "1–3 days ahead",
+      "min": 1440,
+      "max": 4320
+    }
+  ],
+  "headnote": "The family rendition of the famous roast chicken from Zuni Café in San Francisco: a small bird salted days ahead, roasted very hot, and served over a warm bread salad that soaks up the pan juices. The soaked bread is the family favorite — don’t skimp on it.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "raw": "1 small chicken, 3–3½ pounds",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "small"
+        },
+        {
+          "raw": "4 small sprigs thyme, rosemary, or sage",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "small"
+        },
+        {
+          "raw": "¾ teaspoon fine sea salt per pound (about 2½ teaspoons)",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "¼ teaspoon freshly ground black pepper",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        }
+      ]
+    },
+    {
+      "name": "Bread salad",
+      "items": [
+        {
+          "raw": "8 ounces day-old chewy country bread, crusts mostly removed",
+          "qty": 8.0,
+          "qtyText": "8",
+          "unit": "ounces"
+        },
+        {
+          "raw": "6 tablespoons olive oil, divided",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1½ tablespoons champagne or white wine vinegar, divided",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 tablespoon dried currants, soaked in 1 tablespoon warm water",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "2 tablespoons pine nuts, toasted",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 garlic cloves, thinly sliced, and 4 scallions, thinly sliced",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "2 handfuls arugula or frisée",
+          "qty": 2.0,
+          "qtyText": "2"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Salt the bird early.",
+      "text": "One to three days ahead, pat the chicken dry. Slide a herb sprig under the skin over each breast and thigh. Season all over with the salt and pepper, cover loosely, and refrigerate."
+    },
+    {
+      "lead": "Toast the bread.",
+      "text": "Heat the oven to 475°F. Tear the bread into 2- to 3-inch chunks, toss with 2 tablespoons oil, and toast on a sheet pan 5 minutes, until crisp on the edges. Tear into smaller pieces, toss with 3 tablespoons oil, 1 tablespoon vinegar, and a pinch of salt."
+    },
+    {
+      "lead": "Heat the pan.",
+      "text": "Put a 10-inch ovenproof skillet over medium heat for a few minutes. Dry the chicken and set it in the pan breast side up — it should sizzle."
+    },
+    {
+      "lead": "Roast, flipping twice.",
+      "text": "Roast 30 minutes, until the skin is browning. Flip it breast side down and roast 10 to 20 minutes more, then flip back breast side up for 5 to 10 minutes to recrisp the skin. It is done when the thigh reads 165°F."
+    },
+    {
+      "lead": "Warm the salad.",
+      "text": "While the chicken roasts, cook the garlic and scallions in 1 tablespoon oil until soft, and fold into the bread with the drained currants and pine nuts. Pile it in a shallow baking dish and put it in the oven for the last 5 to 10 minutes."
+    },
+    {
+      "lead": "Rest and soak.",
+      "text": "Rest the chicken 10 minutes. Pour off most of the fat, add a splash of water to the pan, and scrape up the browned bits. Drizzle the juices over the bread and toss with the greens and remaining vinegar."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Cut the chicken into pieces and set it on top of the bread salad with any last juices."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Small bird, high heat",
+      "text": "the method only works with a 3- to 3½-pound chicken. Larger birds burn before they cook through.",
+      "byLinda": false
+    },
+    {
+      "label": "Smoke",
+      "text": "475°F with chicken fat smokes. Clean the oven and turn on the fan first.",
+      "byLinda": false
+    },
+    {
+      "label": "Bread",
+      "text": "use chewy, open-crumb bread, not sourdough sandwich loaf. Day-old is better than fresh.",
+      "byLinda": false
+    },
+    {
+      "label": "The salt",
+      "text": "fine sea salt measures differently from kosher salt. If using Diamond Crystal kosher, use about 1¼ teaspoons per pound.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who in the family makes this, and how did it become a family dish?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "sunday-dinner"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 1530
+}

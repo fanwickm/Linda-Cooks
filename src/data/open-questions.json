@@ -1,0 +1,590 @@
+[
+  {
+    "slug": "lindas-tuna-tartare-with-wasabi-and-lime",
+    "title": "Linda’s Tuna Tartare with Wasabi and Lime",
+    "chapter": "starters-snacks",
+    "question": "When did Linda start making this, and is there anything about how she serves it that belongs here?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "baked-brie-with-walnuts-and-brown-sugar",
+    "title": "Baked Brie with Walnuts and Brown Sugar",
+    "chapter": "starters-snacks",
+    "question": "When did Karen start making this, and does she bring it to a particular gathering?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "spinach-and-artichoke-dip",
+    "title": "Spinach and Artichoke Dip",
+    "chapter": "starters-snacks",
+    "question": "Whose dip is this, and where does it usually show up? I have written the standard hot baked version — tell me if yours uses different cheese, a slow cooker, or gets served with bread instead of chips.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "bills-shrimp-cocktail",
+    "title": "Bill’s Shrimp Cocktail",
+    "chapter": "starters-snacks",
+    "question": "Tell me about Bill and when this appears — Christmas Eve, birthdays, summer? I have also guessed at his cocktail sauce; if he had a specific ratio or a secret ingredient, I will put it in.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "clams-casino",
+    "title": "Clams Casino",
+    "chapter": "starters-snacks",
+    "question": "Who makes these, and are they a summer thing off the boat or part of the Christmas Eve fish spread? Also tell me if your version uses pancetta instead of bacon, or skips the breadcrumbs.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "snick-snacks",
+    "title": "Snick Snacks",
+    "chapter": "starters-snacks",
+    "question": "I don’t know this one, and I would rather ask than invent it. What are Snick Snacks — a party mix, a cookie, a rolled-up something, a snack tray? Tell me roughly what goes in and who makes them, and I will write the recipe properly. If there is a handwritten card, a photo of it is all I need.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "split-pea-soup",
+    "title": "Split Pea Soup",
+    "chapter": "soups",
+    "question": "Whose soup is this, and is it the traditional after-Easter or after-Christmas ham-bone soup? Tell me if it gets puréed smooth or left chunky.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "spicy-red-lentil-soup-with-harissa-and-lemon",
+    "title": "Spicy Red Lentil Soup with Harissa and Lemon",
+    "chapter": "soups",
+    "question": "This is my best guess at “spicy Middle Eastern soup” — a red lentil soup with harissa, cumin, and a hard squeeze of lemon. If yours is actually harira, a chickpea and tomato soup, or something Menaka or another family cook makes, tell me and I will rewrite it.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "beef-pho",
+    "title": "Beef Pho",
+    "chapter": "soups",
+    "question": "Who made it, and is it still made? Anything that makes your version different from a standard pho belongs here.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "corn-and-avocado-salad",
+    "title": "Corn and Avocado Salad",
+    "chapter": "salads",
+    "question": "Whose salad is this, and does it belong to a particular summer place or cookout? Also tell me whether the corn goes in raw, boiled, or grilled — I have written it grilled.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "kathys-caesar-salad",
+    "title": "Kathy’s Caesar Salad",
+    "chapter": "salads",
+    "question": "Tell me a little about Kathy and this salad — is it a birthday-dinner standard, a summer thing, the salad she is always asked to bring? Also, does she use a raw egg, or mayonnaise as the base?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "orange-and-fennel-salad",
+    "title": "Orange and Fennel Salad",
+    "chapter": "salads",
+    "question": "Is this a specific person’s salad or a winter standard? And does it come with olives and red onion the Sicilian way, or is it simpler than that?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "classic-vinaigrette",
+    "title": "Classic Vinaigrette",
+    "chapter": "sauces-dressings",
+    "question": "This is a best guess — a classic shallot and Dijon vinaigrette. Whose house dressing is this, and what goes on it? Tell me whether yours uses red wine vinegar, sherry vinegar, or lemon; shallot or garlic; and whether there is mustard or honey in it.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "pesto",
+    "title": "Pesto",
+    "chapter": "sauces-dressings",
+    "question": "This is a best guess — classic Genovese-style basil pesto with pine nuts. Who makes the family pesto, and when? Tell me if yours uses walnuts instead of pine nuts, whether the basil comes from someone’s garden, and what it usually goes on.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "peanut-sauce",
+    "title": "Peanut Sauce",
+    "chapter": "sauces-dressings",
+    "question": "This is a best guess — a Thai-style peanut sauce with lime, soy, and a little heat. Who makes it, and what does it go with in your family — noodles, summer rolls, satay, the Napa salad? Tell me if yours is made with coconut milk, and how spicy it should be.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "small-bob-pasta-dough",
+    "title": "Small Bob Pasta Dough",
+    "chapter": "pasta-dumplings-grains",
+    "question": "This is Bob Mitchell’s “Eggy Pasta Dough.” Is Bob the Small Bob this dough is named for? If Small Bob is someone else, or his dough is different, tell me.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "homemade-ricotta",
+    "title": "Homemade Ricotta",
+    "chapter": "pasta-dumplings-grains",
+    "question": "Who makes the ricotta, and is it for the ravioli and lasagna, or eaten on its own on toast? If yours uses buttermilk or rennet instead of lemon, tell me and I will rewrite it.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "ricotta-ravioli",
+    "title": "Ricotta Ravioli",
+    "chapter": "pasta-dumplings-grains",
+    "question": "Who makes the ravioli, and when do they come out — Christmas Eve, Sunday dinner, a big family session? Is the filling just ricotta, or does it have spinach or meat? Square, round, or half-moon? And what sauce goes on them?",
+    "isBestGuess": false,
+    "gaps": [
+      "Family sauce"
+    ]
+  },
+  {
+    "slug": "tortellini",
+    "title": "Tortellini",
+    "chapter": "pasta-dumplings-grains",
+    "question": "Who makes the tortellini, and when — Christmas, a holiday soup? Is the filling meat (pork, prosciutto, mortadella) or cheese? Served in broth, or with butter or cream?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "angelas-moms-gnocchi",
+    "title": "Angela’s Mom’s Gnocchi",
+    "chapter": "pasta-dumplings-grains",
+    "question": "Tell me about Angela’s mom — where her gnocchi come from, and when she makes them. Does she use egg or no egg? Ridged on a fork or board, or plain pillows? And what sauce does she put on them?",
+    "isBestGuess": false,
+    "gaps": [
+      "Angela’s mom’s sauce"
+    ]
+  },
+  {
+    "slug": "cristinas-lasagna",
+    "title": "Cristina’s Lasagna",
+    "chapter": "pasta-dumplings-grains",
+    "question": "This is a best guess — an Italian-American lasagna with a ricotta layer, meat sauce, and mozzarella. Tell me about Cristina and when her lasagna shows up. What is in her sauce? Does she boil the noodles, use no-boil, or make them fresh? Ricotta or béchamel? Anything else layered in — sausage, meatballs, hard-boiled egg?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "cristinas-mostaccioli",
+    "title": "Cristina’s Mostaccioli",
+    "chapter": "pasta-dumplings-grains",
+    "question": "This is a best guess — baked mostaccioli with a meat sauce and two cheeses. Tell me about Cristina’s version and when it gets made. Does she use sausage or beef, ricotta or not, and is it baked or just tossed and served?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "linguine-alle-vongole",
+    "title": "Linguine alle Vongole",
+    "chapter": "pasta-dumplings-grains",
+    "question": "Who makes this, and when — summer, or Christmas Eve with the fish? Does your version use white wine and garlic only, or a little tomato?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "baked-macaroni-and-cheese",
+    "title": "Baked Macaroni and Cheese",
+    "chapter": "pasta-dumplings-grains",
+    "question": "Whose mac and cheese is this, and when does it get made — holidays, kids’ dinners, a side at Thanksgiving? What cheeses go in, and does it have a crumb topping?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "lamb-manti-with-garlic-yogurt",
+    "title": "Lamb Manti with Garlic Yogurt",
+    "chapter": "pasta-dumplings-grains",
+    "question": "Who makes the manti, and when? Is your version Turkish — tiny boiled dumplings with yogurt and red-pepper butter — or another style, larger and steamed?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "wendys-moms-dumplings",
+    "title": "Wendy’s Mom’s Dumplings",
+    "chapter": "pasta-dumplings-grains",
+    "question": "This is a best guess — pork and napa cabbage dumplings, pan-fried or boiled. Tell me about Wendy’s mom and these dumplings: what is in her filling, how she folds them, whether she boils or pan-fries, and whether she makes the wrappers or buys them. Her dipping sauce, too.",
+    "isBestGuess": true,
+    "gaps": [
+      "Wendy’s mom’s homemade wrapper"
+    ]
+  },
+  {
+    "slug": "thanksgiving-pizza",
+    "title": "Thanksgiving Pizza",
+    "chapter": "pasta-dumplings-grains",
+    "question": "This is a best guess — a day-after pizza made from Thanksgiving leftovers. What is it really? Who started it, and is it the night after Thanksgiving or part of the day itself? What goes on it, and is the crust homemade or store-bought?",
+    "isBestGuess": true,
+    "gaps": [
+      "or a different sauce?"
+    ]
+  },
+  {
+    "slug": "lemon-asparagus-and-pea-risotto",
+    "title": "Lemon, Asparagus and Pea Risotto",
+    "chapter": "pasta-dumplings-grains",
+    "question": "Whose risotto is this, and is it a spring dinner, Easter, or a side for lamb? Is there anything else that goes in — mint, shrimp, mascarpone?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "isaan-tahdig",
+    "title": "Isaan Tahdig",
+    "chapter": "pasta-dumplings-grains",
+    "question": "This is a best guess — Persian crispy-bottom rice (tahdig) made with Isaan, northeast Thai, flavors. I do not know this dish. Whose is it, and how did it come about? What is actually in it — jasmine or basmati rice, and which flavors? Is it served with something on top, like larb?",
+    "isBestGuess": true,
+    "gaps": [
+      "what goes alongside or on top?",
+      "which rice?"
+    ]
+  },
+  {
+    "slug": "rice-pilaf-with-dried-fruit-nuts-and-spice",
+    "title": "Rice Pilaf with Dried Fruit, Nuts and Spice",
+    "chapter": "pasta-dumplings-grains",
+    "question": "Whose pilaf is this, and what does it go with — lamb, Thanksgiving, a holiday table? Which fruits and nuts does your version use?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "christmas-eve-roast-beef",
+    "title": "Christmas Eve Roast Beef",
+    "chapter": "meat",
+    "question": "Bob’s recipe card calls this “Garlic-Studded Roast Beef.” Is it the Christmas Eve roast?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "butterflied-leg-of-lamb",
+    "title": "Butterflied Leg of Lamb",
+    "chapter": "meat",
+    "question": "Who is Peck (or Beck)? The card’s left edge is torn off, so the number of garlic cloves is missing, and the card has no method — I filled in a standard one. Is this the marinade for the butterflied leg, and is it grilled or roasted?",
+    "isBestGuess": false,
+    "gaps": [
+      "4 to 6 (torn off the card)",
+      "about ¼ teaspoon each — no amounts on the card"
+    ]
+  },
+  {
+    "slug": "lollipop-lamb-chops",
+    "title": "Lollipop Lamb Chops",
+    "chapter": "meat",
+    "question": "This is a best guess — frenched rib chops, seared and finished hot. Who makes these, and when do they show up (holidays, birthdays, as an appetizer)? Are they marinated, and are they served with the mint jelly?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "lorraine-massiminos-meatballs-and-sunday-sauce",
+    "title": "Lorraine Massimino’s Meatballs and Sunday Sauce",
+    "chapter": "meat",
+    "question": "Anything that is Lorraine’s own here — the bread or breadcrumbs, the cheese, wine or water in the sauce, other meats in the pot? And who carries it on now?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "kielbasa",
+    "title": "Kielbasa",
+    "chapter": "meat",
+    "question": "This is a best guess — kielbasa browned and braised in one pan with onions, sauerkraut, and potatoes. How is your family’s kielbasa cooked (grilled, simmered in beer, with pierogi)? Is it homemade or a particular brand or butcher? Who makes it, and for what occasion?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "menakas-keema-matar",
+    "title": "Menaka’s Keema Matar",
+    "chapter": "meat",
+    "question": "Tell me about Menaka and this dish — when did she first make it for the family, and when does it show up now? Does she use lamb, beef, or chicken, and does she add potatoes or yogurt?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "zuni-cafe-roast-chicken-with-bread-salad",
+    "title": "Zuni Café Roast Chicken with Bread Salad",
+    "chapter": "poultry",
+    "question": "Who in the family makes this, and how did it become a family dish?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "midnight-chicken",
+    "title": "Midnight Chicken",
+    "chapter": "poultry",
+    "question": "This is a best guess — it assumes this is the roast chicken from Ella Risbridger’s book “Midnight Chicken” (lemon, garlic, a chili-spiced paste, and onions underneath). Is that the source? Who makes it, and is there anything your version does differently?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "andrews-roast-chicken",
+    "title": "Andrew’s Roast Chicken",
+    "chapter": "poultry",
+    "question": "This is a best guess — a classic butter-and-lemon roast chicken. What makes Andrew’s distinct: the seasoning, a spatchcock, a particular pan or vegetables underneath, a gravy? And when does he make it?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "lemon-caper-chicken",
+    "title": "Lemon Caper Chicken",
+    "chapter": "poultry",
+    "question": "This is a best guess — piccata-style cutlets in a lemon, caper, and butter pan sauce. Who makes it, and is it a weeknight dish or something for company? Does your version use wine, and is it served over pasta, rice, or on its own?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "grilled-block-island-sea-bass",
+    "title": "Grilled Block Island Sea Bass",
+    "chapter": "fish-shellfish",
+    "question": "This is a best guess that “BI” means Block Island — is that right? Who grills it, and is it from a particular trip, catch, or fish market? Whole fish or fillets, and is there a family marinade or sauce?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "roasted-cauliflower",
+    "title": "Roasted Cauliflower",
+    "chapter": "vegetables-sides",
+    "question": "Who makes this, and when does it show up — weeknights, holidays, both? Tell me if your version adds anything (curry, capers, breadcrumbs) or is served whole.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "roasted-halved-tomatoes",
+    "title": "Roasted Halved Tomatoes",
+    "chapter": "vegetables-sides",
+    "question": "This is a best guess — slow-roasted halves, cut side up, with garlic and thyme. Who makes these, and when? Tell me if yours are roasted hot and fast instead, or topped with breadcrumbs and Parmesan.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "roast-potatoes",
+    "title": "Roast Potatoes",
+    "chapter": "vegetables-sides",
+    "question": "This is a best guess — parboiled, roughed up, and roasted in hot fat until crisp. Who makes these, and what goes alongside — the Christmas roast, the lamb, Sunday dinner? Tell me if yours use duck fat, butter, or olive oil, and whether there are herbs.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "holiday-scalloped-potatoes",
+    "title": "Holiday Scalloped Potatoes",
+    "chapter": "vegetables-sides",
+    "question": "Who makes these, and which holidays do they belong to? The first draft did not say. Tell me too whether yours have cheese or are the plain creamy kind, and whether the onion goes in.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "onion-rings",
+    "title": "Onion Rings",
+    "chapter": "vegetables-sides",
+    "question": "This is a best guess — a light beer batter. Who makes these, and when — summer cookouts, burger nights? Tell me if yours use a buttermilk soak and flour dredge, or breadcrumbs, instead.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "aunt-karens-no-knead-bread-with-herb-butter",
+    "title": "Aunt Karen’s No-Knead Bread with Herb Butter",
+    "chapter": "breads-breakfast",
+    "question": "When does Karen make this — every holiday, Sunday dinners, as a gift? And what herbs go in her butter? Tell me if anything here differs from how she does it.",
+    "isBestGuess": false,
+    "gaps": [
+      "which herbs Karen uses"
+    ]
+  },
+  {
+    "slug": "classic-white-sandwich-bread",
+    "title": "Classic White Sandwich Bread",
+    "chapter": "breads-breakfast",
+    "question": "This is a best guess — a soft, milk-and-butter sandwich loaf. Who makes it, and when? Tell me if yours is a family recipe with different amounts, or if it is made in a bread machine.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "focaccia",
+    "title": "Focaccia",
+    "chapter": "breads-breakfast",
+    "question": "This is a best guess — a high-hydration pan focaccia with olive oil and flaky salt. Who makes it, and what goes on top in your family’s version — rosemary, olives, tomatoes, onions?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "sticky-buns",
+    "title": "Sticky Buns",
+    "chapter": "breads-breakfast",
+    "question": "This is a best guess — soft yeasted buns baked over brown sugar, butter, and pecans. Who makes these, and when — Christmas morning, birthdays? Tell me if yours have raisins, no nuts, or a cinnamon-roll style filling.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "crepes",
+    "title": "Crepes",
+    "chapter": "breads-breakfast",
+    "question": "This is a best guess — basic crepes with sweet and savory fillings. Who makes these, and when — a birthday breakfast, Sunday mornings, dessert? Which filling is the family favorite?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "eggs-benedict",
+    "title": "Eggs Benedict",
+    "chapter": "breads-breakfast",
+    "question": "This is a best guess — the classic with Canadian bacon and hollandaise. Who makes it, and for what — Christmas morning, Mother’s Day, a birthday brunch? Tell me if the family version uses ham, smoked salmon, or spinach instead.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "christmas-morning-corned-beef-hash",
+    "title": "Christmas Morning Corned Beef Hash",
+    "chapter": "breads-breakfast",
+    "question": "Linda’s notes suggest she makes the hash — is that right? And what kind of sausage goes in?",
+    "isBestGuess": false,
+    "gaps": [
+      "what kind?"
+    ]
+  },
+  {
+    "slug": "pignoli-cookies",
+    "title": "Pignoli Cookies",
+    "chapter": "desserts",
+    "question": "Who is Alex to the family, and when do these get made — a Christmas cookie tray?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "espresso-brownies",
+    "title": "Espresso Brownies",
+    "chapter": "desserts",
+    "question": "Whose brownies are these, and when do they get made? This is a best guess — a dense, fudgy brownie with espresso in the batter. Tell me if yours have a glaze, nuts, or chocolate chips.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "palm-beach-brownies",
+    "title": "Palm Beach Brownies",
+    "chapter": "desserts",
+    "question": "This is a best guess — I believe these are the famous Palm Beach Brownies from Maida Heatter’s dessert books: very rich, extra chocolate, espresso, walnuts, baked in a 9×13 pan and chilled before cutting. I have written my own version in that style. Can you confirm where yours comes from, and whose recipe it is in the family?",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "gingerbread-houses",
+    "title": "Gingerbread Houses",
+    "chapter": "desserts",
+    "question": "Who builds the gingerbread houses, and when — a Christmas project with the kids, a family competition? Is there a traditional design or template the family uses? I have written a simple, sturdy house that holds together.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "molten-chocolate-cakes",
+    "title": "Molten Chocolate Cakes",
+    "chapter": "desserts",
+    "question": "Who makes these, and for what occasion — a birthday, Valentine’s Day, a dinner party standard? Tell me if yours get served with ice cream, whipped cream, or berries.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "lemon-cake",
+    "title": "Lemon Cake",
+    "chapter": "desserts",
+    "question": "Whose lemon cake is this, and is it a loaf, a bundt, or a layer cake? I have written a lemon yogurt loaf with a lemon syrup and glaze. Tell me if yours is different.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "coconut-cake",
+    "title": "Coconut Cake",
+    "chapter": "desserts",
+    "question": "Whose card is this, and when is the cake made?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "make-ahead-chocolate-souffles",
+    "title": "Make-Ahead Chocolate Soufflés",
+    "chapter": "desserts",
+    "question": "Who makes these, and for what occasion? The printout looks like it came from Cook’s Illustrated — can you confirm?",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "mrs-blums-pie",
+    "title": "Mrs. Blum’s Pie",
+    "chapter": "desserts",
+    "question": "I don’t know this one, and I would rather ask than guess. What kind of pie is Mrs. Blum’s pie — fruit, cream, custard, chocolate? Who is Mrs. Blum, and when does the pie come out? If there is a recipe card, a photo of it is all I need to write it properly.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "ferrero-rocher-cake",
+    "title": "Ferrero Rocher Cake",
+    "chapter": "desserts",
+    "question": "Who makes this cake, and for what occasion? I have written a chocolate layer cake with Nutella buttercream, toasted hazelnuts, and whole Ferrero Rocher on top. Tell me if yours has a ganache drip, a crunchy wafer layer, or a different frosting.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "strawberry-rhubarb-crisp",
+    "title": "Strawberry Rhubarb Crisp",
+    "chapter": "desserts",
+    "question": "Whose crisp is this, and when does it usually come out — with the first spring rhubarb? The first draft’s description was cut off mid-sentence, so I have only the line above.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "lemon-sponge",
+    "title": "Lemon Sponge",
+    "chapter": "desserts",
+    "question": "Lyle’s list includes a lemon sponge recipe from Ed’s mom. Is this card hers, or is hers a different recipe? If different, please send it.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "pecan-tassies",
+    "title": "Pecan Tassies",
+    "chapter": "desserts",
+    "question": "Lyle’s list includes pecan tassies from Sue’s mom. Is this card hers, or is hers a different recipe? If different, please send it. The pecan amount on the card is faded — it looks like ⅔ cup.",
+    "isBestGuess": false,
+    "gaps": [
+      "⅔ cup"
+    ]
+  },
+  {
+    "slug": "hot-fudge-sauce",
+    "title": "Hot Fudge Sauce",
+    "chapter": "desserts",
+    "question": "Who makes the hot fudge, and when does it come out — a sundae night, birthdays, over the molten cakes? Tell me if yours is the thick, chewy kind or a thinner pouring sauce.",
+    "isBestGuess": false,
+    "gaps": []
+  },
+  {
+    "slug": "blackberry-jam",
+    "title": "Blackberry Jam",
+    "chapter": "preserves-pickles-condiments",
+    "question": "This is a best guess — a classic blackberry jam set with lemon instead of boxed pectin. Who makes it, and where do the berries come from? Tell me if your jam is seedless or seeds-in, and whether the family recipe uses pectin.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "grandmas-pickles",
+    "title": "Grandma’s Pickles",
+    "chapter": "preserves-pickles-condiments",
+    "question": "This is a best guess — classic garlicky dill pickles kept in the refrigerator. We don’t know whether Grandma’s pickles were dill, bread-and-butter, or sour, or whether she canned them for the pantry. Tell me which, and anything you remember about how they were cut, what was in the jar, and when she made them.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "grandmas-pickled-jalapenos",
+    "title": "Grandma’s Pickled Jalapeños",
+    "chapter": "preserves-pickles-condiments",
+    "question": "This is a best guess — sliced jalapeños in a quick refrigerator brine, with optional carrot and onion the way taquerias serve them. Tell me how Grandma made hers: sliced or whole, with carrots or just peppers, sweet or plain, canned or kept in the refrigerator — and what she put them on.",
+    "isBestGuess": true,
+    "gaps": []
+  },
+  {
+    "slug": "apple-sauce",
+    "title": "Apple Sauce",
+    "chapter": "preserves-pickles-condiments",
+    "question": "This is a best guess — a simple stovetop applesauce from a mix of apples, lightly sweetened. Who makes it, and when does it show up? Tell me if yours is chunky or smooth, which apples you use, whether there is cinnamon in it, and what it is served with.",
+    "isBestGuess": true,
+    "gaps": []
+  }
+]

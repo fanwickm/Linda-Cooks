@@ -1,0 +1,199 @@
+{
+  "slug": "strawberry-rhubarb-crisp",
+  "title": "Strawberry Rhubarb Crisp",
+  "chapter": "desserts",
+  "order": 71,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6–8",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "45–55 min",
+      "min": 45,
+      "max": 55
+    },
+    {
+      "label": "Cool",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    }
+  ],
+  "headnote": "This warm, bubbling crisp has made appearances at many family dinners.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Fruit",
+      "items": [
+        {
+          "raw": "1 pound rhubarb, cut into ½-inch pieces (about 3½ cups / 450 g)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "1 pound strawberries, hulled and halved, or quartered if large (about 3 cups / 450 g)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "¾ cup (150 g) granulated sugar",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup",
+          "metric": {
+            "qty": 150.0,
+            "unit": "g",
+            "span": " cup (150 g)"
+          }
+        },
+        {
+          "raw": "3 tablespoons (24 g) cornstarch",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 24.0,
+            "unit": "g",
+            "span": " tablespoons (24 g)"
+          }
+        },
+        {
+          "raw": "1 tablespoon fresh lemon juice",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "½ teaspoon vanilla extract",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Pinch of kosher salt"
+        }
+      ]
+    },
+    {
+      "name": "Oat topping",
+      "items": [
+        {
+          "raw": "¾ cup (70 g) old-fashioned rolled oats",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup",
+          "metric": {
+            "qty": 70.0,
+            "unit": "g",
+            "span": " cup (70 g)"
+          }
+        },
+        {
+          "raw": "¾ cup (95 g) all-purpose flour",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup",
+          "metric": {
+            "qty": 95.0,
+            "unit": "g",
+            "span": " cup (95 g)"
+          }
+        },
+        {
+          "raw": "½ cup (110 g) packed light brown sugar",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 110.0,
+            "unit": "g",
+            "span": " cup (110 g)"
+          }
+        },
+        {
+          "raw": "½ teaspoon ground cinnamon",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Pinch of kosher salt"
+        },
+        {
+          "raw": "½ cup (113 g) cold unsalted butter, cubed",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 113.0,
+            "unit": "g",
+            "span": " cup (113 g)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 375°F and butter a 9×9-inch baking dish. Put a foil-lined baking sheet on the rack below to catch drips."
+    },
+    {
+      "lead": "Toss the fruit.",
+      "text": "In a large bowl, stir the sugar and cornstarch together first so the cornstarch does not clump, then add the rhubarb, strawberries, lemon juice, vanilla, and salt and toss well. Spread in the dish."
+    },
+    {
+      "lead": "Make the topping.",
+      "text": "Mix the oats, flour, brown sugar, cinnamon, and salt. Work in the cold butter with your fingertips until it forms clumps the size of peas and larger. Scatter evenly over the fruit, leaving it in clumps."
+    },
+    {
+      "lead": "Bake until it bubbles in the center.",
+      "text": "Bake 45 to 55 minutes, until the topping is deep golden and the juices are bubbling thickly in the middle of the dish, not just at the edges. Rhubarb throws a lot of liquid, and the cornstarch only thickens once the center has truly boiled."
+    },
+    {
+      "lead": "Let it set.",
+      "text": "Cool at least 30 minutes before serving so the juices thicken. Serve warm with vanilla ice cream."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Enough thickener",
+      "text": "rhubarb is mostly water. With less than 3 tablespoons of cornstarch, the filling stays soupy no matter how long it bakes.",
+      "byLinda": false
+    },
+    {
+      "label": "Frozen fruit",
+      "text": "use it straight from frozen and add 10 to 15 minutes to the baking time.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "make the topping up to 3 days ahead and keep it refrigerated, or freeze it. Assemble and bake the day you serve.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Whose crisp is this, and when does it usually come out — with the first spring rhubarb? The first draft’s description was cut off mid-sentence, so I have only the line above.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "easter-spring"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 95
+}

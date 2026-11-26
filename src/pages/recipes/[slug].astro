@@ -1,0 +1,343 @@
+---
+import Base from "../../layouts/Base.astro";
+import DishArt from "../../components/DishArt.astro";
+import LindaBadge from "../../components/LindaBadge.astro";
+import Icon from "../../components/Icon.astro";
+import RecipeCard from "../../components/RecipeCard.astro";
+import HelpForm from "../../components/HelpForm.astro";
+import {
+  recipes, chapterBySlug, personById, occasionBySlug, isComplete, formatMinutes, type Recipe,
+} from "../../lib/data";
+import { richText, ingredientHtml } from "../../lib/format";
+
+export function getStaticPaths() {
+  return recipes.map((r) => ({ params: { slug: r.slug }, props: { recipe: r } }));
+}
+
+const { recipe: r } = Astro.props as { recipe: Recipe };
+const chapter = chapterBySlug.get(r.chapter)!;
+const contributors = r.contributors.map((id) => personById.get(id)).filter(Boolean);
+const lindaQuotes = r.quotes.filter((q) => q.by === "linda-mitchell");
+const otherQuotes = r.quotes.filter((q) => q.by !== "linda-mitchell");
+// Linda's own words move into sticky notes; the rest of the headnote stays as written.
+let headnote = r.headnote ?? "";
+for (const q of lindaQuotes) headnote = headnote.replace(q.span, "").trim();
+const lindaTips = r.notes.filter((n) => n.byLinda);
+const hasMetric = r.ingredientGroups.some((g) => g.items.some((i) => i.metric));
+const complete = isComplete(r);
+const isHalibut = r.slug === "lindas-christmas-eve-halibut";
+const totalIngredients = r.ingredientGroups.reduce((n, g) => n + g.items.length, 0);
+
+const chapterRecipes = recipes.filter((x) => x.chapter === r.chapter && x.slug !== r.slug).slice(0, 3);
+const pos = chapter.recipes.indexOf(r.slug);
+const prev = pos > 0 ? recipes.find((x) => x.slug === chapter.recipes[pos - 1]) : undefined;
+const next = pos < chapter.recipes.length - 1 ? recipes.find((x) => x.slug === chapter.recipes[pos + 1]) : undefined;
+
+const stepLabel = (i: number, lead: string) => `Step ${i + 1}: ${lead.replace(/\.\s*$/, "")}`;
+---
+<Base title={r.title} description={r.headnote ?? `${r.title} from the Linda M Cookbook`}>
+  <article class="recipe container-page pt-4 sm:pt-8" data-recipe={r.slug} data-servings={r.yield.servings ?? ""}>
+    <nav class="no-print text-sm text-ink-soft mb-3 flex items-center gap-1 flex-wrap" aria-label="Breadcrumb">
+      <a href="/recipes" class="hover:text-tomato">Recipes</a>
+      <Icon name="chevronRight" size={14} />
+      <a href={`/chapters/${chapter.slug}`} class="hover:text-tomato">{chapter.title}</a>
+    </nav>
+
+    <header class="grid md:grid-cols-[1.1fr_1fr] gap-6 md:gap-10 items-start">
+      <div class="order-2 md:order-1">
+        {r.lindasTouch && <div class="mb-2"><LindaBadge title={r.lindasTouchReason} /></div>}
+        <h1 class="text-[2.1rem] leading-[1.1] sm:text-5xl font-semibold">{r.title}</h1>
+        {r.source && (
+          <p class="mt-3 text-ink-soft italic text-lg">
+            {contributors.length ? (
+              <>From {contributors.map((p, i) => (
+                <>{i > 0 && " & "}<a href={`/family/${p!.id}`} class="not-italic font-semibold text-ink hover:text-tomato underline decoration-line underline-offset-4">{r.contributorName ?? p!.name}</a></>
+              ))}{r.occasionText && <> · {r.occasionText}</>}</>
+            ) : r.source}
+          </p>
+        )}
+        {r.occasions.length > 0 && (
+          <p class="mt-2 flex flex-wrap gap-2 no-print">
+            {r.occasions.map((o) => {
+              const oc = occasionBySlug.get(o);
+              return oc && <a href={`/occasions/${o}`} class="chip text-sm">{oc.emoji} {oc.name}</a>;
+            })}
+          </p>
+        )}
+
+        {(r.yield.text || r.times.length > 0) && (
+          <dl class="mt-5 flex flex-wrap gap-x-6 gap-y-3 text-base">
+            {r.yield.text && (
+              <div><dt class="eyebrow !text-ink-soft">Makes</dt><dd class="font-semibold" data-yield data-orig={r.yield.text}>{r.yield.text}</dd></div>
+            )}
+            {r.times.map((t) => (
+              <div><dt class="eyebrow !text-ink-soft">{t.label || "Time"}</dt><dd class="font-semibold">{t.text}</dd></div>
+            ))}
+            {r.totalMinutes && r.times.length > 1 && (
+              <div><dt class="eyebrow !text-ink-soft">Total</dt><dd class="font-semibold">about {formatMinutes(r.totalMinutes)}</dd></div>
+            )}
+          </dl>
+        )}
+
+        <div class="no-print mt-6 flex flex-wrap gap-2">
+          {complete && (
+            <button type="button" class="btn btn-primary text-lg" data-open-cook>
+              <Icon name="play" size={20} /> Cook Mode
+            </button>
+          )}
+          <button type="button" class="btn btn-ghost" data-fav={r.slug} aria-pressed="false" aria-label={`Save ${r.title}`}>
+            <Icon name="heart" size={20} /> <span>Save</span>
+          </button>
+          {complete && (
+            <button type="button" class="btn btn-ghost" data-made-it>
+              <Icon name="stamp" size={20} /> We made it!
+            </button>
+          )}
+          {complete && (
+            <div class="relative">
+              <details class="group">
+                <summary class="btn btn-ghost list-none [&::-webkit-details-marker]:hidden"><Icon name="print" size={20} /> Print</summary>
+                <div class="absolute z-20 mt-2 card p-2 w-56 flex flex-col">
+                  <button type="button" class="text-left px-3 py-3 rounded-lg hover:bg-paper-2" data-print="page">Full page</button>
+                  <button type="button" class="text-left px-3 py-3 rounded-lg hover:bg-paper-2" data-print="card">4×6 recipe card</button>
+                </div>
+              </details>
+            </div>
+          )}
+        </div>
+        <p class="no-print mt-2 text-sm text-ink-soft" data-made-count hidden></p>
+      </div>
+
+      <div class="order-1 md:order-2 card-hide">
+        <div class="flip-wrap relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg" data-flip={r.cardScan ? "1" : undefined}>
+          <div class="flip-inner relative w-full h-full transition-transform duration-700 [transform-style:preserve-3d]">
+            <div class="absolute inset-0 [backface-visibility:hidden]"><DishArt recipe={r} size="lg" eager /></div>
+            {r.cardScan && (
+              <div class="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] bg-card">
+                <img src={r.cardScan} alt={`The original handwritten card for ${r.title}`} class="w-full h-full object-contain" loading="lazy" />
+              </div>
+            )}
+          </div>
+          {r.cardScan && (
+            <button type="button" class="no-print absolute bottom-3 right-3 chip !min-h-[40px] shadow" data-flip-btn aria-pressed="false">
+              ↺ See the original card
+            </button>
+          )}
+        </div>
+      </div>
+    </header>
+
+    {r.isBestGuess && (
+      <aside class="no-print mt-6 rounded-2xl border-2 border-dashed border-tomato/50 bg-[#fff6f2] p-4 flex gap-3 items-start" role="note">
+        <span class="text-2xl" aria-hidden="true">🤔</span>
+        <p class="text-base">
+          <strong>This is our best guess.</strong> Know how {r.title.match(/Grandma/) ? "Grandma" : contributors[0]?.short ?? "it was"} really made it?
+          <a href="#help" class="font-semibold text-tomato underline underline-offset-4">Tell us.</a>
+        </p>
+      </aside>
+    )}
+
+    {(headnote || otherQuotes.length > 0) && (
+      <div class="mt-6 max-w-3xl text-lg sm:text-xl leading-relaxed text-ink font-serif italic font-light">
+        {headnote && <p>{headnote}</p>}
+      </div>
+    )}
+
+    {!complete && (
+      <section class="mt-8 card p-6 sm:p-8 max-w-3xl">
+        <p class="eyebrow">Recipe wanted</p>
+        <h2 class="text-2xl font-semibold mt-1">We don’t have this one written down yet</h2>
+        <p class="mt-3 text-lg">{r.openQuestion}</p>
+        <div class="mt-5"><HelpForm recipe={r} compact /></div>
+      </section>
+    )}
+
+    {complete && (
+      <div class="recipe-body mt-8 grid gap-8 lg:gap-12 md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+        <!-- INGREDIENTS -->
+        <section aria-labelledby="ing-h" class="md:sticky md:top-20 self-start">
+          <div class="flex items-baseline justify-between gap-2">
+            <h2 id="ing-h" class="text-2xl sm:text-3xl font-semibold">Ingredients</h2>
+            <button type="button" class="no-print text-sm text-ink-soft underline underline-offset-4 min-h-[44px]" data-clear-ticks hidden>Clear ticks</button>
+          </div>
+
+          <div class="no-print mt-3 flex flex-wrap items-center gap-2" role="group" aria-label="Scale the recipe">
+            {[0.5, 1, 2, 3].map((f) => (
+              <button type="button" class="chip !px-3.5 tabular-nums" data-scale={f} aria-pressed={f === 1 ? "true" : "false"}>
+                {f === 0.5 ? "½×" : `${f}×`}
+              </button>
+            ))}
+            {hasMetric && (
+              <button type="button" class="chip" data-metric aria-pressed="false">Metric (g)</button>
+            )}
+          </div>
+          {isHalibut && (
+            <p class="no-print mt-2 text-sm bg-[#fbefd3] border border-[#ecd39a] rounded-xl px-3 py-2 text-gold-ink">
+              <strong>Linda’s triple batch</strong> is already built in at 1×: the pickle is three times the magazine’s amount, because everyone takes more at the table.
+            </p>
+          )}
+
+          <div class="mt-4 card p-4 sm:p-5">
+            <p class="sr-only">Tap an ingredient to tick it off. Ticks are saved on this device.</p>
+            {r.ingredientGroups.map((g, gi) => (
+              <div class:list={[gi > 0 && "mt-5"]}>
+                {g.name && <h3 class="font-serif italic text-lg text-ink-soft mb-1">{g.name}</h3>}
+                <ul class="space-y-0.5">
+                  {g.items.map((it, ii) => (
+                    <li>
+                      <label class="ing flex gap-3 items-start py-2 px-1 -mx-1 rounded-lg cursor-pointer hover:bg-paper-2/60 text-[1.125rem] leading-snug">
+                        <input type="checkbox" class="peer mt-1 size-6 shrink-0 accent-[var(--color-sage)] no-print" data-tick={`${gi}-${ii}`} />
+                        <span class="peer-checked:line-through peer-checked:text-ink-soft/70" set:html={ingredientHtml(it)} />
+                      </label>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+            <p class="no-print mt-3 text-sm text-ink-soft" data-tick-count aria-live="polite">{totalIngredients} ingredients</p>
+          </div>
+        </section>
+
+        <!-- METHOD -->
+        <section aria-labelledby="method-h">
+          <div class="flex items-baseline justify-between">
+            <h2 id="method-h" class="text-2xl sm:text-3xl font-semibold">Method</h2>
+          </div>
+
+          {lindaTips.length > 0 && (
+            <div class="no-print mt-3 flex flex-wrap gap-2" aria-label="Ask Linda">
+              {lindaTips.map((n, i) => (
+                <button type="button" class="chip !border-[#ecd39a] !bg-[#fbefd3] text-gold-ink" data-tip-btn={i} aria-expanded="false" aria-controls={`tip-${i}`}>
+                  <span aria-hidden="true">💬</span> Ask Linda: {n.label}
+                </button>
+              ))}
+            </div>
+          )}
+          {lindaTips.map((n, i) => (
+            <div id={`tip-${i}`} class="no-print mt-3 rounded-2xl bg-[#fbefd3] border border-[#ecd39a] p-4 text-base" hidden>
+              <p><strong>{n.label}</strong> — <span set:html={richText(n.text, n.gaps)} /></p>
+            </div>
+          ))}
+
+          <div class="mt-4 grid gap-6 xl:grid-cols-[minmax(0,1fr)_15rem]">
+            <ol class="space-y-5 counter-reset">
+              {r.steps.map((s, i) => (
+                <li class="flex gap-4" id={`step-${i + 1}`}>
+                  <span class="shrink-0 grid place-items-center size-10 rounded-full bg-tomato text-white font-serif font-semibold text-lg" aria-hidden="true">{i + 1}</span>
+                  <p class="text-[1.15rem] leading-relaxed pt-1.5">
+                    <strong class="font-semibold">{s.lead}</strong>{" "}
+                    <span set:html={richText(s.text, s.gaps, stepLabel(i, s.lead))} />
+                  </p>
+                </li>
+              ))}
+            </ol>
+            {lindaQuotes.length > 0 && (
+              <aside class="space-y-6 xl:pt-2 order-first xl:order-none" aria-label="Linda's notes">
+                {lindaQuotes.map((q) => (
+                  <figure class="sticky-note max-w-sm">
+                    <blockquote>“{q.text}”</blockquote>
+                    <figcaption class="by">— Linda{q.context ? `, ${q.context}` : ""}</figcaption>
+                  </figure>
+                ))}
+              </aside>
+            )}
+          </div>
+
+          {r.notes.length > 0 && (
+            <section class="mt-10" aria-labelledby="notes-h">
+              <h2 id="notes-h" class="text-2xl font-semibold">Notes</h2>
+              <ul class="mt-3 space-y-3">
+                {r.notes.map((n) => (
+                  <li class:list={["rounded-xl p-4", n.byLinda ? "bg-[#fbefd3]/70 border-l-4 border-gold" : "bg-card border border-line"]}>
+                    {n.byLinda && <span class="font-hand text-xl text-gold-ink block -mb-1">Linda’s note</span>}
+                    <p><strong>{n.label}</strong>{n.label && " — "}<span set:html={richText(n.text, n.gaps)} /></p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          <section class="no-print mt-10 hidden" data-family-answers aria-labelledby="fam-h">
+            <h2 id="fam-h" class="text-2xl font-semibold">From the family</h2>
+            <ul class="mt-3 space-y-3" data-answers-list></ul>
+            <div class="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-3" data-photos-list></div>
+          </section>
+
+          {r.openQuestion && (
+            <section id="help" class="no-print mt-10 card p-5 sm:p-6 border-2 border-dashed !border-tomato/40" aria-labelledby="help-h">
+              <p class="eyebrow">Help finish the book</p>
+              <h2 id="help-h" class="text-xl sm:text-2xl font-semibold mt-1">Something only the family knows</h2>
+              <p class="mt-2 text-base text-ink-soft">{r.openQuestion}</p>
+              <div class="mt-4"><HelpForm recipe={r} /></div>
+            </section>
+          )}
+          {!r.openQuestion && (
+            <p class="no-print mt-8 text-ink-soft">
+              Made this at home? <a href={`/family/photos?recipe=${r.slug}`} class="text-tomato font-semibold underline underline-offset-4">Add a photo to the family wall</a>.
+            </p>
+          )}
+        </section>
+      </div>
+    )}
+
+    <nav class="no-print mt-14 flex justify-between gap-3 border-t border-line pt-6" aria-label="More in this chapter">
+      {prev ? <a href={`/recipes/${prev.slug}`} class="btn btn-ghost max-w-[48%]"><Icon name="chevronLeft" size={18} /><span class="truncate">{prev.title}</span></a> : <span />}
+      {next ? <a href={`/recipes/${next.slug}`} class="btn btn-ghost max-w-[48%]"><span class="truncate">{next.title}</span><Icon name="chevronRight" size={18} /></a> : <span />}
+    </nav>
+
+    {chapterRecipes.length > 0 && (
+      <section class="no-print mt-10">
+        <h2 class="text-2xl font-semibold">More {chapter.title.toLowerCase()}</h2>
+        <div class="mt-4 grid gap-4 grid-cols-2 lg:grid-cols-3">
+          {chapterRecipes.map((x) => <RecipeCard recipe={x} compact />)}
+        </div>
+      </section>
+    )}
+  </article>
+
+  {complete && (
+    <div id="cook-mode" class="fixed inset-0 z-[70] bg-paper flex flex-col" role="dialog" aria-modal="true" aria-labelledby="cook-title" hidden>
+      <div class="flex items-center gap-2 px-3 sm:px-6 h-16 border-b border-line bg-card">
+        <button type="button" class="grid place-items-center size-12 rounded-full hover:bg-paper-2" data-close-cook aria-label="Exit Cook Mode"><Icon name="close" size={26} /></button>
+        <p id="cook-title" class="font-serif font-semibold text-lg truncate flex-1">{r.title}</p>
+        <span class="text-sm text-ink-soft hidden sm:inline" data-wake-status></span>
+        <button type="button" class="chip !min-h-[44px]" data-voice aria-pressed="false" hidden><Icon name="mic" size={18} /> <span>Voice</span></button>
+      </div>
+      <div class="h-1.5 bg-line"><div class="h-full bg-tomato transition-all duration-300" data-cook-progress style="width:0%"></div></div>
+      <div class="flex-1 overflow-hidden relative" data-cook-viewport>
+        <div class="flex h-full transition-transform duration-300 ease-out" data-cook-track>
+          <section class="cook-slide shrink-0 w-full h-full overflow-y-auto px-5 sm:px-10 py-8" aria-label="Ingredients">
+            <div class="max-w-3xl mx-auto">
+              <p class="eyebrow">Get everything out</p>
+              <h2 class="text-3xl sm:text-4xl font-semibold mt-1">Ingredients</h2>
+              <p class="mt-1 text-ink-soft" data-cook-scale-note></p>
+              <div class="mt-5 columns-1 sm:columns-2 gap-8 text-xl sm:text-2xl leading-snug" data-cook-ingredients></div>
+            </div>
+          </section>
+          {r.steps.map((s, i) => (
+            <section class="cook-slide shrink-0 w-full h-full overflow-y-auto px-5 sm:px-10 py-8" aria-label={`Step ${i + 1} of ${r.steps.length}`}>
+              <div class="max-w-3xl mx-auto">
+                <p class="eyebrow">Step {i + 1} of {r.steps.length}</p>
+                <h2 class="text-3xl sm:text-5xl font-semibold mt-2 leading-tight">{s.lead}</h2>
+                <p class="mt-5 text-2xl sm:text-[2rem] leading-snug" data-say set:html={richText(s.text, s.gaps, stepLabel(i, s.lead))} />
+                {i === r.steps.length - 1 && lindaQuotes.map((q) => (
+                  <figure class="sticky-note mt-10 max-w-md"><blockquote>“{q.text}”</blockquote><figcaption class="by">— Linda</figcaption></figure>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+      </div>
+      <div class="flex items-center gap-3 px-3 sm:px-6 py-3 border-t border-line bg-card pb-[calc(.75rem+env(safe-area-inset-bottom))]">
+        <button type="button" class="btn btn-ghost text-lg flex-1 sm:flex-none sm:w-44 !min-h-[56px]" data-cook-prev><Icon name="chevronLeft" /> Back</button>
+        <p class="hidden sm:block flex-1 text-center text-ink-soft text-sm" data-voice-hint>Swipe, or use ← → keys</p>
+        <button type="button" class="btn btn-primary text-lg flex-1 sm:flex-none sm:w-44 !min-h-[56px]" data-cook-next>Next <Icon name="chevronRight" /></button>
+      </div>
+    </div>
+  )}
+
+  <script>
+    import { initRecipePage } from "../../scripts/recipe";
+    initRecipePage();
+  </script>
+</Base>

@@ -1,0 +1,23 @@
+{
+  "_readme": "Edit this file to fill in the Meet Linda page. 'story' is a list of paragraphs (leave it empty to show the 'being written' placeholder). Kitchen rules are paraphrased from her own notes in the book; keep each one linked to the recipe it came from.",
+  "fullName": "Linda Mitchell",
+  "story": [],
+  "storyAuthor": null,
+  "photos": [
+    { "src": "/images/people/linda.jpg", "alt": "Linda smiling at home", "caption": "At home" },
+    { "src": "/images/people/linda-dessert-cart.jpg", "alt": "Linda beside a dessert trolley full of tarts and cream puffs", "caption": "Sizing up the dessert trolley" }
+  ],
+  "kitchenRules": [
+    { "rule": "Buy the tuna at Stiles Market in Westport, and tell them it’s for tartare.", "recipe": "lindas-tuna-tartare-with-wasabi-and-lime" },
+    { "rule": "Make three times the pickle. The extra is the point — everyone takes more at the table.", "recipe": "lindas-christmas-eve-halibut" },
+    { "rule": "Have the rib roast boned, then tied back onto the bones.", "recipe": "christmas-eve-roast-beef" },
+    { "rule": "Make the hash the day before, without the eggs. Reheat it Christmas morning.", "recipe": "christmas-morning-corned-beef-hash" },
+    { "rule": "Pignoli cookies bake for 15 minutes on sprayed parchment. The batch makes 24.", "recipe": "pignoli-cookies" },
+    { "rule": "Seal the mint jelly by turning the jars upside down — no water bath. Add mint flavouring if it needs it.", "recipe": "grandmas-mint-jelly" },
+    { "rule": "Napa salad: skip the fruit and the wonton. Chicken is a welcome addition.", "recipe": "lindas-napa-cabbage-salad" }
+  ],
+  "favourites": [
+    { "name": "Stiles Market, Westport", "note": "Where Linda buys her tuna for the tartare.", "recipe": "lindas-tuna-tartare-with-wasabi-and-lime" },
+    { "name": "Fine Cooking, April/May 2008", "note": "The magazine her Christmas Eve halibut started from — before she rewrote the pickle and rub by hand.", "recipe": "lindas-christmas-eve-halibut" }
+  ]
+}

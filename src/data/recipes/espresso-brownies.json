@@ -1,0 +1,189 @@
+{
+  "slug": "espresso-brownies",
+  "title": "Espresso Brownies",
+  "chapter": "desserts",
+  "order": 61,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes 16",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "25–30 min",
+      "min": 25,
+      "max": 30
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "6 ounces (170 g) bittersweet chocolate, chopped",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "ounces",
+          "metric": {
+            "qty": 170.0,
+            "unit": "g",
+            "span": " ounces (170 g)"
+          }
+        },
+        {
+          "raw": "½ cup (113 g) unsalted butter, cut up",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 113.0,
+            "unit": "g",
+            "span": " cup (113 g)"
+          }
+        },
+        {
+          "raw": "1 cup (200 g) granulated sugar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 200.0,
+            "unit": "g",
+            "span": " cup (200 g)"
+          }
+        },
+        {
+          "raw": "¼ cup (55 g) packed light brown sugar",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup",
+          "metric": {
+            "qty": 55.0,
+            "unit": "g",
+            "span": " cup (55 g)"
+          }
+        },
+        {
+          "raw": "3 large eggs",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "large"
+        },
+        {
+          "raw": "1 tablespoon instant espresso powder",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "2 teaspoons vanilla extract",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "½ teaspoon kosher salt",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "¾ cup (95 g) all-purpose flour",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup",
+          "metric": {
+            "qty": 95.0,
+            "unit": "g",
+            "span": " cup (95 g)"
+          }
+        },
+        {
+          "raw": "2 tablespoons (10 g) unsweetened cocoa powder",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 10.0,
+            "unit": "g",
+            "span": " tablespoons (10 g)"
+          }
+        },
+        {
+          "raw": "½ cup (85 g) chocolate chips (optional)",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 85.0,
+            "unit": "g",
+            "span": " cup (85 g)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 350°F. Line a 9×9-inch pan with parchment, leaving an overhang on two sides to lift the brownies out."
+    },
+    {
+      "lead": "Melt.",
+      "text": "Melt the chocolate and butter together in a heatproof bowl over barely simmering water, or in the microwave in 30-second bursts, stirring until smooth. Let cool 5 minutes."
+    },
+    {
+      "lead": "Add sugar, eggs, and espresso.",
+      "text": "Whisk in both sugars, then the eggs one at a time, then the espresso powder, vanilla, and salt. Whisk hard for a full minute after the last egg — this is what gives the top its shiny, crackly crust."
+    },
+    {
+      "lead": "Fold in the dry ingredients.",
+      "text": "Sift the flour and cocoa over the bowl and fold with a spatula just until no dry streaks remain. Fold in the chocolate chips if using."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Spread in the pan and bake 25 to 30 minutes, until the top is set and a toothpick in the center comes out with moist crumbs, not wet batter. Err toward underbaking."
+    },
+    {
+      "lead": "Cool before cutting.",
+      "text": "Let cool completely in the pan, at least 2 hours, then lift out and cut into 16 squares. Warm brownies fall apart."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Espresso powder",
+      "text": "instant espresso dissolves into the batter; ground coffee does not and stays gritty. It makes the chocolate taste deeper rather than making the brownies taste like coffee.",
+      "byLinda": false
+    },
+    {
+      "label": "Clean cuts",
+      "text": "chill the cooled slab 30 minutes and use a long knife wiped clean between cuts.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "airtight for 4 days, or wrapped individually and frozen for 3 months.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Whose brownies are these, and when do they get made? This is a best guess — a dense, fudgy brownie with espresso in the batter. Tell me if yours have a glaze, nuts, or chocolate chips.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 40
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "bills-shrimp-cocktail",
+  "title": "Bill’s Shrimp Cocktail",
+  "chapter": "starters-snacks",
+  "order": 4,
+  "source": "From Bill",
+  "contributors": [
+    "bill"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6–8",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "5 min",
+      "min": 5,
+      "max": 5
+    },
+    {
+      "label": "Chill",
+      "text": "1 hr",
+      "min": 60,
+      "max": 60
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Shrimp",
+      "items": [
+        {
+          "raw": "2 pounds large shrimp (16–20 count), shell on",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "pounds"
+        },
+        {
+          "raw": "1 lemon, halved",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "1 small onion, quartered",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "small"
+        },
+        {
+          "raw": "3 bay leaves",
+          "qty": 3.0,
+          "qtyText": "3"
+        },
+        {
+          "raw": "1 tablespoon whole black peppercorns",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "2 tablespoons Old Bay seasoning",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 tablespoons kosher salt",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "A handful of parsley stems"
+        }
+      ]
+    },
+    {
+      "name": "Cocktail sauce",
+      "items": [
+        {
+          "raw": "1 cup ketchup",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "3–4 tablespoons prepared horseradish, drained",
+          "qty": [
+            3.0,
+            4.0
+          ],
+          "qtyText": "3–4",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 tablespoon fresh lemon juice",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 teaspoon Worcestershire sauce",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Several dashes of Tabasco"
+        },
+        {
+          "raw": "Pinch of celery salt"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Build the poaching liquid.",
+      "text": "Put 3 quarts of water in a large pot with the lemon halves, onion, bay leaves, peppercorns, Old Bay, salt, and parsley stems. Bring to a rolling boil and let it go 5 minutes so the water actually tastes like something."
+    },
+    {
+      "lead": "Poach off the heat.",
+      "text": "Add all the shrimp at once, stir, cover the pot, and pull it off the burner. Let stand 3 to 5 minutes, until the shrimp are pink and just opaque at the thickest part. This is the trick — boiled shrimp turn rubbery, poached shrimp stay tender."
+    },
+    {
+      "lead": "Shock them.",
+      "text": "Drain and dump the shrimp straight into a bowl of ice water. Leave them 5 minutes to stop cooking, then drain well and pat dry."
+    },
+    {
+      "lead": "Peel and chill.",
+      "text": "Peel, leaving the tail on for a handle, and devein with the tip of a paring knife. Cover and refrigerate at least 1 hour — cold is half the point of shrimp cocktail."
+    },
+    {
+      "lead": "Make the sauce.",
+      "text": "Stir the ketchup, horseradish, lemon juice, Worcestershire, Tabasco, and celery salt together. Taste and add horseradish until it clears your sinuses. Chill."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Hang the shrimp around the rim of a bowl of sauce, or pile them over crushed ice with the sauce in the center. Lemon wedges alongside."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Buy shell-on",
+      "text": "the shells season the shrimp from the outside in as they poach. Peeled shrimp come out noticeably blander.",
+      "byLinda": false
+    },
+    {
+      "label": "Frozen is fine",
+      "text": "most “fresh” shrimp were frozen anyway. Thaw overnight in the refrigerator, not in warm water.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "shrimp and sauce both keep a full day covered in the refrigerator. Do not assemble over ice until serving.",
+      "byLinda": false
+    },
+    {
+      "label": "Horseradish",
+      "text": "the jarred kind loses its punch within a month of opening. Buy a fresh jar for this.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Tell me about Bill and when this appears — Christmas Eve, birthdays, summer? I have also guessed at his cocktail sauce; if he had a specific ratio or a secret ingredient, I will put it in.",
+  "isBestGuess": false,
+  "contributorName": "Bill",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "summer"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 80
+}

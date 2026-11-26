@@ -1,0 +1,153 @@
+{
+  "slug": "lemon-caper-chicken",
+  "title": "Lemon Caper Chicken",
+  "chapter": "poultry",
+  "order": 43,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 large boneless skinless chicken breasts (about 1½ pounds)",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "1 teaspoon kosher salt and ½ teaspoon black pepper",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ cup all-purpose flour",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "3 tablespoons olive oil",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "4 tablespoons cold unsalted butter, divided",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 garlic cloves, minced",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "½ cup dry white wine",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "¾ cup chicken stock",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup"
+        },
+        {
+          "raw": "¼ cup fresh lemon juice (about 2 lemons)",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "3 tablespoons capers, drained",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 tablespoons chopped parsley",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make cutlets.",
+      "text": "Slice each breast in half horizontally into two thin pieces. Pound between plastic wrap to an even ¼-inch thickness. Season with salt and pepper and dredge lightly in flour, shaking off the excess."
+    },
+    {
+      "lead": "Sear.",
+      "text": "Heat the oil and 1 tablespoon butter in a large skillet over medium-high. Cook the cutlets in batches 2 to 3 minutes per side, until golden and cooked through (165°F). Move to a warm plate."
+    },
+    {
+      "lead": "Start the sauce.",
+      "text": "Lower the heat to medium, add the garlic, and cook 30 seconds. Pour in the wine and scrape up the browned bits; simmer until reduced by half."
+    },
+    {
+      "lead": "Reduce.",
+      "text": "Add the stock, lemon juice, and capers and simmer 4 to 5 minutes until slightly thickened."
+    },
+    {
+      "lead": "Finish with butter.",
+      "text": "Off the heat, swirl in the remaining 3 tablespoons of cold butter until the sauce is glossy. Taste for salt and lemon."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Return the chicken and any juices to the pan, turn to coat, and scatter with parsley."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Even thickness",
+      "text": "pounding the cutlets evenly is what lets them cook in minutes without drying out.",
+      "byLinda": false
+    },
+    {
+      "label": "No wine",
+      "text": "use an extra ½ cup stock and a teaspoon more lemon juice.",
+      "byLinda": false
+    },
+    {
+      "label": "Alongside",
+      "text": "buttered linguine, rice, or the roasted halved tomatoes from Chapter 9.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — piccata-style cutlets in a lemon, caper, and butter pan sauce. Who makes it, and is it a weeknight dish or something for company? Does your version use wine, and is it served over pasta, rice, or on its own?",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 35
+}

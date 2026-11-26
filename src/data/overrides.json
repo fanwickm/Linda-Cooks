@@ -1,0 +1,256 @@
+{
+  "_readme": "Hand-curated fields merged into each recipe by scripts/parse_docx.py. Edit here, then re-run the parser (or edit the recipe JSON directly).",
+  "recipes": {
+    "lindas-tuna-tartare-with-wasabi-and-lime": {
+      "lindasTouch": true,
+      "lindasTouchReason": "Linda’s own recipe",
+      "occasions": [
+        "christmas-eve"
+      ]
+    },
+    "lindas-napa-cabbage-salad": {
+      "lindasTouch": true,
+      "lindasTouchReason": "Linda’s own recipe",
+      "occasions": [
+        "easter-spring",
+        "summer"
+      ]
+    },
+    "lindas-christmas-eve-halibut": {
+      "lindasTouch": true,
+      "lindasTouchReason": "Linda’s own recipe",
+      "occasions": [
+        "christmas-eve"
+      ]
+    },
+    "christmas-eve-roast-beef": {
+      "lindasTouch": true,
+      "lindasTouchReason": "Linda likes it boned and tied back on",
+      "occasions": [
+        "christmas-eve"
+      ]
+    },
+    "christmas-morning-corned-beef-hash": {
+      "lindasTouch": true,
+      "lindasTouchReason": "Linda’s make-ahead note",
+      "occasions": [
+        "christmas-morning"
+      ]
+    },
+    "grandmas-mint-jelly": {
+      "lindasTouch": true,
+      "lindasTouchReason": "Linda’s notes: mint flavouring, jars sealed upside down",
+      "occasions": [
+        "easter-spring",
+        "sunday-dinner"
+      ]
+    },
+    "pignoli-cookies": {
+      "lindasTouch": true,
+      "lindasTouchReason": "Linda settled on 15 minutes",
+      "occasions": [
+        "christmas-eve"
+      ]
+    },
+    "baked-brie-with-walnuts-and-brown-sugar": {
+      "occasions": [
+        "christmas-eve"
+      ]
+    },
+    "holiday-scalloped-potatoes": {
+      "occasions": [
+        "christmas-eve",
+        "thanksgiving"
+      ]
+    },
+    "make-ahead-chocolate-souffles": {
+      "occasions": [
+        "christmas-eve"
+      ],
+      "extraContributors": [
+        "family-files"
+      ]
+    },
+    "christmas-toffee": {
+      "occasions": [
+        "christmas-eve"
+      ]
+    },
+    "gingerbread-houses": {
+      "occasions": [
+        "christmas-eve"
+      ]
+    },
+    "sticky-buns": {
+      "occasions": [
+        "christmas-morning"
+      ]
+    },
+    "eggs-benedict": {
+      "occasions": [
+        "christmas-morning"
+      ]
+    },
+    "warm-challah-bread-pudding": {
+      "occasions": [
+        "christmas-morning"
+      ]
+    },
+    "crepes": {
+      "occasions": [
+        "christmas-morning"
+      ]
+    },
+    "thanksgiving-pizza": {
+      "occasions": [
+        "thanksgiving"
+      ]
+    },
+    "baked-macaroni-and-cheese": {
+      "occasions": [
+        "thanksgiving"
+      ]
+    },
+    "rice-pilaf-with-dried-fruit-nuts-and-spice": {
+      "occasions": [
+        "thanksgiving"
+      ]
+    },
+    "roast-potatoes": {
+      "occasions": [
+        "thanksgiving",
+        "sunday-dinner"
+      ]
+    },
+    "apple-sauce": {
+      "occasions": [
+        "thanksgiving"
+      ]
+    },
+    "pecan-tassies": {
+      "occasions": [
+        "thanksgiving"
+      ],
+      "cardScan": null,
+      "extraContributors": [
+        "family-files"
+      ]
+    },
+    "butterflied-leg-of-lamb": {
+      "occasions": [
+        "easter-spring"
+      ],
+      "extraContributors": [
+        "family-files"
+      ]
+    },
+    "lollipop-lamb-chops": {
+      "occasions": [
+        "easter-spring"
+      ]
+    },
+    "lemon-asparagus-and-pea-risotto": {
+      "occasions": [
+        "easter-spring"
+      ]
+    },
+    "strawberry-rhubarb-crisp": {
+      "occasions": [
+        "easter-spring"
+      ]
+    },
+    "lemon-cake": {
+      "occasions": [
+        "easter-spring"
+      ]
+    },
+    "lemon-sponge": {
+      "occasions": [
+        "easter-spring"
+      ],
+      "extraContributors": [
+        "family-files"
+      ],
+      "cardScan": null
+    },
+    "coconut-cake": {
+      "occasions": [
+        "sunday-dinner"
+      ],
+      "extraContributors": [
+        "family-files"
+      ],
+      "cardScan": null
+    },
+    "fresh-summer-corn-chowder": {
+      "occasions": [
+        "summer"
+      ]
+    },
+    "corn-and-avocado-salad": {
+      "occasions": [
+        "summer"
+      ]
+    },
+    "grilled-block-island-sea-bass": {
+      "occasions": [
+        "summer"
+      ]
+    },
+    "kathys-caesar-salad": {
+      "occasions": [
+        "summer"
+      ]
+    },
+    "bills-shrimp-cocktail": {
+      "occasions": [
+        "summer"
+      ]
+    },
+    "kielbasa": {
+      "occasions": [
+        "summer"
+      ]
+    },
+    "onion-rings": {
+      "occasions": [
+        "summer"
+      ]
+    },
+    "blackberry-jam": {
+      "occasions": [
+        "summer"
+      ]
+    },
+    "lorraine-massiminos-meatballs-and-sunday-sauce": {
+      "occasions": [
+        "sunday-dinner"
+      ]
+    },
+    "cristinas-lasagna": {
+      "occasions": [
+        "sunday-dinner"
+      ]
+    },
+    "zuni-cafe-roast-chicken-with-bread-salad": {
+      "occasions": [
+        "sunday-dinner"
+      ]
+    },
+    "andrews-roast-chicken": {
+      "occasions": [
+        "sunday-dinner"
+      ]
+    },
+    "aunt-karens-no-knead-bread-with-herb-butter": {
+      "occasions": [
+        "sunday-dinner"
+      ]
+    },
+    "angelas-moms-gnocchi": {
+      "occasions": [
+        "sunday-dinner"
+      ]
+    }
+  }
+}

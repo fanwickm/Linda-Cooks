@@ -1,0 +1,36 @@
+---
+import Base from "../layouts/Base.astro";
+import RecipeCard from "../components/RecipeCard.astro";
+import { recipes } from "../lib/data";
+---
+<Base title="Saved recipes">
+  <div class="container-page pt-6 sm:pt-10">
+    <h1 class="text-4xl sm:text-5xl font-semibold">Saved recipes</h1>
+    <p class="mt-2 text-ink-soft">Tap the ♥ on any recipe to keep it here. Saved on this device — no account needed.</p>
+    <div class="mt-4 flex flex-wrap gap-2">
+      <a href="/passport" class="chip no-underline">🎉 My recipe passport</a>
+      <a href="/menu" class="chip no-underline">📝 My menu</a>
+    </div>
+    <div class="mt-6 grid gap-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" data-saved-grid>
+      {recipes.map((r) => <div data-saved={r.slug} hidden><RecipeCard recipe={r} /></div>)}
+    </div>
+    <div class="mt-10 text-center card p-8" data-saved-empty hidden>
+      <p class="text-5xl" aria-hidden="true">♡</p>
+      <p class="font-serif text-2xl mt-2">Nothing saved yet</p>
+      <p class="text-ink-soft mt-1">Browse the <a href="/recipes" class="text-tomato underline">recipe box</a> and tap the heart on the ones you love.</p>
+    </div>
+  </div>
+  <script>
+    import { favs } from "../scripts/store";
+    function paint() {
+      const list = favs.all();
+      const grid = document.querySelector("[data-saved-grid]")!;
+      document.querySelectorAll<HTMLElement>("[data-saved]").forEach((el) => (el.hidden = !list.includes(el.dataset.saved!)));
+      // most recently saved first
+      list.forEach((s) => { const el = document.querySelector(`[data-saved="${s}"]`); if (el) grid.appendChild(el); });
+      document.querySelector<HTMLElement>("[data-saved-empty]")!.hidden = list.length > 0;
+    }
+    window.addEventListener("lk:store", paint);
+    paint();
+  </script>
+</Base>

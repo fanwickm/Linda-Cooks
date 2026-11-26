@@ -1,0 +1,144 @@
+{
+  "slug": "pignoli-cookies",
+  "title": "Pignoli Cookies",
+  "chapter": "desserts",
+  "order": 60,
+  "source": "From Alex Audino Ferrari",
+  "contributors": [
+    "alex-audino-ferrari"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes 24",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    }
+  ],
+  "headnote": "From an email Alexandra Audino Ferrari sent Linda in January 2015. Linda added her own notes by hand: bake 15 minutes, use sprayed parchment, and it makes 24.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "½ pound (227 g) almond paste",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "pound",
+          "metric": {
+            "qty": 227.0,
+            "unit": "g",
+            "span": " pound (227 g)"
+          }
+        },
+        {
+          "raw": "1 cup (200 g) granulated sugar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 200.0,
+            "unit": "g",
+            "span": " cup (200 g)"
+          }
+        },
+        {
+          "raw": "2 large egg whites",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "¼ cup (35 g) pine nuts, or more to cover the tops",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup",
+          "metric": {
+            "qty": 35.0,
+            "unit": "g",
+            "span": " cup (35 g)"
+          }
+        },
+        {
+          "raw": "Cooking spray, for the parchment"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Heat the oven to 325°F. Line cookie sheets with parchment and spray it."
+    },
+    {
+      "lead": "Break up the almond paste.",
+      "text": "Use a pastry cutter or food processor to break the almond paste down to a coarse, granulated texture. Put it in a mixing bowl and gradually work in the sugar."
+    },
+    {
+      "lead": "Beat the whites.",
+      "text": "In a separate clean bowl, beat the egg whites until stiff."
+    },
+    {
+      "lead": "Fold.",
+      "text": "Fold the whites gently into the almond paste mixture."
+    },
+    {
+      "lead": "Shape.",
+      "text": "Drop spoonfuls onto the sheets, about 2 inches apart. Press pine nuts into the tops — you want them covered."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Bake about 15 minutes, until lightly golden at the edges."
+    },
+    {
+      "lead": "Cool.",
+      "text": "Let them cool a bit on the pan, then slide the whole sheet of parchment onto wire racks. Peel the cookies off once they are completely cool."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Baking time",
+      "text": "the email said 10 to 12 minutes, and Alex added, “I also recall having to bake them a little longer, but that could be my oven.” Linda settled on 15.",
+      "byLinda": true
+    },
+    {
+      "label": "Pine nuts",
+      "text": "¼ cup covers the tops only sparingly. Most bakery versions use about 1 cup for a batch this size; use as many as it takes.",
+      "byLinda": false
+    },
+    {
+      "label": "Almond paste, not marzipan",
+      "text": "marzipan has much more sugar and the cookies spread flat.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "airtight at room temperature for a week, or frozen for 3 months.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who is Alex to the family, and when do these get made — a Christmas cookie tray?",
+  "isBestGuess": false,
+  "contributorName": "Alex Audino Ferrari",
+  "lindasTouch": true,
+  "lindasTouchReason": "Linda settled on 15 minutes",
+  "occasions": [
+    "christmas-eve"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 35
+}

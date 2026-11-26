@@ -1,0 +1,176 @@
+{
+  "slug": "grandmas-pickled-jalapenos",
+  "title": "Grandma’s Pickled Jalapeños",
+  "chapter": "preserves-pickles-condiments",
+  "order": 78,
+  "source": "From Grandma",
+  "contributors": [
+    "grandma"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes 1 quart jar",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "5 min",
+      "min": 5,
+      "max": 5
+    },
+    {
+      "label": "Rest",
+      "text": "24 hr",
+      "min": 1440,
+      "max": 1440
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 pound (450 g) jalapeños, sliced into ¼-inch rings",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound",
+          "metric": {
+            "qty": 450.0,
+            "unit": "g",
+            "span": " pound (450 g)"
+          }
+        },
+        {
+          "raw": "1 small carrot, sliced into thin coins (optional)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "small"
+        },
+        {
+          "raw": "½ small white onion, sliced (optional)",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "small"
+        },
+        {
+          "raw": "3 garlic cloves, lightly smashed",
+          "qty": 3.0,
+          "qtyText": "3"
+        },
+        {
+          "raw": "1 cup (240 ml) distilled white vinegar, 5% acidity",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 240.0,
+            "unit": "ml",
+            "span": " cup (240 ml)"
+          }
+        },
+        {
+          "raw": "1 cup (240 ml) water",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 240.0,
+            "unit": "ml",
+            "span": " cup (240 ml)"
+          }
+        },
+        {
+          "raw": "1 tablespoon (18 g) pickling or canning salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon",
+          "metric": {
+            "qty": 18.0,
+            "unit": "g",
+            "span": " tablespoon (18 g)"
+          }
+        },
+        {
+          "raw": "1 tablespoon granulated sugar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "½ teaspoon dried oregano, preferably Mexican",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 bay leaf",
+          "qty": 1.0,
+          "qtyText": "1"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Put on gloves.",
+      "text": "Wear disposable gloves to slice the peppers, and do not touch your eyes or face. The oils stay on your skin for hours, even after washing."
+    },
+    {
+      "lead": "Slice and pack.",
+      "text": "Slice the jalapeños into ¼-inch rings, discarding the stems. Pack them into a clean quart jar with the carrot, onion, and garlic, layering as you go."
+    },
+    {
+      "lead": "Make the brine.",
+      "text": "Bring the vinegar, water, salt, sugar, oregano, and bay leaf to a boil in a small saucepan, stirring until the salt and sugar dissolve."
+    },
+    {
+      "lead": "Pour it over.",
+      "text": "Pour the hot brine straight over the peppers until they are submerged. Pouring it hot onto raw peppers keeps them crisp; simmering them in the brine makes them soft."
+    },
+    {
+      "lead": "Cool and wait.",
+      "text": "Let the jar cool to room temperature, uncovered, then close and refrigerate. They are ready in 24 hours and best after 3 days, when the bright green turns olive."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Heat level",
+      "text": "most of the heat is in the seeds and white ribs. For milder pickles, scrape out some of the seeds before slicing.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "keep refrigerated and use within 2 months. Always use a clean fork to take them out of the jar.",
+      "byLinda": false
+    },
+    {
+      "label": "For the pantry",
+      "text": "to make them shelf-stable, follow a tested canning recipe for pickled hot peppers (USDA or Ball) exactly, including its brine and processing time.",
+      "byLinda": false
+    },
+    {
+      "label": "Uses",
+      "text": "nachos, tacos, sandwiches, eggs, or chopped into cornbread batter. The brine is good in a salad dressing.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — sliced jalapeños in a quick refrigerator brine, with optional carrot and onion the way taquerias serve them. Tell me how Grandma made hers: sliced or whole, with carrots or just peppers, sweet or plain, canned or kept in the refrigerator — and what she put them on.",
+  "isBestGuess": true,
+  "contributorName": "Grandma",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 1460
+}

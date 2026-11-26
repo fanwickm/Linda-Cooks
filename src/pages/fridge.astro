@@ -1,0 +1,57 @@
+---
+import Base from "../layouts/Base.astro";
+import RecipeCard from "../components/RecipeCard.astro";
+import { recipes, FRIDGE_ITEMS, fridgeTags, isComplete } from "../lib/data";
+const list = recipes.filter(isComplete).map((r) => ({ r, tags: fridgeTags(r) }));
+---
+<Base title="Fridge Raid">
+  <div class="container-page pt-6 sm:pt-10">
+    <p class="eyebrow">What’s in the kitchen?</p>
+    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">🧊 Fridge Raid</h1>
+    <p class="mt-2 text-lg text-ink-soft max-w-2xl">Tap what you’ve got. We’ll find the family recipes that use the most of it.</p>
+    <div class="mt-6 flex flex-wrap gap-2" role="group" aria-label="What you have">
+      {FRIDGE_ITEMS.map((f) => <button type="button" class="chip" data-item={f.id} aria-pressed="false"><span aria-hidden="true">{f.emoji}</span> {f.label}</button>)}
+    </div>
+    <p class="mt-6 text-ink-soft" data-fr-count aria-live="polite">Pick a few things to get started.</p>
+    <div class="mt-4 grid gap-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" data-fr-grid>
+      {list.map(({ r, tags }) => (
+        <div data-fr={r.slug} data-tags={tags.join(" ")} hidden>
+          <RecipeCard recipe={r} compact />
+          <p class="mt-1.5 text-sm text-sage font-semibold" data-fr-match></p>
+        </div>
+      ))}
+    </div>
+  </div>
+  <script>
+    import { load, save } from "../scripts/store";
+    const btns = [...document.querySelectorAll<HTMLButtonElement>("[data-item]")];
+    const items = [...document.querySelectorAll<HTMLElement>("[data-fr]")];
+    const grid = document.querySelector("[data-fr-grid]")!;
+    const count = document.querySelector("[data-fr-count]")!;
+    const labels = Object.fromEntries(btns.map((b) => [b.dataset.item!, b.textContent!.trim().replace(/^\S+\s/, "")]));
+    let have = new Set<string>(load<string[]>("fridge", []));
+    function apply() {
+      btns.forEach((b) => b.setAttribute("aria-pressed", String(have.has(b.dataset.item!))));
+      save("fridge", [...have]);
+      if (!have.size) { items.forEach((i) => (i.hidden = true)); count.textContent = "Pick a few things to get started."; return; }
+      const scored = items.map((el) => {
+        const tags = el.dataset.tags!.split(" ").filter(Boolean);
+        const hit = tags.filter((t) => have.has(t));
+        return { el, hit, score: hit.length * 10 + (tags.length ? hit.length / tags.length : 0) };
+      }).filter((x) => x.hit.length).sort((a, b) => b.score - a.score);
+      items.forEach((i) => (i.hidden = true));
+      scored.slice(0, 24).forEach(({ el, hit }) => {
+        el.hidden = false;
+        el.querySelector("[data-fr-match]")!.textContent = `Uses your ${hit.map((h) => labels[h].toLowerCase()).join(", ")}`;
+        grid.appendChild(el);
+      });
+      count.textContent = scored.length ? `${scored.length} recipes use something you have${scored.length > 24 ? " — here are the best 24" : ""}.` : "Nothing matches yet — try adding a few more things.";
+    }
+    btns.forEach((b) => b.addEventListener("click", () => {
+      const id = b.dataset.item!;
+      have.has(id) ? have.delete(id) : have.add(id);
+      apply();
+    }));
+    apply();
+  </script>
+</Base>

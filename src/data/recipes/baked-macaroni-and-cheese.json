@@ -1,0 +1,177 @@
+{
+  "slug": "baked-macaroni-and-cheese",
+  "title": "Baked Macaroni and Cheese",
+  "chapter": "pasta-dumplings-grains",
+  "order": 27,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 8",
+    "servings": 8
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "45 min",
+      "min": 45,
+      "max": 45
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 pound elbow macaroni or cavatappi",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "6 tablespoons unsalted butter",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "⅓ cup (40 g) all-purpose flour",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup",
+          "metric": {
+            "qty": 40.0,
+            "unit": "g",
+            "span": " cup (40 g)"
+          }
+        },
+        {
+          "raw": "4 cups whole milk, warmed",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "cups"
+        },
+        {
+          "raw": "1 teaspoon dry mustard",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon paprika, pinch of cayenne",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1½ teaspoons kosher salt, black pepper",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "12 ounces sharp cheddar, grated (about 3 cups)",
+          "qty": 12.0,
+          "qtyText": "12",
+          "unit": "ounces"
+        },
+        {
+          "raw": "4 ounces Gruyère or Monterey Jack, grated (about 1 cup)",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "ounces"
+        }
+      ]
+    },
+    {
+      "name": "Topping",
+      "items": [
+        {
+          "raw": "1 cup panko breadcrumbs",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "2 tablespoons butter, melted",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "¼ cup grated Parmesan",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 375°F and butter a 9×13-inch baking dish."
+    },
+    {
+      "lead": "Undercook the pasta.",
+      "text": "Boil the pasta in well-salted water for 2 minutes less than the package says. Drain and rinse briefly to stop the cooking."
+    },
+    {
+      "lead": "Make the sauce.",
+      "text": "Melt the butter in a large pot over medium heat. Whisk in the flour and cook 2 minutes, without browning. Slowly whisk in the warm milk and cook, whisking, until it thickens enough to coat a spoon, 6 to 8 minutes. Add the mustard, paprika, cayenne, salt, and pepper."
+    },
+    {
+      "lead": "Melt the cheese.",
+      "text": "Take the pot off the heat and stir in the cheese a handful at a time until smooth. Off the heat matters — boiling cheese sauce turns grainy and oily."
+    },
+    {
+      "lead": "Combine.",
+      "text": "Stir the pasta into the sauce. It should look too saucy; the pasta will absorb a lot in the oven. Pour into the dish."
+    },
+    {
+      "lead": "Top and bake.",
+      "text": "Toss the panko with the melted butter and Parmesan and scatter it over. Bake 25 to 30 minutes, until bubbling and golden. Let stand 10 minutes before serving."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Grate your own",
+      "text": "pre-shredded cheese is coated in starch to keep it from clumping, and it melts into a gritty sauce.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "assemble without the topping up to a day ahead. Add the topping and bake 40 minutes, covered for the first 15.",
+      "byLinda": false
+    },
+    {
+      "label": "Stovetop version",
+      "text": "skip the baking and serve straight from the pot, loosened with a little milk.",
+      "byLinda": false
+    },
+    {
+      "label": "Add-ins",
+      "text": "crumbled bacon, caramelized onions, or a spoonful of Dijon in the sauce.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Whose mac and cheese is this, and when does it get made — holidays, kids’ dinners, a side at Thanksgiving? What cheeses go in, and does it have a crumb topping?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "thanksgiving"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 65
+}

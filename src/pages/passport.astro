@@ -1,0 +1,49 @@
+---
+import Base from "../layouts/Base.astro";
+import { recipes, chapters } from "../lib/data";
+const complete = recipes.filter((r) => r.steps.length);
+---
+<Base title="My recipe passport">
+  <div class="container-page pt-6 sm:pt-10">
+    <p class="eyebrow">We made it!</p>
+    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">My recipe passport</h1>
+    <p class="mt-2 text-ink-soft max-w-2xl">Every time you tap “We made it!” on a recipe, it gets a stamp here. Can you cook your way through the whole book?</p>
+    <div class="mt-6 card p-5 sm:p-6 flex flex-wrap items-center gap-6">
+      <div><p class="font-serif text-5xl font-semibold text-tomato" data-made>0</p><p class="text-sm text-ink-soft">of {complete.length} recipes made</p></div>
+      <div class="flex-1 min-w-[12rem]"><div class="h-4 rounded-full bg-paper-2 overflow-hidden"><div class="h-full bg-sage transition-all" style="width:0%" data-bar></div></div></div>
+      <div><p class="font-serif text-3xl font-semibold" data-total>0</p><p class="text-sm text-ink-soft">stamps in all</p></div>
+    </div>
+    {chapters.map((c) => (
+      <section class="mt-10">
+        <h2 class="text-2xl font-semibold">{c.title}</h2>
+        <div class="mt-4 grid gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+          {complete.filter((r) => r.chapter === c.slug).map((r) => (
+            <a href={`/recipes/${r.slug}`} class="passport-slot relative card p-4 no-underline min-h-[7.5rem] flex flex-col justify-between" data-slot={r.slug}>
+              <span class="font-serif font-semibold leading-tight">{r.title}</span>
+              <span class="text-sm text-ink-soft" data-slot-date>Not yet</span>
+              <span class="stamp absolute right-2 top-2 rotate-[-14deg] border-[3px] border-tomato text-tomato rounded-lg px-2 py-0.5 font-bold text-sm uppercase tracking-wide opacity-0 transition" aria-hidden="true">Made it!</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+  <script>
+    import { stamps } from "../scripts/store";
+    const all = stamps.all();
+    const by = new Map<string, string[]>();
+    for (const s of all) by.set(s.slug, [...(by.get(s.slug) ?? []), s.date]);
+    document.querySelectorAll<HTMLElement>("[data-slot]").forEach((el) => {
+      const d = by.get(el.dataset.slot!);
+      if (!d) return;
+      el.querySelector<HTMLElement>(".stamp")!.style.opacity = "1";
+      el.classList.add("!bg-[#fff6f2]");
+      el.querySelector("[data-slot-date]")!.textContent =
+        `${new Date(d[0]).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}${d.length > 1 ? ` · ×${d.length}` : ""}`;
+    });
+    const total = document.querySelectorAll("[data-slot]").length;
+    document.querySelector("[data-made]")!.textContent = String(by.size);
+    document.querySelector("[data-total]")!.textContent = String(all.length);
+    (document.querySelector("[data-bar]") as HTMLElement).style.width = `${(by.size / total) * 100}%`;
+  </script>
+</Base>

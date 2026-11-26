@@ -1,0 +1,143 @@
+{
+  "slug": "roast-potatoes",
+  "title": "Roast Potatoes",
+  "chapter": "vegetables-sides",
+  "order": 49,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "1 hr 10 min",
+      "min": 70,
+      "max": 70
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "3 pounds Yukon Gold or russet potatoes, peeled",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "pounds"
+        },
+        {
+          "raw": "2 tablespoons kosher salt, for the water",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "½ teaspoon baking soda",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "⅓ cup fat: duck fat, beef drippings, or olive oil",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup"
+        },
+        {
+          "raw": "4 garlic cloves, smashed, skins on",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "3 rosemary or thyme sprigs",
+          "qty": 3.0,
+          "qtyText": "3"
+        },
+        {
+          "raw": "Flaky salt and freshly ground black pepper"
+        },
+        {
+          "raw": "2 tablespoons chopped parsley, to finish (optional)",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven and the fat.",
+      "text": "Set the oven to 450°F. Put the fat in a large rimmed sheet pan or roasting tin and put it in the oven to get very hot while you prepare the potatoes."
+    },
+    {
+      "lead": "Cut the potatoes.",
+      "text": "Cut into large chunks, about 2 inches, with plenty of flat sides and corners. Corners are what crisp."
+    },
+    {
+      "lead": "Parboil.",
+      "text": "Put the potatoes in a pot of cold water with the salt and baking soda. Bring to a boil and cook 8 to 10 minutes, until a knife meets just a little resistance at the center and the outsides are soft. The baking soda helps rough up the surface."
+    },
+    {
+      "lead": "Rough them up.",
+      "text": "Drain well and let steam dry in the colander for 2 minutes. Then shake the colander hard, or toss the potatoes in the pot with the lid on, until the edges are fuzzy and broken. That rough, starchy surface is the whole secret."
+    },
+    {
+      "lead": "Into the hot fat.",
+      "text": "Pull the pan from the oven and carefully tip the potatoes in — they should sizzle on contact. Turn each one to coat in the fat and spread them out in a single layer with space between."
+    },
+    {
+      "lead": "Roast.",
+      "text": "Roast 30 minutes, then turn every piece. Add the garlic and herbs and roast another 20 to 30 minutes, turning once more, until deep golden brown and audibly crisp when tapped with a spoon."
+    },
+    {
+      "lead": "Season and serve.",
+      "text": "Season immediately with flaky salt and pepper, scatter with parsley, and serve straight away. They lose their crunch as they sit."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Russet or Yukon",
+      "text": "russets give the crunchiest, fluffiest result; Yukon Golds are creamier inside and a little more forgiving.",
+      "byLinda": false
+    },
+    {
+      "label": "Don’t crowd",
+      "text": "potatoes packed together steam instead of roasting. Use two pans if needed.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "parboil and rough up the potatoes up to 4 hours ahead; leave them uncovered on a tray at room temperature, then roast when needed.",
+      "byLinda": false
+    },
+    {
+      "label": "Sharing the oven",
+      "text": "if the roast needs a lower temperature, start the potatoes on a lower rack alongside the roast, then turn the oven up to 450°F while the meat rests and roast them 20 to 30 minutes more to crisp.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — parboiled, roughed up, and roasted in hot fat until crisp. Who makes these, and what goes alongside — the Christmas roast, the lamb, Sunday dinner? Tell me if yours use duck fat, butter, or olive oil, and whether there are herbs.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "thanksgiving",
+    "sunday-dinner"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 85
+}

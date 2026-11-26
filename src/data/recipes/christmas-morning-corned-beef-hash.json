@@ -1,0 +1,172 @@
+{
+  "slug": "christmas-morning-corned-beef-hash",
+  "title": "Christmas Morning Corned Beef Hash",
+  "chapter": "breads-breakfast",
+  "order": 58,
+  "source": "Christmas morning",
+  "contributors": [],
+  "occasionText": "Christmas morning",
+  "yield": {
+    "text": "Serves 4–6",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    }
+  ],
+  "headnote": "Corned beef hash has become the family’s post-present-opening tradition on Christmas morning — the hearty breakfast that comes after the gifts. “Can make w/o eggs ahead — reheat Xmas morning.” — Linda",
+  "quotes": [
+    {
+      "by": "linda-mitchell",
+      "text": "Can make w/o eggs ahead — reheat Xmas morning.",
+      "context": null,
+      "span": "“Can make w/o eggs ahead — reheat Xmas morning.” — Linda"
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1½ pounds Yukon Gold or russet potatoes (or 3 cups diced leftover boiled potatoes)",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "pounds"
+        },
+        {
+          "raw": "2 tablespoons unsalted butter",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 tablespoons neutral oil or bacon fat",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 medium onion, diced",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "medium"
+        },
+        {
+          "raw": "1 red bell pepper, diced (optional)",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "2–2½ cups cooked corned beef, cut into ½-inch dice",
+          "qty": [
+            2.0,
+            2.5
+          ],
+          "qtyText": "2–2½",
+          "unit": "cups"
+        },
+        {
+          "raw": "2 sausage links, sliced — Linda often adds them; what kind?",
+          "qty": 2.0,
+          "qtyText": "2",
+          "gaps": [
+            "what kind?"
+          ]
+        },
+        {
+          "raw": "½ teaspoon garlic powder (optional)",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 teaspoon Worcestershire sauce",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Kosher salt and freshly ground black pepper"
+        },
+        {
+          "raw": "6 large eggs (1 per person)",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "large"
+        },
+        {
+          "raw": "Chopped parsley, to finish"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Cook the potatoes.",
+      "text": "If starting with raw potatoes, cut into ½-inch dice, cover with cold salted water, bring to a boil, and simmer 5 to 6 minutes, until just tender. Drain and spread out to steam dry. Leftover potatoes can go straight in."
+    },
+    {
+      "lead": "Brown the sausage, then the onion.",
+      "text": "Heat the butter and oil in a large cast-iron or heavy nonstick skillet over medium heat. If using sausage, brown the slices first, 4 to 5 minutes, and lift them out. Cook the onion and pepper 5 to 7 minutes, until soft."
+    },
+    {
+      "lead": "Crisp the potatoes.",
+      "text": "Add the potatoes and spread into an even layer. Press down with a spatula and leave them alone 5 to 6 minutes, until a deep brown crust forms on the bottom. Turn in sections and press again. Repeat once or twice."
+    },
+    {
+      "lead": "Add the corned beef.",
+      "text": "Stir in the corned beef, the browned sausage, the garlic powder, and Worcestershire. Press flat again and cook without stirring 5 minutes more, until the beef crisps at the edges. Season with pepper; taste before adding salt, since corned beef is salty."
+    },
+    {
+      "lead": "Add the eggs.",
+      "text": "Make 6 wells in the hash with the back of a spoon and crack an egg into each. Cover the pan and cook over medium-low 4 to 6 minutes, until the whites are set and the yolks still runny. Or fry or poach the eggs separately."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Scatter with parsley and bring the skillet to the table."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Linda’s make-ahead",
+      "text": "make the hash without the eggs the day before. On Christmas morning, reheat it in the skillet, pressing it flat to re-crisp, then add the eggs.",
+      "byLinda": true
+    },
+    {
+      "label": "The crust is the point",
+      "text": "resist stirring. Every time you press and wait, you get more crisp brown bits.",
+      "byLinda": false
+    },
+    {
+      "label": "Canned corned beef",
+      "text": "break it into chunks and add it with the potatoes.",
+      "byLinda": false
+    },
+    {
+      "label": "To serve",
+      "text": "ketchup, hot sauce, or a spoonful of hollandaise.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Linda’s notes suggest she makes the hash — is that right? And what kind of sausage goes in?",
+  "isBestGuess": false,
+  "lindasTouch": true,
+  "lindasTouchReason": "Linda’s make-ahead note",
+  "occasions": [
+    "christmas-morning"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 45
+}

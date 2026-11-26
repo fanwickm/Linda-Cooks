@@ -1,0 +1,145 @@
+{
+  "slug": "roasted-cauliflower",
+  "title": "Roasted Cauliflower",
+  "chapter": "vegetables-sides",
+  "order": 47,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4–6",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "10 min",
+      "min": 10,
+      "max": 10
+    },
+    {
+      "label": "Cook",
+      "text": "30–40 min",
+      "min": 30,
+      "max": 40
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 large head cauliflower (about 2½ pounds)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "3 tablespoons extra-virgin olive oil",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 teaspoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon freshly ground black pepper",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "¼ teaspoon red pepper flakes (optional)",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 garlic cloves, thinly sliced (optional, added late)",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "½ lemon",
+          "qty": 0.5,
+          "qtyText": "½"
+        },
+        {
+          "raw": "¼ cup finely grated Parmesan (optional)",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "2 tablespoons chopped parsley (optional)",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven high.",
+      "text": "Set it to 425°F and put a rimmed sheet pan in while it heats. A hot pan is the difference between roasted and steamed."
+    },
+    {
+      "lead": "Cut the cauliflower.",
+      "text": "Pull off the leaves and trim the stem flat. Quarter the head through the core, then cut into 1½-inch florets, letting each one keep a flat cut side — that flat face is what browns. Slice the tender core and roast it too."
+    },
+    {
+      "lead": "Season.",
+      "text": "Toss the florets in a large bowl with the olive oil, salt, pepper, and pepper flakes until evenly coated. Do not be shy with the oil; dry cauliflower turns leathery."
+    },
+    {
+      "lead": "Spread it out.",
+      "text": "Carefully tip the cauliflower onto the hot pan and arrange it in a single layer, flat sides down, with space between the pieces. Crowding is the most common mistake here — use two pans if you need to."
+    },
+    {
+      "lead": "Roast.",
+      "text": "Roast 20 minutes without touching it, until the undersides are deeply browned. Turn the pieces, scatter over the garlic if using, and roast another 10 to 20 minutes, until the edges are dark brown and a paring knife slides through the stems with no resistance."
+    },
+    {
+      "lead": "Finish.",
+      "text": "Squeeze the lemon over the hot pan and toss. Add the Parmesan and parsley if you like, and serve warm or at room temperature."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Don’t stop early",
+      "text": "the color you are looking for is mahogany at the edges, almost burnt in spots. That is where the sweetness comes from.",
+      "byLinda": false
+    },
+    {
+      "label": "Whole-head version",
+      "text": "rub a whole trimmed head with the oil and salt, roast at 425°F for 50 to 60 minutes, and cut it into wedges at the table.",
+      "byLinda": false
+    },
+    {
+      "label": "Variations",
+      "text": "a spoonful of capers and their brine at the end; a tablespoon of curry powder in the oil; toasted breadcrumbs and lemon zest over the top.",
+      "byLinda": false
+    },
+    {
+      "label": "Reheating",
+      "text": "best straight from the oven, but it reheats well on a sheet pan at 400°F for 8 minutes. Never in the microwave.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes this, and when does it show up — weeknights, holidays, both? Tell me if your version adds anything (curry, capers, breadcrumbs) or is served whole.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 40
+}

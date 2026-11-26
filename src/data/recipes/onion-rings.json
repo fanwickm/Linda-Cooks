@@ -1,0 +1,151 @@
+{
+  "slug": "onion-rings",
+  "title": "Onion Rings",
+  "chapter": "vegetables-sides",
+  "order": 51,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4–6",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 large sweet or yellow onions",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "1 cup all-purpose flour, plus ½ cup for dredging",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "¼ cup cornstarch",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 teaspoon baking powder",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 teaspoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon sweet paprika",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 cup cold beer (a lager or pilsner), or cold sparkling water",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "About 2 quarts neutral oil (peanut or canola), for frying",
+          "qty": 2.0,
+          "qtyText": "2",
+          "qtyPrefix": "About ",
+          "unit": "quarts"
+        },
+        {
+          "raw": "Flaky salt, for finishing"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Slice the onions.",
+      "text": "Peel and cut into ½-inch rounds, then separate into rings. Save the tiny center rings for something else."
+    },
+    {
+      "lead": "Heat the oil.",
+      "text": "Pour oil into a heavy, deep pot to a depth of at least 2 inches, never more than halfway up the sides. Heat over medium-high to 375°F on a deep-fry thermometer. Set a wire rack over a sheet pan nearby."
+    },
+    {
+      "lead": "Make the batter.",
+      "text": "Whisk the 1 cup flour, cornstarch, baking powder, salt, and paprika together. Pour in the cold beer and whisk just until smooth — a few small lumps are fine. Make it right before frying; the bubbles are what make it light."
+    },
+    {
+      "lead": "Dredge, then dip.",
+      "text": "Toss a handful of rings in the dredging flour and shake off the excess. The dry coat helps the batter cling. Then dip each ring in the batter and let the excess drip off."
+    },
+    {
+      "lead": "Fry in small batches.",
+      "text": "Lower 4 to 6 rings into the oil, one at a time, away from you. Fry 2 to 3 minutes, turning once, until deep golden. Crowding drops the oil temperature and makes greasy rings."
+    },
+    {
+      "lead": "Drain and salt.",
+      "text": "Lift onto the wire rack — not paper towels, which steam the bottoms soft — and salt immediately while still glistening. Let the oil return to 375°F before the next batch."
+    },
+    {
+      "lead": "Serve hot.",
+      "text": "Keep finished rings warm in a 200°F oven on the rack while you fry the rest. Serve within minutes."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Frying safety",
+      "text": "never leave the pot, keep a lid and baking soda within reach, and never put water on an oil fire. Let the oil cool completely before moving or discarding it.",
+      "byLinda": false
+    },
+    {
+      "label": "Buttermilk version",
+      "text": "soak the rings in buttermilk for 30 minutes, then dredge in seasoned flour (or flour and panko) and fry the same way.",
+      "byLinda": false
+    },
+    {
+      "label": "Thermometer",
+      "text": "the single most useful tool here. Oil that is too cool makes greasy rings; too hot burns the batter before the onion softens.",
+      "byLinda": false
+    },
+    {
+      "label": "Reusing the oil",
+      "text": "strain cooled oil through a fine sieve and store it covered; it is good for two or three more rounds of frying.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — a light beer batter. Who makes these, and when — summer cookouts, burger nights? Tell me if yours use a buttermilk soak and flour dredge, or breadcrumbs, instead.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "summer"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 40
+}

@@ -1,0 +1,262 @@
+{
+  "slug": "sticky-buns",
+  "title": "Sticky Buns",
+  "chapter": "breads-breakfast",
+  "order": 55,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes 12 buns",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "40 min",
+      "min": 40,
+      "max": 40
+    },
+    {
+      "label": "Cook",
+      "text": "25–30 min",
+      "min": 25,
+      "max": 30
+    },
+    {
+      "label": "Rise",
+      "text": "2½ hr, or overnight",
+      "min": 150,
+      "max": 150
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Dough",
+      "items": [
+        {
+          "raw": "3¾ cups (490 g) all-purpose flour",
+          "qty": 3.75,
+          "qtyText": "3¾",
+          "unit": "cups",
+          "metric": {
+            "qty": 490.0,
+            "unit": "g",
+            "span": " cups (490 g)"
+          }
+        },
+        {
+          "raw": "¼ cup (50 g) granulated sugar",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup",
+          "metric": {
+            "qty": 50.0,
+            "unit": "g",
+            "span": " cup (50 g)"
+          }
+        },
+        {
+          "raw": "2¼ teaspoons (1 packet, 7 g) instant yeast",
+          "qty": 2.25,
+          "qtyText": "2¼",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1 teaspoon (6 g) fine salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon",
+          "metric": {
+            "qty": 6.0,
+            "unit": "g",
+            "span": " teaspoon (6 g)"
+          }
+        },
+        {
+          "raw": "1 cup (240 g) whole milk, warmed to about 105°F",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 240.0,
+            "unit": "g",
+            "span": " cup (240 g)"
+          }
+        },
+        {
+          "raw": "2 large eggs, at room temperature",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "6 tablespoons (85 g) unsalted butter, softened",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 85.0,
+            "unit": "g",
+            "span": " tablespoons (85 g)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Goo",
+      "items": [
+        {
+          "raw": "¾ cup (165 g) packed light brown sugar",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup",
+          "metric": {
+            "qty": 165.0,
+            "unit": "g",
+            "span": " cup (165 g)"
+          }
+        },
+        {
+          "raw": "6 tablespoons (85 g) unsalted butter",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 85.0,
+            "unit": "g",
+            "span": " tablespoons (85 g)"
+          }
+        },
+        {
+          "raw": "3 tablespoons (60 g) honey or light corn syrup",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 60.0,
+            "unit": "g",
+            "span": " tablespoons (60 g)"
+          }
+        },
+        {
+          "raw": "¼ cup (60 g) heavy cream",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup",
+          "metric": {
+            "qty": 60.0,
+            "unit": "g",
+            "span": " cup (60 g)"
+          }
+        },
+        {
+          "raw": "Pinch of salt"
+        },
+        {
+          "raw": "1¼ cups (140 g) pecans, toasted and roughly chopped",
+          "qty": 1.25,
+          "qtyText": "1¼",
+          "unit": "cups",
+          "metric": {
+            "qty": 140.0,
+            "unit": "g",
+            "span": " cups (140 g)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Filling",
+      "items": [
+        {
+          "raw": "4 tablespoons (56 g) unsalted butter, very soft",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 56.0,
+            "unit": "g",
+            "span": " tablespoons (56 g)"
+          }
+        },
+        {
+          "raw": "½ cup (110 g) packed brown sugar mixed with 1 tablespoon cinnamon",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 110.0,
+            "unit": "g",
+            "span": " cup (110 g)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make the dough.",
+      "text": "Mix the flour, sugar, yeast, and salt. Add the warm milk and eggs and mix to a shaggy dough, then knead in the soft butter a piece at a time. Knead 8 to 10 minutes (6 with a dough hook) until smooth and soft. Cover and let rise 1 to 1½ hours, until doubled."
+    },
+    {
+      "lead": "Make the goo.",
+      "text": "Melt the brown sugar, butter, honey, cream, and salt together in a saucepan, stirring, and bring just to a boil. Pour into a buttered 9×13-inch pan and scatter the pecans over it."
+    },
+    {
+      "lead": "Roll and fill.",
+      "text": "Roll the dough on a lightly floured surface into an 18×12-inch rectangle. Spread with the soft butter, leaving a 1-inch strip bare along one long edge, and sprinkle evenly with the cinnamon sugar."
+    },
+    {
+      "lead": "Roll up and cut.",
+      "text": "Roll up tightly from the long filled side and pinch the seam. Cut into 12 even pieces with a sharp serrated knife or unflavored dental floss. Set them cut side down on the pecans."
+    },
+    {
+      "lead": "Second rise.",
+      "text": "Cover and let rise 45 to 60 minutes, until puffy and touching. Heat the oven to 350°F."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Bake 25 to 30 minutes, until deep golden and the center bun reads 190°F. Set a rimmed sheet pan on the rack below to catch drips."
+    },
+    {
+      "lead": "Invert while warm.",
+      "text": "Let rest 5 minutes — no longer, or the goo sets in the pan. Run a knife around the edge, put a large platter or sheet pan on top, and flip in one confident motion. Scrape any pecans left in the pan onto the buns."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Overnight version",
+      "text": "after shaping, cover and refrigerate up to 16 hours. In the morning, let them sit at room temperature 1 to 1½ hours until puffy, then bake.",
+      "byLinda": false
+    },
+    {
+      "label": "Careful",
+      "text": "the hot goo is dangerous. Use oven mitts and flip away from you.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "best the day they are baked. Rewarm leftovers covered at 300°F for 10 minutes.",
+      "byLinda": false
+    },
+    {
+      "label": "Without nuts",
+      "text": "leave the pecans out entirely; the goo works on its own.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — soft yeasted buns baked over brown sugar, butter, and pecans. Who makes these, and when — Christmas morning, birthdays? Tell me if yours have raisins, no nuts, or a cinnamon-roll style filling.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "christmas-morning"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 215
+}

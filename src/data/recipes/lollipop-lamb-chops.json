@@ -1,0 +1,147 @@
+{
+  "slug": "lollipop-lamb-chops",
+  "title": "Lollipop Lamb Chops",
+  "chapter": "meat",
+  "order": 36,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4 as a main, 8–10 as an appetizer",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "8 min",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "label": "Marinate",
+      "text": "1–8 hr",
+      "min": 60,
+      "max": 480
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 frenched racks of lamb (about 1½ pounds each), cut into single-bone chops",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "3 garlic cloves, grated",
+          "qty": 3.0,
+          "qtyText": "3"
+        },
+        {
+          "raw": "1 tablespoon fresh rosemary, finely chopped",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 teaspoon fresh thyme leaves",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "3 tablespoons olive oil, plus more for the pan",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 teaspoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon freshly ground black pepper",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Flaky salt and lemon wedges, to serve"
+        },
+        {
+          "raw": "Grandma’s Mint Jelly (Chapter 12), to serve"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Cut the chops.",
+      "text": "Stand each rack up and slice down between the bones into single chops. Clean any meat off the exposed bones with a paring knife so they look like handles."
+    },
+    {
+      "lead": "Season.",
+      "text": "Toss the chops with the garlic, rosemary, thyme, olive oil, salt, and pepper. Refrigerate 1 to 8 hours, then let sit at room temperature 20 minutes."
+    },
+    {
+      "lead": "Heat the pan hard.",
+      "text": "Heat a large cast-iron skillet over medium-high until it just starts to smoke. Add a thin film of oil."
+    },
+    {
+      "lead": "Sear in batches.",
+      "text": "Lay in the chops without crowding. Cook 2 to 3 minutes per side, until browned and the center reads 125–130°F for medium-rare. Stand them on their fatty edge for 30 seconds to render it."
+    },
+    {
+      "lead": "Rest briefly.",
+      "text": "Rest on a platter 5 minutes. Sprinkle with flaky salt."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Pass with lemon wedges and mint jelly, and let people pick them up by the bone."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Frenching",
+      "text": "most butchers will french the racks for you if you ask; it saves a lot of fiddly work.",
+      "byLinda": false
+    },
+    {
+      "label": "On the grill",
+      "text": "grill over high heat 2 to 3 minutes per side. Wrap the bones in foil if you want them to stay clean.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "the chops can sit in the marinade all day. Cook them right before serving; they cool fast.",
+      "byLinda": false
+    },
+    {
+      "label": "Smoke alarm warning",
+      "text": "a hot cast-iron pan full of lamb fat smokes. Turn on the fan before you start.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — frenched rib chops, seared and finished hot. Who makes these, and when do they show up (holidays, birthdays, as an appetizer)? Are they marinated, and are they served with the mint jelly?",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "easter-spring"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 83
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "lindas-christmas-eve-halibut",
+  "title": "Linda’s Christmas Eve Halibut",
+  "chapter": "fish-shellfish",
+  "order": 45,
+  "source": "From Linda  ·  Christmas Eve",
+  "contributors": [
+    "linda-mitchell"
+  ],
+  "occasionText": "Christmas Eve",
+  "yield": {
+    "text": "Serves 4",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "25 min",
+      "min": 25,
+      "max": 25
+    },
+    {
+      "label": "Cook",
+      "text": "8–10 min",
+      "min": 8,
+      "max": 10
+    },
+    {
+      "label": "Pickle",
+      "text": "20 min–1 hr",
+      "min": 20,
+      "max": 60
+    }
+  ],
+  "headnote": "Linda always serves this on Christmas Eve. Her recipe is the Chinese five-spice halibut with pickled red pepper and ginger from Fine Cooking magazine (April/May 2008); on her copy of the first draft she crossed out the peppers and onions and wrote this pickle and rub in by hand. She always makes three times the magazine’s amount of pickled vegetables.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Pickle — Linda’s triple batch",
+      "items": [
+        {
+          "raw": "2 cups very thinly sliced red bell pepper (about 1½ peppers)",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups"
+        },
+        {
+          "raw": "1½ tablespoons peeled, very finely julienned fresh ginger",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 tablespoon peanut or vegetable oil",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "3 garlic cloves, thinly sliced",
+          "qty": 3.0,
+          "qtyText": "3"
+        },
+        {
+          "raw": "6 tablespoons seasoned rice vinegar",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "6 tablespoons mirin",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "3 scallions, cut into 1- to 1½-inch lengths and thinly slivered",
+          "qty": 3.0,
+          "qtyText": "3"
+        },
+        {
+          "raw": "1 tablespoon toasted sesame oil",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        }
+      ]
+    },
+    {
+      "name": "Spice rub",
+      "items": [
+        {
+          "raw": "1 tablespoon finely grated orange zest",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 tablespoon light brown sugar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1½ teaspoons kosher salt",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1 teaspoon five-spice powder",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon freshly ground black pepper",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "⅛ teaspoon cayenne",
+          "qty": 0.125,
+          "qtyText": "⅛",
+          "unit": "teaspoon"
+        }
+      ]
+    },
+    {
+      "name": "Fish",
+      "items": [
+        {
+          "raw": "4 skinless halibut fillets, about 6 ounces each — square, compact pieces if you can",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "3 tablespoons peanut or vegetable oil",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Heat the oven to 425°F."
+    },
+    {
+      "lead": "Make the pickle.",
+      "text": "Put the red pepper and ginger in a heatproof bowl. Heat the oil in a small saucepan over medium-high, add the garlic, and stir until lightly golden, about 1 minute. Add the vinegar, mirin, and 6 tablespoons water and bring to a boil. Pour the boiling liquid over the pepper and ginger and let sit at room temperature at least 20 minutes and up to 1 hour."
+    },
+    {
+      "lead": "Mix the rub.",
+      "text": "Mix the orange zest, brown sugar, salt, five-spice, pepper, and cayenne, rubbing the zest into the spices with your fingertips."
+    },
+    {
+      "lead": "Sear.",
+      "text": "Coat the fillets on all sides with the rub. Heat the oil in a heavy 12-inch ovenproof skillet over medium-high until shimmering. Lay in the fillets, skinned side up, and sear without moving for about 2 minutes, until nicely browned. Lift one with a slotted spatula to check, and turn the heat down if the sugar starts to burn."
+    },
+    {
+      "lead": "Finish in the oven.",
+      "text": "Flip the fillets and put the pan in the oven. Roast 5 to 6 minutes, until just cooked in the middle (about 130°F). If the fillets are thick, watch that the rub on the edges does not burn."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Drain the pickle, discarding the liquid, and toss it with the scallions and sesame oil. Top each piece of halibut generously with the pickle and pass the rest at the table."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The sugar burns fast",
+      "text": "the brown sugar in the rub makes the crust, and it is also what scorches. Keep the heat at medium-high, not high.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "the pickle can sit up to an hour, and the rub can be mixed earlier in the day. Rub the fish only just before searing.",
+      "byLinda": false
+    },
+    {
+      "label": "Bigger crowd",
+      "text": "the recipe multiplies easily. Sear in batches, then finish all the fillets together on a sheet pan in the oven.",
+      "byLinda": false
+    },
+    {
+      "label": "Linda’s triple pickle",
+      "text": "the magazine’s amounts are one-third of these. The extra pickle is the point: everyone takes more at the table.",
+      "byLinda": true
+    }
+  ],
+  "openQuestion": null,
+  "isBestGuess": false,
+  "contributorName": "Linda",
+  "lindasTouch": true,
+  "lindasTouchReason": "Linda’s own recipe",
+  "occasions": [
+    "christmas-eve"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 53
+}

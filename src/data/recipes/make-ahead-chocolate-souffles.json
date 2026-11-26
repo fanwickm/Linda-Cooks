@@ -1,0 +1,177 @@
+{
+  "slug": "make-ahead-chocolate-souffles",
+  "title": "Make-Ahead Chocolate Soufflés",
+  "chapter": "desserts",
+  "order": 68,
+  "source": null,
+  "contributors": [
+    "family-files"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6–8",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "label": "Cook",
+      "text": "16–18 min",
+      "min": 16,
+      "max": 18
+    },
+    {
+      "label": "Freeze",
+      "text": "at least 3 hr",
+      "min": 180,
+      "max": 180
+    }
+  ],
+  "headnote": "From a printed recipe in the family files. The soufflés are filled and frozen in their ramekins up to two days ahead, then baked straight from the freezer — no last-minute whipping while guests are at the table.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "5 tablespoons unsalted butter — 1 tablespoon softened, the rest cut into ¼-inch pieces",
+          "qty": 5.0,
+          "qtyText": "5",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "⅓ cup (65 g) sugar, plus 1 tablespoon for the ramekins",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup",
+          "metric": {
+            "qty": 65.0,
+            "unit": "g",
+            "span": " cup (65 g)"
+          }
+        },
+        {
+          "raw": "8 ounces (225 g) bittersweet or semisweet chocolate, chopped",
+          "qty": 8.0,
+          "qtyText": "8",
+          "unit": "ounces",
+          "metric": {
+            "qty": 225.0,
+            "unit": "g",
+            "span": " ounces (225 g)"
+          }
+        },
+        {
+          "raw": "⅛ teaspoon table salt",
+          "qty": 0.125,
+          "qtyText": "⅛",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon vanilla extract",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 tablespoon orange liqueur, preferably Grand Marnier",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "6 large egg yolks",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "large"
+        },
+        {
+          "raw": "8 large egg whites",
+          "qty": 8.0,
+          "qtyText": "8",
+          "unit": "large"
+        },
+        {
+          "raw": "¼ teaspoon cream of tartar",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 tablespoons confectioners’ sugar",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Prepare the ramekins.",
+      "text": "Coat eight 1-cup ramekins with the softened butter, then with the 1 tablespoon sugar. Refrigerate."
+    },
+    {
+      "lead": "Melt the chocolate.",
+      "text": "Melt the chocolate and remaining butter in a bowl set over simmering water. Off the heat, stir in the salt, vanilla, and liqueur."
+    },
+    {
+      "lead": "Make the yolk base.",
+      "text": "Bring the ⅓ cup sugar and 2 tablespoons water to a boil and simmer until the sugar dissolves. With the mixer running, slowly pour the syrup into the yolks and beat until tripled in volume, about 3 minutes. Fold into the chocolate. Clean the beaters."
+    },
+    {
+      "lead": "Whip the whites.",
+      "text": "Beat the whites until frothy, add the cream of tartar, and beat to soft peaks. Add the confectioners’ sugar and beat to stiff peaks — firm enough to hold the weight of an egg in its shell set on top."
+    },
+    {
+      "lead": "Fold and fill.",
+      "text": "Vigorously stir a quarter of the whites into the chocolate, then gently fold in the rest until just combined. Fill each ramekin almost to the rim and wipe the rims clean."
+    },
+    {
+      "lead": "Freeze.",
+      "text": "Cover and freeze until firm, at least 3 hours and up to 2 days."
+    },
+    {
+      "lead": "Bake from frozen.",
+      "text": "Heat the oven to 400°F with a rack in the lower-middle position. Bake the frozen soufflés 16 to 18 minutes, until fragrant and fully risen. Pull one open with two spoons to peek; if it is not done, return it to the oven. Serve immediately."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Individual soufflés only",
+      "text": "the freezer method does not work for one large soufflé.",
+      "byLinda": false
+    },
+    {
+      "label": "Mocha version",
+      "text": "dissolve 1 tablespoon instant coffee in 1 tablespoon hot water and add it with the vanilla.",
+      "byLinda": false
+    },
+    {
+      "label": "Microwave melting",
+      "text": "melt the chocolate at 50 percent power for 3 minutes, stirring in the butter after 2.",
+      "byLinda": false
+    },
+    {
+      "label": "At the table",
+      "text": "break the tops with a spoon and pour in a little cold cream.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes these, and for what occasion? The printout looks like it came from Cook’s Illustrated — can you confirm?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "christmas-eve"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 226
+}

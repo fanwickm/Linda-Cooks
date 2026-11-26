@@ -1,0 +1,162 @@
+{
+  "slug": "christmas-eve-roast-beef",
+  "title": "Christmas Eve Roast Beef",
+  "chapter": "meat",
+  "order": 34,
+  "source": "From Bob Mitchell  ·  Christmas Eve",
+  "contributors": [
+    "bob-mitchell"
+  ],
+  "occasionText": "Christmas Eve",
+  "yield": {
+    "text": "Serves 8",
+    "servings": 8
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "About 2–2½ hr",
+      "min": 120,
+      "max": 150
+    },
+    {
+      "label": "Rest",
+      "text": "15–20 min",
+      "min": 15,
+      "max": 20
+    }
+  ],
+  "headnote": "The star of Christmas Eve dinner and a family favorite. “Getting to 120 degrees in the thickest part of the meat usually takes about 15 minutes per pound when the oven is at 350 degrees. 1 rib bone can usually feed two people.” — Bob Mitchell",
+  "quotes": [
+    {
+      "by": "bob-mitchell",
+      "text": "Getting to 120 degrees in the thickest part of the meat usually takes about 15 minutes per pound when the oven is at 350 degrees. 1 rib bone can usually feed two people.",
+      "context": null,
+      "span": "“Getting to 120 degrees in the thickest part of the meat usually takes about 15 minutes per pound when the oven is at 350 degrees. 1 rib bone can usually feed two people.” — Bob Mitchell"
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 bone-in rib roast — 4 ribs (about 8 pounds) for 8 people; 1 rib feeds about 2. Linda prefers it boned and tied back onto the bones (ask the butcher).",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "20 cloves fresh garlic, peeled",
+          "qty": 20.0,
+          "qtyText": "20",
+          "unit": "cloves"
+        },
+        {
+          "raw": "2 tablespoons kosher salt — “lots and lots of salt”",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 tablespoon freshly ground black pepper",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        }
+      ]
+    },
+    {
+      "name": "Pan jus (optional)",
+      "items": [
+        {
+          "raw": "1 cup beef stock",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "½ cup dry red wine",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "Salt and pepper"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Bring it to room temperature.",
+      "text": "Let the roast sit on the counter for at least one hour."
+    },
+    {
+      "lead": "Heat the oven.",
+      "text": "Heat the oven to 450°F with a rack in the lower third. Set the meat in a proper roasting pan with the ribs facing down."
+    },
+    {
+      "lead": "Stud it with garlic.",
+      "text": "Cut the garlic cloves into halves or thirds. Stab the roast all over with a paring knife and gently insert the garlic pieces into the cuts, so you do not tear up the shape of the meat."
+    },
+    {
+      "lead": "Season.",
+      "text": "Season the entire outside generously with lots and lots of salt and freshly ground pepper."
+    },
+    {
+      "lead": "Sear.",
+      "text": "Roast in the lower third of the oven at 450°F for about 20 minutes to build a deep brown crust."
+    },
+    {
+      "lead": "Roast at 350°F.",
+      "text": "Lower the oven to 350°F and keep roasting, rotating the pan 2 or 3 times for even browning, until the thickest part reads 120°F for medium-rare — about 15 minutes per pound, so roughly 2 hours for an 8-pound roast. Start checking early."
+    },
+    {
+      "lead": "Rest.",
+      "text": "Take it out of the oven and cover loosely with foil for 15 to 20 minutes. The temperature will rise another 10 to 15°F as it rests."
+    },
+    {
+      "lead": "Jus, then carve.",
+      "text": "While it rests, pour off all but 2 tablespoons of fat, set the pan over medium heat, add the stock and wine, and scrape up the browned bits; simmer 5 minutes and season. Snip the strings (or cut along the bones), lift the meat off the bones, slice, and serve with the jus."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Linda’s way",
+      "text": "she prefers the roast boned, then tied back onto the bones to roast. You get the flavor and the built-in rack of the bones, and carving is just snipping the strings.",
+      "byLinda": true
+    },
+    {
+      "label": "Doneness, pulled from the oven",
+      "text": "rare 115°F, medium-rare 120°F, medium 130°F. A probe thermometer left in the meat takes the guessing out.",
+      "byLinda": false
+    },
+    {
+      "label": "First-draft herb version",
+      "text": "mash 6 minced garlic cloves with 2 tablespoons each chopped rosemary and thyme and 2 tablespoons olive oil, and rub it over the roast before searing. It works alongside Bob’s garlic studding.",
+      "byLinda": false
+    },
+    {
+      "label": "Alongside",
+      "text": "the Holiday Scalloped Potatoes in Chapter 9.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Bob’s recipe card calls this “Garlic-Studded Roast Beef.” Is it the Christmas Eve roast?",
+  "isBestGuess": false,
+  "contributorName": "Bob Mitchell",
+  "lindasTouch": true,
+  "lindasTouchReason": "Linda likes it boned and tied back on",
+  "occasions": [
+    "christmas-eve"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 150
+}

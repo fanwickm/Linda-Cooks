@@ -1,0 +1,95 @@
+---
+import Base from "../layouts/Base.astro";
+const examples = [
+  "What can I make ahead for Christmas Eve?",
+  "I don’t have mirin — what can I use in the halibut?",
+  "What goes well with the roast beef?",
+  "Which desserts can I freeze?",
+];
+---
+<Base title="Ask Linda’s Kitchen">
+  <div class="container-page pt-6 sm:pt-10 max-w-3xl">
+    <p class="eyebrow">Ask the cookbook</p>
+    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">Ask Linda’s Kitchen</h1>
+    <p class="mt-2 text-ink-soft">Questions about substitutions, make-ahead and what to serve with what. Answers come only from the recipes in this book — it won’t make things up about Linda.</p>
+
+    <div class="mt-6 card p-6 text-center" data-chat-off hidden>
+      <p class="text-4xl" aria-hidden="true">🧑‍🍳</p>
+      <p class="font-serif text-2xl mt-2">Coming soon</p>
+      <p class="text-ink-soft mt-1">The family is still deciding whether to switch this on. Meanwhile, try <a href="/search" class="text-tomato underline">search</a> or the <a href="/fridge" class="text-tomato underline">Fridge Raid</a>.</p>
+    </div>
+
+    <div data-chat-on hidden>
+      <ol class="mt-6 space-y-4" data-log aria-live="polite"></ol>
+      <div class="mt-4 flex flex-wrap gap-2" data-examples>
+        {examples.map((e) => <button type="button" class="chip text-left whitespace-normal" data-example>{e}</button>)}
+      </div>
+      <form class="mt-4 flex gap-2 sticky bottom-[calc(5.5rem+env(safe-area-inset-bottom))] md:bottom-4" data-ask-form>
+        <label class="sr-only" for="ask-q">Your question</label>
+        <input id="ask-q" name="q" required maxlength="600" autocomplete="off" class="flex-1 min-h-[52px] rounded-full border-2 border-line bg-card px-5 text-lg focus:border-tomato focus:outline-none" placeholder="Ask about any recipe…" />
+        <button class="btn btn-primary !min-h-[52px]">Ask</button>
+      </form>
+    </div>
+    <p class="mt-4 text-center text-ink-soft" data-chat-loading>Checking the kitchen…</p>
+  </div>
+  <script>
+    const log = document.querySelector<HTMLOListElement>("[data-log]")!;
+    const form = document.querySelector<HTMLFormElement>("[data-ask-form]")!;
+    const input = form.querySelector("input")!;
+    const history: { role: "user" | "assistant"; content: string }[] = [];
+
+    function bubble(role: "user" | "assistant", text: string) {
+      const li = document.createElement("li");
+      li.className = role === "user" ? "ml-auto max-w-[85%] bg-ink text-paper rounded-3xl rounded-br-md px-4 py-3" : "max-w-[92%] card px-4 py-3 whitespace-pre-wrap leading-relaxed";
+      li.textContent = text;
+      log.appendChild(li);
+      li.scrollIntoView({ behavior: "smooth", block: "end" });
+      return li;
+    }
+    // Turn recipe titles in answers into links: the API returns [[slug|Title]] markers.
+    function linkify(li: HTMLElement, text: string) {
+      li.textContent = "";
+      const re = /\[\[([a-z0-9-]+)\|([^\]]+)\]\]/g;
+      let last = 0, m: RegExpExecArray | null;
+      while ((m = re.exec(text))) {
+        li.append(text.slice(last, m.index));
+        const a = document.createElement("a");
+        a.href = `/recipes/${m[1]}`;
+        a.className = "text-tomato underline underline-offset-4 font-semibold";
+        a.textContent = m[2];
+        li.append(a);
+        last = re.lastIndex;
+      }
+      li.append(text.slice(last));
+    }
+
+    async function ask(q: string) {
+      document.querySelector<HTMLElement>("[data-examples]")!.hidden = true;
+      bubble("user", q);
+      history.push({ role: "user", content: q });
+      const li = bubble("assistant", "Looking through the recipe box…");
+      li.classList.add("animate-pulse");
+      try {
+        const res = await fetch("/api/ask", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ messages: history.slice(-8) }) });
+        const data = await res.json();
+        li.classList.remove("animate-pulse");
+        if (!res.ok) throw new Error(data.error || "Something went wrong");
+        history.push({ role: "assistant", content: data.answer });
+        linkify(li, data.answer);
+      } catch (e) {
+        li.classList.remove("animate-pulse");
+        li.textContent = `Sorry — ${(e as Error).message}. Please try again in a moment.`;
+        history.pop();
+      }
+    }
+    form.addEventListener("submit", (e) => { e.preventDefault(); const q = input.value.trim(); if (q) { input.value = ""; ask(q); } });
+    document.querySelectorAll<HTMLButtonElement>("[data-example]").forEach((b) => b.addEventListener("click", () => ask(b.textContent!)));
+
+    (async () => {
+      let on = false;
+      try { const r = await fetch("/api/ask"); on = r.ok && (await r.json()).enabled; } catch {}
+      document.querySelector<HTMLElement>("[data-chat-loading]")!.hidden = true;
+      document.querySelector<HTMLElement>(on ? "[data-chat-on]" : "[data-chat-off]")!.hidden = false;
+    })();
+  </script>
+</Base>

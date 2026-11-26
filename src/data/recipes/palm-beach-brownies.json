@@ -1,0 +1,179 @@
+{
+  "slug": "palm-beach-brownies",
+  "title": "Palm Beach Brownies",
+  "chapter": "desserts",
+  "order": 62,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes 32",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "33–38 min",
+      "min": 33,
+      "max": 38
+    },
+    {
+      "label": "Chill",
+      "text": "overnight",
+      "min": null,
+      "max": null
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "8 ounces (225 g) unsweetened chocolate, chopped",
+          "qty": 8.0,
+          "qtyText": "8",
+          "unit": "ounces",
+          "metric": {
+            "qty": 225.0,
+            "unit": "g",
+            "span": " ounces (225 g)"
+          }
+        },
+        {
+          "raw": "1 cup (225 g) unsalted butter, cut up",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 225.0,
+            "unit": "g",
+            "span": " cup (225 g)"
+          }
+        },
+        {
+          "raw": "5 large eggs",
+          "qty": 5.0,
+          "qtyText": "5",
+          "unit": "large"
+        },
+        {
+          "raw": "3½ cups (700 g) granulated sugar",
+          "qty": 3.5,
+          "qtyText": "3½",
+          "unit": "cups",
+          "metric": {
+            "qty": 700.0,
+            "unit": "g",
+            "span": " cups (700 g)"
+          }
+        },
+        {
+          "raw": "1 tablespoon instant espresso powder",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "2 teaspoons vanilla extract",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "½ teaspoon almond extract",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon kosher salt",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1⅔ cups (210 g) all-purpose flour",
+          "qty": 1.6666666666666665,
+          "qtyText": "1⅔",
+          "unit": "cups",
+          "metric": {
+            "qty": 210.0,
+            "unit": "g",
+            "span": " cups (210 g)"
+          }
+        },
+        {
+          "raw": "2 cups (225 g) walnuts, in large pieces",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups",
+          "metric": {
+            "qty": 225.0,
+            "unit": "g",
+            "span": " cups (225 g)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 400°F with a rack in the middle. Line a 9×13-inch pan with foil, pressing it into the corners, and butter the foil."
+    },
+    {
+      "lead": "Melt the chocolate.",
+      "text": "Melt the chocolate and butter together over low heat or in the microwave, stirring until smooth. Set aside to cool slightly."
+    },
+    {
+      "lead": "Beat the eggs and sugar.",
+      "text": "In a stand mixer, beat the eggs with the sugar, espresso, both extracts, and salt on high speed for 8 to 10 minutes, until very thick and pale. This long beating is what builds the famous crackly top."
+    },
+    {
+      "lead": "Combine.",
+      "text": "On low speed, beat in the chocolate mixture just until combined, then the flour. Fold in half the walnuts by hand."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Spread in the pan, scatter the remaining walnuts over the top, and bake 33 to 38 minutes. The top will be crusty and cracked and a toothpick will come out with moist, fudgy crumbs. They are meant to be very soft inside; do not bake until dry."
+    },
+    {
+      "lead": "Chill, then cut.",
+      "text": "Cool completely in the pan, then refrigerate overnight. Lift out by the foil, peel it away, and cut cold into 32 bars with a long, sharp knife."
+    }
+  ],
+  "notes": [
+    {
+      "label": "They are very rich",
+      "text": "cut them small. Thirty-two pieces from one pan is not stingy.",
+      "byLinda": false
+    },
+    {
+      "label": "High heat is deliberate",
+      "text": "the hot oven sets a crust on the outside while the center stays almost like fudge.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "wrapped individually, they keep a week refrigerated and freeze beautifully. Many people prefer them straight from the freezer.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — I believe these are the famous Palm Beach Brownies from Maida Heatter’s dessert books: very rich, extra chocolate, espresso, walnuts, baked in a 9×13 pan and chilled before cutting. I have written my own version in that style. Can you confirm where yours comes from, and whose recipe it is in the family?",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 53
+}

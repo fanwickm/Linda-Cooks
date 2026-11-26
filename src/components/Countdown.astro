@@ -1,0 +1,36 @@
+---
+// "23 days until Christmas Eve. Here's Linda's menu." Shows from mid-November
+// through Christmas Eve (or always, with `always`).
+import { occasionBySlug } from "../lib/data";
+interface Props { occasion?: string; always?: boolean; class?: string }
+const { occasion = "christmas-eve", always = false, class: cls = "" } = Astro.props;
+const oc = occasionBySlug.get(occasion)!;
+---
+<a
+  href={`/occasions/${oc.slug}`}
+  class={`countdown no-underline block rounded-3xl p-5 sm:p-6 text-white shadow-lg relative overflow-hidden ${cls}`}
+  style="background: linear-gradient(135deg, #1f4d3a, #2f6b50 60%, #a4161a 140%)"
+  data-countdown={JSON.stringify(oc.dateRule)}
+  data-always={always ? "1" : undefined}
+  data-name={oc.name}
+  hidden={!always}
+>
+  <span class="absolute -right-4 -top-6 text-[7rem] opacity-15 select-none" aria-hidden="true">{oc.emoji}</span>
+  <p class="text-sm font-semibold tracking-widest uppercase opacity-90">Countdown</p>
+  <p class="mt-1 font-serif text-3xl sm:text-4xl font-semibold leading-tight" data-headline>
+    <span data-days>—</span> until {oc.name}.
+  </p>
+  <p class="mt-1 text-lg opacity-95">Here’s Linda’s menu, and what to make ahead →</p>
+</a>
+<script>
+  import { nextDate, daysUntil } from "../lib/dates";
+  document.querySelectorAll<HTMLElement>("[data-countdown]").forEach((el) => {
+    const rule = JSON.parse(el.dataset.countdown!);
+    const d = nextDate(rule);
+    const n = daysUntil(d);
+    const span = el.querySelector("[data-days]")!;
+    span.textContent = n === 1 ? "1 day" : `${n} days`;
+    if (n === 0) el.querySelector("[data-headline]")!.textContent = `It’s ${el.dataset.name} today!`;
+    if (el.dataset.always || n <= 40) el.hidden = false;
+  });
+</script>

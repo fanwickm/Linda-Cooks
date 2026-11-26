@@ -1,0 +1,128 @@
+{
+  "slug": "baked-brie-with-walnuts-and-brown-sugar",
+  "title": "Baked Brie with Walnuts and Brown Sugar",
+  "chapter": "starters-snacks",
+  "order": 2,
+  "source": "From Karen Massimino  ·  Holiday gatherings",
+  "contributors": [
+    "karen-massimino"
+  ],
+  "occasionText": "Holiday gatherings",
+  "yield": {
+    "text": "Serves 8",
+    "servings": 8
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "20–25 min",
+      "min": 20,
+      "max": 25
+    }
+  ],
+  "headnote": "Karen Massimino’s holiday appetizer: a wheel of Brie wrapped in pie crust under walnuts and brown sugar, baked until gooey and served with stone wheat thins. It can be assembled and frozen ahead, then baked straight from the freezer.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 wheel Brie, 8 ounces",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "1 sheet pie crust, store-bought or homemade",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "½ cup walnuts, chopped",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "¼ cup packed light brown sugar",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 egg, beaten with a splash of water",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "Stone wheat thin crackers, for serving"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 375°F and line a rimmed baking sheet with parchment. Rimmed matters — if the crust springs a leak, you want the cheese contained."
+    },
+    {
+      "lead": "Prepare the Brie.",
+      "text": "Slice the top rind off the wheel with a long knife, leaving the side and bottom rind intact. That bottom rind is the bowl that holds the melted cheese."
+    },
+    {
+      "lead": "Top it.",
+      "text": "Mix the walnuts and brown sugar together and pile the mixture in the center of the pie crust in a round the size of the Brie. Set the Brie on top, cut side down, and press gently."
+    },
+    {
+      "lead": "Wrap it.",
+      "text": "Bring the crust up around the sides and fold it over the top, pleating as you go. Pinch every seam closed. Turn the whole package over onto the parchment so the pleats are underneath and the smooth side faces up."
+    },
+    {
+      "lead": "Glaze and bake.",
+      "text": "Brush all over with the beaten egg. Bake 20 to 25 minutes, until the crust is deep golden brown."
+    },
+    {
+      "lead": "Rest, then serve.",
+      "text": "Let it sit 5 to 10 minutes — cut into it straight from the oven and the cheese runs right off the plate. Slide onto a serving board and surround with stone wheat thins."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Freeze ahead",
+      "text": "assemble the wrapped, unbaked wheels, wrap each tightly in plastic and then foil, and freeze up to 2 months. Bake straight from frozen at 375°F, adding 10 to 15 minutes.",
+      "byLinda": false
+    },
+    {
+      "label": "Variations",
+      "text": "pecans in place of walnuts; a drizzle of honey or a pinch of cinnamon in the sugar; a spoonful of fig jam under the nuts.",
+      "byLinda": false
+    },
+    {
+      "label": "Alongside",
+      "text": "sliced apples, pears, and grapes cut the richness. Plain crackers are better than seasoned ones here.",
+      "byLinda": false
+    },
+    {
+      "label": "If the crust tears",
+      "text": "patch it with a scrap and press firmly. A small leak is not fatal, which is why the pan is lined.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "When did Karen start making this, and does she bring it to a particular gathering?",
+  "isBestGuess": false,
+  "contributorName": "Karen Massimino",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "christmas-eve"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 35
+}

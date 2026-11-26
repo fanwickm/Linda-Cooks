@@ -1,0 +1,146 @@
+{
+  "slug": "linguine-alle-vongole",
+  "title": "Linguine alle Vongole",
+  "chapter": "pasta-dumplings-grains",
+  "order": 26,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "3 pounds littleneck clams (about 36), scrubbed",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "pounds"
+        },
+        {
+          "raw": "1 pound dried linguine",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "⅓ cup extra-virgin olive oil, plus more to finish",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup"
+        },
+        {
+          "raw": "5 garlic cloves, thinly sliced",
+          "qty": 5.0,
+          "qtyText": "5"
+        },
+        {
+          "raw": "½ teaspoon red pepper flakes",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "¾ cup dry white wine",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup"
+        },
+        {
+          "raw": "2 tablespoons unsalted butter",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "½ cup chopped flat-leaf parsley",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "Zest of ½ lemon, and a squeeze of juice"
+        },
+        {
+          "raw": "Kosher salt (for the pasta water only)"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Purge the clams.",
+      "text": "Soak the scrubbed clams in cold salted water for 30 minutes so they spit out sand. Lift them out with your hands, leaving the grit behind. Throw away any that are cracked or that stay open when tapped."
+    },
+    {
+      "lead": "Start the pasta.",
+      "text": "Bring a large pot of water to a boil and salt it — a little less than usual, because the clam juice is salty. Drop in the linguine and cook 2 minutes less than the package says."
+    },
+    {
+      "lead": "Build the sauce.",
+      "text": "Meanwhile, warm the olive oil in a large, deep skillet over medium heat. Add the garlic and pepper flakes and cook until the garlic is pale gold, about 2 minutes. Do not let it brown."
+    },
+    {
+      "lead": "Steam the clams.",
+      "text": "Add the clams and wine, raise the heat to high, and cover. Cook 5 to 8 minutes, shaking the pan, until the clams open. Move them to a bowl as they open so the first ones do not overcook. Discard any that stay closed."
+    },
+    {
+      "lead": "Finish the pasta in the pan.",
+      "text": "Drain the linguine, saving a cup of pasta water. Add the linguine to the skillet with the clam juices and toss over high heat for 1 to 2 minutes, until the pasta absorbs much of the liquid. Add the butter and a splash of pasta water and toss until the sauce turns glossy and clings."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Return the clams, add the parsley, lemon zest, and a squeeze of juice, and toss. Finish with a thread of olive oil. Serve at once in warm bowls."
+    }
+  ],
+  "notes": [
+    {
+      "label": "No cheese",
+      "text": "this is the classic rule with seafood pasta, and here it is right: cheese smothers the clam flavor.",
+      "byLinda": false
+    },
+    {
+      "label": "Taste before salting",
+      "text": "the clam liquor varies a lot in saltiness. Season only at the end.",
+      "byLinda": false
+    },
+    {
+      "label": "Shucked-clam version",
+      "text": "take half the clams out of their shells before serving so it is easier to eat.",
+      "byLinda": false
+    },
+    {
+      "label": "Clam quality",
+      "text": "buy them the day you cook, keep them cold and uncovered in a bowl in the refrigerator, never in water or a sealed bag.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes this, and when — summer, or Christmas Eve with the fish? Does your version use white wine and garlic only, or a little tomato?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 40
+}

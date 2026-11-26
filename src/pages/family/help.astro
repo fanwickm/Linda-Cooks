@@ -1,0 +1,77 @@
+---
+import Base from "../../layouts/Base.astro";
+import HelpForm from "../../components/HelpForm.astro";
+import { chapters, recipeBySlug, openQuestions } from "../../lib/data";
+
+const qs = openQuestions.filter((q) => q.question || q.gaps.length);
+const byChapter = chapters
+  .map((c) => ({ c, items: qs.filter((q) => q.chapter === c.slug) }))
+  .filter((g) => g.items.length);
+const bestGuess = qs.filter((q) => q.isBestGuess).length;
+---
+<Base title="Help finish the book">
+  <div class="container-page pt-6 sm:pt-10">
+    <nav class="text-sm text-ink-soft mb-3" aria-label="Breadcrumb"><a href="/family" class="hover:text-tomato">The Family Table</a></nav>
+    <p class="eyebrow">Help finish the book</p>
+    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">Questions only the family can answer</h1>
+    <p class="mt-3 text-lg text-ink-soft max-w-2xl">
+      {qs.filter((q) => q.question).length} recipes have something missing, and {bestGuess} are our best guess at how it was really made.
+      Answer anything you know — Lyle reads every answer before it goes in the book.
+    </p>
+
+    <div class="mt-6 flex gap-2 flex-wrap" role="group" aria-label="Show">
+      <button type="button" class="chip" data-hf="all" aria-pressed="true">All</button>
+      <button type="button" class="chip" data-hf="guess" aria-pressed="false">Best guesses ({bestGuess})</button>
+      <button type="button" class="chip" data-hf="wanted" aria-pressed="false">Recipes wanted</button>
+      <button type="button" class="chip" data-hf="linda" aria-pressed="false">About Linda</button>
+    </div>
+
+    <section id="linda" class="mt-8 card p-5 sm:p-6 border-l-4 !border-l-gold" data-q-item data-kinds="linda">
+      <p class="eyebrow !text-gold-ink">Meet Linda</p>
+      <h2 class="font-serif text-2xl font-semibold mt-1">Help write Linda’s story</h2>
+      <p class="mt-2 text-ink-soft">How did Linda learn to cook? What is Christmas Eve at her house like? A favourite memory at her table? Share a few lines — the family will shape them into her page.</p>
+      <details class="mt-3"><summary class="btn btn-ghost">Write something</summary><div class="mt-4"><HelpForm slug="linda-story" question="Linda's story for the Meet Linda page" /></div></details>
+    </section>
+
+    {byChapter.map(({ c, items }) => (
+      <section class="mt-10" data-q-group>
+        <h2 class="text-2xl font-semibold">{c.title}</h2>
+        <div class="mt-4 grid gap-4 lg:grid-cols-2">
+          {items.map((q) => {
+            const r = recipeBySlug.get(q.slug)!;
+            const kinds = [q.isBestGuess && "guess", r.steps.length === 0 && "wanted", (r.lindasTouch || /Linda/.test(q.question ?? "")) && "linda"].filter(Boolean).join(" ");
+            return (
+              <article class="card p-5 flex flex-col" data-q-item data-kinds={kinds}>
+                <div class="flex flex-wrap gap-2 items-center">
+                  {q.isBestGuess && <span class="text-xs font-bold uppercase tracking-wide bg-[#fff0ea] text-tomato rounded-full px-2.5 py-1">Best guess</span>}
+                  {r.steps.length === 0 && <span class="text-xs font-bold uppercase tracking-wide bg-tomato text-white rounded-full px-2.5 py-1">Recipe wanted</span>}
+                </div>
+                <h3 class="font-serif text-xl font-semibold mt-2"><a href={`/recipes/${r.slug}`} class="hover:text-tomato underline decoration-line underline-offset-4">{r.title}</a></h3>
+                {q.question && <p class="mt-2">{q.question}</p>}
+                {q.gaps.length > 0 && (
+                  <p class="mt-2 text-sm text-ink-soft">Also unsure in the recipe: {q.gaps.map((g, i) => <><mark class="gap">{g}</mark>{i < q.gaps.length - 1 && " · "}</>)}</p>
+                )}
+                <details class="mt-auto pt-4"><summary class="btn btn-ghost">I know this</summary><div class="mt-4"><HelpForm recipe={r} /></div></details>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+  <script>
+    import { initHelpForms } from "../../scripts/recipe";
+    initHelpForms();
+    const btns = [...document.querySelectorAll<HTMLButtonElement>("[data-hf]")];
+    btns.forEach((b) => b.addEventListener("click", () => {
+      btns.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      const f = b.dataset.hf!;
+      document.querySelectorAll<HTMLElement>("[data-q-item]").forEach((el) => {
+        el.hidden = f !== "all" && !el.dataset.kinds!.split(" ").includes(f);
+      });
+      document.querySelectorAll<HTMLElement>("[data-q-group]").forEach((g) => {
+        g.hidden = ![...g.querySelectorAll<HTMLElement>("[data-q-item]")].some((x) => !x.hidden);
+      });
+    }));
+  </script>
+</Base>

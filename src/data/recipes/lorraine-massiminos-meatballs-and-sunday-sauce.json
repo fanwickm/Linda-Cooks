@@ -1,0 +1,192 @@
+{
+  "slug": "lorraine-massiminos-meatballs-and-sunday-sauce",
+  "title": "Lorraine Massimino’s Meatballs and Sunday Sauce",
+  "chapter": "meat",
+  "order": 37,
+  "source": "From Lorraine Massimino  ·  Family dinners and gatherings",
+  "contributors": [
+    "lorraine-massimino"
+  ],
+  "occasionText": "Family dinners and gatherings",
+  "yield": {
+    "text": "Serves 6–8 (about 24 meatballs)",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "label": "Cook",
+      "text": "2 hr",
+      "min": 120,
+      "max": 120
+    }
+  ],
+  "headnote": "A recipe from Karen’s mom, Lorraine Massimino, inspired by her husband Tom’s Italian roots: beef and pork meatballs browned and then simmered slowly in a big pot of Sunday sauce.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Meatballs",
+      "items": [
+        {
+          "raw": "1 cup fresh breadcrumbs (from 2 slices crustless bread)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "½ cup whole milk",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 pound ground beef (80/20)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "1 pound ground pork",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "2 large eggs",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "½ cup grated Pecorino Romano or Parmesan",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "4 garlic cloves, minced",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "¼ cup fresh parsley, chopped",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "2 teaspoons kosher salt and ½ teaspoon black pepper",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "Olive oil, for browning"
+        }
+      ]
+    },
+    {
+      "name": "Sunday sauce",
+      "items": [
+        {
+          "raw": "1 large onion, finely chopped, and 4 garlic cloves, minced",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "1 can (6 ounces) tomato paste",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "can"
+        },
+        {
+          "raw": "2 cans (28 ounces each) crushed tomatoes",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cans"
+        },
+        {
+          "raw": "1 cup water or dry red wine",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 bay leaf, ½ teaspoon dried oregano, a few basil leaves",
+          "qty": 1.0,
+          "qtyText": "1"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Soak the bread.",
+      "text": "Mash the breadcrumbs and milk together in a large bowl and let them sit 5 minutes. This paste is what keeps the meatballs tender."
+    },
+    {
+      "lead": "Mix gently.",
+      "text": "Add the beef, pork, eggs, cheese, garlic, parsley, salt, and pepper. Mix with your hands just until evenly combined — overworking makes them tough."
+    },
+    {
+      "lead": "Shape.",
+      "text": "Roll into 1½- to 2-inch balls with wet hands and set on a tray. You should have about 24."
+    },
+    {
+      "lead": "Brown.",
+      "text": "Heat a thin layer of oil in a wide heavy pot over medium-high. Brown the meatballs in batches on all sides, 6 to 8 minutes per batch. They will finish cooking in the sauce."
+    },
+    {
+      "lead": "Start the sauce.",
+      "text": "Pour off all but 2 tablespoons of fat. Cook the onion over medium heat 6 to 8 minutes until soft, add the garlic for 1 minute, then stir in the tomato paste and cook 2 minutes until it darkens."
+    },
+    {
+      "lead": "Simmer.",
+      "text": "Add the crushed tomatoes, water or wine, bay leaf, oregano, and basil, scraping up the browned bits. Bring to a simmer, return the meatballs, and cook partly covered on low for 1½ to 2 hours, stirring gently now and then."
+    },
+    {
+      "lead": "Finish.",
+      "text": "Remove the bay leaf, taste for salt, and serve over pasta with more grated cheese."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Taste the mix",
+      "text": "fry a teaspoon of the meat mixture before rolling them all, and adjust the salt.",
+      "byLinda": false
+    },
+    {
+      "label": "Freezing",
+      "text": "cool completely and freeze meatballs in their sauce up to 3 months. Thaw overnight and reheat gently on the stove.",
+      "byLinda": false
+    },
+    {
+      "label": "Other meats",
+      "text": "all beef, or a third each beef, pork, and veal. Sausage or braciole can simmer in the same pot.",
+      "byLinda": false
+    },
+    {
+      "label": "Make a big batch",
+      "text": "the recipe doubles easily in a large Dutch oven.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Anything that is Lorraine’s own here — the bread or breadcrumbs, the cheese, wine or water in the sauce, other meats in the pot? And who carries it on now?",
+  "isBestGuess": false,
+  "contributorName": "Lorraine Massimino",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "sunday-dinner"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 150
+}

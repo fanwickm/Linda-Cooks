@@ -1,0 +1,176 @@
+{
+  "slug": "focaccia",
+  "title": "Focaccia",
+  "chapter": "breads-breakfast",
+  "order": 54,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "One 9×13-inch pan",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "25–30 min",
+      "min": 25,
+      "max": 30
+    },
+    {
+      "label": "Rise",
+      "text": "3 hr, or overnight",
+      "min": 180,
+      "max": 180
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "4 cups (520 g) bread flour or all-purpose flour",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "cups",
+          "metric": {
+            "qty": 520.0,
+            "unit": "g",
+            "span": " cups (520 g)"
+          }
+        },
+        {
+          "raw": "2 teaspoons (6 g) instant yeast",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons",
+          "metric": {
+            "qty": 6.0,
+            "unit": "g",
+            "span": " teaspoons (6 g)"
+          }
+        },
+        {
+          "raw": "2 teaspoons (12 g) fine salt",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons",
+          "metric": {
+            "qty": 12.0,
+            "unit": "g",
+            "span": " teaspoons (12 g)"
+          }
+        },
+        {
+          "raw": "Scant 2 cups (450 g) lukewarm water",
+          "qty": 2.0,
+          "qtyText": "2",
+          "qtyPrefix": "Scant ",
+          "unit": "cups",
+          "metric": {
+            "qty": 450.0,
+            "unit": "g",
+            "span": " cups (450 g)"
+          }
+        },
+        {
+          "raw": "6 tablespoons (80 g) extra-virgin olive oil, divided",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 80.0,
+            "unit": "g",
+            "span": " tablespoons (80 g)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Topping",
+      "items": [
+        {
+          "raw": "Flaky sea salt"
+        },
+        {
+          "raw": "2 sprigs rosemary, needles stripped",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "sprigs"
+        },
+        {
+          "raw": "Optional: halved cherry tomatoes, pitted olives, or thinly sliced red onion"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Mix.",
+      "text": "Whisk the flour, yeast, and salt in a large bowl. Add the water and stir until no dry flour remains. The dough will be very wet and sticky; do not add more flour. Pour 2 tablespoons of the oil over the top, turn the dough to coat, and cover."
+    },
+    {
+      "lead": "Stretch and fold.",
+      "text": "Over the next 1½ hours, give the dough four sets of folds, 30 minutes apart: with a wet hand, grab one edge, stretch it up, and fold it over the center, working around the bowl. It will become smoother and stronger each time."
+    },
+    {
+      "lead": "Into the pan.",
+      "text": "Pour 3 tablespoons of oil into a 9×13-inch metal pan. Tip the dough in and turn it to coat. Let it rest 15 minutes, then gently stretch it toward the corners. If it springs back, wait 10 minutes and try again."
+    },
+    {
+      "lead": "Final rise.",
+      "text": "Cover and let rise 1 to 1½ hours at room temperature, until puffy, bubbly, and nearly doubled. Heat the oven to 450°F with a rack in the lower third."
+    },
+    {
+      "lead": "Dimple.",
+      "text": "Oil your fingertips and press straight down into the dough all over, all the way to the bottom of the pan. Drizzle with the last tablespoon of oil, then add the rosemary and any toppings, and sprinkle generously with flaky salt."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Bake 25 to 30 minutes, until deep golden on top and crisp and browned underneath — lift a corner with a spatula to check."
+    },
+    {
+      "lead": "Cool slightly.",
+      "text": "Slide onto a rack right away so the bottom stays crisp. Best within a few hours."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Overnight version",
+      "text": "after the stretch-and-folds, cover and refrigerate the dough 12 to 72 hours. Let it sit at room temperature 2 to 3 hours in the oiled pan before dimpling. More flavor, easier schedule.",
+      "byLinda": false
+    },
+    {
+      "label": "Don’t skimp on oil",
+      "text": "it fries the bottom crisp. A metal pan browns better than glass.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "wrap leftovers and reheat at 400°F for 5 minutes. It also freezes well in squares.",
+      "byLinda": false
+    },
+    {
+      "label": "Sandwiches",
+      "text": "split a square horizontally for excellent sandwich bread.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — a high-hydration pan focaccia with olive oil and flaky salt. Who makes it, and what goes on top in your family’s version — rosemary, olives, tomatoes, onions?",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 225
+}

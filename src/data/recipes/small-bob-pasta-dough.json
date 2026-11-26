@@ -1,0 +1,160 @@
+{
+  "slug": "small-bob-pasta-dough",
+  "title": "Small Bob Pasta Dough",
+  "chapter": "pasta-dumplings-grains",
+  "order": 19,
+  "source": "From Bob Mitchell",
+  "contributors": [
+    "bob-mitchell"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "label": "Cook",
+      "text": "3–4 min",
+      "min": 3,
+      "max": 4
+    },
+    {
+      "label": "Chill",
+      "text": "20–45 min",
+      "min": 20,
+      "max": 45
+    }
+  ],
+  "headnote": "“Making pasta dough works best on a room temperature surface (like a big wood cutting board). Be careful with the water — you will most likely use a different amount every time due to egg size, humidity, flour quality, etc. Makes a little over a pound of pasta.” — Bob Mitchell",
+  "quotes": [
+    {
+      "by": "bob-mitchell",
+      "text": "Making pasta dough works best on a room temperature surface (like a big wood cutting board). Be careful with the water — you will most likely use a different amount every time due to egg size, humidity, flour quality, etc. Makes a little over a pound of pasta.",
+      "context": null,
+      "span": "“Making pasta dough works best on a room temperature surface (like a big wood cutting board). Be careful with the water — you will most likely use a different amount every time due to egg size, humidity, flour quality, etc. Makes a little over a pound of pasta.” — Bob Mitchell"
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 cup (about 125 g) “00” flour",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 125.0,
+            "unit": "g",
+            "span": " cup (about 125 g)"
+          }
+        },
+        {
+          "raw": "⅔ cup (about 110 g) semolina flour",
+          "qty": 0.6666666666666666,
+          "qtyText": "⅔",
+          "unit": "cup",
+          "metric": {
+            "qty": 110.0,
+            "unit": "g",
+            "span": " cup (about 110 g)"
+          }
+        },
+        {
+          "raw": "2 large eggs",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "1 tablespoon extra-virgin olive oil",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "Pinch of fine salt"
+        },
+        {
+          "raw": "1 tablespoon water, plus more as needed",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make a well.",
+      "text": "Combine the two flours and the salt in a large bowl, on a big wooden cutting board, or on a clean counter. Make a well in the center of the pile to hold the wet ingredients."
+    },
+    {
+      "lead": "Beat the wet ingredients.",
+      "text": "In a separate bowl, beat the eggs, olive oil, and 1 tablespoon of water well, then pour into the center of the well."
+    },
+    {
+      "lead": "Work in the flour with a fork.",
+      "text": "Pull bits of flour from the inside wall of the well into the egg mixture with a fork, a little at a time, until the mixture is too thick to stir."
+    },
+    {
+      "lead": "Finish with your fingers.",
+      "text": "Work in the rest of the flour with your fingers. If the dough feels too dry, add water in small increments; if it is too wet and sticks to everything, add more flour."
+    },
+    {
+      "lead": "Knead.",
+      "text": "Once the dough comes together, form it into a ball and knead vigorously for 10 minutes, until smooth and elastic."
+    },
+    {
+      "lead": "Chill.",
+      "text": "Wrap or cover the dough and chill it in the refrigerator for 20 to 45 minutes."
+    },
+    {
+      "lead": "Roll out.",
+      "text": "Roll by hand with a rolling pin, or through a pasta machine, to the thickness you want. On a machine, start at the widest setting and work down one notch at a time; go to the thinnest setting for ravioli and tortellini."
+    },
+    {
+      "lead": "Cook.",
+      "text": "Cook in boiling salted water with a splash of olive oil for 3 to 4 minutes, until the pasta floats to the top. Drain and add to your favorite dish."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Best with",
+      "text": "creamy pasta dishes (cacio e pepe, carbonara, sage butter, clams and hot sausage, truffle and butter), ravioli, and lasagna.",
+      "byLinda": false
+    },
+    {
+      "label": "Weighing",
+      "text": "the gram amounts are conversions of Bob’s cup measures. Use them as a starting point and adjust with water or flour by feel, as he says.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "the wrapped dough keeps 1 day in the refrigerator. Cut pasta can be frozen in loose nests on a sheet pan, then bagged, for 1 month; cook from frozen.",
+      "byLinda": false
+    },
+    {
+      "label": "Filled pasta",
+      "text": "one batch is enough for the Ricotta Ravioli or the Tortellini in this chapter.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is Bob Mitchell’s “Eggy Pasta Dough.” Is Bob the Small Bob this dough is named for? If Small Bob is someone else, or his dough is different, tell me.",
+  "isBestGuess": false,
+  "contributorName": "Bob Mitchell",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 53
+}

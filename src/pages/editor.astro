@@ -1,0 +1,113 @@
+---
+import Base from "../layouts/Base.astro";
+---
+<Base title="Editor">
+  <div class="container-page pt-6 sm:pt-10 max-w-4xl">
+    <p class="eyebrow">For the editor</p>
+    <h1 class="text-4xl font-semibold mt-1">Family submissions</h1>
+    <p class="mt-2 text-ink-soft">Answers and photos wait here until you approve them. Approved answers show under “From the family” on the recipe; they don’t change the recipe text itself — fold them into the recipe files when you’re ready (see EDITING.md).</p>
+
+    <form class="mt-6 card p-5 flex flex-wrap gap-3 items-end" data-login>
+      <label class="flex-1 min-w-[14rem]"><span class="font-semibold">Editor password</span>
+        <input type="password" name="pw" required autocomplete="current-password" class="mt-1 w-full rounded-xl border border-line bg-white p-3 text-lg min-h-[48px]" />
+      </label>
+      <button class="btn btn-primary !min-h-[52px]">Open</button>
+      <p class="w-full text-tomato font-semibold" data-login-err role="alert"></p>
+    </form>
+
+    <div data-panel hidden>
+      <div class="mt-6 flex flex-wrap gap-2" role="tablist">
+        <button type="button" class="chip" data-tab="pending" aria-pressed="true">Waiting <span data-n-pending></span></button>
+        <button type="button" class="chip" data-tab="approved" aria-pressed="false">Approved</button>
+        <button type="button" class="chip" data-tab="rejected" aria-pressed="false">Rejected</button>
+        <button type="button" class="chip ml-auto" data-export>⬇ Export approved (JSON)</button>
+      </div>
+      <ul class="mt-5 space-y-4" data-items></ul>
+      <p class="mt-6 text-ink-soft text-center card p-8" data-none hidden>Nothing here.</p>
+    </div>
+  </div>
+  <script>
+    type Item = { id: string; kind: "answer" | "photo"; slug: string; recipeTitle?: string; question?: string; answer?: string; caption?: string; name: string; date: string; status: string; url?: string };
+    let pw = sessionStorage.getItem("lk:editor") ?? "";
+    let tab = "pending";
+    let items: Item[] = [];
+    const api = (path: string, init: RequestInit = {}) =>
+      fetch(path, { ...init, headers: { ...(init.headers ?? {}), authorization: `Bearer ${pw}`, "content-type": "application/json" } });
+
+    async function refresh() {
+      const res = await api("/api/editor");
+      if (res.status === 401) throw new Error("Wrong password");
+      if (!res.ok) throw new Error("The editor service isn’t available (is the site deployed on Netlify?)");
+      items = (await res.json()).items;
+      document.querySelector("[data-n-pending]")!.textContent = `(${items.filter((i) => i.status === "pending").length})`;
+      render();
+    }
+    function render() {
+      const ul = document.querySelector<HTMLUListElement>("[data-items]")!;
+      ul.innerHTML = "";
+      const list = items.filter((i) => i.status === tab);
+      document.querySelector<HTMLElement>("[data-none]")!.hidden = list.length > 0;
+      for (const it of list) {
+        const li = document.createElement("li");
+        li.className = "card p-5";
+        li.innerHTML = `
+          <p class="text-sm text-ink-soft"><span data-k></span> · <a class="underline text-tomato" data-r></a> · <span data-d></span></p>
+          <p class="mt-1 text-sm text-ink-soft italic" data-q></p>
+          <p class="mt-2 text-lg whitespace-pre-wrap" data-a></p>
+          <img class="mt-2 max-h-80 rounded-xl" data-img hidden alt="">
+          <p class="mt-1 font-semibold" data-n></p>
+          <div class="mt-3 flex gap-2" data-actions></div>`;
+        li.querySelector("[data-k]")!.textContent = it.kind === "photo" ? "📸 Photo" : "💬 Answer";
+        const r = li.querySelector<HTMLAnchorElement>("[data-r]")!;
+        r.textContent = it.recipeTitle ?? it.slug;
+        r.href = /^(linda|linda-story|original-card)$/.test(it.slug) ? "/linda" : `/recipes/${it.slug}`;
+        li.querySelector("[data-d]")!.textContent = new Date(it.date).toLocaleString();
+        li.querySelector("[data-q]")!.textContent = it.question ?? "";
+        li.querySelector("[data-a]")!.textContent = it.answer ?? it.caption ?? "";
+        li.querySelector("[data-n]")!.textContent = `— ${it.name}`;
+        if (it.url) { const img = li.querySelector<HTMLImageElement>("[data-img]")!; img.hidden = false; img.src = `${it.url}${it.url.includes("?") ? "&" : "?"}token=${encodeURIComponent(pw)}`; }
+        const actions = li.querySelector("[data-actions]")!;
+        for (const [label, status, cls] of [["Approve", "approved", "btn-sage"], ["Reject", "rejected", "btn-ghost"], ["Back to waiting", "pending", "btn-ghost"]]) {
+          if (status === it.status) continue;
+          const b = document.createElement("button");
+          b.type = "button";
+          b.className = `btn ${cls}`;
+          b.textContent = label;
+          b.addEventListener("click", async () => {
+            b.disabled = true;
+            await api("/api/editor", { method: "POST", body: JSON.stringify({ id: it.id, status }) });
+            await refresh();
+          });
+          actions.appendChild(b);
+        }
+        ul.appendChild(li);
+      }
+    }
+    document.querySelectorAll<HTMLButtonElement>("[data-tab]").forEach((b) => b.addEventListener("click", () => {
+      tab = b.dataset.tab!;
+      document.querySelectorAll("[data-tab]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      render();
+    }));
+    document.querySelector("[data-export]")!.addEventListener("click", () => {
+      const blob = new Blob([JSON.stringify(items.filter((i) => i.status === "approved"), null, 2)], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `approved-submissions-${new Date().toISOString().slice(0, 10)}.json`;
+      a.click();
+    });
+    const loginForm = document.querySelector<HTMLFormElement>("[data-login]")!;
+    async function open() {
+      try {
+        await refresh();
+        sessionStorage.setItem("lk:editor", pw);
+        loginForm.hidden = true;
+        document.querySelector<HTMLElement>("[data-panel]")!.hidden = false;
+      } catch (e) {
+        document.querySelector("[data-login-err]")!.textContent = (e as Error).message;
+        sessionStorage.removeItem("lk:editor");
+      }
+    }
+    loginForm.addEventListener("submit", (e) => { e.preventDefault(); pw = (loginForm.elements.namedItem("pw") as HTMLInputElement).value; open(); });
+    if (pw) open();
+  </script>
+</Base>

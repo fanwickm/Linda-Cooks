@@ -1,0 +1,104 @@
+---
+import Base from "../layouts/Base.astro";
+import RecipeCard from "../components/RecipeCard.astro";
+import LindaBadge from "../components/LindaBadge.astro";
+import linda from "../data/linda.json";
+import { lindaRecipes, lindaQuotes, getRecipe, LINDA } from "../lib/data";
+
+const all = lindaRecipes();
+const quotes = lindaQuotes();
+---
+<Base title="Meet Linda" description="Linda Mitchell — the hostess and the heart of the Linda M Cookbook.">
+  <section class="container-page pt-6 sm:pt-12 grid md:grid-cols-[1fr_1.2fr] gap-8 md:gap-14 items-center">
+    <div class="relative mx-auto w-[80%] max-w-sm md:max-w-none md:w-full">
+      <img src={LINDA.photo!} alt="Linda Mitchell" width="720" height="874" class="w-full rounded-[2rem] border-[10px] border-card shadow-xl rotate-[-1.5deg]" fetchpriority="high" />
+    </div>
+    <div>
+      <p class="eyebrow">The hostess · the heart of the book</p>
+      <h1 class="text-5xl sm:text-6xl font-semibold mt-2">Meet Linda</h1>
+      <p class="mt-2 font-serif text-2xl italic text-ink-soft">{linda.fullName}</p>
+      {linda.story.length > 0 ? (
+        <div class="mt-5 space-y-4 text-lg leading-relaxed">
+          {linda.story.map((p: string) => <p>{p}</p>)}
+          {linda.storyAuthor && <p class="text-ink-soft">— {linda.storyAuthor}</p>}
+        </div>
+      ) : (
+        <div class="mt-6 rounded-2xl border-2 border-dashed border-line p-5 bg-card/60">
+          <p class="font-semibold">Linda’s story is being written by the family.</p>
+          <p class="mt-1 text-ink-soft">How she learned to cook, the Christmas Eves, the table that always has room for one more — coming soon. <a href="/family/help#linda" class="text-tomato underline">Want to help write it?</a></p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <div class="container-page mt-14 space-y-16">
+    <!-- photo strip -->
+    <section aria-labelledby="ph-h">
+      <h2 id="ph-h" class="text-3xl font-semibold">Photos</h2>
+      <div class="mt-5 -mx-4 px-4 flex gap-5 overflow-x-auto snap-x scroll-px-4 pb-4">
+        {linda.photos.map((p: any, i: number) => (
+          <figure class:list={["snap-start shrink-0 w-64 sm:w-80 bg-card p-3 pb-2 shadow-md", i % 2 ? "rotate-[1.5deg]" : "rotate-[-1.5deg]"]}>
+            <img src={p.src} alt={p.alt} class="w-full aspect-[4/5] object-cover" loading="lazy" />
+            <figcaption class="font-hand text-2xl text-center mt-1">{p.caption}</figcaption>
+          </figure>
+        ))}
+        {[1, 2].map(() => (
+          <div class="snap-start shrink-0 w-64 sm:w-80 bg-card/60 border-2 border-dashed border-line p-3 grid place-items-center text-center text-ink-soft aspect-[4/5]">
+            <p>A photo of Linda in the kitchen?<br /><a href="/family/photos" class="text-tomato underline">Send one in</a></p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- her words -->
+    {quotes.length > 0 && (
+      <section aria-labelledby="words-h">
+        <h2 id="words-h" class="text-3xl font-semibold">In her own hand</h2>
+        <p class="mt-1 text-ink-soft">Linda’s notes from her copy of the first draft.</p>
+        <div class="mt-8 grid gap-10 sm:grid-cols-2 max-w-3xl">
+          {quotes.map(({ recipe, quote }) => (
+            <figure class="sticky-note">
+              <blockquote>“{quote.text}”</blockquote>
+              <figcaption class="by">on <a href={`/recipes/${recipe.slug}`} class="underline">{recipe.title.replace("Linda’s ", "")}</a></figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- kitchen rules -->
+    <section aria-labelledby="rules-h" class="relative">
+      <div class="card p-6 sm:p-10 max-w-3xl mx-auto border-t-[6px] !border-t-tomato bg-[linear-gradient(90deg,transparent_2.2rem,#f3c9c0_2.2rem,#f3c9c0_calc(2.2rem+2px),transparent_calc(2.2rem+2px))] sm:bg-[linear-gradient(90deg,transparent_3.6rem,#f3c9c0_3.6rem,#f3c9c0_calc(3.6rem+2px),transparent_calc(3.6rem+2px))]">
+        <h2 id="rules-h" class="text-3xl sm:text-4xl font-semibold">Linda’s Kitchen Rules</h2>
+        <p class="text-sm text-ink-soft mt-1">Pulled from her notes in the book.</p>
+        <ol class="mt-5 space-y-4 list-decimal pl-6 marker:font-serif marker:text-tomato marker:font-semibold text-lg">
+          {linda.kitchenRules.map((k: any) => (
+            <li>{k.rule} <a href={`/recipes/${k.recipe}`} class="text-sm text-tomato underline whitespace-nowrap">{getRecipe(k.recipe).title.replace("Linda’s ", "")} →</a></li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+    <!-- favourites -->
+    <section aria-labelledby="fav-h">
+      <h2 id="fav-h" class="text-3xl font-semibold">Linda’s local favourites</h2>
+      <div class="mt-5 grid gap-4 sm:grid-cols-2">
+        {linda.favourites.map((f: any) => (
+          <a href={`/recipes/${f.recipe}`} class="card card-lift p-5 no-underline">
+            <p class="font-serif text-xl font-semibold">📍 {f.name}</p>
+            <p class="mt-1 text-ink-soft">{f.note}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- every recipe -->
+    <section aria-labelledby="all-h">
+      <div class="flex flex-wrap items-center gap-3"><LindaBadge /></div>
+      <h2 id="all-h" class="text-3xl font-semibold mt-2">Every recipe Linda made or annotated</h2>
+      <div class="mt-5 grid gap-4 grid-cols-2 lg:grid-cols-4">
+        {all.map((r) => <RecipeCard recipe={r} />)}
+      </div>
+    </section>
+  </div>
+</Base>

@@ -1,0 +1,182 @@
+{
+  "slug": "butterflied-leg-of-lamb",
+  "title": "Butterflied Leg of Lamb",
+  "chapter": "meat",
+  "order": 35,
+  "source": null,
+  "contributors": [
+    "family-files"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 8",
+    "servings": 8
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "25–35 min",
+      "min": 25,
+      "max": 35
+    },
+    {
+      "label": "Marinate",
+      "text": "3–4 hr",
+      "min": 180,
+      "max": 240
+    }
+  ],
+  "headnote": "The marinade comes from an old handwritten index card in the family files titled “Pecks Lamb”: lemon, fresh ginger, garlic, onion, oil, and warm curry spices.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 boneless butterflied leg of lamb, 4–5 pounds",
+          "qty": 1.0,
+          "qtyText": "1"
+        }
+      ]
+    },
+    {
+      "name": "Pecks Lamb marinade (from the card)",
+      "items": [
+        {
+          "raw": "¼ to ⅓ cup fresh lemon juice",
+          "qty": [
+            0.25,
+            0.3333333333333333
+          ],
+          "qtyText": "¼ to ⅓",
+          "unit": "cup"
+        },
+        {
+          "raw": "2-inch piece fresh ginger, peeled and chopped — or 2 teaspoons ground ginger"
+        },
+        {
+          "raw": "4 to 6 (torn off the card) garlic cloves — or ¾ teaspoon garlic powder",
+          "qty": [
+            4.0,
+            6.0
+          ],
+          "qtyText": "4 to 6",
+          "gaps": [
+            "4 to 6 (torn off the card)"
+          ]
+        },
+        {
+          "raw": "1 onion, roughly chopped",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "⅔ cup oil",
+          "qty": 0.6666666666666666,
+          "qtyText": "⅔",
+          "unit": "cup"
+        },
+        {
+          "raw": "3 teaspoons curry powder — or turmeric, coriander, and cumin to make 3 teaspoons",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "¼ teaspoon nutmeg",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Cinnamon and mace, about ¼ teaspoon each — no amounts on the card",
+          "gaps": [
+            "about ¼ teaspoon each — no amounts on the card"
+          ]
+        },
+        {
+          "raw": "1 teaspoon salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "¼ teaspoon cayenne",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "¼ teaspoon black pepper",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make the marinade.",
+      "text": "Purée the lemon juice, ginger, garlic, and onion in a blender until smooth. Add the oil and all the spices and blend again."
+    },
+    {
+      "lead": "Even out the lamb.",
+      "text": "Open the lamb flat on a board. Where it is much thicker than the rest, make shallow cuts and fold the meat open so it is roughly 1½ to 2 inches thick all over. Trim any thick seams of fat."
+    },
+    {
+      "lead": "Marinate.",
+      "text": "Rub the marinade over both sides and refrigerate 3 to 4 hours (the card says “3/4 hrs”). Take it out 45 minutes before cooking."
+    },
+    {
+      "lead": "Set up the grill.",
+      "text": "Prepare a two-zone fire: one side medium-high, the other low or off. Clean and oil the grates."
+    },
+    {
+      "lead": "Sear.",
+      "text": "Scrape off the excess marinade and grill over the hot side 5 to 6 minutes per side, until well browned. The onion and spices char quickly, so watch for flare-ups."
+    },
+    {
+      "lead": "Finish gently.",
+      "text": "Move to the cooler side, cover, and cook until the thickest part reads 130°F for medium-rare, 10 to 20 minutes more. The thin parts will be more done, which suits a crowd with different tastes."
+    },
+    {
+      "lead": "Rest and slice.",
+      "text": "Rest 10 to 15 minutes, then slice thinly against the grain."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Oven method",
+      "text": "roast on a rack in a 425°F oven for 30 to 40 minutes to 130°F, then run it under the broiler 2 to 3 minutes for color.",
+      "byLinda": false
+    },
+    {
+      "label": "Skewers help",
+      "text": "two long skewers run crosswise through the meat keep it flat and make it easy to flip.",
+      "byLinda": false
+    },
+    {
+      "label": "Alongside",
+      "text": "Grandma’s Mint Jelly (Chapter 12), the roast potatoes, and the orange and fennel salad.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who is Peck (or Beck)? The card’s left edge is torn off, so the number of garlic cloves is missing, and the card has no method — I filled in a standard one. Is this the marinade for the butterflied leg, and is it grilled or roasted?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "easter-spring"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 225
+}

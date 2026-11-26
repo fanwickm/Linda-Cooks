@@ -1,0 +1,159 @@
+{
+  "slug": "angelas-moms-gnocchi",
+  "title": "Angela’s Mom’s Gnocchi",
+  "chapter": "pasta-dumplings-grains",
+  "order": 23,
+  "source": "From Angela’s mom",
+  "contributors": [
+    "angelas-mom"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4–6",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "45 min",
+      "min": 45,
+      "max": 45
+    },
+    {
+      "label": "Cook",
+      "text": "1 hr 15 min",
+      "min": 75,
+      "max": 75
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 pounds (about 900 g) russet potatoes, 3 or 4 large, scrubbed",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "pounds",
+          "metric": {
+            "qty": 900.0,
+            "unit": "g",
+            "span": " pounds (about 900 g)"
+          }
+        },
+        {
+          "raw": "1 large egg yolk",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "1 teaspoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "About 1¼ cups (160 g) all-purpose flour, plus more for dusting",
+          "qty": 1.25,
+          "qtyText": "1¼",
+          "qtyPrefix": "About ",
+          "unit": "cups",
+          "metric": {
+            "qty": 160.0,
+            "unit": "g",
+            "span": " cups (160 g)"
+          }
+        },
+        {
+          "raw": "¼ cup (20 g) finely grated Parmigiano-Reggiano (optional)",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup",
+          "metric": {
+            "qty": 20.0,
+            "unit": "g",
+            "span": " cup (20 g)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "To serve",
+      "items": [
+        {
+          "raw": "Angela’s mom’s sauce — or 6 tablespoons butter with sage, or 3 cups tomato sauce",
+          "gaps": [
+            "Angela’s mom’s sauce"
+          ]
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Bake the potatoes.",
+      "text": "Heat the oven to 400°F. Prick the potatoes and bake directly on the rack 50 to 60 minutes, until a knife slides through with no resistance. Baking instead of boiling keeps them dry, and dry potatoes mean light gnocchi."
+    },
+    {
+      "lead": "Rice them hot.",
+      "text": "Halve the potatoes while hot (use a towel) and scoop out the flesh. Pass it through a ricer or food mill onto the counter and spread it out to let the steam escape for 5 to 10 minutes. You should have about 1 pound 10 ounces (750 g) riced potato."
+    },
+    {
+      "lead": "Make the dough.",
+      "text": "Sprinkle the potato with the salt and Parmesan, add the yolk, and scatter about 1 cup of the flour over the top. Gather it together with a bench scraper, folding rather than kneading."
+    },
+    {
+      "lead": "Use as little flour as possible.",
+      "text": "Add more flour only until the dough holds together and is just barely tacky — soft, like a well-handled earlobe. More flour makes heavier gnocchi. Test one: drop a small piece into boiling salted water; if it falls apart, work in another tablespoon of flour."
+    },
+    {
+      "lead": "Shape.",
+      "text": "Divide into 6 pieces and roll each into a rope about ¾ inch thick. Cut into ¾-inch pieces. Leave them as pillows, or roll each off the back of a fork with your thumb to make ridges that hold sauce. Set on a floured sheet pan."
+    },
+    {
+      "lead": "Cook.",
+      "text": "Drop into a large pot of well-salted boiling water in two or three batches. They sink, then rise. Let them float for 30 seconds, then lift out with a slotted spoon."
+    },
+    {
+      "lead": "Sauce and serve.",
+      "text": "Toss gently with the sauce in a wide pan and serve right away."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Russets only",
+      "text": "waxy potatoes like Yukon Golds or red potatoes need much more flour and turn gummy.",
+      "byLinda": false
+    },
+    {
+      "label": "Don’t knead",
+      "text": "working the dough develops gluten and makes the gnocchi chewy. Mix only until it comes together.",
+      "byLinda": false
+    },
+    {
+      "label": "Freezing",
+      "text": "freeze uncooked gnocchi on the floured pan until hard, then bag. Cook from frozen; do not thaw.",
+      "byLinda": false
+    },
+    {
+      "label": "Pan-crisped",
+      "text": "after boiling, brown the gnocchi in butter in a hot skillet for a crisp outside.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Tell me about Angela’s mom — where her gnocchi come from, and when she makes them. Does she use egg or no egg? Ridged on a fork or board, or plain pillows? And what sauce does she put on them?",
+  "isBestGuess": false,
+  "contributorName": "Angela’s mom",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "sunday-dinner"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 120
+}

@@ -1,0 +1,183 @@
+{
+  "slug": "isaan-tahdig",
+  "title": "Isaan Tahdig",
+  "chapter": "pasta-dumplings-grains",
+  "order": 32,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "1 hr 15 min",
+      "min": 75,
+      "max": 75
+    },
+    {
+      "label": "Soak",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 cups (400 g) basmati or jasmine rice — which rice?",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups",
+          "metric": {
+            "qty": 400.0,
+            "unit": "g",
+            "span": " cups (400 g)"
+          },
+          "gaps": [
+            "which rice?"
+          ]
+        },
+        {
+          "raw": "3 tablespoons kosher salt, for the parboiling water",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 stalks lemongrass, tender core finely minced",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "stalks"
+        },
+        {
+          "raw": "4 makrut lime leaves, center rib removed, very finely shredded",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "1–2 Thai chilies, minced",
+          "qty": [
+            1.0,
+            2.0
+          ],
+          "qtyText": "1–2"
+        },
+        {
+          "raw": "1 tablespoon fish sauce",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "½ cup plain whole-milk yogurt",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 large egg yolk",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "5 tablespoons neutral oil or ghee, divided",
+          "qty": 5.0,
+          "qtyText": "5",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 tablespoons toasted rice powder (khao khua)",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        }
+      ]
+    },
+    {
+      "name": "To finish",
+      "items": [
+        {
+          "raw": "Lime wedges, cilantro, mint, sliced shallot"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Rinse and soak.",
+      "text": "Rinse the rice in several changes of cold water until it runs nearly clear, then soak 30 minutes. Drain."
+    },
+    {
+      "lead": "Parboil.",
+      "text": "Bring 3 quarts of water and the salt to a boil. Add the rice and boil 5 to 6 minutes, until the grains are soft on the outside but still firm in the center. Drain in a sieve and rinse briefly with cool water."
+    },
+    {
+      "lead": "Season the base.",
+      "text": "In a bowl, mix 2 cups of the parboiled rice with the yogurt, egg yolk, lemongrass, half the lime leaves, chilies, fish sauce, and 1 tablespoon oil. Toss the rest of the rice with the remaining lime leaves."
+    },
+    {
+      "lead": "Build the crust.",
+      "text": "Heat 3 tablespoons oil in a 10-inch nonstick pot or deep skillet over medium heat. Spread the yogurt rice firmly over the bottom in an even layer. Mound the remaining rice on top in a loose pyramid. Poke 5 or 6 holes down to the bottom with the handle of a spoon."
+    },
+    {
+      "lead": "Steam.",
+      "text": "Drizzle the last tablespoon of oil over the top. Wrap the lid in a clean kitchen towel and cover tightly. Cook 10 minutes over medium until you hear steady sizzling, then turn to low and cook 35 to 45 minutes more."
+    },
+    {
+      "lead": "Check the crust.",
+      "text": "Peek at an edge with a thin spatula; it should be deep golden. If not, give it another 5 to 10 minutes."
+    },
+    {
+      "lead": "Flip.",
+      "text": "Run a spatula around the edge, set a large plate over the pot, and turn it over in one confident motion. Sprinkle the crust with toasted rice powder and serve with lime, herbs, and shallot."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The towel matters",
+      "text": "it absorbs steam that would otherwise drip back and soften the crust.",
+      "byLinda": false
+    },
+    {
+      "label": "Toasted rice powder",
+      "text": "toast raw sticky rice in a dry pan until deep golden, about 10 minutes, then grind it fine. Asian markets sell it ready-made.",
+      "byLinda": false
+    },
+    {
+      "label": "Nonstick pot",
+      "text": "this is the one recipe where nonstick is close to essential.",
+      "byLinda": false
+    },
+    {
+      "label": "Serve with",
+      "text": "what goes alongside or on top? Larb, grilled meat, or a green papaya salad would all suit it.",
+      "gaps": [
+        "what goes alongside or on top?"
+      ],
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — Persian crispy-bottom rice (tahdig) made with Isaan, northeast Thai, flavors. I do not know this dish. Whose is it, and how did it come about? What is actually in it — jasmine or basmati rice, and which flavors? Is it served with something on top, like larb?",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 125
+}

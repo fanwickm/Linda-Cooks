@@ -1,0 +1,125 @@
+---
+import Base from "../../layouts/Base.astro";
+import { recipes } from "../../lib/data";
+const complete = recipes.filter((r) => r.steps.length);
+---
+<Base title="Family photo wall">
+  <div class="container-page pt-6 sm:pt-10">
+    <nav class="text-sm text-ink-soft mb-3" aria-label="Breadcrumb"><a href="/family" class="hover:text-tomato">The Family Table</a></nav>
+    <p class="eyebrow">As made at home</p>
+    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">Family photo wall</h1>
+    <p class="mt-2 text-lg text-ink-soft max-w-2xl">Made something from the book? Send a photo. Lyle looks at each one before it goes up.</p>
+
+    <div class="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] items-start">
+      <form class="card p-5 sm:p-6 space-y-4" data-photo-form>
+        <h2 class="font-serif text-2xl font-semibold">Send a photo</h2>
+        <div class="hidden" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
+        <label class="block"><span class="font-semibold">Which recipe?</span>
+          <select name="slug" required class="mt-1 w-full min-h-[48px] rounded-xl border border-line bg-white px-3 text-base">
+            <option value="">Choose a recipe…</option>
+            <option value="linda">A photo of Linda</option>
+            <option value="original-card">An original recipe card</option>
+            {complete.map((r) => <option value={r.slug}>{r.title}</option>)}
+          </select>
+        </label>
+        <label class="block"><span class="font-semibold">Photo</span>
+          <input type="file" name="photo" accept="image/*" required class="mt-1 block w-full text-base file:btn file:btn-ghost file:mr-3" />
+        </label>
+        <img data-preview alt="" class="hidden w-full rounded-xl aspect-square object-cover" />
+        <label class="block"><span class="font-semibold">Caption <span class="font-normal text-ink-soft">(optional)</span></span>
+          <input name="caption" maxlength="200" class="mt-1 w-full rounded-xl border border-line bg-white p-3 text-lg min-h-[48px]" placeholder="Christmas Eve 2026, triple pickle!" />
+        </label>
+        <label class="block"><span class="font-semibold">Your name</span>
+          <input name="name" required maxlength="80" autocomplete="name" class="mt-1 w-full rounded-xl border border-line bg-white p-3 text-lg min-h-[48px]" />
+        </label>
+        <button type="submit" class="btn btn-primary w-full !min-h-[52px]">Send to the editor</button>
+        <p data-photo-status role="status" aria-live="polite" class="font-semibold"></p>
+      </form>
+
+      <section aria-labelledby="wall-h">
+        <h2 id="wall-h" class="sr-only">Approved photos</h2>
+        <div class="columns-2 sm:columns-3 gap-4 [&>*]:mb-4" data-wall></div>
+        <p class="text-ink-soft text-center py-10 card" data-wall-empty>No photos on the wall yet — be the first!</p>
+      </section>
+    </div>
+  </div>
+  <script>
+    import { load } from "../../scripts/store";
+    const form = document.querySelector<HTMLFormElement>("[data-photo-form]")!;
+    const status = form.querySelector<HTMLElement>("[data-photo-status]")!;
+    const preview = form.querySelector<HTMLImageElement>("[data-preview]")!;
+    const fileInput = form.querySelector<HTMLInputElement>("input[type=file]")!;
+    const pre = new URLSearchParams(location.search).get("recipe");
+    if (pre) (form.elements.namedItem("slug") as HTMLSelectElement).value = pre;
+    const nm = load<string>("name", "");
+    if (nm) (form.elements.namedItem("name") as HTMLInputElement).value = nm;
+
+    // Shrink big phone photos in the browser before upload (max 1600px JPEG)
+    async function shrink(file: File): Promise<Blob> {
+      const bmp = await createImageBitmap(file).catch(() => null);
+      if (!bmp) return file;
+      const scale = Math.min(1, 1600 / Math.max(bmp.width, bmp.height));
+      const c = document.createElement("canvas");
+      c.width = Math.round(bmp.width * scale);
+      c.height = Math.round(bmp.height * scale);
+      c.getContext("2d")!.drawImage(bmp, 0, 0, c.width, c.height);
+      return await new Promise((res) => c.toBlob((b) => res(b ?? file), "image/jpeg", 0.85));
+    }
+    fileInput.addEventListener("change", () => {
+      const f = fileInput.files?.[0];
+      if (!f) return;
+      preview.src = URL.createObjectURL(f);
+      preview.classList.remove("hidden");
+    });
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const f = fileInput.files?.[0];
+      if (!f) return;
+      const btn = form.querySelector<HTMLButtonElement>("button[type=submit]")!;
+      btn.disabled = true;
+      status.textContent = "Uploading…";
+      try {
+        const fd = new FormData(form);
+        fd.set("photo", await shrink(f), "photo.jpg");
+        const res = await fetch("/api/photos", { method: "POST", body: fd });
+        if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error || res.statusText);
+        status.textContent = "Thank you! It will appear once Lyle has had a look. ♥";
+        try { localStorage.setItem("lk:name", JSON.stringify(fd.get("name"))); } catch {}
+        form.reset();
+        preview.classList.add("hidden");
+      } catch (err) {
+        status.textContent = `Sorry, that didn’t upload (${(err as Error).message}).`;
+      } finally {
+        btn.disabled = false;
+      }
+    });
+
+    (async () => {
+      try {
+        const res = await fetch("/api/approved");
+        if (!res.ok) return;
+        const data = await res.json();
+        const wall = document.querySelector<HTMLElement>("[data-wall]")!;
+        for (const p of data.photos as any[]) {
+          const fig = document.createElement("figure");
+          fig.className = "break-inside-avoid bg-card p-2 pb-1 shadow-md rounded-sm";
+          fig.style.transform = `rotate(${(Math.random() * 3 - 1.5).toFixed(2)}deg)`;
+          fig.innerHTML = `<img loading="lazy" class="w-full"><figcaption class="font-hand text-xl px-1"></figcaption>`;
+          fig.querySelector("img")!.src = p.url;
+          fig.querySelector("img")!.alt = p.caption || `Photo by ${p.name}`;
+          const cap = fig.querySelector("figcaption")!;
+          cap.textContent = `${p.caption ? p.caption + " — " : ""}${p.name}`;
+          if (p.recipeTitle) {
+            const a = document.createElement("a");
+            a.href = `/recipes/${p.slug}`;
+            a.className = "block font-sans text-xs text-tomato underline pb-1";
+            a.textContent = p.recipeTitle;
+            cap.after(a);
+          }
+          wall.appendChild(fig);
+        }
+        if (data.photos.length) document.querySelector("[data-wall-empty]")!.remove();
+      } catch {}
+    })();
+  </script>
+</Base>

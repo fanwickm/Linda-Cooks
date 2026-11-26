@@ -1,0 +1,168 @@
+{
+  "slug": "holiday-scalloped-potatoes",
+  "title": "Holiday Scalloped Potatoes",
+  "chapter": "vegetables-sides",
+  "order": 50,
+  "source": "Holidays and family gatherings",
+  "contributors": [],
+  "occasionText": "Holidays and family gatherings",
+  "yield": {
+    "text": "Serves 8",
+    "servings": 8
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "25 min",
+      "min": 25,
+      "max": 25
+    },
+    {
+      "label": "Cook",
+      "text": "1 hr 15 min",
+      "min": 75,
+      "max": 75
+    },
+    {
+      "label": "Rest",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    }
+  ],
+  "headnote": "A creamy, comforting dish that comes out for holiday dinners and family gatherings: thin slices of potato baked slowly in a savory sauce until tender, with a golden top.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "3 pounds Yukon Gold or russet potatoes, peeled",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "pounds"
+        },
+        {
+          "raw": "4 tablespoons unsalted butter, plus more for the dish",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 small onion, finely chopped (optional)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "small"
+        },
+        {
+          "raw": "2 garlic cloves, minced",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "¼ cup all-purpose flour",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "3 cups whole milk, or half milk and half heavy cream",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "cups"
+        },
+        {
+          "raw": "1½ teaspoons kosher salt",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "½ teaspoon freshly ground black pepper",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "¼ teaspoon freshly grated nutmeg",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1½ cups grated Gruyère or sharp Cheddar, divided (optional)",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups"
+        },
+        {
+          "raw": "Chopped chives or parsley, to finish"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 375°F and butter a 9×13-inch baking dish."
+    },
+    {
+      "lead": "Slice the potatoes.",
+      "text": "Slice ⅛ inch thick, as evenly as you can — a mandoline makes this fast. Keep the slices dry; do not soak them, or you rinse away the starch that helps thicken the sauce."
+    },
+    {
+      "lead": "Make the sauce.",
+      "text": "Melt the butter in a saucepan over medium heat. Cook the onion until soft, about 5 minutes, then the garlic for 1 minute. Stir in the flour and cook 1 minute. Whisk in the milk slowly, add the salt, pepper, and nutmeg, and simmer, whisking, 3 to 5 minutes until it coats a spoon. Stir in 1 cup of the cheese if using. It should taste slightly too salty — the potatoes will absorb it."
+    },
+    {
+      "lead": "Layer.",
+      "text": "Arrange a third of the potatoes in overlapping rows like shingles, then pour over a third of the sauce. Repeat twice, finishing with sauce. Press down gently so the top layer is mostly submerged."
+    },
+    {
+      "lead": "Bake covered.",
+      "text": "Cover tightly with foil and bake 40 minutes."
+    },
+    {
+      "lead": "Bake uncovered.",
+      "text": "Remove the foil, sprinkle over the remaining cheese, and bake another 30 to 40 minutes, until the top is golden and bubbling and a knife slides through the center with no resistance."
+    },
+    {
+      "lead": "Rest.",
+      "text": "Let stand at least 15 minutes before serving so the sauce sets and the portions hold their shape. Scatter with chives."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Why so much sauce",
+      "text": "three pounds of potatoes in a 9×13 needs about 3 cups of liquid. With less, the top layer dries out and the slices stay firm.",
+      "byLinda": false
+    },
+    {
+      "label": "Potatoes",
+      "text": "russets give a softer, creamier result; Yukon Golds hold their shape and taste more buttery.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "assemble up to a day ahead, cover, and refrigerate. Add 15 minutes to the covered baking time.",
+      "byLinda": false
+    },
+    {
+      "label": "Alongside",
+      "text": "roast beef, ham, lamb, or turkey, with a sharp green salad to cut the richness.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes these, and which holidays do they belong to? The first draft did not say. Tell me too whether yours have cheese or are the plain creamy kind, and whether the onion goes in.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "christmas-eve",
+    "thanksgiving"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 115
+}

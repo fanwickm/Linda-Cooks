@@ -1,0 +1,158 @@
+{
+  "slug": "molten-chocolate-cakes",
+  "title": "Molten Chocolate Cakes",
+  "chapter": "desserts",
+  "order": 65,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "12–14 min",
+      "min": 12,
+      "max": 14
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "Butter and cocoa powder, for the ramekins"
+        },
+        {
+          "raw": "6 ounces (170 g) bittersweet chocolate, chopped",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "ounces",
+          "metric": {
+            "qty": 170.0,
+            "unit": "g",
+            "span": " ounces (170 g)"
+          }
+        },
+        {
+          "raw": "½ cup (113 g) unsalted butter, cut up",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 113.0,
+            "unit": "g",
+            "span": " cup (113 g)"
+          }
+        },
+        {
+          "raw": "3 large eggs plus 3 large egg yolks, at room temperature",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "large"
+        },
+        {
+          "raw": "⅓ cup (65 g) granulated sugar",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup",
+          "metric": {
+            "qty": 65.0,
+            "unit": "g",
+            "span": " cup (65 g)"
+          }
+        },
+        {
+          "raw": "Pinch of kosher salt"
+        },
+        {
+          "raw": "1 teaspoon vanilla extract",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 tablespoons (16 g) all-purpose flour",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 16.0,
+            "unit": "g",
+            "span": " tablespoons (16 g)"
+          }
+        },
+        {
+          "raw": "Powdered sugar, ice cream, or whipped cream, to serve"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Prepare the ramekins.",
+      "text": "Heat the oven to 425°F. Butter six 6-ounce ramekins generously, dust with cocoa, and tap out the excess. Set them on a baking sheet."
+    },
+    {
+      "lead": "Melt the chocolate.",
+      "text": "Melt the chocolate and butter together over barely simmering water or in the microwave in short bursts, stirring until smooth. Let cool slightly."
+    },
+    {
+      "lead": "Whip the eggs.",
+      "text": "Beat the eggs, yolks, sugar, and salt on high speed for about 5 minutes, until thick, pale, and doubled in volume. Beat in the vanilla."
+    },
+    {
+      "lead": "Fold together.",
+      "text": "Fold the chocolate into the eggs, then sift the flour over and fold just until no streaks remain. Divide among the ramekins, about three-quarters full."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Bake 12 to 14 minutes, until the sides are set and the tops are just firm, but the centers still jiggle when you nudge the pan. That jiggle is the molten center."
+    },
+    {
+      "lead": "Unmold and serve.",
+      "text": "Let stand 1 minute. Run a thin knife around each cake, put a plate on top, and flip. Lift off the ramekin. Dust with powdered sugar and serve immediately."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Ahead of time",
+      "text": "fill the ramekins, cover, and refrigerate up to a day. Bake straight from the fridge, adding 2 to 3 minutes.",
+      "byLinda": false
+    },
+    {
+      "label": "Test one first",
+      "text": "ovens vary. Bake a single cake as a trial; if the center is runny all the way through, add a minute.",
+      "byLinda": false
+    },
+    {
+      "label": "Chocolate",
+      "text": "use a bar between 60 and 70 percent cacao, not chips, which contain stabilizers and do not melt as smoothly.",
+      "byLinda": false
+    },
+    {
+      "label": "Soft centers",
+      "text": "the molten middle is undercooked egg. For anyone pregnant, elderly, or immune-compromised, bake 2 to 3 minutes longer, until set.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes these, and for what occasion — a birthday, Valentine’s Day, a dinner party standard? Tell me if yours get served with ice cream, whipped cream, or berries.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 27
+}

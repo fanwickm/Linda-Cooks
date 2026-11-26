@@ -1,0 +1,178 @@
+{
+  "slug": "crepes",
+  "title": "Crepes",
+  "chapter": "breads-breakfast",
+  "order": 56,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes 12–14 crepes",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "10 min",
+      "min": 10,
+      "max": 10
+    },
+    {
+      "label": "Cook",
+      "text": "25 min",
+      "min": 25,
+      "max": 25
+    },
+    {
+      "label": "Rest",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Batter",
+      "items": [
+        {
+          "raw": "1 cup (130 g) all-purpose flour",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 130.0,
+            "unit": "g",
+            "span": " cup (130 g)"
+          }
+        },
+        {
+          "raw": "2 large eggs",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "1¼ cups (300 g) whole milk",
+          "qty": 1.25,
+          "qtyText": "1¼",
+          "unit": "cups",
+          "metric": {
+            "qty": 300.0,
+            "unit": "g",
+            "span": " cups (300 g)"
+          }
+        },
+        {
+          "raw": "¼ cup (60 g) water",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup",
+          "metric": {
+            "qty": 60.0,
+            "unit": "g",
+            "span": " cup (60 g)"
+          }
+        },
+        {
+          "raw": "3 tablespoons (42 g) unsalted butter, melted, plus more for the pan",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 42.0,
+            "unit": "g",
+            "span": " tablespoons (42 g)"
+          }
+        },
+        {
+          "raw": "1 tablespoon sugar (leave out for savory crepes)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "¼ teaspoon salt",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        }
+      ]
+    },
+    {
+      "name": "Fillings",
+      "items": [
+        {
+          "raw": "Sweet: butter and sugar with lemon; Nutella and banana; jam; berries and whipped cream"
+        },
+        {
+          "raw": "Savory: ham and Gruyère; sautéed mushrooms and spinach; a fried egg"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Blend the batter.",
+      "text": "Put the flour, eggs, milk, water, melted butter, sugar, and salt in a blender and blend 10 seconds until smooth. Or whisk the eggs and milk into the flour a little at a time to avoid lumps."
+    },
+    {
+      "lead": "Rest it.",
+      "text": "Cover and let stand at least 30 minutes at room temperature, or refrigerate up to 2 days. Resting relaxes the flour so the crepes are tender, not rubbery. It should be the consistency of heavy cream; thin with a splash of milk if needed."
+    },
+    {
+      "lead": "Heat the pan.",
+      "text": "Heat an 8- to 10-inch nonstick or well-seasoned crepe pan over medium heat. Brush lightly with butter."
+    },
+    {
+      "lead": "Pour and swirl.",
+      "text": "Lift the pan off the heat, pour in about 3 tablespoons of batter, and immediately tilt and swirl so it coats the bottom in a thin, even layer."
+    },
+    {
+      "lead": "Cook.",
+      "text": "Cook 1 to 1½ minutes, until the edges look dry and lacy and the underside is golden in spots. Loosen the edge with a spatula and flip. Cook 20 to 30 seconds more."
+    },
+    {
+      "lead": "Stack.",
+      "text": "Slide onto a plate and repeat, buttering the pan every few crepes. Stack them as they are done; they will not stick together."
+    },
+    {
+      "lead": "Fill and fold.",
+      "text": "Fill each crepe and fold into quarters or roll up. For hot fillings, add them to the crepe in the pan after flipping and fold it there."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The first one is always bad",
+      "text": "it seasons the pan and tells you whether the heat and batter are right. Eat it yourself.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "cooked crepes keep 3 days refrigerated or 2 months frozen, stacked between parchment and well wrapped. Rewarm in a dry pan.",
+      "byLinda": false
+    },
+    {
+      "label": "Too thick",
+      "text": "if the crepes come out thick or won’t spread, thin the batter with a tablespoon of milk at a time.",
+      "byLinda": false
+    },
+    {
+      "label": "Crêpes Suzette",
+      "text": "warm butter, sugar, orange juice, and zest in a skillet, fold the crepes into it, and serve warm.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — basic crepes with sweet and savory fillings. Who makes these, and when — a birthday breakfast, Sunday mornings, dessert? Which filling is the family favorite?",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "christmas-morning"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 65
+}

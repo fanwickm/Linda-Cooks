@@ -1,0 +1,170 @@
+{
+  "slug": "christmas-toffee",
+  "title": "Christmas Toffee",
+  "chapter": "desserts",
+  "order": 64,
+  "source": "From Karen Massimino  ·  Christmas and holiday gift-giving",
+  "contributors": [
+    "karen-massimino"
+  ],
+  "occasionText": "Christmas and holiday gift-giving",
+  "yield": {
+    "text": "About 2 pounds per batch",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cool",
+      "text": "2 hr",
+      "min": 120,
+      "max": 120
+    }
+  ],
+  "headnote": "Karen Massimino makes this toffee every Christmas season — about eight batches at once — and it goes out as holiday gifts.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 cup (226 g) unsalted butter",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 226.0,
+            "unit": "g",
+            "span": " cup (226 g)"
+          }
+        },
+        {
+          "raw": "1 cup (200 g) granulated sugar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 200.0,
+            "unit": "g",
+            "span": " cup (200 g)"
+          }
+        },
+        {
+          "raw": "2 tablespoons water (helps keep it from separating)",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "¼ teaspoon kosher salt",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 teaspoon vanilla extract",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 cups (340 g) semisweet chocolate chips",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups",
+          "metric": {
+            "qty": 340.0,
+            "unit": "g",
+            "span": " cups (340 g)"
+          }
+        },
+        {
+          "raw": "1 cup (about 120 g) chopped almonds, pecans, or walnuts, toasted",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 120.0,
+            "unit": "g",
+            "span": " cup (about 120 g)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Get everything ready first.",
+      "text": "Line a 10×15-inch rimmed baking sheet with parchment or a silicone mat. Toast the nuts in a dry skillet until fragrant, then chop. Measure the vanilla and chocolate and have them next to the stove — once the toffee is ready there is no time to look for anything."
+    },
+    {
+      "lead": "Melt.",
+      "text": "In a heavy 3-quart saucepan over medium heat, melt the butter. Add the sugar, water, and salt and stir until the sugar dissolves."
+    },
+    {
+      "lead": "Cook to 300°F, stirring constantly.",
+      "text": "Clip on a candy thermometer and keep stirring with a wooden spoon or heatproof spatula, scraping the bottom, as it boils. It will turn from pale yellow to the color of peanut butter and then a light amber. Stop at exactly 300°F (hard crack), which takes 15 to 20 minutes."
+    },
+    {
+      "lead": "Off the heat, add the vanilla.",
+      "text": "Pull the pan off the burner and stir in the vanilla. It will sputter. Vanilla goes in now, not at the start — at 300°F the flavor cooks away."
+    },
+    {
+      "lead": "Pour and spread.",
+      "text": "Immediately pour onto the prepared sheet and spread with the spatula into a thin, even layer, about ⅛ inch thick. It sets within a minute, so move quickly."
+    },
+    {
+      "lead": "Add the chocolate and nuts.",
+      "text": "Wait 1 to 2 minutes, then scatter the chocolate chips over the hot toffee. Let them sit 3 to 5 minutes to melt, then spread into an even layer. Sprinkle the nuts over the top and press them in lightly."
+    },
+    {
+      "lead": "Cool and break.",
+      "text": "Let cool at room temperature about 2 hours, or 30 minutes in the refrigerator once it is no longer hot, until the chocolate is firm. Break into pieces."
+    }
+  ],
+  "notes": [
+    {
+      "label": "If it separates",
+      "text": "if a layer of butter pools on top, pull the pan off the heat, add a tablespoon or two of hot water, and stir hard until it comes back together. Then return it to the heat. Sudden heat changes and not stirring are the usual causes.",
+      "byLinda": false
+    },
+    {
+      "label": "Karen makes about eight batches",
+      "text": "make them one at a time. Doubling in one pot cooks unevenly and is much more likely to separate.",
+      "byLinda": false
+    },
+    {
+      "label": "Check the thermometer",
+      "text": "it should read 212°F in boiling water. If it reads differently, adjust the 300°F target by the same amount.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "airtight at room temperature for 2 weeks, layered with parchment. Keep it away from humidity, which makes it sticky.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": null,
+  "isBestGuess": false,
+  "contributorName": "Karen Massimino",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "christmas-eve"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 155
+}

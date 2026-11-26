@@ -1,0 +1,221 @@
+{
+  "slug": "beef-pho",
+  "title": "Beef Pho",
+  "chapter": "soups",
+  "order": 11,
+  "source": "Made during Covid",
+  "contributors": [],
+  "occasionText": "Made during Covid",
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "45 min",
+      "min": 45,
+      "max": 45
+    },
+    {
+      "label": "Cook",
+      "text": "4–6 hr",
+      "min": 240,
+      "max": 360
+    }
+  ],
+  "headnote": "First made during Covid. It takes most of a day: charred onion and ginger, toasted spices, and beef bones simmered low for hours.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Broth",
+      "items": [
+        {
+          "raw": "3 pounds beef marrow and knuckle bones",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "pounds"
+        },
+        {
+          "raw": "2 pounds oxtail or beef short ribs",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "pounds"
+        },
+        {
+          "raw": "2 large onions, unpeeled, halved",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "1 piece fresh ginger, 4 inches, unpeeled, halved lengthwise",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "piece"
+        },
+        {
+          "raw": "5 star anise",
+          "qty": 5.0,
+          "qtyText": "5"
+        },
+        {
+          "raw": "1 cinnamon stick, 3 inches",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "6 whole cloves",
+          "qty": 6.0,
+          "qtyText": "6"
+        },
+        {
+          "raw": "1 tablespoon coriander seeds",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 teaspoon fennel seeds",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 black cardamom pods (optional, but characteristic)",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "¼ cup fish sauce, plus more to taste",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 ounce (about 2 tablespoons) yellow rock sugar, or 1½ tablespoons granulated sugar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "ounce"
+        },
+        {
+          "raw": "1 tablespoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        }
+      ]
+    },
+    {
+      "name": "Bowls",
+      "items": [
+        {
+          "raw": "1½ pounds dried flat rice noodles (bánh phở)",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "pounds"
+        },
+        {
+          "raw": "12 ounces beef eye of round or sirloin, frozen 20 minutes and sliced paper-thin",
+          "qty": 12.0,
+          "qtyText": "12",
+          "unit": "ounces"
+        },
+        {
+          "raw": "Cooked meat picked from the oxtail"
+        }
+      ]
+    },
+    {
+      "name": "The plate of garnishes",
+      "items": [
+        {
+          "raw": "Bean sprouts"
+        },
+        {
+          "raw": "Thai basil"
+        },
+        {
+          "raw": "Cilantro"
+        },
+        {
+          "raw": "Lime wedges"
+        },
+        {
+          "raw": "Thinly sliced jalapeño"
+        },
+        {
+          "raw": "Thinly sliced white onion, soaked in cold water"
+        },
+        {
+          "raw": "Sriracha and hoisin, on the side"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Parboil the bones.",
+      "text": "Put the bones and oxtail in your largest pot, cover with cold water, and bring to a hard boil for 10 minutes. Drain everything into the sink and rinse each piece under running water, scrubbing off any grey scum. Wash the pot. This is the step that makes the difference between a clear amber broth and a cloudy grey one."
+    },
+    {
+      "lead": "Char the aromatics.",
+      "text": "Set the onion halves and ginger cut side up on a foil-lined pan and broil 10 to 15 minutes, turning once, until blackened in patches and soft. Do not be timid — you want real char. Scrape off any truly burnt skin."
+    },
+    {
+      "lead": "Toast the spices.",
+      "text": "Toast the star anise, cinnamon, cloves, coriander, fennel, and cardamom in a dry skillet over medium heat for 2 to 3 minutes, until fragrant. Tie them in cheesecloth or drop them in a tea ball."
+    },
+    {
+      "lead": "Simmer, long and low.",
+      "text": "Return the bones to the clean pot, add 6 quarts of cold water, and bring to a bare simmer — the surface should barely tremble. Add the charred onion and ginger, the spice bundle, salt, and rock sugar. Simmer uncovered 4 to 6 hours, skimming the surface every 30 minutes for the first two hours. Never let it boil."
+    },
+    {
+      "lead": "Pull the oxtail early.",
+      "text": "After about 3 hours, lift out the oxtail or short ribs, pull the meat from the bones, and refrigerate the meat. Return the bones to the pot."
+    },
+    {
+      "lead": "Strain and season.",
+      "text": "Strain the broth through a fine sieve, discarding the solids. You should have 4 to 5 quarts. Skim the fat, or chill overnight and lift the fat off solid. Season with the fish sauce and more salt and sugar until it is deeply savory and faintly sweet — broth that tastes correct in a spoon will taste flat over noodles, so push it a little further than seems right."
+    },
+    {
+      "lead": "Cook the noodles.",
+      "text": "Soak and cook the rice noodles according to the package, drain, and rinse. Do this at the last minute; noodles sitting in water turn to paste. Divide among six deep, warmed bowls."
+    },
+    {
+      "lead": "Assemble.",
+      "text": "Bring the broth back to a full rolling boil. Lay the raw sliced beef and the reserved oxtail meat over the noodles, then ladle the boiling broth directly over the raw beef — it cooks in seconds. Serve immediately with the garnish plate in the middle of the table so everyone builds their own."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The broth is the recipe",
+      "text": "everything else is assembly. If you do only one thing carefully, make it the parboil-and-rinse and the no-boil simmer.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "the broth is better made a day ahead, and it freezes beautifully for 3 months. Freeze it in quart containers so a bowl of pho becomes a weeknight thing.",
+      "byLinda": false
+    },
+    {
+      "label": "Pressure cooker",
+      "text": "after parboiling and charring, cook everything at high pressure for 1 hour, then strain. Not quite as good, but close.",
+      "byLinda": false
+    },
+    {
+      "label": "Chicken pho",
+      "text": "substitute a whole chicken plus wings for the beef bones, simmer 1½ hours, and use only star anise, coriander, and ginger.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who made it, and is it still made? Anything that makes your version different from a standard pho belongs here.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 285
+}

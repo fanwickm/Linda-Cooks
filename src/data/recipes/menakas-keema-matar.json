@@ -1,0 +1,171 @@
+{
+  "slug": "menakas-keema-matar",
+  "title": "Menaka’s Keema Matar",
+  "chapter": "meat",
+  "order": 39,
+  "source": "From Menaka",
+  "contributors": [
+    "menaka"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4–6",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "40 min",
+      "min": 40,
+      "max": 40
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 tablespoons ghee or neutral oil",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 teaspoon cumin seeds",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 medium onions, finely chopped",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "medium"
+        },
+        {
+          "raw": "1 tablespoon each grated fresh ginger and garlic",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1–2 green chilies, finely chopped",
+          "qty": [
+            1.0,
+            2.0
+          ],
+          "qtyText": "1–2"
+        },
+        {
+          "raw": "1½ pounds ground lamb or beef",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "pounds"
+        },
+        {
+          "raw": "2 teaspoons ground coriander, 1 teaspoon ground cumin, ½ teaspoon turmeric",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1 teaspoon Kashmiri chili powder or paprika",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 ripe tomatoes, finely chopped (or 1 cup canned crushed)",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "1½ teaspoons kosher salt",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1½ cups frozen peas",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups"
+        },
+        {
+          "raw": "1 teaspoon garam masala",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Chopped cilantro and lime wedges, to serve"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Bloom the cumin.",
+      "text": "Heat the ghee in a wide heavy pan over medium heat. Add the cumin seeds and let them sizzle 30 seconds."
+    },
+    {
+      "lead": "Brown the onions.",
+      "text": "Add the onions and cook 10 to 12 minutes, stirring, until deep golden. Their color sets the color of the whole dish."
+    },
+    {
+      "lead": "Add the aromatics.",
+      "text": "Stir in the ginger, garlic, and chilies and cook 1 to 2 minutes until the raw smell is gone."
+    },
+    {
+      "lead": "Cook the meat.",
+      "text": "Add the meat and break it up well. Cook over medium-high 6 to 8 minutes until no pink remains and the juices have mostly cooked off."
+    },
+    {
+      "lead": "Spice it.",
+      "text": "Add the ground spices and cook 1 minute, then the tomatoes and salt. Cook 10 to 12 minutes, stirring, until the tomatoes break down and the oil starts to separate at the edges."
+    },
+    {
+      "lead": "Add the peas.",
+      "text": "Stir in the peas and ½ cup water. Cover and simmer 8 to 10 minutes."
+    },
+    {
+      "lead": "Finish.",
+      "text": "Stir in the garam masala, taste for salt, and scatter with cilantro. Serve with rice or warm roti and lime wedges."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Patience with the onions",
+      "text": "pale onions make a pale, flat keema. Take them all the way to golden brown.",
+      "byLinda": false
+    },
+    {
+      "label": "Heat",
+      "text": "Kashmiri chili gives color more than fire. Add heat with the green chilies.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "keeps 4 days in the refrigerator and freezes well; the flavor deepens overnight.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Tell me about Menaka and this dish — when did she first make it for the family, and when does it show up now? Does she use lamb, beef, or chicken, and does she add potatoes or yogurt?",
+  "isBestGuess": false,
+  "contributorName": "Menaka",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 55
+}

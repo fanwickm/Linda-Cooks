@@ -1,0 +1,177 @@
+[
+  {
+    "slug": "starters-snacks",
+    "title": "Starters & Snacks",
+    "number": 1,
+    "intro": "The things that get eaten standing up, before anyone has sat down.",
+    "recipes": [
+      "lindas-tuna-tartare-with-wasabi-and-lime",
+      "baked-brie-with-walnuts-and-brown-sugar",
+      "spinach-and-artichoke-dip",
+      "bills-shrimp-cocktail",
+      "clams-casino",
+      "snick-snacks"
+    ]
+  },
+  {
+    "slug": "soups",
+    "title": "Soups",
+    "number": 2,
+    "intro": "Chowder, onion soup, split pea, lentils, and the pho from the Covid years.",
+    "recipes": [
+      "fresh-summer-corn-chowder",
+      "french-onion-soup",
+      "split-pea-soup",
+      "spicy-red-lentil-soup-with-harissa-and-lemon",
+      "beef-pho"
+    ]
+  },
+  {
+    "slug": "salads",
+    "title": "Salads",
+    "number": 3,
+    "intro": "Corn, citrus, crunch, and a proper Caesar.",
+    "recipes": [
+      "corn-and-avocado-salad",
+      "kathys-caesar-salad",
+      "lindas-napa-cabbage-salad",
+      "orange-and-fennel-salad"
+    ]
+  },
+  {
+    "slug": "sauces-dressings",
+    "title": "Sauces & Dressings",
+    "number": 4,
+    "intro": "The small things that finish a plate — a jar of dressing, a bowl of pesto, a sauce for dipping.",
+    "recipes": [
+      "classic-vinaigrette",
+      "pesto",
+      "peanut-sauce"
+    ]
+  },
+  {
+    "slug": "pasta-dumplings-grains",
+    "title": "Pasta, Dumplings & Grains",
+    "number": 5,
+    "intro": "Fresh dough, stuffed pasta, dumplings, and the rice dishes that sit beside them.",
+    "recipes": [
+      "small-bob-pasta-dough",
+      "homemade-ricotta",
+      "ricotta-ravioli",
+      "tortellini",
+      "angelas-moms-gnocchi",
+      "cristinas-lasagna",
+      "cristinas-mostaccioli",
+      "linguine-alle-vongole",
+      "baked-macaroni-and-cheese",
+      "lamb-manti-with-garlic-yogurt",
+      "wendys-moms-dumplings",
+      "thanksgiving-pizza",
+      "lemon-asparagus-and-pea-risotto",
+      "isaan-tahdig",
+      "rice-pilaf-with-dried-fruit-nuts-and-spice"
+    ]
+  },
+  {
+    "slug": "meat",
+    "title": "Meat",
+    "number": 6,
+    "intro": "Roasts, chops, and the long-simmered things that anchor a holiday table.",
+    "recipes": [
+      "christmas-eve-roast-beef",
+      "butterflied-leg-of-lamb",
+      "lollipop-lamb-chops",
+      "lorraine-massiminos-meatballs-and-sunday-sauce",
+      "kielbasa",
+      "menakas-keema-matar"
+    ]
+  },
+  {
+    "slug": "poultry",
+    "title": "Poultry",
+    "number": 7,
+    "intro": "Roast chickens, mostly — and Bob’s fast turkey stir-fry.",
+    "recipes": [
+      "zuni-cafe-roast-chicken-with-bread-salad",
+      "midnight-chicken",
+      "andrews-roast-chicken",
+      "lemon-caper-chicken",
+      "bobs-turkey-stir-fry"
+    ]
+  },
+  {
+    "slug": "fish-shellfish",
+    "title": "Fish & Shellfish",
+    "number": 8,
+    "intro": "Halibut for Christmas Eve, and sea bass off the grill.",
+    "recipes": [
+      "lindas-christmas-eve-halibut",
+      "grilled-block-island-sea-bass"
+    ]
+  },
+  {
+    "slug": "vegetables-sides",
+    "title": "Vegetables & Sides",
+    "number": 9,
+    "intro": "The things that go around the roast — and sometimes steal the show from it.",
+    "recipes": [
+      "roasted-cauliflower",
+      "roasted-halved-tomatoes",
+      "roast-potatoes",
+      "holiday-scalloped-potatoes",
+      "onion-rings"
+    ]
+  },
+  {
+    "slug": "breads-breakfast",
+    "title": "Breads & Breakfast",
+    "number": 10,
+    "intro": "Loaves, buns, and the slow mornings that go with them.",
+    "recipes": [
+      "aunt-karens-no-knead-bread-with-herb-butter",
+      "classic-white-sandwich-bread",
+      "focaccia",
+      "sticky-buns",
+      "crepes",
+      "eggs-benedict",
+      "christmas-morning-corned-beef-hash"
+    ]
+  },
+  {
+    "slug": "desserts",
+    "title": "Desserts",
+    "number": 11,
+    "intro": "Cakes, cookies, puddings, and the things that come out after the plates are cleared.",
+    "recipes": [
+      "warm-challah-bread-pudding",
+      "pignoli-cookies",
+      "espresso-brownies",
+      "palm-beach-brownies",
+      "gingerbread-houses",
+      "christmas-toffee",
+      "molten-chocolate-cakes",
+      "lemon-cake",
+      "coconut-cake",
+      "make-ahead-chocolate-souffles",
+      "mrs-blums-pie",
+      "ferrero-rocher-cake",
+      "strawberry-rhubarb-crisp",
+      "lemon-sponge",
+      "pecan-tassies",
+      "hot-fudge-sauce"
+    ]
+  },
+  {
+    "slug": "preserves-pickles-condiments",
+    "title": "Preserves, Pickles & Condiments",
+    "number": 12,
+    "intro": "Jars for the pantry and the refrigerator door: jelly for the lamb, jam, pickles, and applesauce.",
+    "recipes": [
+      "grandmas-mint-jelly",
+      "blackberry-jam",
+      "grandmas-pickles",
+      "grandmas-pickled-jalapenos",
+      "apple-sauce"
+    ]
+  }
+]

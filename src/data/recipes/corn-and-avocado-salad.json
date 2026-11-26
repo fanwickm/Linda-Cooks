@@ -1,0 +1,183 @@
+{
+  "slug": "corn-and-avocado-salad",
+  "title": "Corn and Avocado Salad",
+  "chapter": "salads",
+  "order": 12,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "10 min",
+      "min": 10,
+      "max": 10
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "5 ears corn, husked",
+          "qty": 5.0,
+          "qtyText": "5",
+          "unit": "ears"
+        },
+        {
+          "raw": "2 tablespoons olive oil, for the grill",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 ripe but firm avocados, cut into ½-inch dice",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "1 pint cherry tomatoes, halved",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pint"
+        },
+        {
+          "raw": "½ small red onion, finely diced",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "small"
+        },
+        {
+          "raw": "1 jalapeño, seeded and minced",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "½ cup chopped cilantro",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "½ cup crumbled feta or cotija (optional)",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        }
+      ]
+    },
+    {
+      "name": "Dressing",
+      "items": [
+        {
+          "raw": "3 tablespoons fresh lime juice (about 2 limes)",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "3 tablespoons extra-virgin olive oil",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 small garlic clove, grated",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "small"
+        },
+        {
+          "raw": "½ teaspoon ground cumin",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "¾ teaspoon kosher salt",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Freshly ground black pepper"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Grill the corn.",
+      "text": "Rub the ears lightly with oil and grill over medium-high heat, turning every couple of minutes, for 8 to 10 minutes — until charred in patches and just tender. A little blackening is what you want; fully blistered corn goes tough."
+    },
+    {
+      "lead": "Cool and cut.",
+      "text": "Let the ears cool enough to handle, then stand each one in a wide bowl and cut the kernels off. Cutting them into a bowl instead of onto a board saves you chasing corn around the kitchen."
+    },
+    {
+      "lead": "Soak the onion.",
+      "text": "Put the diced red onion in a small bowl of cold water for 10 minutes, then drain well. This takes the raw bite out and keeps it from dominating the salad."
+    },
+    {
+      "lead": "Make the dressing.",
+      "text": "Whisk the lime juice, olive oil, garlic, cumin, salt, and pepper together in a large serving bowl."
+    },
+    {
+      "lead": "Dress the sturdy things first.",
+      "text": "Add the corn, tomatoes, drained onion, and jalapeño and toss well. Let this sit 10 minutes so the corn takes up the dressing."
+    },
+    {
+      "lead": "Add the avocado last.",
+      "text": "Fold in the avocado and cilantro with a light hand, just two or three turns. Overmixing turns the avocado into dressing."
+    },
+    {
+      "lead": "Finish.",
+      "text": "Scatter the cheese over the top if using, taste for salt and lime, and serve within the hour."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Raw corn version",
+      "text": "in true peak season, skip the grill entirely and use the kernels raw. Sweeter, crunchier, and faster.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "everything but the avocado and cilantro can be tossed together up to 4 hours ahead and refrigerated. Fold those in at the table.",
+      "byLinda": false
+    },
+    {
+      "label": "Make it a meal",
+      "text": "add a can of drained black beans and serve with grilled shrimp or chicken.",
+      "byLinda": false
+    },
+    {
+      "label": "Avocado insurance",
+      "text": "toss the diced avocado with a squeeze of lime the moment you cut it.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Whose salad is this, and does it belong to a particular summer place or cookout? Also tell me whether the corn goes in raw, boiled, or grilled — I have written it grilled.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "summer"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 30
+}

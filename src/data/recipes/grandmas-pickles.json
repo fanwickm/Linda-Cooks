@@ -1,0 +1,182 @@
+{
+  "slug": "grandmas-pickles",
+  "title": "Grandma’s Pickles",
+  "chapter": "preserves-pickles-condiments",
+  "order": 77,
+  "source": "From Grandma",
+  "contributors": [
+    "grandma"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes 2 quart jars",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "5 min",
+      "min": 5,
+      "max": 5
+    },
+    {
+      "label": "Rest",
+      "text": "2–3 days",
+      "min": 2880,
+      "max": 4320
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 pounds (900 g) small Kirby pickling cucumbers, 3–4 inches long",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "pounds",
+          "metric": {
+            "qty": 900.0,
+            "unit": "g",
+            "span": " pounds (900 g)"
+          }
+        },
+        {
+          "raw": "2 cups (475 ml) water",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups",
+          "metric": {
+            "qty": 475.0,
+            "unit": "ml",
+            "span": " cups (475 ml)"
+          }
+        },
+        {
+          "raw": "1½ cups (355 ml) distilled white vinegar, 5% acidity",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups",
+          "metric": {
+            "qty": 355.0,
+            "unit": "ml",
+            "span": " cups (355 ml)"
+          }
+        },
+        {
+          "raw": "2 tablespoons (36 g) pickling or canning salt",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 36.0,
+            "unit": "g",
+            "span": " tablespoons (36 g)"
+          }
+        },
+        {
+          "raw": "1 tablespoon granulated sugar (optional)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "6 garlic cloves, lightly smashed",
+          "qty": 6.0,
+          "qtyText": "6"
+        },
+        {
+          "raw": "4 large fresh dill heads, or a generous handful of dill sprigs plus 2 teaspoons dill seed",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "large"
+        },
+        {
+          "raw": "2 teaspoons yellow mustard seed",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1 teaspoon black peppercorns",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon red pepper flakes (optional)",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 grape leaves or bay leaves (optional, for crunch)",
+          "qty": 2.0,
+          "qtyText": "2"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Chill the cucumbers.",
+      "text": "Scrub the cucumbers under cold water and trim ⅛ inch off the blossom end — the end opposite the stem. It holds an enzyme that softens pickles. Soak them in ice water for 30 minutes while you make the brine."
+    },
+    {
+      "lead": "Make the brine.",
+      "text": "Bring the water, vinegar, salt, and sugar to a boil in a saucepan, stirring until the salt dissolves. Let it cool for 10 minutes."
+    },
+    {
+      "lead": "Pack the jars.",
+      "text": "Divide the garlic, dill, mustard seed, peppercorns, pepper flakes, and leaves between two clean quart jars. Pack the cucumbers in tightly, upright, whole or cut into spears."
+    },
+    {
+      "lead": "Pour and cover.",
+      "text": "Pour the warm brine over the cucumbers until they are fully submerged, leaving ½ inch at the top. Tap the jars to release air bubbles, then close them."
+    },
+    {
+      "lead": "Wait.",
+      "text": "Let the jars cool to room temperature, then refrigerate. They are pickled after 2 to 3 days, and better still after a week."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Use pickling salt",
+      "text": "table salt contains anti-caking agents that cloud the brine. Kosher salt works, but brands weigh differently, so measure it by weight (36 g).",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "keep refrigerated and eat within 1 month. These are not shelf-stable.",
+      "byLinda": false
+    },
+    {
+      "label": "For the pantry",
+      "text": "if Grandma canned hers, follow a tested canning recipe (USDA or Ball) exactly. Those use a specific brine and water-bath processing — typically 10 minutes for pints and 15 for quarts.",
+      "byLinda": false
+    },
+    {
+      "label": "Variations",
+      "text": "spears or coins pickle faster than whole cucumbers. Bread-and-butter pickles use a sweeter brine with onion and turmeric.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — classic garlicky dill pickles kept in the refrigerator. We don’t know whether Grandma’s pickles were dill, bread-and-butter, or sour, or whether she canned them for the pantry. Tell me which, and anything you remember about how they were cut, what was in the jar, and when she made them.",
+  "isBestGuess": true,
+  "contributorName": "Grandma",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 2905
+}

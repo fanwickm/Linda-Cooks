@@ -1,0 +1,181 @@
+{
+  "slug": "warm-challah-bread-pudding",
+  "title": "Warm Challah Bread Pudding",
+  "chapter": "desserts",
+  "order": 59,
+  "source": "From Bob Mitchell",
+  "contributors": [
+    "bob-mitchell"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "30–45 min",
+      "min": 30,
+      "max": 45
+    }
+  ],
+  "headnote": "Comforting, custardy bread pudding made with sweet egg bread, warm cinnamon, and nutmeg, served warm with vanilla ice cream. “You can try adding some fruit such as cinnamon sugar apples or diced/poached pears for delicious seasonal variations.” — Bob Mitchell",
+  "quotes": [
+    {
+      "by": "bob-mitchell",
+      "text": "You can try adding some fruit such as cinnamon sugar apples or diced/poached pears for delicious seasonal variations.",
+      "context": null,
+      "span": "“You can try adding some fruit such as cinnamon sugar apples or diced/poached pears for delicious seasonal variations.” — Bob Mitchell"
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 cups (480 ml) whole milk",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups",
+          "metric": {
+            "qty": 480.0,
+            "unit": "ml",
+            "span": " cups (480 ml)"
+          }
+        },
+        {
+          "raw": "2 tablespoons (28 g) unsalted butter, plus more for the dish",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 28.0,
+            "unit": "g",
+            "span": " tablespoons (28 g)"
+          }
+        },
+        {
+          "raw": "1 teaspoon pure vanilla extract",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "⅓ cup (67 g) sugar",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup",
+          "metric": {
+            "qty": 67.0,
+            "unit": "g",
+            "span": " cup (67 g)"
+          }
+        },
+        {
+          "raw": "Pinch of salt"
+        },
+        {
+          "raw": "5½ cups (about 200 g) challah or brioche, cut into cubes",
+          "qty": 5.5,
+          "qtyText": "5½",
+          "unit": "cups",
+          "metric": {
+            "qty": 200.0,
+            "unit": "g",
+            "span": " cups (about 200 g)"
+          }
+        },
+        {
+          "raw": "2 large eggs, beaten",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "1 teaspoon cinnamon and nutmeg, mixed — heavier on the cinnamon",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Vanilla ice cream, to serve"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Heat the oven to 350°F. Butter a 4- to 6-cup baking dish."
+    },
+    {
+      "lead": "Warm the milk.",
+      "text": "In a small saucepan over low heat, warm the milk, butter, vanilla, sugar, and salt just until the butter melts. Let it cool slightly."
+    },
+    {
+      "lead": "Fill the dish.",
+      "text": "Fill the buttered dish with the cubed challah or brioche."
+    },
+    {
+      "lead": "Add the eggs.",
+      "text": "Whisk the beaten eggs into the cooled milk mixture until well combined. It must be cool enough that the eggs do not cook."
+    },
+    {
+      "lead": "Pour and press.",
+      "text": "Pour the mixture evenly over the bread, pressing gently so the bread soaks up the custard."
+    },
+    {
+      "lead": "Spice the top.",
+      "text": "Dust generously with the cinnamon and nutmeg, leaning heavier on the cinnamon."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Bake 30 to 45 minutes, until the custard is set but still slightly wobbly in the center and the top edges of the bread are golden brown."
+    },
+    {
+      "lead": "Serve warm.",
+      "text": "Serve warm with a generous scoop of good vanilla ice cream."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Doneness",
+      "text": "a knife slipped in near the center should come out moist but without liquid custard (about 160°F).",
+      "byLinda": false
+    },
+    {
+      "label": "Stale bread is better",
+      "text": "day-old challah soaks up the custard without going mushy. If the bread is fresh, dry the cubes on a sheet pan at 300°F for 10 to 15 minutes first.",
+      "byLinda": false
+    },
+    {
+      "label": "With fruit",
+      "text": "fold cinnamon-sugar apples or diced poached pears in with the bread, as Bob suggests.",
+      "byLinda": false
+    },
+    {
+      "label": "Bigger crowd",
+      "text": "the recipe doubles into a 9×13-inch dish; bake toward the longer end of the time.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": null,
+  "isBestGuess": false,
+  "contributorName": "Bob Mitchell",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "christmas-morning"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 45
+}

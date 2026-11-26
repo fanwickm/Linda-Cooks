@@ -1,0 +1,153 @@
+{
+  "slug": "kielbasa",
+  "title": "Kielbasa",
+  "chapter": "meat",
+  "order": 38,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4–6",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "45 min",
+      "min": 45,
+      "max": 45
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 pounds smoked kielbasa, cut into 3-inch lengths",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "pounds"
+        },
+        {
+          "raw": "1 tablespoon vegetable oil",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "2 tablespoons unsalted butter",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 large onions, sliced",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "1½ pounds small Yukon Gold potatoes, halved",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "pounds"
+        },
+        {
+          "raw": "1 pound sauerkraut, drained (rinsed if you want it milder)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "1 teaspoon caraway seeds",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 tablespoon brown sugar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 cup lager or chicken stock",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 tablespoon whole-grain mustard, plus more to serve",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "Freshly ground black pepper and chopped parsley"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Brown the kielbasa.",
+      "text": "Score the pieces lightly. Heat the oil in a large heavy skillet or Dutch oven over medium-high and brown the kielbasa on all sides, 6 to 8 minutes. Set aside."
+    },
+    {
+      "lead": "Soften the onions.",
+      "text": "Add the butter and onions to the pan and cook over medium heat 10 to 12 minutes, until soft and golden."
+    },
+    {
+      "lead": "Add the rest.",
+      "text": "Stir in the potatoes, sauerkraut, caraway, brown sugar, beer or stock, and mustard. Nestle the kielbasa on top."
+    },
+    {
+      "lead": "Braise.",
+      "text": "Cover and simmer on low 25 to 30 minutes, until the potatoes are tender when pierced."
+    },
+    {
+      "lead": "Reduce.",
+      "text": "Uncover and cook 5 minutes more to cook off most of the liquid. Season with pepper — the sausage and sauerkraut bring plenty of salt."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Scatter with parsley and pass more mustard at the table."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Grilled version",
+      "text": "grill whole links over medium heat 10 to 12 minutes, turning, until hot through and charred, and serve on rolls with mustard and sauerkraut.",
+      "byLinda": false
+    },
+    {
+      "label": "Sauerkraut",
+      "text": "the refrigerated kind in bags tastes fresher than canned. Rinse it only if you want it milder.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "it reheats well and tastes even better the next day.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — kielbasa browned and braised in one pan with onions, sauerkraut, and potatoes. How is your family’s kielbasa cooked (grilled, simmered in beer, with pierogi)? Is it homemade or a particular brand or butcher? Who makes it, and for what occasion?",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "summer"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 60
+}

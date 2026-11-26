@@ -1,0 +1,135 @@
+{
+  "slug": "grilled-block-island-sea-bass",
+  "title": "Grilled Block Island Sea Bass",
+  "chapter": "fish-shellfish",
+  "order": 46,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "10 min",
+      "min": 10,
+      "max": 10
+    },
+    {
+      "label": "Marinate",
+      "text": "15–30 min",
+      "min": 15,
+      "max": 30
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "4 black sea bass fillets, skin on, 6–7 ounces each (or 2 whole fish, 1½–2 pounds each, cleaned)",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "3 tablespoons olive oil, plus more for the grates",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "Zest and juice of 1 lemon, plus wedges to serve"
+        },
+        {
+          "raw": "2 garlic cloves, grated",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "1 tablespoon chopped fresh oregano or thyme",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "2 tablespoons chopped parsley",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 teaspoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon freshly ground black pepper",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Marinate briefly.",
+      "text": "Mix the olive oil, lemon zest, garlic, oregano, half the parsley, salt, and pepper. Rub it over the flesh side of the fillets and let sit 15 to 30 minutes — the lemon juice goes on at the end, not now, or it turns the fish mushy."
+    },
+    {
+      "lead": "Get the grill very clean and hot.",
+      "text": "Heat to medium-high, scrub the grates well, and oil them with a folded paper towel held in tongs. Clean, hot, oiled grates are what keep the skin from sticking."
+    },
+    {
+      "lead": "Grill skin side down.",
+      "text": "Lay the fillets skin side down and leave them alone 4 to 5 minutes, until the skin is crisp and releases on its own."
+    },
+    {
+      "lead": "Flip briefly.",
+      "text": "Turn with a wide spatula and cook 1 to 2 minutes, until the fish is opaque and reads 135°F in the thickest part."
+    },
+    {
+      "lead": "Finish.",
+      "text": "Move to a platter, squeeze the lemon juice over, and scatter with the remaining parsley. Serve with lemon wedges."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Whole fish",
+      "text": "score each side 3 times, rub with the marinade inside and out, and grill over medium heat 6 to 8 minutes per side, until the flesh pulls from the bone.",
+      "byLinda": false
+    },
+    {
+      "label": "Fish basket",
+      "text": "if fish always sticks on your grill, a hinged fish basket solves it.",
+      "byLinda": false
+    },
+    {
+      "label": "Buy it fresh",
+      "text": "black sea bass should have clear eyes, firm flesh, and smell of the ocean, not fish.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess that “BI” means Block Island — is that right? Who grills it, and is it from a particular trip, catch, or fish market? Whole fish or fillets, and is there a family marinade or sauce?",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "summer"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 40
+}

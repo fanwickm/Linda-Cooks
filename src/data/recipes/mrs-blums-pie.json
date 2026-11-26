@@ -1,0 +1,31 @@
+{
+  "slug": "mrs-blums-pie",
+  "title": "Mrs. Blum’s Pie",
+  "chapter": "desserts",
+  "order": 69,
+  "source": "From Mrs. Blum",
+  "contributors": [
+    "mrs-blum"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": null,
+    "servings": null
+  },
+  "times": [],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [],
+  "steps": [],
+  "notes": [],
+  "openQuestion": "I don’t know this one, and I would rather ask than guess. What kind of pie is Mrs. Blum’s pie — fruit, cream, custard, chocolate? Who is Mrs. Blum, and when does the pie come out? If there is a recipe card, a photo of it is all I need to write it properly.",
+  "isBestGuess": false,
+  "contributorName": "Mrs. Blum",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": null
+}

@@ -1,0 +1,236 @@
+{
+  "slug": "coconut-cake",
+  "title": "Coconut Cake",
+  "chapter": "desserts",
+  "order": 67,
+  "source": null,
+  "contributors": [
+    "family-files"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 12",
+    "servings": 12
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "label": "Cook",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "label": "Cool",
+      "text": "1 hr",
+      "min": 60,
+      "max": 60
+    }
+  ],
+  "headnote": "From a well-worn handwritten card in the family files: a buttermilk coconut layer cake made with Crisco and butter, covered in a butter-and-cream frosting and chopped walnuts. A later note in blue pen adds a cream cheese frosting.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Cake",
+      "items": [
+        {
+          "raw": "2 cups (250 g) all-purpose flour",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups",
+          "metric": {
+            "qty": 250.0,
+            "unit": "g",
+            "span": " cups (250 g)"
+          }
+        },
+        {
+          "raw": "2 cups (400 g) sugar",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups",
+          "metric": {
+            "qty": 400.0,
+            "unit": "g",
+            "span": " cups (400 g)"
+          }
+        },
+        {
+          "raw": "½ cup (95 g) Crisco",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 95.0,
+            "unit": "g",
+            "span": " cup (95 g)"
+          }
+        },
+        {
+          "raw": "1 stick (113 g) margarine or butter, softened",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "stick",
+          "metric": {
+            "qty": 113.0,
+            "unit": "g",
+            "span": " stick (113 g)"
+          }
+        },
+        {
+          "raw": "5 large eggs",
+          "qty": 5.0,
+          "qtyText": "5",
+          "unit": "large"
+        },
+        {
+          "raw": "1 teaspoon baking soda",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 cup (240 ml) buttermilk",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 240.0,
+            "unit": "ml",
+            "span": " cup (240 ml)"
+          }
+        },
+        {
+          "raw": "1 cup (about 85 g) moist shredded coconut",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 85.0,
+            "unit": "g",
+            "span": " cup (about 85 g)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frosting",
+      "items": [
+        {
+          "raw": "1 pound (454 g) confectioners’ sugar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound",
+          "metric": {
+            "qty": 454.0,
+            "unit": "g",
+            "span": " pound (454 g)"
+          }
+        },
+        {
+          "raw": "⅓ cup (80 ml) cream",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup",
+          "metric": {
+            "qty": 80.0,
+            "unit": "ml",
+            "span": " cup (80 ml)"
+          }
+        },
+        {
+          "raw": "1 stick (113 g) butter, softened",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "stick",
+          "metric": {
+            "qty": 113.0,
+            "unit": "g",
+            "span": " stick (113 g)"
+          }
+        },
+        {
+          "raw": "1 teaspoon vanilla",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Chopped walnuts, to cover"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Heat the oven to 350°F. Grease and flour three 8-inch layer pans; a circle of parchment in the bottom makes them easy to turn out."
+    },
+    {
+      "lead": "Cream.",
+      "text": "Cream the sugar, Crisco, and butter together until light and fluffy, about 4 minutes."
+    },
+    {
+      "lead": "Add the eggs.",
+      "text": "Add the eggs one at a time, beating well after each."
+    },
+    {
+      "lead": "Soda into the buttermilk.",
+      "text": "Stir the baking soda into the buttermilk."
+    },
+    {
+      "lead": "Alternate.",
+      "text": "On low speed, add the flour alternately with the buttermilk, beginning and ending with flour, mixing just until smooth."
+    },
+    {
+      "lead": "Fold in the coconut.",
+      "text": "Fold in the coconut by hand."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Divide among the pans and bake about 30 minutes, until golden and a toothpick in the center comes out clean. Cool 10 minutes in the pans, then turn out and cool completely."
+    },
+    {
+      "lead": "Frost.",
+      "text": "Beat the butter, confectioners’ sugar, cream, and vanilla until smooth and spreadable. Fill and frost the layers, then cover the cake with chopped walnuts."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Cream cheese frosting (the blue-pen note)",
+      "text": "1 pound cream cheese, 2 sticks butter, 1 pound confectioners’ sugar, and vanilla and almond extract to taste, beaten smooth. It makes a generous batch.",
+      "byLinda": false
+    },
+    {
+      "label": "No salt on the card",
+      "text": "with unsalted butter, add ½ teaspoon salt to the flour; most versions of this cake include it.",
+      "byLinda": false
+    },
+    {
+      "label": "Margarine or butter",
+      "text": "the card allows either. Butter tastes better; margarine gives a slightly softer crumb.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "bake the layers a day ahead and wrap tightly. The frosted cake keeps 3 days refrigerated.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Whose card is this, and when is the cake made?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "sunday-dinner"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 120
+}

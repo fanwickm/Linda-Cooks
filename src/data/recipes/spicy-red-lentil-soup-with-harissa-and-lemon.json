@@ -1,0 +1,199 @@
+{
+  "slug": "spicy-red-lentil-soup-with-harissa-and-lemon",
+  "title": "Spicy Red Lentil Soup with Harissa and Lemon",
+  "chapter": "soups",
+  "order": 10,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "35 min",
+      "min": 35,
+      "max": 35
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "3 tablespoons olive oil, plus more to finish",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 large onion, chopped",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "4 garlic cloves, minced",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "2 tablespoons tomato paste",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 teaspoons ground cumin",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1 teaspoon ground coriander",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 teaspoon sweet paprika",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon ground turmeric",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1–2 tablespoons harissa paste, to taste",
+          "qty": [
+            1.0,
+            2.0
+          ],
+          "qtyText": "1–2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1½ cups (300 g) red lentils, rinsed until the water runs clear",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups",
+          "metric": {
+            "qty": 300.0,
+            "unit": "g",
+            "span": " cups (300 g)"
+          }
+        },
+        {
+          "raw": "1 large carrot, grated",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "6 cups chicken or vegetable stock",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "cups"
+        },
+        {
+          "raw": "1½ teaspoons kosher salt, plus more to taste",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "Juice of 1–2 lemons"
+        }
+      ]
+    },
+    {
+      "name": "To finish",
+      "items": [
+        {
+          "raw": "Plain yogurt or labneh"
+        },
+        {
+          "raw": "Chopped cilantro or mint"
+        },
+        {
+          "raw": "Extra harissa thinned with olive oil"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Soften the onion.",
+      "text": "Heat the oil in a heavy pot over medium heat and cook the onion 8 minutes, until translucent and beginning to color at the edges."
+    },
+    {
+      "lead": "Bloom the spices.",
+      "text": "Add the garlic and cook 1 minute. Stir in the tomato paste, cumin, coriander, paprika, and turmeric and cook 2 minutes, stirring constantly, until the paste darkens and the kitchen smells like the spices. This step is where the flavor comes from — do not skip it."
+    },
+    {
+      "lead": "Add the harissa.",
+      "text": "Stir in 1 tablespoon of harissa. Brands vary enormously in heat; start conservative and add more at the end."
+    },
+    {
+      "lead": "Simmer.",
+      "text": "Add the lentils, grated carrot, stock, and salt. Bring to a boil, then reduce to a simmer and cook 25 to 30 minutes, stirring occasionally, until the lentils have completely dissolved and the soup is thick."
+    },
+    {
+      "lead": "Blend, or don’t.",
+      "text": "Give it a few pulses with an immersion blender for a silkier texture, or leave it rough. Thin with hot water if it has gone past thick into stiff."
+    },
+    {
+      "lead": "Finish hard with lemon.",
+      "text": "Off the heat, add the juice of one lemon, taste, and keep adding until the soup tastes bright rather than muddy. This usually takes more lemon than feels reasonable. Adjust salt and harissa."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Ladle into bowls. Add a spoonful of yogurt, a drizzle of harissa oil, chopped herbs, and a final thread of olive oil."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Rinse the lentils",
+      "text": "red lentils carry a lot of dust and the water should run clear before they go in the pot.",
+      "byLinda": false
+    },
+    {
+      "label": "Heat control",
+      "text": "harissa is the heat, cumin is the backbone. If you want it hotter without more harissa, add a pinch of cayenne.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "keeps 5 days refrigerated and freezes well, though add the lemon fresh when reheating.",
+      "byLinda": false
+    },
+    {
+      "label": "To make it dinner",
+      "text": "crumble in feta and serve with warm flatbread, or stir in a handful of spinach at the end.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is my best guess at “spicy Middle Eastern soup” — a red lentil soup with harissa, cumin, and a hard squeeze of lemon. If yours is actually harira, a chickpea and tomato soup, or something Menaka or another family cook makes, tell me and I will rewrite it.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 50
+}

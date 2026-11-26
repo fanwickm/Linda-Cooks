@@ -1,0 +1,158 @@
+{
+  "slug": "spinach-and-artichoke-dip",
+  "title": "Spinach and Artichoke Dip",
+  "chapter": "starters-snacks",
+  "order": 3,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 8–10",
+    "servings": 8
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "25–30 min",
+      "min": 25,
+      "max": 30
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "10 ounces frozen chopped spinach, thawed",
+          "qty": 10.0,
+          "qtyText": "10",
+          "unit": "ounces"
+        },
+        {
+          "raw": "1 can (14 ounces) artichoke hearts in water, drained",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "can"
+        },
+        {
+          "raw": "8 ounces cream cheese, softened",
+          "qty": 8.0,
+          "qtyText": "8",
+          "unit": "ounces"
+        },
+        {
+          "raw": "½ cup sour cream",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "½ cup mayonnaise",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 cup grated Parmesan, divided",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 cup shredded mozzarella or Monterey Jack",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "2 garlic cloves, minced",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "¼ teaspoon red pepper flakes",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon kosher salt",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Freshly ground black pepper"
+        },
+        {
+          "raw": "Squeeze of lemon"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 375°F and butter a 1½-quart baking dish or a 9-inch pie plate."
+    },
+    {
+      "lead": "Dry the spinach.",
+      "text": "This is the whole recipe in one step. Wring the thawed spinach out in a clean kitchen towel, twisting hard, until almost no liquid comes out. Wet spinach makes soupy dip."
+    },
+    {
+      "lead": "Chop the artichokes.",
+      "text": "Squeeze them dry too, then chop coarsely — you want recognizable pieces, not paste."
+    },
+    {
+      "lead": "Mix.",
+      "text": "Beat the cream cheese, sour cream, and mayonnaise together until smooth. Fold in the spinach, artichokes, ½ cup of the Parmesan, all the mozzarella, the garlic, pepper flakes, salt, pepper, and a squeeze of lemon."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Spread into the dish, top with the remaining Parmesan, and bake 25 to 30 minutes, until bubbling at the edges and browned on top. If it needs more color, run it under the broiler for 1 to 2 minutes and do not walk away."
+    },
+    {
+      "lead": "Serve hot.",
+      "text": "Let it settle 5 minutes, then serve with tortilla chips, pita, or torn bread."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Ahead of time",
+      "text": "assemble up to 2 days ahead, refrigerate, and add 10 minutes to the baking time. It can also be frozen unbaked.",
+      "byLinda": false
+    },
+    {
+      "label": "Fresh spinach",
+      "text": "use 1 pound, wilted in a dry pan, cooled, and squeezed hard. Same rule: get the water out.",
+      "byLinda": false
+    },
+    {
+      "label": "Keeping it warm",
+      "text": "transfer to a small slow cooker on low for a long party. Stir occasionally so the edges do not scorch.",
+      "byLinda": false
+    },
+    {
+      "label": "Lighter version",
+      "text": "replace the mayonnaise with Greek yogurt. It will be tangier and slightly less rich.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Whose dip is this, and where does it usually show up? I have written the standard hot baked version — tell me if yours uses different cheese, a slow cooker, or gets served with bread instead of chips.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 40
+}

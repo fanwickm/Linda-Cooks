@@ -1,0 +1,39 @@
+---
+import Base from "../../layouts/Base.astro";
+import RecipeCard from "../../components/RecipeCard.astro";
+import { people, recipesBy, recipes, type Person } from "../../lib/data";
+import { initials } from "../../lib/format";
+
+export function getStaticPaths() {
+  return people.map((p) => ({ params: { id: p.id }, props: { person: p } }));
+}
+const { person: p } = Astro.props as { person: Person };
+const own = recipesBy(p.id);
+const quoted = recipes.filter((r) => !own.includes(r) && r.quotes.some((q) => q.by === p.id));
+const quotes = recipes.flatMap((r) => r.quotes.filter((q) => q.by === p.id).map((q) => ({ r, q })));
+---
+<Base title={p.name}>
+  <div class="container-page pt-6 sm:pt-10">
+    <nav class="text-sm text-ink-soft mb-4" aria-label="Breadcrumb"><a href="/family" class="hover:text-tomato">The Family Table</a></nav>
+    <header class="flex items-center gap-5">
+      {p.photo ? <img src={p.photo} alt={p.name} class="size-24 rounded-full object-cover border-4 border-gold" /> :
+        <span class="grid place-items-center size-24 rounded-full bg-tomato text-white font-bold text-3xl">{p.id === "family-files" ? "📇" : initials(p.short)}</span>}
+      <div>
+        <h1 class="text-4xl sm:text-5xl font-semibold">{p.name}</h1>
+        <p class="text-lg text-ink-soft mt-1">{p.relationship}</p>
+      </div>
+    </header>
+    {p.isLinda && <p class="mt-4"><a href="/linda" class="btn btn-primary">Meet Linda →</a></p>}
+    {quotes.length > 0 && !p.isLinda && (
+      <div class="mt-8 space-y-4 max-w-3xl">
+        {quotes.map(({ r, q }) => (
+          <blockquote class="border-l-4 border-sage pl-4 font-serif italic text-xl">“{q.text}”<footer class="not-italic text-sm text-ink-soft mt-1 font-sans">— on <a href={`/recipes/${r.slug}`} class="underline">{r.title}</a></footer></blockquote>
+        ))}
+      </div>
+    )}
+    <h2 class="text-2xl font-semibold mt-10">{p.short}’s recipes</h2>
+    <div class="mt-4 grid gap-4 grid-cols-2 lg:grid-cols-3">
+      {[...own, ...quoted].map((r) => <RecipeCard recipe={r} />)}
+    </div>
+  </div>
+</Base>

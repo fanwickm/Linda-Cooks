@@ -1,0 +1,181 @@
+{
+  "slug": "lindas-napa-cabbage-salad",
+  "title": "Linda’s Napa Cabbage Salad",
+  "chapter": "salads",
+  "order": 14,
+  "source": "From Linda  ·  Spring and summer lunches, holiday brunches",
+  "contributors": [
+    "linda-mitchell"
+  ],
+  "occasionText": "Spring and summer lunches, holiday brunches",
+  "yield": {
+    "text": "Serves 6–8",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    }
+  ],
+  "headnote": "“Great recipe. I do not add the fruit or wonton. I might add chicken. No need to change.” — Linda, on her copy of the first draft",
+  "quotes": [
+    {
+      "by": "linda-mitchell",
+      "text": "Great recipe. I do not add the fruit or wonton. I might add chicken. No need to change.",
+      "context": "on her copy of the first draft",
+      "span": "“Great recipe. I do not add the fruit or wonton. I might add chicken. No need to change.” — Linda, on her copy of the first draft"
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "name": "Salad",
+      "items": [
+        {
+          "raw": "1 medium head Napa cabbage, thinly sliced",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "medium"
+        },
+        {
+          "raw": "1 large carrot, julienned",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "1 red bell pepper, thinly sliced",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "2 scallions, thinly sliced",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "¼ cup chopped cilantro or mint (optional)",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "⅓ cup sliced almonds, toasted",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup"
+        }
+      ]
+    },
+    {
+      "name": "Dressing",
+      "items": [
+        {
+          "raw": "¼ cup rice vinegar",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 tablespoon fresh orange juice",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 tablespoon fresh lime juice",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "2 teaspoons soy sauce",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1 tablespoon honey",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 teaspoon fresh ginger, grated",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "⅓ cup neutral oil",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 teaspoon toasted sesame oil",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Salt and pepper, to taste"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Prep the vegetables.",
+      "text": "Halve the cabbage lengthwise, cut out the core, and slice crosswise into thin ribbons. Julienne the carrot and slice the pepper and scallions."
+    },
+    {
+      "lead": "Make the dressing.",
+      "text": "Whisk the rice vinegar, orange juice, lime juice, soy sauce, honey, and ginger together, then whisk in both oils until emulsified. Season with salt and pepper."
+    },
+    {
+      "lead": "Toss.",
+      "text": "Combine the cabbage, carrot, pepper, scallions, and herbs in a large bowl."
+    },
+    {
+      "lead": "Dress.",
+      "text": "Drizzle with the dressing and toss gently."
+    },
+    {
+      "lead": "Finish.",
+      "text": "Scatter the toasted almonds over the top just before serving so they stay crisp."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Make it a meal",
+      "text": "Linda sometimes adds chicken. Sliced grilled chicken or shredded rotisserie chicken both work.",
+      "byLinda": true
+    },
+    {
+      "label": "Ahead of time",
+      "text": "slice the vegetables and make the dressing up to a day ahead. Dress the salad just before serving.",
+      "byLinda": false
+    },
+    {
+      "label": "Toasting almonds",
+      "text": "toast them in a dry skillet over medium heat, stirring, 3 to 4 minutes, until golden and fragrant.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": null,
+  "isBestGuess": false,
+  "contributorName": "Linda",
+  "lindasTouch": true,
+  "lindasTouchReason": "Linda’s own recipe",
+  "occasions": [
+    "easter-spring",
+    "summer"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 20
+}

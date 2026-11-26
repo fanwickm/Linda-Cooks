@@ -1,0 +1,128 @@
+{
+  "slug": "classic-vinaigrette",
+  "title": "Classic Vinaigrette",
+  "chapter": "sauces-dressings",
+  "order": 16,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes about ¾ cup",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "10 min",
+      "min": 10,
+      "max": 10
+    },
+    {
+      "label": "Rest",
+      "text": "10 min",
+      "min": 10,
+      "max": 10
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 small shallot, very finely minced (about 2 tablespoons)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "small"
+        },
+        {
+          "raw": "3 tablespoons red wine vinegar",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "½ teaspoon kosher salt",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 teaspoon Dijon mustard",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon honey (optional)",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "9 tablespoons (½ cup plus 1 tablespoon) extra-virgin olive oil",
+          "qty": 9.0,
+          "qtyText": "9",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "Freshly ground black pepper"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Soak the shallot.",
+      "text": "Put the minced shallot, vinegar, and salt in a small bowl or jar and let it sit 10 minutes. The vinegar softens the shallot’s raw bite and the salt dissolves completely — salt will not dissolve once the oil is in."
+    },
+    {
+      "lead": "Add the mustard.",
+      "text": "Whisk in the Dijon and the honey, if using. The mustard is what holds the dressing together; it coats the oil droplets and keeps them from separating."
+    },
+    {
+      "lead": "Whisk in the oil.",
+      "text": "Pour in the olive oil in a slow, thin stream while whisking constantly, until the dressing is glossy and slightly thickened. Or put everything in a jar, close the lid tightly, and shake hard for 20 seconds."
+    },
+    {
+      "lead": "Season.",
+      "text": "Add several grinds of pepper. Taste it on a leaf of lettuce, not off a spoon — on its own it should taste a little too sharp and a little too salty, because the greens will mute it."
+    },
+    {
+      "lead": "Dress lightly.",
+      "text": "Toss the salad with a few spoonfuls just before serving, adding more only if the leaves look dry. Leaves should glisten, not sit in a pool."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The ratio",
+      "text": "three parts oil to one part vinegar is the starting point. With a mellow vinegar like sherry or champagne, you can go closer to two to one.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "keeps a week in a jar in the refrigerator. The olive oil will cloud and firm up when cold; let it sit out 15 minutes and shake again.",
+      "byLinda": false
+    },
+    {
+      "label": "Variations",
+      "text": "swap the vinegar for lemon juice; add a small grated garlic clove; stir in chopped chives, tarragon, or parsley just before using.",
+      "byLinda": false
+    },
+    {
+      "label": "Beyond salad",
+      "text": "spoon it over warm roasted vegetables, boiled potatoes, green beans, or grilled fish.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — a classic shallot and Dijon vinaigrette. Whose house dressing is this, and what goes on it? Tell me whether yours uses red wine vinegar, sherry vinegar, or lemon; shallot or garlic; and whether there is mustard or honey in it.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 20
+}

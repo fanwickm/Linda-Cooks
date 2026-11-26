@@ -1,0 +1,50 @@
+---
+// Photo slot. Shows the real photo if public/images/recipes/<slug>.jpg exists,
+// otherwise a warm illustrated placeholder with the dish name.
+import Icon from "./Icon.astro";
+import type { Recipe } from "../lib/data";
+
+interface Props { recipe: Recipe; size?: "sm" | "md" | "lg"; class?: string; eager?: boolean }
+const { recipe, size = "md", class: cls = "", eager = false } = Astro.props;
+
+const PALETTE: Record<string, [string, string, string]> = {
+  "starters-snacks": ["#f6d9c8", "#b2372a", "#fbe9df"],
+  soups: ["#f3e1b7", "#8a5a12", "#faf0d6"],
+  salads: ["#dfe8d9", "#3d5a3a", "#eef4ea"],
+  "sauces-dressings": ["#e9e3c9", "#5f5a1f", "#f5f2e2"],
+  "pasta-dumplings-grains": ["#f5e6c4", "#8f5b1a", "#fbf2de"],
+  meat: ["#efd0c8", "#7d2a1f", "#f8e5e0"],
+  poultry: ["#f3dcc0", "#8a4b17", "#faeedf"],
+  "fish-shellfish": ["#d6e4e8", "#2a5561", "#eaf2f4"],
+  "vegetables-sides": ["#e1e8cf", "#4a5e1f", "#f0f4e5"],
+  "breads-breakfast": ["#f2e0c2", "#7a4f16", "#faf0de"],
+  desserts: ["#f1d8dc", "#7a2c3a", "#f9eaec"],
+  "preserves-pickles-condiments": ["#e5dcef", "#4d3a6b", "#f2edf7"],
+};
+const [bg, fg, bg2] = PALETTE[recipe.chapter] ?? ["#eee", "#333", "#f8f8f8"];
+const titleSize = size === "lg" ? "text-3xl sm:text-4xl" : size === "sm" ? "text-base" : "text-xl";
+const iconSize = size === "lg" ? 56 : size === "sm" ? 26 : 36;
+const shortTitle = recipe.title.replace(/ with .*/, "");
+const pid = `p-${recipe.slug}-${Math.random().toString(36).slice(2, 7)}`;
+---
+{recipe.photo ? (
+  <img src={recipe.photo} alt={recipe.title} class={`object-cover w-full h-full ${cls}`} loading={eager ? "eager" : "lazy"} decoding="async" />
+) : (
+  <div
+    class={`relative w-full h-full overflow-hidden flex flex-col items-center justify-center text-center p-4 ${cls}`}
+    style={`background: radial-gradient(circle at 30% 20%, ${bg2}, ${bg}); color: ${fg}`}
+    role="img"
+    aria-label={`${recipe.title} (illustration — photo coming soon)`}
+  >
+    <svg class="absolute inset-0 w-full h-full opacity-[.13]" aria-hidden="true">
+      <defs>
+        <pattern id={pid} width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+          <line x1="0" y1="0" x2="0" y2="22" stroke="currentColor" stroke-width="1.2" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill={`url(#${pid})`} />
+    </svg>
+    <div class="relative rounded-full bg-white/60 p-3 mb-2 shadow-sm"><Icon name={recipe.chapter} size={iconSize} /></div>
+    {size !== "sm" && <span class={`relative font-serif font-semibold leading-tight ${titleSize}`} aria-hidden="true">{shortTitle}</span>}
+  </div>
+)}

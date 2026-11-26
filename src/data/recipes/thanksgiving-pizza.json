@@ -1,0 +1,146 @@
+{
+  "slug": "thanksgiving-pizza",
+  "title": "Thanksgiving Pizza",
+  "chapter": "pasta-dumplings-grains",
+  "order": 30,
+  "source": "Thanksgiving",
+  "contributors": [],
+  "occasionText": "Thanksgiving",
+  "yield": {
+    "text": "Two 12-inch pizzas",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 pound pizza dough, store-bought or homemade, at room temperature",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "Cornmeal or semolina, for the peel"
+        },
+        {
+          "raw": "1 cup leftover gravy, warmed until spreadable — or a different sauce?",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "gaps": [
+            "or a different sauce?"
+          ]
+        },
+        {
+          "raw": "2 cups leftover turkey, pulled into bite-sized pieces",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups"
+        },
+        {
+          "raw": "1½ cups leftover stuffing, crumbled",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups"
+        },
+        {
+          "raw": "2 cups shredded mozzarella",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups"
+        },
+        {
+          "raw": "½ cup grated Parmesan",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "½ cup cranberry sauce",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "A few sage leaves, olive oil, black pepper"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven hot.",
+      "text": "Put a pizza stone or an upside-down sheet pan on the lowest rack and heat the oven to 500°F for at least 45 minutes."
+    },
+    {
+      "lead": "Shape the dough.",
+      "text": "Divide the dough in two. Stretch each half into a 12-inch round on a floured counter, letting gravity do the work. Set one on a peel or a sheet of parchment dusted with cornmeal."
+    },
+    {
+      "lead": "Sauce lightly.",
+      "text": "Spread half the gravy over the dough in a thin layer, leaving a 1-inch border. Too much and the middle goes soggy."
+    },
+    {
+      "lead": "Top it.",
+      "text": "Scatter half the mozzarella, then half the turkey and stuffing. Dot with small spoonfuls of cranberry sauce. Add a few sage leaves brushed with oil, and half the Parmesan."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Slide onto the hot stone and bake 10 to 14 minutes, until the crust is deep brown underneath and the cheese is bubbling. Repeat with the second pizza."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Grind black pepper over and let it sit 2 minutes before cutting."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Cranberry goes on before or after",
+      "text": "baked, it caramelizes; dolloped on after, it stays bright. Try both.",
+      "byLinda": false
+    },
+    {
+      "label": "Mashed potato",
+      "text": "a few spoonfuls of leftover mashed potatoes, dotted on with the stuffing, are a good addition.",
+      "byLinda": false
+    },
+    {
+      "label": "Thin the gravy",
+      "text": "cold gravy sets like jelly. Warm it with a splash of stock until it spreads.",
+      "byLinda": false
+    },
+    {
+      "label": "No stone",
+      "text": "bake on a sheet pan on the lowest rack; it will take a few minutes longer.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — a day-after pizza made from Thanksgiving leftovers. What is it really? Who started it, and is it the night after Thanksgiving or part of the day itself? What goes on it, and is the crust homemade or store-bought?",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "thanksgiving"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 35
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "ricotta-ravioli",
+  "title": "Ricotta Ravioli",
+  "chapter": "pasta-dumplings-grains",
+  "order": 21,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "About 80 ravioli, serves 6–8",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "1 hr 15 min",
+      "min": 75,
+      "max": 75
+    },
+    {
+      "label": "Cook",
+      "text": "4 min",
+      "min": 4,
+      "max": 4
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 batch Small Bob Pasta Dough (this chapter), rested",
+          "qty": 1.0,
+          "qtyText": "1"
+        }
+      ]
+    },
+    {
+      "name": "Filling",
+      "items": [
+        {
+          "raw": "2 cups (about 450 g) ricotta, well drained — homemade (this chapter) or store-bought",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups",
+          "metric": {
+            "qty": 450.0,
+            "unit": "g",
+            "span": " cups (about 450 g)"
+          }
+        },
+        {
+          "raw": "1 cup (80 g) finely grated Parmigiano-Reggiano",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 80.0,
+            "unit": "g",
+            "span": " cup (80 g)"
+          }
+        },
+        {
+          "raw": "1 large egg yolk",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "2 tablespoons chopped parsley",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "Pinch of freshly grated nutmeg"
+        },
+        {
+          "raw": "½ teaspoon kosher salt and black pepper to taste",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        }
+      ]
+    },
+    {
+      "name": "To finish",
+      "items": [
+        {
+          "raw": "1 large egg beaten with 1 tablespoon water, for sealing",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "Semolina, for the sheet pan"
+        },
+        {
+          "raw": "Family sauce — or 6 tablespoons butter browned with sage, or 3 cups tomato sauce",
+          "gaps": [
+            "Family sauce"
+          ]
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make the filling.",
+      "text": "Stir the ricotta, Parmesan, yolk, parsley, nutmeg, salt, and pepper together until smooth. Taste — it should be well seasoned. Chill while you roll; cold filling is easier to portion and less likely to leak."
+    },
+    {
+      "lead": "Roll the sheets.",
+      "text": "Roll the dough to the thinnest setting (see Small Bob Pasta Dough), working one piece at a time and keeping the rest covered. Lay a sheet on a lightly floured counter."
+    },
+    {
+      "lead": "Fill.",
+      "text": "Spoon or pipe rounded teaspoons of filling down the sheet in a line, about 1½ inches apart and 1 inch from the edge. Brush lightly around each mound with the egg wash."
+    },
+    {
+      "lead": "Seal without air.",
+      "text": "Lay a second sheet over the top. Starting from one side, press down around each mound with your fingertips, pushing out the air as you go. Trapped air is what makes ravioli burst in the pot."
+    },
+    {
+      "lead": "Cut.",
+      "text": "Cut between the mounds with a fluted wheel or knife into 2-inch squares, or use a round cutter. Press each edge once more. Set on a sheet pan dusted with semolina, not touching."
+    },
+    {
+      "lead": "Cook.",
+      "text": "Slide the ravioli into a large pot of well-salted water at a gentle boil — a hard boil can split them. Cook 3 to 4 minutes, until they float and the pasta edges are tender. Lift out with a slotted spoon."
+    },
+    {
+      "lead": "Sauce.",
+      "text": "Toss gently with the sauce in a wide pan over low heat with a splash of pasta water, and serve with more Parmesan."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Don’t overfill",
+      "text": "a teaspoon looks stingy but it is right. Too much filling and the edges will not seal.",
+      "byLinda": false
+    },
+    {
+      "label": "Freezing",
+      "text": "freeze uncooked ravioli on the semolina-dusted pan until hard, then bag them. They keep 2 months. Cook from frozen, adding 1 to 2 minutes.",
+      "byLinda": false
+    },
+    {
+      "label": "Spinach version",
+      "text": "add 5 ounces cooked spinach, squeezed very dry and finely chopped, to the filling.",
+      "byLinda": false
+    },
+    {
+      "label": "Working ahead",
+      "text": "cover finished ravioli with a dry towel; they can sit 1 hour at room temperature before cooking.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes the ravioli, and when do they come out — Christmas Eve, Sunday dinner, a big family session? Is the filling just ricotta, or does it have spinach or meat? Square, round, or half-moon? And what sauce goes on them?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 79
+}

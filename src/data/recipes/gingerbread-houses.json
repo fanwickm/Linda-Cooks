@@ -1,0 +1,216 @@
+{
+  "slug": "gingerbread-houses",
+  "title": "Gingerbread Houses",
+  "chapter": "desserts",
+  "order": 63,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes 1 house, plus extra pieces",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "1 hr",
+      "min": 60,
+      "max": 60
+    },
+    {
+      "label": "Cook",
+      "text": "12–15 min per sheet",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "label": "Dry",
+      "text": "overnight",
+      "min": null,
+      "max": null
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Construction gingerbread",
+      "items": [
+        {
+          "raw": "5½–6 cups (690–750 g) all-purpose flour",
+          "qty": [
+            5.5,
+            6.0
+          ],
+          "qtyText": "5½–6",
+          "unit": "cups"
+        },
+        {
+          "raw": "1 tablespoon ground ginger",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "2 teaspoons ground cinnamon",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "½ teaspoon ground cloves",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon kosher salt",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "¾ cup (170 g) unsalted butter, softened",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup",
+          "metric": {
+            "qty": 170.0,
+            "unit": "g",
+            "span": " cup (170 g)"
+          }
+        },
+        {
+          "raw": "1 cup (220 g) packed dark brown sugar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 220.0,
+            "unit": "g",
+            "span": " cup (220 g)"
+          }
+        },
+        {
+          "raw": "1 cup (340 g) unsulphured molasses",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 340.0,
+            "unit": "g",
+            "span": " cup (340 g)"
+          }
+        },
+        {
+          "raw": "1 large egg",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        }
+      ]
+    },
+    {
+      "name": "Royal icing (the glue)",
+      "items": [
+        {
+          "raw": "3 tablespoons (30 g) meringue powder",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 30.0,
+            "unit": "g",
+            "span": " tablespoons (30 g)"
+          }
+        },
+        {
+          "raw": "4 cups (480 g) powdered sugar, sifted",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "cups",
+          "metric": {
+            "qty": 480.0,
+            "unit": "g",
+            "span": " cups (480 g)"
+          }
+        },
+        {
+          "raw": "6–8 tablespoons warm water",
+          "qty": [
+            6.0,
+            8.0
+          ],
+          "qtyText": "6–8",
+          "unit": "tablespoons"
+        }
+      ]
+    },
+    {
+      "name": "Decorating",
+      "items": [
+        {
+          "raw": "Candy, cereal, pretzels, and sprinkles of your choice"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Cut paper templates.",
+      "text": "From cardstock, cut: a front and back (2), each a 6-inch-wide pentagon with 4-inch-tall sides rising to a peak 7 inches tall; two side walls, each 5 inches wide by 4 inches tall; and two roof panels, each 6 by 5 inches. Cut doors and windows into the front if you like."
+    },
+    {
+      "lead": "Make the dough.",
+      "text": "Whisk 5½ cups of the flour with the spices and salt. In a mixer, beat the butter and brown sugar until fluffy, then beat in the molasses and egg. Add the flour mixture on low speed until a stiff dough forms, adding more flour if it is sticky. There is no baking soda on purpose — it should not rise."
+    },
+    {
+      "lead": "Roll on parchment.",
+      "text": "Divide the dough in thirds. Roll each piece ¼ inch thick directly on a sheet of parchment, lay the templates on top, and cut around them with a paring knife. Pull away the scraps and slide the parchment onto a baking sheet. Chill 15 minutes so the edges stay sharp."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Bake at 350°F for 12 to 15 minutes, until firm and slightly darker at the edges. While still warm, lay the templates back on top and trim any spread edges straight. Cool completely on the pans."
+    },
+    {
+      "lead": "Make the royal icing.",
+      "text": "Beat the meringue powder, powdered sugar, and 6 tablespoons of water on medium-high for 5 to 7 minutes, until stiff peaks form, adding water a teaspoon at a time if needed. Spoon into a piping bag. Keep the bowl covered with a damp towel; it crusts fast."
+    },
+    {
+      "lead": "Raise the walls.",
+      "text": "On a board, pipe a thick line of icing along the bottom and side edges of the front and one side wall and press them together at a right angle. Prop with cans and hold a minute. Add the other side wall and the back. Let the walls dry at least 2 hours, ideally overnight, before the roof goes on."
+    },
+    {
+      "lead": "Add the roof and decorate.",
+      "text": "Pipe icing along the top edges of all four walls and lay on the roof panels, meeting at the peak with a little overhang. Hold a few minutes, then let dry another 2 hours before decorating with candy and icing."
+    }
+  ],
+  "notes": [
+    {
+      "label": "This is building material",
+      "text": "construction gingerbread is edible but made to be hard and flat. For eating, bake the scraps as cookies and pull them a few minutes early.",
+      "byLinda": false
+    },
+    {
+      "label": "Patience is the glue",
+      "text": "every collapse comes from adding the roof before the walls have dried. Overnight is worth it.",
+      "byLinda": false
+    },
+    {
+      "label": "Humidity",
+      "text": "gingerbread softens in damp weather. Store the finished house away from the stove and the dishwasher.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who builds the gingerbread houses, and when — a Christmas project with the kids, a family competition? Is there a traditional design or template the family uses? I have written a simple, sturdy house that holds together.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "christmas-eve"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 72
+}

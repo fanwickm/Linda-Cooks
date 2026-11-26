@@ -1,0 +1,159 @@
+{
+  "slug": "lemon-asparagus-and-pea-risotto",
+  "title": "Lemon, Asparagus and Pea Risotto",
+  "chapter": "pasta-dumplings-grains",
+  "order": 31,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4 as a main, 6 as a side",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "35 min",
+      "min": 35,
+      "max": 35
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 pound asparagus, woody ends snapped off",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "6 cups chicken or vegetable stock",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "cups"
+        },
+        {
+          "raw": "4 tablespoons unsalted butter, divided",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 tablespoon olive oil",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 large shallot, finely chopped",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "1½ cups Arborio or Carnaroli rice",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups"
+        },
+        {
+          "raw": "½ cup dry white wine",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 cup peas, fresh or frozen",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "¾ cup finely grated Parmigiano-Reggiano",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup"
+        },
+        {
+          "raw": "Zest of 1 lemon, plus 1–2 tablespoons juice"
+        },
+        {
+          "raw": "Salt, pepper, and a few torn mint or basil leaves"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Prep the asparagus.",
+      "text": "Cut the tips off and set them aside. Slice the stalks into ½-inch pieces. Put the snapped-off woody ends in the stock."
+    },
+    {
+      "lead": "Heat the stock.",
+      "text": "Bring the stock to a simmer, then keep it just below a simmer on a back burner. Adding cold stock stalls the rice."
+    },
+    {
+      "lead": "Toast the rice.",
+      "text": "Melt 2 tablespoons butter with the oil in a heavy, wide pan over medium heat. Cook the shallot 3 minutes until soft. Add the rice and stir 2 minutes until the edges turn translucent."
+    },
+    {
+      "lead": "Add wine, then stock.",
+      "text": "Pour in the wine and stir until absorbed. Then add stock a ladle at a time (leaving the asparagus ends behind), stirring often and waiting until each addition is nearly absorbed before adding the next. Keep it at a lively simmer."
+    },
+    {
+      "lead": "Add the vegetables.",
+      "text": "After about 12 minutes, stir in the asparagus stalks. At 15 minutes, add the tips and peas. Keep adding stock."
+    },
+    {
+      "lead": "Check for doneness.",
+      "text": "At 18 to 22 minutes total, the rice should be tender with a slight bite at the center, and loose enough to slowly spread when spooned onto a plate."
+    },
+    {
+      "lead": "Finish off the heat.",
+      "text": "Take the pan off the heat. Stir in the remaining butter, the Parmesan, lemon zest, and juice hard for 30 seconds until creamy. Season, scatter the herbs over, and serve at once."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Don’t rinse the rice",
+      "text": "its surface starch is what makes risotto creamy.",
+      "byLinda": false
+    },
+    {
+      "label": "Serve immediately",
+      "text": "risotto keeps thickening as it sits. If it stiffens before serving, loosen with a splash of hot stock.",
+      "byLinda": false
+    },
+    {
+      "label": "Lemon at the end",
+      "text": "added early, the brightness cooks away. Taste and add more juice just before serving.",
+      "byLinda": false
+    },
+    {
+      "label": "Leftovers",
+      "text": "roll cold risotto into balls around a cube of mozzarella, bread them, and fry for arancini.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Whose risotto is this, and is it a spring dinner, Easter, or a side for lamb? Is there anything else that goes in — mint, shrimp, mascarpone?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "easter-spring"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 50
+}

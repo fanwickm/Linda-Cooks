@@ -1,0 +1,138 @@
+{
+  "slug": "apple-sauce",
+  "title": "Apple Sauce",
+  "chapter": "preserves-pickles-condiments",
+  "order": 79,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes about 5 cups",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "25 min",
+      "min": 25,
+      "max": 25
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "4 pounds (1.8 kg) apples, about 10 medium, a mix of soft and firm (such as McIntosh with Honeycrisp or Gala)",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "pounds",
+          "metric": {
+            "qty": 1.8,
+            "unit": "kg",
+            "span": " pounds (1.8 kg)"
+          }
+        },
+        {
+          "raw": "½ cup (120 ml) apple cider or water",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 120.0,
+            "unit": "ml",
+            "span": " cup (120 ml)"
+          }
+        },
+        {
+          "raw": "2 tablespoons fresh lemon juice",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "¼ cup (50 g) granulated or light brown sugar, or to taste (optional)",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup",
+          "metric": {
+            "qty": 50.0,
+            "unit": "g",
+            "span": " cup (50 g)"
+          }
+        },
+        {
+          "raw": "1 cinnamon stick (optional)",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "Pinch of kosher salt"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Prep the apples.",
+      "text": "Peel, core, and cut the apples into 1-inch chunks. If you have a food mill, you can leave the peels on — they add color and flavor, and the mill will catch them."
+    },
+    {
+      "lead": "Start them cooking.",
+      "text": "Put the apples in a heavy pot with the cider, lemon juice, sugar, cinnamon stick, and salt. Cover and bring to a simmer over medium heat."
+    },
+    {
+      "lead": "Simmer until soft.",
+      "text": "Cook covered for 20 to 25 minutes, stirring every 5 minutes, until the apples collapse when pressed with a spoon. If the pot looks dry, add a splash more cider."
+    },
+    {
+      "lead": "Mash or purée.",
+      "text": "Remove the cinnamon stick. For chunky sauce, mash with a potato masher. For smooth, purée with an immersion blender, or pass it through a food mill."
+    },
+    {
+      "lead": "Taste and finish.",
+      "text": "Taste and add more sugar or lemon if it needs it. If it is thin, simmer uncovered for a few minutes, stirring, until it thickens. Serve warm or chilled."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The apple mix matters",
+      "text": "McIntosh and Cortland break down into a smooth sauce on their own. Honeycrisp, Gala, and Fuji hold some shape and bring sweetness. Use both for the best texture.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "keeps about 10 days in the refrigerator and 6 months in the freezer. Freeze in pint containers with ½ inch of space at the top.",
+      "byLinda": false
+    },
+    {
+      "label": "Canning",
+      "text": "to can it, ladle hot applesauce into hot jars with ½ inch of headspace and water-bath process 15 minutes for pints or 20 minutes for quarts (add time at altitude).",
+      "byLinda": false
+    },
+    {
+      "label": "Serving",
+      "text": "with pork chops or roast pork, potato pancakes, or warm on its own with a little cream.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — a simple stovetop applesauce from a mix of apples, lightly sweetened. Who makes it, and when does it show up? Tell me if yours is chunky or smooth, which apples you use, whether there is cinnamon in it, and what it is served with.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "thanksgiving"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 45
+}

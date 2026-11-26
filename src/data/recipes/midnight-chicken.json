@@ -1,0 +1,154 @@
+{
+  "slug": "midnight-chicken",
+  "title": "Midnight Chicken",
+  "chapter": "poultry",
+  "order": 41,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "1¼ hr",
+      "min": 75,
+      "max": 75
+    },
+    {
+      "label": "Rest",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 whole chicken, about 4 pounds",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "2 teaspoons kosher salt",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1 head garlic, cloves peeled",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "head"
+        },
+        {
+          "raw": "1 lemon",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "2 tablespoons olive oil",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 tablespoon harissa or other chili paste",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 tablespoon honey",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 teaspoon smoked paprika",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 teaspoon fennel seeds, lightly crushed",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "3 onions, cut into thick wedges",
+          "qty": 3.0,
+          "qtyText": "3"
+        },
+        {
+          "raw": "A few thyme sprigs"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Season ahead if you can.",
+      "text": "Pat the chicken dry and salt it all over. If there is time, refrigerate it uncovered for a few hours or overnight."
+    },
+    {
+      "lead": "Make the paste.",
+      "text": "Heat the oven to 400°F. Grate 3 garlic cloves and the lemon zest into a bowl and mix with the oil, harissa, honey, paprika, and fennel."
+    },
+    {
+      "lead": "Build the pan.",
+      "text": "Spread the onion wedges and the rest of the garlic cloves in a roasting pan or large skillet. Halve the zested lemon and push it into the chicken with the thyme."
+    },
+    {
+      "lead": "Rub and roast.",
+      "text": "Set the chicken on the onions and rub the paste all over, including under the skin of the breast. Roast 1 to 1¼ hours, until the skin is deep brown and the thigh reads 165°F. Tent with foil if the paste darkens too fast."
+    },
+    {
+      "lead": "Rest.",
+      "text": "Rest 15 minutes on a board. Squeeze the roasted lemon into the pan and stir the onions and garlic through the juices."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Carve and serve over the soft onions with bread to mop up the pan."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Heat",
+      "text": "harissa brands vary a lot. Start with less if yours is fierce.",
+      "byLinda": false
+    },
+    {
+      "label": "The onions",
+      "text": "they collapse into something closer to jam than vegetable; make extra.",
+      "byLinda": false
+    },
+    {
+      "label": "Leftovers",
+      "text": "pick the meat and toss with the onions for sandwiches the next day.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — it assumes this is the roast chicken from Ella Risbridger’s book “Midnight Chicken” (lemon, garlic, a chili-spiced paste, and onions underneath). Is that the source? Who makes it, and is there anything your version does differently?",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 105
+}

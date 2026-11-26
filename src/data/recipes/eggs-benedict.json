@@ -1,0 +1,149 @@
+{
+  "slug": "eggs-benedict",
+  "title": "Eggs Benedict",
+  "chapter": "breads-breakfast",
+  "order": 57,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Hollandaise",
+      "items": [
+        {
+          "raw": "3 large egg yolks",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "large"
+        },
+        {
+          "raw": "1 tablespoon fresh lemon juice, plus more to taste",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "½ cup (1 stick) unsalted butter, melted and hot",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "Pinch of salt and a pinch of cayenne"
+        }
+      ]
+    },
+    {
+      "name": "For assembly",
+      "items": [
+        {
+          "raw": "8 very fresh large eggs",
+          "qty": 8.0,
+          "qtyText": "8"
+        },
+        {
+          "raw": "1 tablespoon white vinegar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "8 slices Canadian bacon",
+          "qty": 8.0,
+          "qtyText": "8",
+          "unit": "slices"
+        },
+        {
+          "raw": "4 English muffins, split",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "Butter, for the muffins"
+        },
+        {
+          "raw": "Chopped chives and paprika, to finish"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make the hollandaise (blender).",
+      "text": "Blend the yolks, lemon juice, salt, and cayenne for 5 seconds. With the blender running, pour in the hot melted butter in a very thin stream until thick and creamy. Taste for lemon and salt. Keep warm in a small bowl set over warm (not simmering) water and use within 1 hour; discard what is left after that."
+    },
+    {
+      "lead": "Or by hand.",
+      "text": "Whisk the yolks and lemon juice in a heatproof bowl set over barely simmering water, whisking constantly, until thick, pale, and 160°F on an instant-read thermometer — that is what makes the yolks safe. Do not let them go past about 170°F or they will scramble. Remove from the heat and whisk in the melted butter a spoonful at a time."
+    },
+    {
+      "lead": "Set up the poaching water.",
+      "text": "Fill a wide saucepan with 3 inches of water, add the vinegar, and bring to a bare simmer — small bubbles on the bottom, the surface barely moving."
+    },
+    {
+      "lead": "Poach the eggs.",
+      "text": "Crack each egg into a small cup. Stir the water gently, then slide the eggs in one at a time. Poach 3 to 4 minutes, until the whites are set and the yolks still soft. Lift out with a slotted spoon and drain on a towel."
+    },
+    {
+      "lead": "Warm the rest.",
+      "text": "Meanwhile, brown the Canadian bacon in a skillet 1 to 2 minutes per side. Toast and butter the English muffins."
+    },
+    {
+      "lead": "Assemble.",
+      "text": "Top each muffin half with a slice of bacon and a poached egg. Spoon over a generous amount of hollandaise and finish with chives and a pinch of paprika. Serve at once."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Fresh eggs poach best",
+      "text": "older eggs have runny whites that feather into the water. Straining the egg in a fine sieve for a few seconds before poaching removes the loose white.",
+      "byLinda": false
+    },
+    {
+      "label": "Poach ahead",
+      "text": "poach eggs up to a day ahead, chill in ice water, and refrigerate. Reheat in hot water for 60 seconds just before serving.",
+      "byLinda": false
+    },
+    {
+      "label": "If the hollandaise breaks",
+      "text": "whisk a teaspoon of hot water into a fresh yolk, then slowly whisk the broken sauce into it.",
+      "byLinda": false
+    },
+    {
+      "label": "Raw-egg caution",
+      "text": "blender hollandaise does not fully cook the yolks. Use pasteurized eggs for anyone pregnant, elderly, or immune-compromised.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — the classic with Canadian bacon and hollandaise. Who makes it, and for what — Christmas morning, Mother’s Day, a birthday brunch? Tell me if the family version uses ham, smoked salmon, or spinach instead.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "christmas-morning"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 35
+}

@@ -1,0 +1,38 @@
+---
+import Base from "../../layouts/Base.astro";
+import Countdown from "../../components/Countdown.astro";
+import { occasions, recipeBySlug } from "../../lib/data";
+---
+<Base title="Occasions">
+  <div class="container-page pt-6 sm:pt-10">
+    <p class="eyebrow">Menus for the big days</p>
+    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">Occasions</h1>
+    <p class="mt-2 text-lg text-ink-soft max-w-2xl">Curated menus from the book. Christmas Eve comes up again and again, so it gets the full treatment.</p>
+    <Countdown class="mt-6" />
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {occasions.map((o) => {
+        const n = Object.values(o.menu).flat().length;
+        const first = Object.values(o.menu).flat().slice(0, 3).map((s) => recipeBySlug.get(s!)?.title).filter(Boolean);
+        return (
+          <a href={`/occasions/${o.slug}`} class="card card-lift p-5 sm:p-6 no-underline flex flex-col gap-2" data-rule={JSON.stringify(o.dateRule)}>
+            <span class="text-5xl" aria-hidden="true">{o.emoji}</span>
+            <h2 class="font-serif text-2xl font-semibold">{o.name}</h2>
+            <p class="text-ink-soft">{o.intro}</p>
+            <p class="text-sm text-ink-soft mt-auto pt-2">{n} recipes · {first.join(", ")}…</p>
+            <p class="text-sm font-semibold text-sage" data-next></p>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+  <script>
+    import { nextDate, daysUntil } from "../../lib/dates";
+    document.querySelectorAll<HTMLElement>("[data-rule]").forEach((el) => {
+      const rule = JSON.parse(el.dataset.rule!);
+      if (typeof rule.weekly === "number") { el.querySelector("[data-next]")!.textContent = "Every Sunday"; return; }
+      const d = nextDate(rule);
+      const n = daysUntil(d);
+      el.querySelector("[data-next]")!.textContent = n === 0 ? "Today!" : `${d.toLocaleDateString(undefined, { month: "long", day: "numeric" })} · in ${n} day${n === 1 ? "" : "s"}`;
+    });
+  </script>
+</Base>

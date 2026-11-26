@@ -1,0 +1,133 @@
+{
+  "slug": "roasted-halved-tomatoes",
+  "title": "Roasted Halved Tomatoes",
+  "chapter": "vegetables-sides",
+  "order": 48,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "10 min",
+      "min": 10,
+      "max": 10
+    },
+    {
+      "label": "Cook",
+      "text": "1½–2 hr",
+      "min": 90,
+      "max": 120
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "12 ripe plum (Roma) tomatoes, or 8 medium round tomatoes",
+          "qty": 12.0,
+          "qtyText": "12"
+        },
+        {
+          "raw": "¼ cup extra-virgin olive oil, plus more to finish",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "4 garlic cloves, thinly sliced",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "1 tablespoon fresh thyme leaves (or 1 teaspoon dried)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 teaspoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ teaspoon granulated sugar",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Freshly ground black pepper"
+        },
+        {
+          "raw": "Flaky salt and torn basil, to finish (optional)"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven low.",
+      "text": "Set it to 300°F and line a rimmed sheet pan with parchment."
+    },
+    {
+      "lead": "Halve the tomatoes.",
+      "text": "Cut plum tomatoes in half lengthwise; cut round tomatoes in half across the equator. Leave the seeds in — they turn jammy."
+    },
+    {
+      "lead": "Arrange cut side up.",
+      "text": "Set the halves on the pan close together but not overlapping, cut sides facing up so the juices stay in the tomato and concentrate."
+    },
+    {
+      "lead": "Season.",
+      "text": "Tuck a slice or two of garlic into each half and scatter over the thyme. Sprinkle with the salt, sugar, and pepper, then drizzle the oil evenly over everything."
+    },
+    {
+      "lead": "Roast slowly.",
+      "text": "Roast 1½ to 2 hours, until the tomatoes have shrunk by about half, the edges are wrinkled and lightly browned, and the centers are soft and jammy but not dried out. Plum tomatoes take less time than round ones; start checking at 75 minutes."
+    },
+    {
+      "lead": "Finish.",
+      "text": "Let cool a few minutes on the pan. Drizzle with a little more oil, sprinkle with flaky salt and basil if using, and serve warm or at room temperature."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Hot-and-fast version",
+      "text": "roast at 425°F for 25 to 30 minutes for a juicier, less concentrated tomato that still holds its shape. Good alongside steak or eggs.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "they keep up to 4 days refrigerated, covered in their own oil. Bring to room temperature before serving.",
+      "byLinda": false
+    },
+    {
+      "label": "Use the oil",
+      "text": "the tomato-garlic oil left on the pan is excellent on bread, pasta, or in a vinaigrette.",
+      "byLinda": false
+    },
+    {
+      "label": "Out of season",
+      "text": "this is the best thing to do with mediocre winter tomatoes. Slow roasting rescues them.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — slow-roasted halves, cut side up, with garlic and thyme. Who makes these, and when? Tell me if yours are roasted hot and fast instead, or topped with breadcrumbs and Parmesan.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 100
+}

@@ -1,0 +1,177 @@
+{
+  "slug": "tortellini",
+  "title": "Tortellini",
+  "chapter": "pasta-dumplings-grains",
+  "order": 22,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "About 80 tortellini, serves 6",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "1 hr 30 min",
+      "min": 90,
+      "max": 90
+    },
+    {
+      "label": "Cook",
+      "text": "3 min",
+      "min": 3,
+      "max": 3
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 batch Small Bob Pasta Dough (this chapter), rested",
+          "qty": 1.0,
+          "qtyText": "1"
+        }
+      ]
+    },
+    {
+      "name": "Filling — [[meat or cheese? Meat version written here]]",
+      "items": [
+        {
+          "raw": "4 ounces (115 g) ground pork",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "ounces",
+          "metric": {
+            "qty": 115.0,
+            "unit": "g",
+            "span": " ounces (115 g)"
+          }
+        },
+        {
+          "raw": "1 tablespoon butter",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "2 ounces (55 g) prosciutto, finely chopped",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "ounces",
+          "metric": {
+            "qty": 55.0,
+            "unit": "g",
+            "span": " ounces (55 g)"
+          }
+        },
+        {
+          "raw": "2 ounces (55 g) mortadella, finely chopped",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "ounces",
+          "metric": {
+            "qty": 55.0,
+            "unit": "g",
+            "span": " ounces (55 g)"
+          }
+        },
+        {
+          "raw": "1 cup (80 g) finely grated Parmigiano-Reggiano",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 80.0,
+            "unit": "g",
+            "span": " cup (80 g)"
+          }
+        },
+        {
+          "raw": "1 large egg",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "Pinch of freshly grated nutmeg, salt, and pepper"
+        }
+      ]
+    },
+    {
+      "name": "To serve",
+      "items": [
+        {
+          "raw": "10 cups rich chicken or capon broth — or 6 tablespoons butter and ½ cup cream",
+          "qty": 10.0,
+          "qtyText": "10",
+          "unit": "cups"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Cook the pork.",
+      "text": "Brown the ground pork in the butter over medium heat until just cooked through, about 5 minutes, breaking it up finely. Let cool."
+    },
+    {
+      "lead": "Make the filling.",
+      "text": "Pulse the cooked pork, prosciutto, and mortadella in a food processor until very fine, almost a paste. Mix in the Parmesan, egg, and nutmeg, and season. Chill."
+    },
+    {
+      "lead": "Roll and cut.",
+      "text": "Roll the dough to the thinnest setting, one piece at a time, and cut into 1½-inch squares. Keep the squares covered with plastic so they do not dry out — dry dough cracks when folded."
+    },
+    {
+      "lead": "Fill and fold.",
+      "text": "Put a scant ½ teaspoon of filling in the center of each square. Fold it corner to corner into a triangle and press the edges tight, pushing out the air."
+    },
+    {
+      "lead": "Shape.",
+      "text": "Wrap the triangle around the tip of your index finger with the long side facing you, and pinch the two bottom corners together firmly. Fold the top point back. Set on a semolina-dusted sheet pan."
+    },
+    {
+      "lead": "Cook.",
+      "text": "Bring the broth (or salted water) to a gentle boil. Add the tortellini and cook 2 to 3 minutes after they float, until the pasta is tender at the thickest folds."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Ladle them into warm bowls with the broth and pass Parmesan. Or drain, and toss with butter and cream simmered together until slightly thickened."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Cheese version",
+      "text": "replace the meat with 1 cup well-drained ricotta, ½ cup Parmesan, a yolk, and nutmeg.",
+      "byLinda": false
+    },
+    {
+      "label": "Freezing",
+      "text": "freeze on the pan until hard, then bag. Cook from frozen in simmering broth, adding a minute or two.",
+      "byLinda": false
+    },
+    {
+      "label": "Work in small batches",
+      "text": "cut only as many squares as you can fill in about 10 minutes.",
+      "byLinda": false
+    },
+    {
+      "label": "In broth",
+      "text": "a clear, well-seasoned broth matters more than anything here. Strain it and skim it.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes the tortellini, and when — Christmas, a holiday soup? Is the filling meat (pork, prosciutto, mortadella) or cheese? Served in broth, or with butter or cream?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 93
+}

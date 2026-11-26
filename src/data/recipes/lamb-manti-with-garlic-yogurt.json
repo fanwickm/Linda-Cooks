@@ -1,0 +1,191 @@
+{
+  "slug": "lamb-manti-with-garlic-yogurt",
+  "title": "Lamb Manti with Garlic Yogurt",
+  "chapter": "pasta-dumplings-grains",
+  "order": 28,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4–6",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "1 hr 30 min",
+      "min": 90,
+      "max": 90
+    },
+    {
+      "label": "Cook",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Rest",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Dough",
+      "items": [
+        {
+          "raw": "2½ cups (320 g) all-purpose flour, plus more for rolling",
+          "qty": 2.5,
+          "qtyText": "2½",
+          "unit": "cups",
+          "metric": {
+            "qty": 320.0,
+            "unit": "g",
+            "span": " cups (320 g)"
+          }
+        },
+        {
+          "raw": "1 large egg",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "½ cup (120 ml) water, plus 1–2 tablespoons as needed",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 120.0,
+            "unit": "ml",
+            "span": " cup (120 ml)"
+          }
+        },
+        {
+          "raw": "½ teaspoon salt",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        }
+      ]
+    },
+    {
+      "name": "Filling",
+      "items": [
+        {
+          "raw": "8 ounces (225 g) ground lamb",
+          "qty": 8.0,
+          "qtyText": "8",
+          "unit": "ounces",
+          "metric": {
+            "qty": 225.0,
+            "unit": "g",
+            "span": " ounces (225 g)"
+          }
+        },
+        {
+          "raw": "1 small onion, grated and squeezed dry",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "small"
+        },
+        {
+          "raw": "2 tablespoons finely chopped parsley",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "½ teaspoon salt, ¼ teaspoon black pepper, ½ teaspoon Aleppo pepper",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        }
+      ]
+    },
+    {
+      "name": "To serve",
+      "items": [
+        {
+          "raw": "2 cups whole-milk Greek yogurt, at room temperature, with 2 garlic cloves grated and a pinch of salt",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups"
+        },
+        {
+          "raw": "4 tablespoons butter, 1 tablespoon Aleppo pepper or 2 teaspoons paprika, 1 teaspoon tomato paste",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "Dried mint and sumac, to finish"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make the dough.",
+      "text": "Mix the flour and salt in a bowl, add the egg and water, and stir into a shaggy dough. Knead 8 minutes until smooth and firm; add water a teaspoon at a time if dry. Cover and rest 30 minutes."
+    },
+    {
+      "lead": "Mix the filling.",
+      "text": "Knead the lamb, grated onion, parsley, salt, and peppers together with your hands until sticky and uniform."
+    },
+    {
+      "lead": "Roll thin.",
+      "text": "Divide the dough in half. On a floured counter, roll each half into a very thin sheet, about 1/16 inch — thin enough to see the counter through it. Cut into 1½-inch squares."
+    },
+    {
+      "lead": "Fill and fold.",
+      "text": "Put a chickpea-sized ball of filling in the center of each square. Bring the four corners up to the center and pinch them together, then pinch the four seams closed, making a small four-pointed pouch. Set on a floured tray."
+    },
+    {
+      "lead": "Make the pepper butter.",
+      "text": "Melt the butter in a small pan, stir in the Aleppo pepper and tomato paste, and cook 1 minute until sizzling and red. Keep warm."
+    },
+    {
+      "lead": "Cook.",
+      "text": "Boil the manti in a large pot of salted water, stirring gently, until the dough is tender and the filling cooked, 8 to 10 minutes after they float. Lift out with a slotted spoon."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Spread the garlic yogurt on warm plates, pile the manti on top, and spoon the red butter over. Finish with a pinch of dried mint and sumac."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Smaller is traditional",
+      "text": "the old test is that a spoonful should hold many manti. Do not worry about perfection; the yogurt hides everything.",
+      "byLinda": false
+    },
+    {
+      "label": "Freezing",
+      "text": "freeze uncooked manti on the floured tray, then bag them, for 2 months. Cook from frozen, adding a few minutes.",
+      "byLinda": false
+    },
+    {
+      "label": "Room-temperature yogurt",
+      "text": "cold yogurt against hot dumplings makes the dish lukewarm. Take it out an hour ahead.",
+      "byLinda": false
+    },
+    {
+      "label": "Shortcut",
+      "text": "square wonton wrappers, cut into quarters, work in a pinch.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes the manti, and when? Is your version Turkish — tiny boiled dumplings with yogurt and red-pepper butter — or another style, larger and steamed?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 135
+}

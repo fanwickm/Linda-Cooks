@@ -1,0 +1,154 @@
+{
+  "slug": "split-pea-soup",
+  "title": "Split Pea Soup",
+  "chapter": "soups",
+  "order": 9,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6–8",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "1 hr 30 min",
+      "min": 90,
+      "max": 90
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 pound (2¼ cups) dried green split peas, picked over and rinsed",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "1 meaty ham bone, or 1 smoked ham hock, or 8 ounces diced smoked ham",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "2 tablespoons unsalted butter or olive oil",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 large onion, diced",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "2 carrots, diced",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "2 celery ribs, diced",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "2 garlic cloves, minced",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "8 cups water or light chicken stock",
+          "qty": 8.0,
+          "qtyText": "8",
+          "unit": "cups"
+        },
+        {
+          "raw": "2 bay leaves",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "1 teaspoon dried marjoram or thyme",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Kosher salt and freshly ground black pepper"
+        },
+        {
+          "raw": "Red wine vinegar, to finish"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Sweat the vegetables.",
+      "text": "Melt the butter in a large heavy pot over medium heat. Add the onion, carrots, and celery and cook 8 to 10 minutes, until soft. Add the garlic and cook 1 minute more."
+    },
+    {
+      "lead": "Add everything else.",
+      "text": "Stir in the split peas, the ham bone or hock, the water, bay leaves, and marjoram. Hold off on salt until the end — a ham bone can carry a great deal of it."
+    },
+    {
+      "lead": "Simmer.",
+      "text": "Bring to a boil, then reduce to a lazy simmer and cook, partly covered, 1¼ to 1½ hours. Stir every 20 minutes and scrape the bottom; split peas settle and scorch given the chance. The soup is ready when the peas have completely broken down and lost their shape."
+    },
+    {
+      "lead": "Deal with the ham.",
+      "text": "Lift out the bone or hock. Pull off any meat, chop it, and stir it back into the pot. Discard the bone, skin, and fat, along with the bay leaves."
+    },
+    {
+      "lead": "Adjust the texture.",
+      "text": "Leave it as is for a rustic soup, or purée part or all of it with an immersion blender. It will keep thickening as it stands, so thin with hot water to the consistency you want."
+    },
+    {
+      "lead": "Season and serve.",
+      "text": "Now add salt to taste, plenty of black pepper, and — the step people skip — a teaspoon or two of red wine vinegar, which wakes the whole pot up."
+    }
+  ],
+  "notes": [
+    {
+      "label": "No soaking",
+      "text": "split peas do not need it and cook to mush in about 90 minutes regardless.",
+      "byLinda": false
+    },
+    {
+      "label": "Vegetarian",
+      "text": "skip the ham, use a good vegetable stock, and add 1 teaspoon of smoked paprika plus an extra splash of vinegar.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "excellent on day two and freezes for 3 months. It sets nearly solid when cold; thin it with water when reheating.",
+      "byLinda": false
+    },
+    {
+      "label": "To serve",
+      "text": "croutons fried in butter, or a spoonful of sour cream and a grind of pepper.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Whose soup is this, and is it the traditional after-Easter or after-Christmas ham-bone soup? Tell me if it gets puréed smooth or left chunky.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 105
+}

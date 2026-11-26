@@ -1,0 +1,224 @@
+---
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+const COURSES = [
+  ["starter", "Starter", "🥂"],
+  ["main", "Main", "🍽️"],
+  ["side", "Side", "🥗"],
+  ["dessert", "Dessert", "🍰"],
+] as const;
+---
+<Base title="Menu Builder">
+  <div class="container-page pt-6 sm:pt-10">
+    <p class="eyebrow">Plan a dinner</p>
+    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">📝 <span data-menu-name>Menu Builder</span></h1>
+    <p class="mt-2 text-lg text-ink-soft max-w-2xl">Drag recipes into the menu (or tap <strong>+</strong>), then get one shopping list to share with whoever’s going to the store.</p>
+
+    <div class="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] items-start">
+      <!-- picker -->
+      <section aria-labelledby="pick-h" class="lg:sticky lg:top-20">
+        <h2 id="pick-h" class="text-2xl font-semibold">Recipes</h2>
+        <label class="relative block mt-3">
+          <span class="sr-only">Find a recipe</span>
+          <Icon name="search" class="absolute left-4 top-1/2 -translate-y-1/2 text-ink-soft" />
+          <input type="search" data-pick-q placeholder="Find a recipe…" class="w-full min-h-[48px] rounded-full border-2 border-line bg-card pl-12 pr-4 text-base focus:border-tomato focus:outline-none" />
+        </label>
+        <div class="mt-3 flex gap-2 overflow-x-auto pb-1" role="group" aria-label="Show course">
+          <button type="button" class="chip" data-pick-course="" aria-pressed="true">All</button>
+          {COURSES.map(([k, label]) => <button type="button" class="chip" data-pick-course={k} aria-pressed="false">{label}s</button>)}
+        </div>
+        <ul class="mt-3 max-h-[28rem] lg:max-h-[60vh] overflow-y-auto card divide-y divide-line" data-pick-list aria-label="Recipes to add"></ul>
+      </section>
+
+      <!-- menu -->
+      <section aria-labelledby="menu-h">
+        <div class="flex items-center justify-between gap-2">
+          <h2 id="menu-h" class="text-2xl font-semibold">Your menu</h2>
+          <button type="button" class="text-sm underline text-ink-soft min-h-[44px]" data-clear-menu>Clear menu</button>
+        </div>
+        <div class="mt-3 grid gap-3 sm:grid-cols-2">
+          {COURSES.map(([k, label, emoji]) => (
+            <div class="card p-4 min-h-[8rem] border-2 border-dashed !border-line transition-colors" data-course={k}>
+              <p class="font-serif text-lg font-semibold"><span aria-hidden="true">{emoji}</span> {label}</p>
+              <ul class="mt-2 space-y-2" data-course-list></ul>
+              <p class="text-sm text-ink-soft" data-course-empty>Drop a {label.toLowerCase()} here</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="mt-8 card p-5 sm:p-6" data-shopping hidden>
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <h2 class="text-2xl font-semibold">Shopping list</h2>
+            <div class="flex flex-wrap gap-2">
+              <button type="button" class="btn btn-ghost !min-h-[44px]" data-share-link><Icon name="share" size={18} /> Share link</button>
+              <button type="button" class="btn btn-ghost !min-h-[44px]" data-share-text>💬 Text it</button>
+              <button type="button" class="btn btn-ghost !min-h-[44px]" data-copy-list>Copy</button>
+            </div>
+          </div>
+          <p class="text-sm text-ink-soft mt-1">Grouped by recipe so nothing gets lost. Tick things off as you shop.</p>
+          <div class="mt-4 space-y-5" data-shopping-list></div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    import { menu, toast, type MenuCourse } from "../scripts/store";
+    type Entry = { s: string; t: string; co: string; ok: boolean; ing: { n: string | null; items: string[] }[]; y: string | null };
+    const COURSES: MenuCourse[] = ["starter", "main", "side", "dessert"];
+    const courseFor = (co: string): MenuCourse => (COURSES.includes(co as MenuCourse) ? (co as MenuCourse) : co === "breakfast" ? "main" : "side");
+
+    const data: Entry[] = (await (await fetch("/search-index.json")).json()).filter((r: Entry) => r.ok);
+    const bySlug = new Map(data.map((r) => [r.s, r]));
+    const params = new URLSearchParams(location.search);
+
+    // load a shared or occasion menu from the URL
+    let state = menu.get();
+    const shared = params.get("m") || params.get("load");
+    if (shared) {
+      try {
+        const m = JSON.parse(params.get("m") ? new TextDecoder().decode(Uint8Array.from(atob(shared), (c) => c.charCodeAt(0))) : shared);
+        state = { starter: m.starter ?? [], main: m.main ?? [], side: m.side ?? [], dessert: m.dessert ?? [] };
+        menu.set(state);
+        toast("Menu loaded ✓");
+      } catch {}
+      if (params.get("name")) document.querySelector("[data-menu-name]")!.textContent = `${params.get("name")} menu`;
+      history.replaceState(null, "", location.pathname);
+    }
+
+    const pickList = document.querySelector<HTMLUListElement>("[data-pick-list]")!;
+    const pickQ = document.querySelector<HTMLInputElement>("[data-pick-q]")!;
+    const courseBtns = [...document.querySelectorAll<HTMLButtonElement>("[data-pick-course]")];
+    let courseFilter = "";
+
+    function renderPicker() {
+      const term = pickQ.value.trim().toLowerCase();
+      pickList.innerHTML = "";
+      for (const r of data) {
+        const c = courseFor(r.co);
+        if (courseFilter && c !== courseFilter) continue;
+        if (term && !r.t.toLowerCase().includes(term)) continue;
+        const li = document.createElement("li");
+        li.draggable = true;
+        li.dataset.slug = r.s;
+        li.className = "flex items-center gap-3 px-3 py-2 cursor-grab active:cursor-grabbing hover:bg-paper-2/60";
+        li.innerHTML = `<span class="flex-1"><span class="font-medium block leading-tight"></span><span class="text-xs text-ink-soft capitalize">${c}</span></span>
+          <button type="button" class="grid place-items-center size-11 rounded-full bg-tomato text-white text-2xl leading-none shrink-0" aria-label="">+</button>`;
+        li.querySelector(".font-medium")!.textContent = r.t;
+        const b = li.querySelector("button")!;
+        b.setAttribute("aria-label", `Add ${r.t} to ${c}`);
+        b.addEventListener("click", () => add(c, r.s));
+        li.addEventListener("dragstart", (e) => e.dataTransfer!.setData("text/plain", r.s));
+        pickList.appendChild(li);
+      }
+    }
+
+    function add(course: MenuCourse, slug: string) {
+      if (!state[course].includes(slug)) state[course].push(slug);
+      menu.set(state);
+      render();
+      toast(`Added ${bySlug.get(slug)?.t} ✓`);
+    }
+
+    function render() {
+      for (const c of COURSES) {
+        const box = document.querySelector<HTMLElement>(`[data-course="${c}"]`)!;
+        const ul = box.querySelector("[data-course-list]")!;
+        ul.innerHTML = "";
+        for (const s of state[c]) {
+          const r = bySlug.get(s);
+          if (!r) continue;
+          const li = document.createElement("li");
+          li.className = "flex items-center gap-2 bg-paper-2/70 rounded-xl pl-3";
+          li.innerHTML = `<a class="flex-1 py-2 font-medium leading-tight underline decoration-line underline-offset-4" href="/recipes/${s}"></a><button type="button" class="grid place-items-center size-11 rounded-full text-ink-soft hover:text-tomato" aria-label="">✕</button>`;
+          li.querySelector("a")!.textContent = r.t;
+          const b = li.querySelector("button")!;
+          b.setAttribute("aria-label", `Remove ${r.t}`);
+          b.addEventListener("click", () => { state[c] = state[c].filter((x) => x !== s); menu.set(state); render(); });
+          ul.appendChild(li);
+        }
+        box.querySelector<HTMLElement>("[data-course-empty]")!.hidden = state[c].length > 0;
+      }
+      renderShopping();
+    }
+
+    function shoppingText(): string {
+      const lines: string[] = [];
+      for (const c of COURSES) for (const s of state[c]) {
+        const r = bySlug.get(s);
+        if (!r) continue;
+        lines.push(`\n${r.t}`);
+        for (const g of r.ing) for (const i of g.items) lines.push(`☐ ${i}`);
+      }
+      return `Shopping list — Linda’s Kitchen${lines.join("\n")}`;
+    }
+
+    function renderShopping() {
+      const wrap = document.querySelector<HTMLElement>("[data-shopping]")!;
+      const list = document.querySelector<HTMLElement>("[data-shopping-list]")!;
+      const slugs = COURSES.flatMap((c) => state[c]);
+      wrap.hidden = slugs.length === 0;
+      list.innerHTML = "";
+      for (const s of slugs) {
+        const r = bySlug.get(s);
+        if (!r) continue;
+        const sec = document.createElement("div");
+        sec.innerHTML = `<h3 class="font-serif text-lg font-semibold"></h3><ul class="mt-1"></ul>`;
+        sec.querySelector("h3")!.textContent = r.t;
+        const ul = sec.querySelector("ul")!;
+        for (const g of r.ing) for (const i of g.items) {
+          const li = document.createElement("li");
+          li.innerHTML = `<label class="flex gap-3 items-start py-1.5 cursor-pointer"><input type="checkbox" class="peer mt-1 size-5 accent-[var(--color-sage)]"><span class="peer-checked:line-through peer-checked:text-ink-soft"></span></label>`;
+          li.querySelector("span")!.textContent = i;
+          ul.appendChild(li);
+        }
+        list.appendChild(sec);
+      }
+    }
+
+    function shareUrl(): string {
+      const enc = btoa(String.fromCharCode(...new TextEncoder().encode(JSON.stringify(state))));
+      return `${location.origin}/menu?m=${encodeURIComponent(enc)}`;
+    }
+
+    // drag & drop onto course boxes
+    document.querySelectorAll<HTMLElement>("[data-course]").forEach((box) => {
+      box.addEventListener("dragover", (e) => { e.preventDefault(); box.classList.add("!border-tomato"); });
+      box.addEventListener("dragleave", () => box.classList.remove("!border-tomato"));
+      box.addEventListener("drop", (e) => {
+        e.preventDefault();
+        box.classList.remove("!border-tomato");
+        const s = e.dataTransfer!.getData("text/plain");
+        if (bySlug.has(s)) add(box.dataset.course as MenuCourse, s);
+      });
+    });
+    pickQ.addEventListener("input", renderPicker);
+    courseBtns.forEach((b) => b.addEventListener("click", () => {
+      courseFilter = b.dataset.pickCourse!;
+      courseBtns.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      renderPicker();
+    }));
+    document.querySelector("[data-clear-menu]")!.addEventListener("click", () => {
+      state = { starter: [], main: [], side: [], dessert: [] };
+      menu.set(state);
+      render();
+    });
+    document.querySelector("[data-share-link]")!.addEventListener("click", async () => {
+      const url = shareUrl();
+      try {
+        if (navigator.share) await navigator.share({ title: "Our menu — Linda’s Kitchen", url });
+        else { await navigator.clipboard.writeText(url); toast("Link copied — paste it anywhere"); }
+      } catch {}
+    });
+    document.querySelector("[data-share-text]")!.addEventListener("click", () => {
+      const body = `${shoppingText()}\n\nMenu: ${shareUrl()}`;
+      location.href = `sms:?&body=${encodeURIComponent(body)}`;
+    });
+    document.querySelector("[data-copy-list]")!.addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(shoppingText()); toast("Shopping list copied ✓"); } catch { toast("Couldn’t copy on this device"); }
+    });
+
+    renderPicker();
+    render();
+  </script>
+</Base>

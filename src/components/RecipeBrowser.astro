@@ -1,0 +1,170 @@
+---
+// The searchable, filterable grid of all recipes (used by /recipes and /search).
+import RecipeCard from "./RecipeCard.astro";
+import Icon from "./Icon.astro";
+import { recipes, chapters, occasions, people, recipesBy } from "../lib/data";
+
+interface Props { autofocus?: boolean }
+const { autofocus = false } = Astro.props;
+const contributors = people.filter((p) => recipesBy(p.id).length > 0);
+const times = [
+  { id: "quick", label: "Under 30 min" },
+  { id: "hour", label: "Under 1 hr" },
+  { id: "afternoon", label: "An afternoon" },
+  { id: "project", label: "A project" },
+];
+const selectCls = "w-full min-h-[48px] rounded-xl border border-line bg-card px-3 text-base";
+---
+<div data-browser>
+  <div class="sticky top-16 z-30 -mx-4 px-4 sm:-mx-6 sm:px-6 py-3 bg-paper/95 backdrop-blur border-b border-line/70">
+    <label class="relative block">
+      <span class="sr-only">Search recipes, ingredients or people</span>
+      <Icon name="search" class="absolute left-4 top-1/2 -translate-y-1/2 text-ink-soft" />
+      <input
+        type="search" data-q autocomplete="off" enterkeyhint="search" autofocus={autofocus}
+        placeholder="Search “halibut”, “lemon”, “Aunt Karen”…"
+        class="w-full min-h-[52px] rounded-full border-2 border-line bg-card pl-12 pr-4 text-lg focus:border-tomato focus:outline-none"
+      />
+    </label>
+    <div class="mt-3 flex gap-2 overflow-x-auto pb-1 -mx-1 px-1 [scrollbar-width:none]">
+      <button type="button" class="chip !border-[#ecd39a]" data-linda aria-pressed="false">✍︎ Linda’s Touch</button>
+      {times.map((t) => <button type="button" class="chip" data-time-filter={t.id} aria-pressed="false">{t.label}</button>)}
+      <button type="button" class="chip" data-more-filters aria-expanded="false" aria-controls="more-filters">More filters</button>
+    </div>
+    <div id="more-filters" class="mt-3 grid gap-3 sm:grid-cols-3" hidden>
+      <label><span class="text-sm font-semibold">Chapter</span>
+        <select data-chapter class={selectCls}>
+          <option value="">All chapters</option>
+          {chapters.map((c) => <option value={c.slug}>{c.title}</option>)}
+        </select>
+      </label>
+      <label><span class="text-sm font-semibold">Occasion</span>
+        <select data-occasion class={selectCls}>
+          <option value="">Any occasion</option>
+          {occasions.map((o) => <option value={o.slug}>{o.name}</option>)}
+        </select>
+      </label>
+      <label><span class="text-sm font-semibold">Contributor</span>
+        <select data-person class={selectCls}>
+          <option value="">Anyone</option>
+          {contributors.map((p) => <option value={p.id}>{p.name}</option>)}
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <p class="mt-4 text-ink-soft" data-count aria-live="polite">{recipes.length} recipes</p>
+  <div class="mt-3 grid gap-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" data-grid>
+    {recipes.map((r, i) => <RecipeCard recipe={r} eager={i < 4} />)}
+  </div>
+  <div class="mt-10 text-center hidden" data-empty>
+    <p class="font-serif text-2xl">Nothing in the recipe box for that.</p>
+    <p class="mt-2 text-ink-soft">Try a different word, or <button type="button" class="underline text-tomato" data-reset>clear the filters</button>.</p>
+  </div>
+</div>
+
+<script>
+  import Fuse from "fuse.js";
+
+  const root = document.querySelector<HTMLElement>("[data-browser]")!;
+  const q = root.querySelector<HTMLInputElement>("[data-q]")!;
+  const cards = [...root.querySelectorAll<HTMLElement>(".recipe-card")];
+  const grid = root.querySelector<HTMLElement>("[data-grid]")!;
+  const countEl = root.querySelector<HTMLElement>("[data-count]")!;
+  const empty = root.querySelector<HTMLElement>("[data-empty]")!;
+  const sel = {
+    chapter: root.querySelector<HTMLSelectElement>("[data-chapter]")!,
+    occasion: root.querySelector<HTMLSelectElement>("[data-occasion]")!,
+    person: root.querySelector<HTMLSelectElement>("[data-person]")!,
+  };
+  const lindaBtn = root.querySelector<HTMLButtonElement>("[data-linda]")!;
+  const timeBtns = [...root.querySelectorAll<HTMLButtonElement>("[data-time-filter]")];
+  const moreBtn = root.querySelector<HTMLButtonElement>("[data-more-filters]")!;
+  const more = document.getElementById("more-filters")!;
+
+  const fuse = new Fuse(
+    cards.map((c) => ({ slug: c.dataset.slug, title: c.dataset.title, text: c.dataset.search })),
+    { keys: [{ name: "title", weight: 3 }, { name: "text", weight: 1 }], threshold: 0.32, ignoreLocation: true, minMatchCharLength: 2 },
+  );
+
+  // read initial state from the URL so filtered views can be shared
+  const params = new URLSearchParams(location.search);
+  q.value = params.get("q") ?? "";
+  sel.chapter.value = params.get("chapter") ?? "";
+  sel.occasion.value = params.get("occasion") ?? "";
+  sel.person.value = params.get("by") ?? "";
+  if (params.get("linda")) lindaBtn.setAttribute("aria-pressed", "true");
+  const t0 = params.get("time");
+  timeBtns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.timeFilter === t0)));
+  if (sel.chapter.value || sel.occasion.value || sel.person.value) {
+    more.hidden = false;
+    moreBtn.setAttribute("aria-expanded", "true");
+  }
+
+  function apply() {
+    const term = q.value.trim().toLowerCase();
+    const time = timeBtns.find((b) => b.getAttribute("aria-pressed") === "true")?.dataset.timeFilter ?? "";
+    const linda = lindaBtn.getAttribute("aria-pressed") === "true";
+    let order: string[] | null = null;
+    let matches: Set<string> | null = null;
+    if (term.length >= 2) {
+      const res = fuse.search(term);
+      order = res.map((r) => r.item.slug!);
+      matches = new Set(order);
+    }
+    let n = 0;
+    for (const c of cards) {
+      const ok =
+        (!matches || matches.has(c.dataset.slug!)) &&
+        (!sel.chapter.value || c.dataset.chapter === sel.chapter.value) &&
+        (!sel.occasion.value || c.dataset.occasions!.split(" ").includes(sel.occasion.value)) &&
+        (!sel.person.value || c.dataset.contributors!.split(" ").includes(sel.person.value)) &&
+        (!time || c.dataset.time === time || (time === "hour" && c.dataset.time === "quick")) &&
+        (!linda || c.dataset.linda === "1");
+      c.hidden = !ok;
+      if (ok) n++;
+    }
+    // best matches first while searching
+    const sorted = order ? [...cards].sort((a, b) => (order!.indexOf(a.dataset.slug!) + 1 || 999) - (order!.indexOf(b.dataset.slug!) + 1 || 999)) : cards;
+    sorted.forEach((c) => grid.appendChild(c));
+    countEl.textContent = `${n} recipe${n === 1 ? "" : "s"}${term ? ` for “${q.value.trim()}”` : ""}`;
+    empty.classList.toggle("hidden", n > 0);
+
+    const p = new URLSearchParams();
+    if (q.value.trim()) p.set("q", q.value.trim());
+    if (sel.chapter.value) p.set("chapter", sel.chapter.value);
+    if (sel.occasion.value) p.set("occasion", sel.occasion.value);
+    if (sel.person.value) p.set("by", sel.person.value);
+    if (time) p.set("time", time);
+    if (linda) p.set("linda", "1");
+    history.replaceState(null, "", `${location.pathname}${p.size ? `?${p}` : ""}`);
+  }
+
+  let deb: number | undefined;
+  q.addEventListener("input", () => { clearTimeout(deb); deb = window.setTimeout(apply, 120); });
+  Object.values(sel).forEach((s) => s.addEventListener("change", apply));
+  lindaBtn.addEventListener("click", () => {
+    lindaBtn.setAttribute("aria-pressed", String(lindaBtn.getAttribute("aria-pressed") !== "true"));
+    apply();
+  });
+  timeBtns.forEach((b) =>
+    b.addEventListener("click", () => {
+      const on = b.getAttribute("aria-pressed") !== "true";
+      timeBtns.forEach((x) => x.setAttribute("aria-pressed", "false"));
+      b.setAttribute("aria-pressed", String(on));
+      apply();
+    }),
+  );
+  moreBtn.addEventListener("click", () => {
+    more.hidden = !more.hidden;
+    moreBtn.setAttribute("aria-expanded", String(!more.hidden));
+  });
+  root.querySelector("[data-reset]")!.addEventListener("click", () => {
+    q.value = "";
+    Object.values(sel).forEach((s) => (s.value = ""));
+    lindaBtn.setAttribute("aria-pressed", "false");
+    timeBtns.forEach((x) => x.setAttribute("aria-pressed", "false"));
+    apply();
+  });
+  apply();
+</script>

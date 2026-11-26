@@ -1,0 +1,159 @@
+{
+  "slug": "clams-casino",
+  "title": "Clams Casino",
+  "chapter": "starters-snacks",
+  "order": 5,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes 24",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "label": "Cook",
+      "text": "10 min",
+      "min": 10,
+      "max": 10
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "24 littleneck clams, scrubbed",
+          "qty": 24.0,
+          "qtyText": "24"
+        },
+        {
+          "raw": "4 slices bacon, cut into ½-inch pieces",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "slices"
+        },
+        {
+          "raw": "4 tablespoons unsalted butter, softened",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 small shallot, minced",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "small"
+        },
+        {
+          "raw": "½ red bell pepper, finely diced",
+          "qty": 0.5,
+          "qtyText": "½"
+        },
+        {
+          "raw": "2 garlic cloves, minced",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "¼ cup dry breadcrumbs",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        },
+        {
+          "raw": "2 tablespoons chopped parsley",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "½ teaspoon dried oregano",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Pinch of red pepper flakes"
+        },
+        {
+          "raw": "1 tablespoon fresh lemon juice, plus wedges to serve",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "Freshly ground black pepper"
+        },
+        {
+          "raw": "Rock salt or crumpled foil, for the pan"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Open the clams.",
+      "text": "Work a clam knife into the hinge and twist. Free the clam from the top shell, cut it loose from the bottom, and leave it sitting in the bottom shell with its juices. Discard the top shells. If you would rather not shuck, see the note below."
+    },
+    {
+      "lead": "Render the bacon.",
+      "text": "Cook the bacon in a skillet over medium heat until the fat is out and the pieces are just short of crisp. Lift the bacon onto paper towels, leaving about 2 tablespoons of fat in the pan."
+    },
+    {
+      "lead": "Cook the vegetables.",
+      "text": "Add the shallot and bell pepper to the bacon fat and cook 4 to 5 minutes until softened. Add the garlic and cook 1 minute more. Scrape into a bowl and let cool to warm."
+    },
+    {
+      "lead": "Make the butter.",
+      "text": "Mash the softened butter into the cooled vegetables along with the breadcrumbs, parsley, oregano, pepper flakes, lemon juice, and several grinds of black pepper. No salt — the bacon and the clams bring plenty."
+    },
+    {
+      "lead": "Top the clams.",
+      "text": "Set the filled shells on a sheet pan bedded with rock salt or crumpled foil so they sit level. Spoon a scant teaspoon of the butter over each clam and press a piece of bacon on top."
+    },
+    {
+      "lead": "Broil.",
+      "text": "Broil 6 inches from the element for 4 to 6 minutes, until the butter is bubbling furiously and the tops are browned. Watch them the entire time. Serve at once with lemon."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Easier shucking",
+      "text": "freeze the scrubbed clams for 15 minutes first; they relax and open more willingly. Or steam them in a covered pot with a splash of water for 2 to 3 minutes, just until they crack, then finish opening by hand and pour the liquor back into the shells.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "the casino butter keeps a week in the refrigerator and freezes well. Shuck and top the clams up to 4 hours ahead, refrigerate on the pan, and broil to order.",
+      "byLinda": false
+    },
+    {
+      "label": "Bigger clams",
+      "text": "cherrystones work but are chewier; chop the meat before returning it to the shell.",
+      "byLinda": false
+    },
+    {
+      "label": "Don’t overcook",
+      "text": "the clams are done the moment the butter bubbles. Another two minutes and they tighten into erasers.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes these, and are they a summer thing off the boat or part of the Christmas Eve fish spread? Also tell me if your version uses pancetta instead of bacon, or skips the breadcrumbs.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 40
+}

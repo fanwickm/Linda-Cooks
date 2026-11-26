@@ -1,0 +1,51 @@
+---
+import DishArt from "./DishArt.astro";
+import LindaBadge from "./LindaBadge.astro";
+import Icon from "./Icon.astro";
+import { personById, chapterBySlug, formatMinutes, timeBucket, isComplete, type Recipe } from "../lib/data";
+
+interface Props { recipe: Recipe; compact?: boolean; eager?: boolean }
+const { recipe: r, compact = false, eager = false } = Astro.props;
+const who = r.contributors.map((c) => personById.get(c)?.short ?? c).filter(Boolean).join(" & ");
+const chapter = chapterBySlug.get(r.chapter);
+const searchText = [
+  r.title, who, chapter?.title, r.occasionText, r.headnote,
+  ...r.ingredientGroups.flatMap((g) => g.items.map((i) => i.raw)),
+].filter(Boolean).join(" ").toLowerCase();
+---
+<article
+  class="recipe-card card card-lift relative overflow-hidden flex flex-col"
+  data-slug={r.slug}
+  data-chapter={r.chapter}
+  data-occasions={r.occasions.join(" ")}
+  data-contributors={r.contributors.join(" ")}
+  data-time={timeBucket(r) ?? ""}
+  data-linda={r.lindasTouch ? "1" : "0"}
+  data-title={r.title.toLowerCase()}
+  data-search={compact ? undefined : searchText}
+>
+  <div class:list={["relative", compact ? "aspect-[4/3]" : "aspect-[5/4]"]}>
+    <DishArt recipe={r} size={compact ? "sm" : "md"} eager={eager} />
+    {r.lindasTouch && <div class="absolute left-2 bottom-2"><LindaBadge small title={r.lindasTouchReason} /></div>}
+  </div>
+  <div class="flex-1 flex flex-col p-3.5 sm:p-4 gap-1">
+    <h3 class:list={["font-serif font-semibold leading-snug", compact ? "text-lg" : "text-xl"]}>
+      <a href={`/recipes/${r.slug}`} class="no-underline after:absolute after:inset-0 hover:text-tomato">{r.title}</a>
+    </h3>
+    <p class="text-sm text-ink-soft flex flex-wrap gap-x-3 gap-y-1 mt-auto pt-1">
+      {who && <span>From {who}</span>}
+      {r.totalMinutes && <span class="inline-flex items-center gap-1"><Icon name="clock" size={14} />{formatMinutes(r.totalMinutes)}</span>}
+      {!isComplete(r) && <span class="text-tomato font-semibold">Recipe wanted</span>}
+      {r.isBestGuess && <span class="text-tomato">Best guess</span>}
+    </p>
+  </div>
+  <button
+    type="button"
+    class="fav-btn absolute top-2 right-2 z-10 grid place-items-center w-11 h-11 rounded-full bg-white/85 backdrop-blur text-tomato shadow-sm"
+    data-fav={r.slug}
+    aria-pressed="false"
+    aria-label={`Save ${r.title}`}
+  >
+    <Icon name="heart" size={22} />
+  </button>
+</article>

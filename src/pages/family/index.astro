@@ -1,0 +1,112 @@
+---
+import Base from "../../layouts/Base.astro";
+import { people, recipesBy, openQuestions } from "../../lib/data";
+import { initials } from "../../lib/format";
+
+const list = people.map((p) => ({ ...p, recipes: recipesBy(p.id) })).filter((p) => p.recipes.length > 0);
+// Radial "family tree of recipes": the table in the middle, each cook around it.
+const W = 820, H = 760, cx = W / 2, cy = H / 2, R = 232;
+const nodes = list.map((p, i) => {
+  const a = (i / list.length) * Math.PI * 2 - Math.PI / 2;
+  const r = 26 + Math.min(p.recipes.length, 8) * 3.5;
+  const cos = Math.cos(a), sin = Math.sin(a);
+  return { ...p, x: cx + R * cos, y: cy + R * sin, r, a, lx: cx + (R + r + 12) * cos, ly: cy + (R + r + 12) * sin + (sin > 0.5 ? 18 : sin < -0.5 ? -4 : 8), anchor: cos > 0.35 ? "start" : cos < -0.35 ? "end" : "middle" };
+});
+const COLORS = ["#b2372a", "#4e6b4b", "#c9962f", "#2a5561", "#7a2c3a", "#8a4b17", "#4d3a6b"];
+const open = openQuestions.filter((q) => q.question).length;
+---
+<Base title="The Family Table">
+  <div class="container-page pt-6 sm:pt-10">
+    <p class="eyebrow">Who brought what</p>
+    <h1 class="text-4xl sm:text-5xl font-semibold mt-1">The Family Table</h1>
+    <p class="mt-2 text-lg text-ink-soft max-w-2xl">Every dish came from someone. Tap a name to see what they brought to the table.</p>
+
+    <div class="mt-6 grid gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] items-start">
+      <figure class="card p-2 sm:p-4" data-tree>
+        <svg viewBox={`0 0 ${W} ${H}`} class="w-full h-auto" role="group" aria-label="Family tree of recipes">
+          <circle cx={cx} cy={cy} r={R} fill="none" stroke="#e5d9c3" stroke-dasharray="4 6" />
+          {nodes.map((n) => <line x1={cx} y1={cy} x2={n.x} y2={n.y} stroke="#e5d9c3" stroke-width={1 + n.recipes.length * 0.5} data-line={n.id} />)}
+          <circle cx={cx} cy={cy} r="88" fill="#fffdf8" stroke="#c9962f" stroke-width="3" />
+          <text x={cx} y={cy - 8} text-anchor="middle" font-family="Fraunces Variable, serif" font-size="28" font-weight="600" fill="#2a221c">The Family</text>
+          <text x={cx} y={cy + 26} text-anchor="middle" font-family="Fraunces Variable, serif" font-size="28" font-weight="600" fill="#2a221c">Table</text>
+          {nodes.map((n, i) => {
+            const c = n.isLinda ? "#c9962f" : COLORS[i % COLORS.length];
+            return (
+              <g class="cursor-pointer outline-none" tabindex="0" role="button" aria-label={`${n.name}: ${n.recipes.length} recipe${n.recipes.length > 1 ? "s" : ""}`} data-person={n.id}>
+                <circle cx={n.x} cy={n.y} r={n.r + 10} fill="transparent" />
+                <circle cx={n.x} cy={n.y} r={n.r} fill={c} class="transition-all" data-dot />
+                <text x={n.x} y={n.y + 8} text-anchor="middle" font-size="23" font-weight="700" fill="#fff" font-family="Inter Variable, sans-serif">{n.id === "family-files" ? "📇" : initials(n.short)}</text>
+                <text x={n.lx} y={n.ly} text-anchor={n.anchor} font-size="25" font-weight="600" fill="#2a221c" font-family="Inter Variable, sans-serif">{n.short}</text>
+              </g>
+            );
+          })}
+        </svg>
+        <figcaption class="sr-only">A circle of family cooks around the table; bigger circles brought more recipes.</figcaption>
+      </figure>
+
+      <div>
+        <div class="card p-5 sm:p-6 min-h-[16rem]" data-panel aria-live="polite">
+          <p class="text-ink-soft" data-panel-empty>Tap someone at the table to see their recipes.</p>
+          {list.map((p) => (
+            <div data-panel-for={p.id} hidden>
+              <h2 class="font-serif text-2xl font-semibold">{p.name}</h2>
+              <p class="text-ink-soft">{p.relationship}</p>
+              <ul class="mt-3 space-y-1">
+                {p.recipes.map((r) => <li><a href={`/recipes/${r.slug}`} class="text-lg text-tomato underline underline-offset-4 inline-block py-1.5">{r.title}</a></li>)}
+              </ul>
+              <a href={`/family/${p.id}`} class="btn btn-ghost mt-4">All about {p.short} →</a>
+            </div>
+          ))}
+        </div>
+        <div class="mt-4 grid gap-3 sm:grid-cols-2">
+          <a href="/family/help" class="card card-lift p-5 no-underline border-2 !border-dashed !border-tomato/40">
+            <p class="font-serif text-xl font-semibold">❓ Help finish the book</p>
+            <p class="text-sm text-ink-soft mt-1">{open} questions only the family can answer.</p>
+          </a>
+          <a href="/family/photos" class="card card-lift p-5 no-underline">
+            <p class="font-serif text-xl font-semibold">📸 Family photo wall</p>
+            <p class="text-sm text-ink-soft mt-1">The dishes, as made at home.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-3xl font-semibold mt-14">Everyone at the table</h2>
+    <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {list.map((p, i) => (
+        <a href={`/family/${p.id}`} class="card card-lift p-5 no-underline flex gap-4 items-center">
+          {p.photo ? (
+            <img src={p.photo} alt="" class="size-16 rounded-full object-cover border-2 border-gold" loading="lazy" />
+          ) : (
+            <span class="grid place-items-center size-16 rounded-full text-white font-bold text-xl shrink-0" style={`background:${p.isLinda ? "#c9962f" : COLORS[i % COLORS.length]}`}>{p.id === "family-files" ? "📇" : initials(p.short)}</span>
+          )}
+          <span>
+            <span class="font-serif text-xl font-semibold block">{p.name}</span>
+            <span class="text-sm text-ink-soft block">{p.relationship}</span>
+            <span class="text-sm font-semibold text-sage">{p.recipes.length} recipe{p.recipes.length > 1 ? "s" : ""}</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  </div>
+  <script>
+    const tree = document.querySelector("[data-tree]")!;
+    function select(id: string, scroll = true) {
+      document.querySelectorAll<HTMLElement>("[data-panel-for]").forEach((p) => (p.hidden = p.dataset.panelFor !== id));
+      document.querySelector<HTMLElement>("[data-panel-empty]")!.hidden = true;
+      tree.querySelectorAll<SVGGElement>("[data-person]").forEach((g) => {
+        const on = g.dataset.person === id;
+        g.setAttribute("aria-pressed", String(on));
+        g.querySelector("[data-dot]")!.setAttribute("stroke", on ? "#2a221c" : "none");
+        g.querySelector("[data-dot]")!.setAttribute("stroke-width", on ? "4" : "0");
+      });
+      tree.querySelectorAll<SVGLineElement>("[data-line]").forEach((l) => l.setAttribute("stroke", l.dataset.line === id ? "#b2372a" : "#e5d9c3"));
+      if (scroll && window.innerWidth < 1024) document.querySelector("[data-panel]")!.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+    tree.querySelectorAll<SVGGElement>("[data-person]").forEach((g) => {
+      g.addEventListener("click", () => select(g.dataset.person!));
+      g.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(g.dataset.person!); } });
+    });
+    select("linda-mitchell", false);
+  </script>
+</Base>

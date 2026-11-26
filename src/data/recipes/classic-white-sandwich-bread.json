@@ -1,0 +1,181 @@
+{
+  "slug": "classic-white-sandwich-bread",
+  "title": "Classic White Sandwich Bread",
+  "chapter": "breads-breakfast",
+  "order": 53,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "One 9×5-inch loaf",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "35–40 min",
+      "min": 35,
+      "max": 40
+    },
+    {
+      "label": "Rise",
+      "text": "2–2½ hr",
+      "min": 120,
+      "max": 150
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "3½ cups (455 g) all-purpose or bread flour",
+          "qty": 3.5,
+          "qtyText": "3½",
+          "unit": "cups",
+          "metric": {
+            "qty": 455.0,
+            "unit": "g",
+            "span": " cups (455 g)"
+          }
+        },
+        {
+          "raw": "2¼ teaspoons (1 packet, 7 g) instant yeast",
+          "qty": 2.25,
+          "qtyText": "2¼",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "2 tablespoons (25 g) granulated sugar",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 25.0,
+            "unit": "g",
+            "span": " tablespoons (25 g)"
+          }
+        },
+        {
+          "raw": "1½ teaspoons (9 g) fine salt",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "teaspoons",
+          "metric": {
+            "qty": 9.0,
+            "unit": "g",
+            "span": " teaspoons (9 g)"
+          }
+        },
+        {
+          "raw": "1 cup (240 g) whole milk, warmed to about 105°F",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 240.0,
+            "unit": "g",
+            "span": " cup (240 g)"
+          }
+        },
+        {
+          "raw": "¼ cup (60 g) water, warm",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup",
+          "metric": {
+            "qty": 60.0,
+            "unit": "g",
+            "span": " cup (60 g)"
+          }
+        },
+        {
+          "raw": "3 tablespoons (42 g) unsalted butter, softened, plus more for the pan",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 42.0,
+            "unit": "g",
+            "span": " tablespoons (42 g)"
+          }
+        },
+        {
+          "raw": "1 tablespoon melted butter, to finish (optional)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Mix the dough.",
+      "text": "Combine the flour, yeast, sugar, and salt in a large bowl or stand mixer. Add the warm milk, water, and soft butter and mix until a shaggy dough forms."
+    },
+    {
+      "lead": "Knead.",
+      "text": "Knead 8 to 10 minutes by hand or 6 to 7 minutes with a dough hook on medium-low, until smooth, elastic, and slightly tacky. A small piece should stretch thin enough to see light through without tearing."
+    },
+    {
+      "lead": "First rise.",
+      "text": "Shape into a ball, place in a lightly greased bowl, cover, and let rise in a warm spot 1 to 1½ hours, until doubled."
+    },
+    {
+      "lead": "Shape.",
+      "text": "Butter a 9×5-inch loaf pan. Press the dough into a rectangle about 9 inches wide, then roll it up tightly from a short side, pinching the seam closed. Set it in the pan seam side down."
+    },
+    {
+      "lead": "Second rise.",
+      "text": "Cover and let rise 45 to 60 minutes, until the top crowns about 1 inch above the rim. Heat the oven to 350°F while it rises."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Bake 35 to 40 minutes, until golden brown and the center reads 190°F on an instant-read thermometer. Tent with foil after 20 minutes if it is browning too quickly."
+    },
+    {
+      "lead": "Cool.",
+      "text": "Turn out onto a rack immediately. Brush the top with melted butter for a soft crust. Cool completely before slicing."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Active dry yeast",
+      "text": "use the same amount, but dissolve it in the warm milk and water for 5 minutes before adding the dry ingredients.",
+      "byLinda": false
+    },
+    {
+      "label": "Too hot kills yeast",
+      "text": "milk above about 120°F will slow or kill the yeast. Warm to the touch is right.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "keeps 3 days wrapped at room temperature; slice before freezing so you can toast from frozen.",
+      "byLinda": false
+    },
+    {
+      "label": "Variations",
+      "text": "swap 1 cup of the flour for whole wheat, or use honey in place of the sugar.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — a soft, milk-and-butter sandwich loaf. Who makes it, and when? Tell me if yours is a family recipe with different amounts, or if it is made in a bread machine.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 175
+}

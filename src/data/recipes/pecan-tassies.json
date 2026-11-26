@@ -1,0 +1,181 @@
+{
+  "slug": "pecan-tassies",
+  "title": "Pecan Tassies",
+  "chapter": "desserts",
+  "order": 73,
+  "source": null,
+  "contributors": [
+    "family-files"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes 24",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "label": "Cook",
+      "text": "25 min",
+      "min": 25,
+      "max": 25
+    },
+    {
+      "label": "Chill",
+      "text": "dough 1 hr",
+      "min": 60,
+      "max": 60
+    }
+  ],
+  "headnote": "From an old handwritten recipe card for pecan pie tarts; where it came from is not known. It makes 2 dozen: cream cheese pastry pressed into tiny muffin cups and filled with brown-sugar pecan filling.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Pastry",
+      "items": [
+        {
+          "raw": "1 package (3 ounces / 85 g) cream cheese, softened",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "package"
+        },
+        {
+          "raw": "⅓ cup (75 g) butter, softened",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup",
+          "metric": {
+            "qty": 75.0,
+            "unit": "g",
+            "span": " cup (75 g)"
+          }
+        },
+        {
+          "raw": "1 cup (125 g) flour",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 125.0,
+            "unit": "g",
+            "span": " cup (125 g)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Filling",
+      "items": [
+        {
+          "raw": "1 egg",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "¾ cup (165 g) brown sugar",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup",
+          "metric": {
+            "qty": 165.0,
+            "unit": "g",
+            "span": " cup (165 g)"
+          }
+        },
+        {
+          "raw": "1 tablespoon (14 g) soft butter",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon",
+          "metric": {
+            "qty": 14.0,
+            "unit": "g",
+            "span": " tablespoon (14 g)"
+          }
+        },
+        {
+          "raw": "1 teaspoon vanilla",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Dash of salt"
+        },
+        {
+          "raw": "⅔ cup (75 g) pecans, chopped",
+          "qty": 0.6666666666666666,
+          "qtyText": "⅔",
+          "unit": "cup",
+          "metric": {
+            "qty": 75.0,
+            "unit": "g",
+            "span": " cup (75 g)"
+          },
+          "gaps": [
+            "⅔ cup"
+          ]
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make the pastry.",
+      "text": "Beat the cream cheese and butter together until smooth. Add the flour and mix just until a soft dough forms. Wrap and chill at least 1 hour, until firm."
+    },
+    {
+      "lead": "Shape the cups.",
+      "text": "Heat the oven to 325°F. Divide the dough into 24 equal balls, about 1 tablespoon each. Press each into an ungreased mini muffin cup, pushing it evenly up the sides to the rim."
+    },
+    {
+      "lead": "Make the filling.",
+      "text": "Whisk the egg, brown sugar, soft butter, vanilla, and salt until smooth."
+    },
+    {
+      "lead": "Fill.",
+      "text": "Divide half the pecans among the pastry cups. Spoon the filling over them, filling each cup about three-quarters full, then top with the remaining pecans."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Bake 25 minutes, until the pastry is golden and the filling is puffed and set."
+    },
+    {
+      "lead": "Unmold.",
+      "text": "Cool in the pan 10 minutes, then run a thin knife around each one and lift it out. Cool completely on a rack."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Don’t overfill",
+      "text": "the filling puffs as it bakes and glues the tassies to the pan if it runs over the rim.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "they keep a week in an airtight tin and freeze for 3 months.",
+      "byLinda": false
+    },
+    {
+      "label": "Variations",
+      "text": "swap walnuts for the pecans, or drop a few mini chocolate chips into each cup before filling.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Lyle’s list includes pecan tassies from Sue’s mom. Is this card hers, or is hers a different recipe? If different, please send it. The pecan amount on the card is faded — it looks like ⅔ cup.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "thanksgiving"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 115
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "slug": "christmas-eve", "name": "Christmas Eve", "emoji": "🎄",
+    "dateRule": { "month": 12, "day": 24 },
+    "featured": true,
+    "intro": "The big one. Linda’s halibut, Bob’s roast beef, and everything that gets eaten standing up before anyone sits down.",
+    "menu": {
+      "starter": ["lindas-tuna-tartare-with-wasabi-and-lime", "baked-brie-with-walnuts-and-brown-sugar"],
+      "main": ["lindas-christmas-eve-halibut", "christmas-eve-roast-beef"],
+      "side": ["holiday-scalloped-potatoes"],
+      "dessert": ["make-ahead-chocolate-souffles", "pignoli-cookies", "christmas-toffee"]
+    },
+    "timeline": [
+      { "when": "Up to 2 months ahead", "task": "Assemble and freeze the Baked Brie wheels.", "recipe": "baked-brie-with-walnuts-and-brown-sugar" },
+      { "when": "2 days ahead", "task": "Fill the soufflé ramekins and freeze them.", "recipe": "make-ahead-chocolate-souffles" },
+      { "when": "The day before", "task": "Make the tartare dressing.", "recipe": "lindas-tuna-tartare-with-wasabi-and-lime" },
+      { "when": "The day before", "task": "Assemble the scalloped potatoes and refrigerate.", "recipe": "holiday-scalloped-potatoes" },
+      { "when": "Earlier in the day", "task": "Mix the halibut rub.", "recipe": "lindas-christmas-eve-halibut" },
+      { "when": "About 3 hours before", "task": "Roast goes in the oven.", "recipe": "christmas-eve-roast-beef" },
+      { "when": "1 hour before", "task": "Make Linda’s triple batch of pickle.", "recipe": "lindas-christmas-eve-halibut" },
+      { "when": "30 minutes before", "task": "Chop and dress the tuna.", "recipe": "lindas-tuna-tartare-with-wasabi-and-lime" },
+      { "when": "During dinner", "task": "Bake the soufflés straight from the freezer.", "recipe": "make-ahead-chocolate-souffles" }
+    ]
+  },
+  {
+    "slug": "christmas-morning", "name": "Christmas Morning", "emoji": "🎁",
+    "dateRule": { "month": 12, "day": 25 },
+    "intro": "The hearty breakfast that comes after the gifts.",
+    "menu": {
+      "main": ["christmas-morning-corned-beef-hash", "eggs-benedict"],
+      "side": ["sticky-buns", "crepes"],
+      "dessert": ["warm-challah-bread-pudding"]
+    },
+    "timeline": [
+      { "when": "The night before", "task": "Make the hash without the eggs (Linda’s make-ahead).", "recipe": "christmas-morning-corned-beef-hash" },
+      { "when": "The night before", "task": "Shape the sticky buns and let them rise overnight.", "recipe": "sticky-buns" },
+      { "when": "Christmas morning", "task": "Reheat the hash in the skillet, pressing it flat to re-crisp, then add the eggs.", "recipe": "christmas-morning-corned-beef-hash" }
+    ]
+  },
+  {
+    "slug": "thanksgiving", "name": "Thanksgiving", "emoji": "🦃",
+    "dateRule": { "month": 11, "nthWeekday": { "n": 4, "weekday": 4 } },
+    "intro": "Sides for the big table — and the pizza that uses up the leftovers.",
+    "menu": {
+      "side": ["holiday-scalloped-potatoes", "roast-potatoes", "baked-macaroni-and-cheese", "rice-pilaf-with-dried-fruit-nuts-and-spice", "apple-sauce"],
+      "main": ["thanksgiving-pizza"],
+      "dessert": ["pecan-tassies"]
+    },
+    "timeline": []
+  },
+  {
+    "slug": "easter-spring", "name": "Easter & Spring", "emoji": "🌷",
+    "dateRule": { "easter": true },
+    "intro": "Lamb with Grandma’s mint jelly, lemon everything, and the first rhubarb.",
+    "menu": {
+      "main": ["butterflied-leg-of-lamb", "lollipop-lamb-chops"],
+      "side": ["grandmas-mint-jelly", "lemon-asparagus-and-pea-risotto", "lindas-napa-cabbage-salad"],
+      "dessert": ["strawberry-rhubarb-crisp", "lemon-cake", "lemon-sponge"]
+    },
+    "timeline": []
+  },
+  {
+    "slug": "summer", "name": "Summer", "emoji": "☀️",
+    "dateRule": { "month": 7, "day": 4 },
+    "intro": "Corn, the grill, and long tables outside.",
+    "menu": {
+      "starter": ["bills-shrimp-cocktail", "fresh-summer-corn-chowder"],
+      "main": ["grilled-block-island-sea-bass", "kielbasa"],
+      "side": ["corn-and-avocado-salad", "kathys-caesar-salad", "lindas-napa-cabbage-salad", "onion-rings"],
+      "dessert": ["blackberry-jam"]
+    },
+    "timeline": []
+  },
+  {
+    "slug": "sunday-dinner", "name": "Sunday Dinner", "emoji": "🍝",
+    "dateRule": { "weekly": 0 },
+    "intro": "Sauce on the stove all afternoon, a roast chicken, bread on the board.",
+    "menu": {
+      "main": ["lorraine-massiminos-meatballs-and-sunday-sauce", "cristinas-lasagna", "zuni-cafe-roast-chicken-with-bread-salad", "andrews-roast-chicken", "angelas-moms-gnocchi"],
+      "side": ["roast-potatoes", "aunt-karens-no-knead-bread-with-herb-butter", "grandmas-mint-jelly"],
+      "dessert": ["coconut-cake"]
+    },
+    "timeline": []
+  }
+]

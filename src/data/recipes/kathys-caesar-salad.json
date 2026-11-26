@@ -1,0 +1,199 @@
+{
+  "slug": "kathys-caesar-salad",
+  "title": "Kathy’s Caesar Salad",
+  "chapter": "salads",
+  "order": 13,
+  "source": "From Kathy",
+  "contributors": [
+    "kathy"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "25 min",
+      "min": 25,
+      "max": 25
+    },
+    {
+      "label": "Cook",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Croutons",
+      "items": [
+        {
+          "raw": "4 cups torn country bread, in rough 1-inch pieces",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "cups"
+        },
+        {
+          "raw": "3 tablespoons olive oil",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 garlic clove, smashed",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "¼ teaspoon kosher salt",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        }
+      ]
+    },
+    {
+      "name": "Dressing",
+      "items": [
+        {
+          "raw": "4 oil-packed anchovy fillets, plus more to taste",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "2 garlic cloves",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "½ teaspoon kosher salt",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "1 large egg yolk",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "1 tablespoon Dijon mustard",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "2 tablespoons fresh lemon juice",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 teaspoon Worcestershire sauce",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "½ cup extra-virgin olive oil",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "½ cup finely grated Parmigiano-Reggiano",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "Plenty of freshly ground black pepper"
+        }
+      ]
+    },
+    {
+      "name": "Salad",
+      "items": [
+        {
+          "raw": "3 heads romaine, outer leaves discarded, hearts cut into 2-inch ribbons",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "heads"
+        },
+        {
+          "raw": "A block of Parmigiano-Reggiano, for shaving"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make the croutons.",
+      "text": "Heat the oven to 375°F. Toss the bread with the olive oil, smashed garlic, and salt on a sheet pan and bake 12 to 15 minutes, tossing once, until golden and crisp but still chewy in the middle. Discard the garlic clove. Cool completely."
+    },
+    {
+      "lead": "Build the dressing base.",
+      "text": "Mash the anchovies, garlic, and salt into a smooth paste — a mortar works best, but the flat of a knife on a board is fine. Scrape into a bowl."
+    },
+    {
+      "lead": "Emulsify.",
+      "text": "Whisk in the egg yolk, Dijon, lemon juice, and Worcestershire. Then add the olive oil in a very thin stream, whisking constantly, until the dressing is thick and glossy. If it breaks, whisk a fresh yolk in a clean bowl and add the broken dressing to it slowly."
+    },
+    {
+      "lead": "Finish the dressing.",
+      "text": "Stir in the grated Parmesan and a great deal of black pepper. Taste. It should be aggressively salty, sharp, and anchovy-forward, because the lettuce will soften all of it. Add another anchovy if it is not."
+    },
+    {
+      "lead": "Dry the lettuce.",
+      "text": "Wash and spin the romaine completely dry, then chill it. Wet leaves refuse to hold dressing and this is the reason most home Caesars are disappointing."
+    },
+    {
+      "lead": "Toss.",
+      "text": "Put the romaine in your largest bowl. Add about two-thirds of the dressing and toss with your hands, lifting from the bottom, until every leaf is lightly coated. Add more dressing only if it needs it."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Add the croutons and toss once more. Shave a generous quantity of Parmesan over the top with a vegetable peeler and grind on more pepper. Serve at once, on chilled plates if you are being serious about it."
+    }
+  ],
+  "notes": [
+    {
+      "label": "About the raw egg",
+      "text": "for anyone pregnant, elderly, or immune-compromised, use a pasteurized egg, or substitute 3 tablespoons of good mayonnaise for the yolk and reduce the oil to ¼ cup.",
+      "byLinda": false
+    },
+    {
+      "label": "Anchovies",
+      "text": "do not leave them out. They read as savory depth, not fish. Two teaspoons of anchovy paste can stand in.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "dressing keeps 3 days refrigerated and croutons 2 days in a paper bag. Toss only at the last minute.",
+      "byLinda": false
+    },
+    {
+      "label": "Grilled version",
+      "text": "halve the romaine hearts lengthwise, brush with oil, and grill cut side down for 90 seconds before dressing.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Tell me a little about Kathy and this salad — is it a birthday-dinner standard, a summer thing, the salad she is always asked to bring? Also, does she use a raw egg, or mayonnaise as the base?",
+  "isBestGuess": false,
+  "contributorName": "Kathy",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "summer"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 40
+}

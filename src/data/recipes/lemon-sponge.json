@@ -1,0 +1,161 @@
+{
+  "slug": "lemon-sponge",
+  "title": "Lemon Sponge",
+  "chapter": "desserts",
+  "order": 72,
+  "source": null,
+  "contributors": [
+    "family-files"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "45 min",
+      "min": 45,
+      "max": 45
+    }
+  ],
+  "headnote": "From an old handwritten card in the family files; where it came from is not known. It is a lemon pudding baked in cups set in a pan of hot water, so each one comes out with a light sponge on top and lemon sauce underneath.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 cup (200 g) sugar",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 200.0,
+            "unit": "g",
+            "span": " cup (200 g)"
+          }
+        },
+        {
+          "raw": "4 tablespoons (32 g) flour",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 32.0,
+            "unit": "g",
+            "span": " tablespoons (32 g)"
+          }
+        },
+        {
+          "raw": "⅛ teaspoon salt",
+          "qty": 0.125,
+          "qtyText": "⅛",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 tablespoons (28 g) melted butter, plus more for the cups",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 28.0,
+            "unit": "g",
+            "span": " tablespoons (28 g)"
+          }
+        },
+        {
+          "raw": "5 tablespoons fresh lemon juice",
+          "qty": 5.0,
+          "qtyText": "5",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "Grated rind of 1 lemon"
+        },
+        {
+          "raw": "3 egg yolks, well beaten",
+          "qty": 3.0,
+          "qtyText": "3"
+        },
+        {
+          "raw": "1½ cups (360 ml) milk",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups",
+          "metric": {
+            "qty": 360.0,
+            "unit": "ml",
+            "span": " cups (360 ml)"
+          }
+        },
+        {
+          "raw": "3 egg whites, stiffly beaten",
+          "qty": 3.0,
+          "qtyText": "3"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Heat the oven to 350°F. Grease six 6-ounce custard cups well and set them in a baking pan. Put a kettle on to boil."
+    },
+    {
+      "lead": "Mix the base.",
+      "text": "Add the sugar, flour, and salt to the melted butter, then add the lemon juice and rind."
+    },
+    {
+      "lead": "Add the yolks and milk.",
+      "text": "Add the beaten egg yolks and the milk and mix well. The batter will be thin."
+    },
+    {
+      "lead": "Fold in the whites.",
+      "text": "Fold in the stiffly beaten whites gently, leaving a few streaks."
+    },
+    {
+      "lead": "Bake in hot water.",
+      "text": "Pour into the greased cups. Set the pan in the oven and pour hot water into it to come halfway up the cups. Bake 45 minutes, until golden on top and springy to the touch."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Lift the cups out of the water. Serve warm or cold, spooning down so everyone gets both the sponge and the sauce beneath it."
+    }
+  ],
+  "notes": [
+    {
+      "label": "How many cups",
+      "text": "the card does not say. The batter fills about six 6-ounce custard cups, or one 1½-quart baking dish.",
+      "byLinda": false
+    },
+    {
+      "label": "The water bath matters",
+      "text": "it keeps the bottom layer a silky sauce. Without it the bottom overcooks.",
+      "byLinda": false
+    },
+    {
+      "label": "Serve with",
+      "text": "fresh berries or a spoonful of lightly whipped cream.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Lyle’s list includes a lemon sponge recipe from Ed’s mom. Is this card hers, or is hers a different recipe? If different, please send it.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "easter-spring"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 65
+}

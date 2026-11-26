@@ -1,0 +1,27 @@
+---
+// "Help finish the book" answer form. Answers go to the editor for approval,
+// never straight onto the site (see netlify/functions/answers.mts).
+import type { Recipe } from "../lib/data";
+interface Props { recipe?: Recipe; slug?: string; question?: string; compact?: boolean }
+const { recipe: r } = Astro.props;
+const slug = r?.slug ?? Astro.props.slug!;
+const question = r?.openQuestion ?? Astro.props.question ?? "";
+---
+<form class="help-form space-y-3" data-help-form>
+  <input type="hidden" name="slug" value={slug} />
+  <input type="hidden" name="question" value={question} />
+  <div class="hidden" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
+  <label class="block">
+    <span class="font-semibold">What do you know?</span>
+    <textarea name="answer" required rows="4" maxlength="4000" class="mt-1 w-full rounded-xl border border-line bg-white p-3 text-lg focus:border-sage focus:outline-none" placeholder="Who made it, when it shows up, how it was really done…"></textarea>
+  </label>
+  <div class="flex flex-wrap gap-3 items-end">
+    <label class="block flex-1 min-w-[12rem]">
+      <span class="font-semibold">Your name</span>
+      <input name="name" required maxlength="80" autocomplete="name" class="mt-1 w-full rounded-xl border border-line bg-white p-3 text-lg min-h-[48px] focus:border-sage focus:outline-none" />
+    </label>
+    <button type="submit" class="btn btn-sage !min-h-[52px]">Send to the editor</button>
+  </div>
+  <p class="text-sm text-ink-soft">Lyle reads every answer before anything changes in the book. You can also <a href={`/family/photos${r ? `?recipe=${r.slug}` : ""}`} class="underline text-tomato">send a photo</a>.</p>
+  <p class="text-base font-semibold" data-help-status role="status" aria-live="polite"></p>
+</form>

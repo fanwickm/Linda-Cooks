@@ -1,0 +1,185 @@
+{
+  "slug": "fresh-summer-corn-chowder",
+  "title": "Fresh Summer Corn Chowder",
+  "chapter": "soups",
+  "order": 7,
+  "source": "From Bob Mitchell  ·  Summer",
+  "contributors": [
+    "bob-mitchell"
+  ],
+  "occasionText": "Summer",
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "35 min",
+      "min": 35,
+      "max": 35
+    }
+  ],
+  "headnote": "Velvety corn chowder made with a homemade fresh-cob corn stock, crispy thick bacon, Yukon Gold potatoes, and chives. “Simmering the stripped cobs in the broth and cream creates an unbelievably rich, naturally sweet corn stock that elevates this chowder.” — Bob Mitchell",
+  "quotes": [
+    {
+      "by": "bob-mitchell",
+      "text": "Simmering the stripped cobs in the broth and cream creates an unbelievably rich, naturally sweet corn stock that elevates this chowder.",
+      "context": null,
+      "span": "“Simmering the stripped cobs in the broth and cream creates an unbelievably rich, naturally sweet corn stock that elevates this chowder.” — Bob Mitchell"
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "4 cups fresh corn kernels (5 to 6 ears) — keep the cobs",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "cups"
+        },
+        {
+          "raw": "4 cups chicken broth",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "cups"
+        },
+        {
+          "raw": "1½ cups milk",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups"
+        },
+        {
+          "raw": "1 cup heavy cream",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "4 slices thick-cut bacon, chopped",
+          "qty": 4.0,
+          "qtyText": "4",
+          "unit": "slices"
+        },
+        {
+          "raw": "1½ cups finely diced onion",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups"
+        },
+        {
+          "raw": "1 cup diced carrot",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "1 pound Yukon Gold potatoes, diced",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "2½ teaspoons sea salt, divided",
+          "qty": 2.5,
+          "qtyText": "2½",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "¼ teaspoon black pepper",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "¼ teaspoon cayenne pepper",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 tablespoons chopped fresh chives",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Cut the corn.",
+      "text": "Cut the kernels from the cobs and set them aside for the chowder. Put the bare cobs in a stockpot — snap them in half if they do not fit."
+    },
+    {
+      "lead": "Make the corn stock.",
+      "text": "Add the chicken broth, milk, and cream to the cobs. Bring just to a boil — watch it, milk boils over fast — then reduce the heat and simmer uncovered for 20 minutes. Lift out and discard the cobs with tongs."
+    },
+    {
+      "lead": "Crisp the bacon.",
+      "text": "In a 5-quart Dutch oven over medium-high heat, cook the bacon until crisp. Lift it out with a slotted spoon and set aside, leaving the fat in the pot."
+    },
+    {
+      "lead": "Cook the vegetables.",
+      "text": "Add the onion and carrot to the bacon fat and sauté uncovered until softened, 7 to 8 minutes."
+    },
+    {
+      "lead": "Add potatoes, corn, and seasoning.",
+      "text": "Add the potatoes, the reserved corn kernels, 2 teaspoons of the salt, the black pepper, and the cayenne."
+    },
+    {
+      "lead": "Simmer.",
+      "text": "Pour in the warm corn stock. Bring to a light boil, then simmer uncovered for 10 to 15 minutes, until the potatoes are fork-tender."
+    },
+    {
+      "lead": "Season.",
+      "text": "Taste and season with the remaining salt and more pepper."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Ladle into bowls and garnish with the crispy bacon and chopped chives."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Don’t throw out the cobs",
+      "text": "simmering them is the secret to deep corn flavor.",
+      "byLinda": false
+    },
+    {
+      "label": "Bacon fat",
+      "text": "cooking the vegetables in it gives the whole chowder its smoky base.",
+      "byLinda": false
+    },
+    {
+      "label": "Thicker chowder",
+      "text": "purée about 2 cups in a blender and stir it back in.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "even better the next day. Reheat gently; a hard boil can make the dairy grainy.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": null,
+  "isBestGuess": false,
+  "contributorName": "Bob Mitchell",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "summer"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 55
+}

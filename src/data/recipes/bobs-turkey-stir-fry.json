@@ -1,0 +1,176 @@
+{
+  "slug": "bobs-turkey-stir-fry",
+  "title": "Bob’s Turkey Stir Fry",
+  "chapter": "poultry",
+  "order": 44,
+  "source": "From Bob Mitchell",
+  "contributors": [
+    "bob-mitchell"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    }
+  ],
+  "headnote": "High-heat ground turkey stir-fry loaded with ginger, scallions, Thai basil, cilantro, and lime. “Even if you don’t like fish, still put in the fish sauce. It definitely doesn’t make the dish taste like fish — it adds an essential savory tang and depth that goes beautifully with the lime juice.” — Bob Mitchell",
+  "quotes": [
+    {
+      "by": "bob-mitchell",
+      "text": "Even if you don’t like fish, still put in the fish sauce. It definitely doesn’t make the dish taste like fish — it adds an essential savory tang and depth that goes beautifully with the lime juice.",
+      "context": null,
+      "span": "“Even if you don’t like fish, still put in the fish sauce. It definitely doesn’t make the dish taste like fish — it adds an essential savory tang and depth that goes beautifully with the lime juice.” — Bob Mitchell"
+    }
+  ],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 cups white or jasmine rice",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups"
+        },
+        {
+          "raw": "2 tablespoons coconut oil or neutral oil — not olive oil",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 large piece fresh ginger",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "1 bunch scallions",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "bunch"
+        },
+        {
+          "raw": "1 teaspoon crushed red pepper flakes",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 pounds ground turkey",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "pounds"
+        },
+        {
+          "raw": "3 tablespoons fish sauce",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 tablespoons soy sauce",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "Juice of 3 limes"
+        },
+        {
+          "raw": "1 bunch fresh cilantro, chopped, stems and all",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "bunch"
+        },
+        {
+          "raw": "1 handful Thai basil",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "Momofuku Chili Crunch, about 1 tablespoon, to serve"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Start the rice.",
+      "text": "Start the rice in your rice maker so it is ready and steaming when the stir-fry finishes."
+    },
+    {
+      "lead": "Prep the aromatics.",
+      "text": "Peel the ginger and either shave or mince it. Slice the scallion whites, and slice and reserve the green tops for the end."
+    },
+    {
+      "lead": "Heat the oil.",
+      "text": "In a very large pan or wok, add enough oil to coat the whole pan and heat over medium-high heat."
+    },
+    {
+      "lead": "Cook the aromatics.",
+      "text": "Add the ginger, scallion whites, and red pepper flakes to the hot oil and sauté for about 2 minutes, until fragrant."
+    },
+    {
+      "lead": "Brown the turkey.",
+      "text": "Add the ground turkey and cook, breaking it up so it mixes with the aromatics and letting the edges brown, until no pink remains (165°F)."
+    },
+    {
+      "lead": "Season.",
+      "text": "Reduce the heat and stir in the fish sauce, soy sauce, and lime juice. Adjust to taste — more soy for saltiness, fish sauce for savory depth, lime for citrus tang."
+    },
+    {
+      "lead": "Add the herbs off the heat.",
+      "text": "Remove from the heat immediately and fold in the scallion greens, the chopped cilantro with its stems, and the Thai basil, torn by hand."
+    },
+    {
+      "lead": "Serve.",
+      "text": "Serve right away over warm rice, with chili crunch spooned over for extra crunch and flavor."
+    }
+  ],
+  "notes": [
+    {
+      "label": "The oil",
+      "text": "do not use olive oil; use coconut oil or a neutral oil that can take high heat.",
+      "byLinda": false
+    },
+    {
+      "label": "Be generous with the pepper flakes",
+      "text": "cooking them with the ginger and scallion whites takes some of the harsh kick out.",
+      "byLinda": false
+    },
+    {
+      "label": "Serve immediately",
+      "text": "over rice, or the fresh herbs will start to wilt.",
+      "byLinda": false
+    },
+    {
+      "label": "Pan size",
+      "text": "two pounds of turkey crowds an ordinary skillet. Use your biggest pan or wok, or brown it in two batches so it browns instead of steaming.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": null,
+  "isBestGuess": false,
+  "contributorName": "Bob Mitchell",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 30
+}

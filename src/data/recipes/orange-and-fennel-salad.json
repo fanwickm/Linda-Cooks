@@ -1,0 +1,141 @@
+{
+  "slug": "orange-and-fennel-salad",
+  "title": "Orange and Fennel Salad",
+  "chapter": "salads",
+  "order": 15,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "4 navel or Cara Cara oranges",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "2 medium fennel bulbs, fronds reserved",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "medium"
+        },
+        {
+          "raw": "½ small red onion, sliced paper-thin",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "small"
+        },
+        {
+          "raw": "⅓ cup oil-cured black olives, pitted and torn",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup"
+        },
+        {
+          "raw": "3 tablespoons extra-virgin olive oil, the best you have",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 tablespoon fresh lemon juice",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "½ teaspoon kosher salt",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Freshly ground black pepper"
+        },
+        {
+          "raw": "Pinch of red pepper flakes (optional)"
+        },
+        {
+          "raw": "A few mint leaves, torn (optional)"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Supreme the oranges.",
+      "text": "Cut a slice off the top and bottom of each orange so it sits flat. Stand it up and cut the peel and all the white pith away in strips, following the curve. Then slice crosswise into ¼-inch rounds, or cut the segments free from the membranes. Do this over a bowl and save every drop of juice."
+    },
+    {
+      "lead": "Shave the fennel.",
+      "text": "Trim the stalks and cut each bulb in half through the root. Cut out the tough core, then slice the halves as thinly as you possibly can — a mandoline if you have one, otherwise a very sharp knife. Thin is the entire difference between this salad and a bowl of raw vegetable."
+    },
+    {
+      "lead": "Crisp the fennel.",
+      "text": "Drop the shaved fennel into ice water for 10 minutes. It curls and turns crisp. Drain and dry thoroughly."
+    },
+    {
+      "lead": "Soak the onion.",
+      "text": "Put the sliced onion in cold water for 10 minutes as well, then drain and dry."
+    },
+    {
+      "lead": "Dress.",
+      "text": "Whisk the olive oil, lemon juice, the collected orange juice, salt, pepper, and pepper flakes together."
+    },
+    {
+      "lead": "Assemble on a platter.",
+      "text": "Lay the orange rounds out on a wide platter. Scatter the fennel, onion, and olives over the top. Spoon the dressing over everything and finish with the reserved fennel fronds and the mint."
+    },
+    {
+      "lead": "Let it sit briefly.",
+      "text": "Ten minutes at room temperature before serving lets the juices come together. It does not want to be cold."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Best oranges",
+      "text": "Cara Caras and blood oranges are worth seeking out in January and February. Avoid anything dry or pithy.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "shave the fennel and hold it in ice water up to 4 hours. Slice the oranges no more than an hour ahead. Dress at the last minute.",
+      "byLinda": false
+    },
+    {
+      "label": "What it goes with",
+      "text": "grilled or roasted fish, lamb, or anything rich. It is a palate cleanser as much as a salad.",
+      "byLinda": false
+    },
+    {
+      "label": "Additions",
+      "text": "shaved Parmesan, toasted pistachios, or a few anchovies laid across the top.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Is this a specific person’s salad or a winter standard? And does it come with olives and red onion the Sicilian way, or is it simpler than that?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 20
+}

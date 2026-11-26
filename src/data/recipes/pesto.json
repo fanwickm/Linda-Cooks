@@ -1,0 +1,151 @@
+{
+  "slug": "pesto",
+  "title": "Pesto",
+  "chapter": "sauces-dressings",
+  "order": 17,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes about 1 cup",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "5 min",
+      "min": 5,
+      "max": 5
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "⅓ cup (45 g) pine nuts",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup",
+          "metric": {
+            "qty": 45.0,
+            "unit": "g",
+            "span": " cup (45 g)"
+          }
+        },
+        {
+          "raw": "2 garlic cloves",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "½ teaspoon kosher salt",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 packed cups (60 g) fresh basil leaves, stems removed",
+          "qty": 2.0,
+          "qtyText": "2"
+        },
+        {
+          "raw": "½ cup (120 ml) extra-virgin olive oil, plus more to cover",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 120.0,
+            "unit": "ml",
+            "span": " cup (120 ml)"
+          }
+        },
+        {
+          "raw": "½ cup (40 g) finely grated Parmigiano-Reggiano",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 40.0,
+            "unit": "g",
+            "span": " cup (40 g)"
+          }
+        },
+        {
+          "raw": "2 tablespoons finely grated Pecorino Romano",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "Squeeze of lemon (optional)"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Toast the pine nuts.",
+      "text": "Toast them in a dry skillet over medium-low heat, shaking the pan often, for 3 to 5 minutes, until golden in spots and fragrant. Tip them onto a plate right away — pine nuts burn in seconds and keep cooking in a hot pan."
+    },
+    {
+      "lead": "Start with garlic and salt.",
+      "text": "Pulse the garlic and salt in a food processor until finely chopped. Add the cooled pine nuts and pulse to a coarse paste."
+    },
+    {
+      "lead": "Add the basil.",
+      "text": "Add the basil and pulse in short bursts, scraping down the sides, until finely chopped. Short pulses keep the leaves from heating up and turning dark."
+    },
+    {
+      "lead": "Stream in the oil.",
+      "text": "With the motor running, pour in the olive oil and process just until the pesto is smooth but still has a little texture."
+    },
+    {
+      "lead": "Stir in the cheese by hand.",
+      "text": "Scrape the pesto into a bowl and fold in both cheeses with a spatula. Processing the cheese makes the pesto gluey. Taste, and add salt or a squeeze of lemon if it needs brightness."
+    },
+    {
+      "lead": "To sauce pasta.",
+      "text": "Cook pasta in well-salted water. Put a few big spoonfuls of pesto in a warm bowl, loosen it with a splash of the hot pasta water, then add the drained pasta and toss. Never heat pesto in a pan — the basil goes dark and the cheese turns stringy."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Keeping it green",
+      "text": "basil darkens where it meets air. Press plastic wrap right onto the surface, or pour a thin layer of olive oil over the top before refrigerating.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "keeps 4 to 5 days refrigerated. To freeze, make it without the cheese, freeze in ice cube trays, and stir the cheese in after thawing. Frozen pesto keeps 3 months.",
+      "byLinda": false
+    },
+    {
+      "label": "Variations",
+      "text": "walnuts or almonds in place of pine nuts; a handful of parsley or arugula in with the basil for a sharper pesto.",
+      "byLinda": false
+    },
+    {
+      "label": "By hand",
+      "text": "a mortar and pestle gives a looser, more fragrant pesto. Pound the garlic and salt first, then the nuts, then the basil a handful at a time, then work in the oil and cheese.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — classic Genovese-style basil pesto with pine nuts. Who makes the family pesto, and when? Tell me if yours uses walnuts instead of pine nuts, whether the basil comes from someone’s garden, and what it usually goes on.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 20
+}

@@ -1,0 +1,188 @@
+{
+  "slug": "aunt-karens-no-knead-bread-with-herb-butter",
+  "title": "Aunt Karen’s No-Knead Bread with Herb Butter",
+  "chapter": "breads-breakfast",
+  "order": 52,
+  "source": "From Aunt Karen (Karen Massimino)",
+  "contributors": [
+    "karen-massimino"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "One 1½-pound loaf",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "45–50 min",
+      "min": 45,
+      "max": 50
+    },
+    {
+      "label": "Rise",
+      "text": "14–20 hr",
+      "min": 840,
+      "max": 1200
+    }
+  ],
+  "headnote": "Karen adapted this from the well-known New York Times no-knead recipe. Almost all of the work is waiting: the dough sits overnight, then bakes in a heavy covered pot into a loaf with a crisp, golden crust and a soft, open crumb. Her herb butter goes alongside.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Bread",
+      "items": [
+        {
+          "raw": "3⅓ cups (430 g) all-purpose or bread flour, plus more for dusting",
+          "qty": 3.3333333333333335,
+          "qtyText": "3⅓",
+          "unit": "cups",
+          "metric": {
+            "qty": 430.0,
+            "unit": "g",
+            "span": " cups (430 g)"
+          }
+        },
+        {
+          "raw": "¼ teaspoon (1 g) instant yeast",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon",
+          "metric": {
+            "qty": 1.0,
+            "unit": "g",
+            "span": " teaspoon (1 g)"
+          }
+        },
+        {
+          "raw": "2 teaspoons (8 g) kosher salt",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons",
+          "metric": {
+            "qty": 8.0,
+            "unit": "g",
+            "span": " teaspoons (8 g)"
+          }
+        },
+        {
+          "raw": "1½ cups (345 g) cool water",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups",
+          "metric": {
+            "qty": 345.0,
+            "unit": "g",
+            "span": " cups (345 g)"
+          }
+        },
+        {
+          "raw": "Cornmeal or wheat bran, for dusting"
+        }
+      ]
+    },
+    {
+      "name": "Herb butter",
+      "items": [
+        {
+          "raw": "½ cup (1 stick, 113 g) unsalted butter, softened",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "2 tablespoons fresh herbs, finely chopped — which herbs Karen uses",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons",
+          "gaps": [
+            "which herbs Karen uses"
+          ]
+        },
+        {
+          "raw": "1 small garlic clove, grated",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "small"
+        },
+        {
+          "raw": "Pinch of flaky salt"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Mix.",
+      "text": "Stir the flour, yeast, and salt together in a large bowl. Add the water and stir with a spoon or your hand until no dry flour remains. It will be shaggy and sticky — that is right. Cover the bowl."
+    },
+    {
+      "lead": "Wait.",
+      "text": "Leave at room temperature 12 to 18 hours, until the surface is dotted with bubbles and the dough has more than doubled."
+    },
+    {
+      "lead": "Fold.",
+      "text": "Turn the dough onto a floured surface, sprinkle with a little flour, and fold it over on itself once or twice. Cover loosely and let rest 15 minutes."
+    },
+    {
+      "lead": "Shape and rise.",
+      "text": "With floured hands, gently shape into a ball. Generously dust a cotton towel with cornmeal, set the dough on it seam side down, dust the top, and cover with another towel. Let rise about 2 hours, until it holds a fingerprint."
+    },
+    {
+      "lead": "Heat the pot.",
+      "text": "At least 30 minutes before the dough is ready, put a 6- to 8-quart heavy covered pot (cast iron or enamel) in the oven and heat to 450°F."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Carefully remove the hot pot. Slide a hand under the towel and turn the dough into the pot seam side up — it will look messy and that is fine. Cover and bake 30 minutes. Uncover and bake 15 to 20 minutes more, until deep brown and the loaf sounds hollow when tapped (about 205°F inside)."
+    },
+    {
+      "lead": "Cool.",
+      "text": "Cool on a rack at least 1 hour before slicing. Cutting early makes the inside gummy."
+    },
+    {
+      "lead": "Make the herb butter.",
+      "text": "Mash the butter with the herbs, garlic, and salt. Roll into a log in plastic wrap and chill until firm, or serve soft in a small bowl."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Weigh it",
+      "text": "this recipe is very forgiving, but weights make it come out the same every time.",
+      "byLinda": false
+    },
+    {
+      "label": "Add-ins",
+      "text": "fold in chopped olives, roasted garlic, or grated cheese at the shaping step.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "keep the bread cut side down on a board or in a paper bag for up to 2 days; it freezes well whole or sliced. Herb butter keeps a week refrigerated or 3 months frozen.",
+      "byLinda": false
+    },
+    {
+      "label": "Timing",
+      "text": "mix it after dinner and it is ready to shape the next afternoon.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "When does Karen make this — every holiday, Sunday dinners, as a gift? And what herbs go in her butter? Tell me if anything here differs from how she does it.",
+  "isBestGuess": false,
+  "contributorName": "Aunt Karen (Karen Massimino)",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "sunday-dinner"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 900
+}

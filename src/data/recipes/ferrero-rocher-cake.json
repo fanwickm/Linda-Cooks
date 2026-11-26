@@ -1,0 +1,261 @@
+{
+  "slug": "ferrero-rocher-cake",
+  "title": "Ferrero Rocher Cake",
+  "chapter": "desserts",
+  "order": 70,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 12",
+    "servings": 12
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "45 min",
+      "min": 45,
+      "max": 45
+    },
+    {
+      "label": "Cook",
+      "text": "30–35 min",
+      "min": 30,
+      "max": 35
+    },
+    {
+      "label": "Cool",
+      "text": "1 hr",
+      "min": 60,
+      "max": 60
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Chocolate cake",
+      "items": [
+        {
+          "raw": "1¾ cups (220 g) all-purpose flour",
+          "qty": 1.75,
+          "qtyText": "1¾",
+          "unit": "cups",
+          "metric": {
+            "qty": 220.0,
+            "unit": "g",
+            "span": " cups (220 g)"
+          }
+        },
+        {
+          "raw": "2 cups (400 g) granulated sugar",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cups",
+          "metric": {
+            "qty": 400.0,
+            "unit": "g",
+            "span": " cups (400 g)"
+          }
+        },
+        {
+          "raw": "¾ cup (65 g) unsweetened cocoa powder",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup",
+          "metric": {
+            "qty": 65.0,
+            "unit": "g",
+            "span": " cup (65 g)"
+          }
+        },
+        {
+          "raw": "1½ teaspoons baking powder",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1½ teaspoons baking soda",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1 teaspoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2 large eggs",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "1 cup (240 ml) whole milk",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 240.0,
+            "unit": "ml",
+            "span": " cup (240 ml)"
+          }
+        },
+        {
+          "raw": "½ cup (120 ml) neutral oil",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup",
+          "metric": {
+            "qty": 120.0,
+            "unit": "ml",
+            "span": " cup (120 ml)"
+          }
+        },
+        {
+          "raw": "2 teaspoons vanilla extract",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "raw": "1 cup (240 ml) hot coffee",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 240.0,
+            "unit": "ml",
+            "span": " cup (240 ml)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nutella buttercream",
+      "items": [
+        {
+          "raw": "1 cup (226 g) unsalted butter, softened",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 226.0,
+            "unit": "g",
+            "span": " cup (226 g)"
+          }
+        },
+        {
+          "raw": "¾ cup (220 g) Nutella",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup",
+          "metric": {
+            "qty": 220.0,
+            "unit": "g",
+            "span": " cup (220 g)"
+          }
+        },
+        {
+          "raw": "3 cups (360 g) powdered sugar",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "cups",
+          "metric": {
+            "qty": 360.0,
+            "unit": "g",
+            "span": " cups (360 g)"
+          }
+        },
+        {
+          "raw": "2–3 tablespoons heavy cream",
+          "qty": [
+            2.0,
+            3.0
+          ],
+          "qtyText": "2–3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "Pinch of kosher salt"
+        }
+      ]
+    },
+    {
+      "name": "To finish",
+      "items": [
+        {
+          "raw": "1 cup (140 g) hazelnuts, toasted, skinned, and chopped",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 140.0,
+            "unit": "g",
+            "span": " cup (140 g)"
+          }
+        },
+        {
+          "raw": "12 Ferrero Rocher chocolates",
+          "qty": 12.0,
+          "qtyText": "12"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 350°F. Butter two 9-inch round cake pans, line the bottoms with parchment, and dust with cocoa."
+    },
+    {
+      "lead": "Mix the batter.",
+      "text": "Whisk the flour, sugar, cocoa, baking powder, baking soda, and salt in a large bowl. Add the eggs, milk, oil, and vanilla and beat on medium for 2 minutes. Stir in the hot coffee — the batter will be very thin. That is correct."
+    },
+    {
+      "lead": "Bake.",
+      "text": "Divide between the pans and bake 30 to 35 minutes, until a toothpick in the center comes out clean. Cool 10 minutes in the pans, then turn out onto a rack and cool completely."
+    },
+    {
+      "lead": "Make the buttercream.",
+      "text": "Beat the butter until creamy, then beat in the Nutella. Add the powdered sugar a cup at a time, then the cream and salt, and beat on medium-high for 3 minutes until light and fluffy."
+    },
+    {
+      "lead": "Fill.",
+      "text": "Level the cake tops with a serrated knife if they domed. Set one layer on a plate, spread with about 1 cup of buttercream, and scatter half the chopped hazelnuts over it. Top with the second layer."
+    },
+    {
+      "lead": "Frost and decorate.",
+      "text": "Spread a thin coat of buttercream over the whole cake and chill 20 minutes, then frost with the rest. Press the remaining hazelnuts around the bottom edge and set the Ferrero Rocher in a ring on top."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Skinning hazelnuts",
+      "text": "toast them at 350°F for 10 to 12 minutes, then rub them in a kitchen towel while hot. Most of the skins will flake off; the rest are fine.",
+      "byLinda": false
+    },
+    {
+      "label": "Ganache drip",
+      "text": "for a fancier finish, heat ½ cup cream until steaming, pour over 4 ounces chopped chocolate, stir smooth, cool until thick, and spoon over the top edge of the chilled cake before adding the chocolates.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "bake the layers a day ahead and wrap tightly. The finished cake keeps 3 days refrigerated; serve at room temperature.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes this cake, and for what occasion? I have written a chocolate layer cake with Nutella buttercream, toasted hazelnuts, and whole Ferrero Rocher on top. Tell me if yours has a ganache drip, a crunchy wafer layer, or a different frosting.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 135
+}

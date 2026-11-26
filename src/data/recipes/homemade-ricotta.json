@@ -1,0 +1,136 @@
+{
+  "slug": "homemade-ricotta",
+  "title": "Homemade Ricotta",
+  "chapter": "pasta-dumplings-grains",
+  "order": 20,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "About 2 cups",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "5 min",
+      "min": 5,
+      "max": 5
+    },
+    {
+      "label": "Cook",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Drain",
+      "text": "15–60 min",
+      "min": 15,
+      "max": 60
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "8 cups (2 quarts, about 1.9 L) whole milk — not ultra-pasteurized",
+          "qty": 8.0,
+          "qtyText": "8",
+          "unit": "cups"
+        },
+        {
+          "raw": "1 cup (240 ml) heavy cream",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup",
+          "metric": {
+            "qty": 240.0,
+            "unit": "ml",
+            "span": " cup (240 ml)"
+          }
+        },
+        {
+          "raw": "1 teaspoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "⅓ cup (80 ml) fresh lemon juice, or 3 tablespoons white wine vinegar",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup",
+          "metric": {
+            "qty": 80.0,
+            "unit": "ml",
+            "span": " cup (80 ml)"
+          }
+        },
+        {
+          "raw": "Cheesecloth and a fine-mesh sieve"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Set up the sieve.",
+      "text": "Line a large sieve with two layers of damp cheesecloth and set it over a deep bowl. Have it ready before you start; the curds will not wait."
+    },
+    {
+      "lead": "Heat the milk.",
+      "text": "Put the milk, cream, and salt in a heavy pot over medium heat. Stir gently and scrape the bottom now and then so it does not scorch. Heat to 190°F — steaming hard, with small bubbles at the edge, but not boiling."
+    },
+    {
+      "lead": "Add the acid.",
+      "text": "Take the pot off the heat, pour in the lemon juice, and stir slowly just two or three times. Then leave it alone for 5 minutes. Curds will form and separate from thin, yellowish whey."
+    },
+    {
+      "lead": "If it doesn’t separate.",
+      "text": "If the liquid still looks milky after 5 minutes, add another tablespoon of lemon juice, stir once, and wait a few minutes more."
+    },
+    {
+      "lead": "Ladle and drain.",
+      "text": "Gently ladle the curds into the lined sieve; pouring breaks them up. Drain 15 minutes for soft, spoonable ricotta, or up to 1 hour for a firmer cheese for filling pasta."
+    },
+    {
+      "lead": "Store.",
+      "text": "Scrape into a container, cover, and refrigerate. It firms a little as it chills."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Ultra-pasteurized milk won’t work",
+      "text": "it has been heated so high that the proteins will not curdle properly. Check the label.",
+      "byLinda": false
+    },
+    {
+      "label": "For pasta fillings",
+      "text": "drain it the full hour, or wrap it in the cheesecloth and press it under a plate in the refrigerator overnight. Wet ricotta makes watery ravioli.",
+      "byLinda": false
+    },
+    {
+      "label": "Keeps",
+      "text": "about 5 days refrigerated. It does not freeze well on its own.",
+      "byLinda": false
+    },
+    {
+      "label": "Save the whey",
+      "text": "use it in place of water in bread dough or to cook rice.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes the ricotta, and is it for the ravioli and lasagna, or eaten on its own on toast? If yours uses buttermilk or rennet instead of lemon, tell me and I will rewrite it.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 35
+}

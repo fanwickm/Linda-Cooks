@@ -1,0 +1,172 @@
+{
+  "slug": "rice-pilaf-with-dried-fruit-nuts-and-spice",
+  "title": "Rice Pilaf with Dried Fruit, Nuts and Spice",
+  "chapter": "pasta-dumplings-grains",
+  "order": 33,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 6",
+    "servings": 6
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "label": "Rest",
+      "text": "10 min",
+      "min": 10,
+      "max": 10
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1½ cups (300 g) basmati rice",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "cups",
+          "metric": {
+            "qty": 300.0,
+            "unit": "g",
+            "span": " cups (300 g)"
+          }
+        },
+        {
+          "raw": "3 tablespoons butter or ghee",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 medium onion, thinly sliced",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "medium"
+        },
+        {
+          "raw": "1 cinnamon stick, 4 green cardamom pods (lightly crushed), 3 whole cloves",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "½ teaspoon ground cumin, ¼ teaspoon ground turmeric",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2¼ cups chicken stock or water",
+          "qty": 2.25,
+          "qtyText": "2¼",
+          "unit": "cups"
+        },
+        {
+          "raw": "1 teaspoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "⅓ cup dried apricots, chopped",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup"
+        },
+        {
+          "raw": "⅓ cup golden raisins or currants",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup"
+        },
+        {
+          "raw": "⅓ cup sliced almonds and ¼ cup shelled pistachios",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup"
+        },
+        {
+          "raw": "Chopped parsley or cilantro, to finish"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Rinse the rice.",
+      "text": "Rinse in a sieve under cold water, swirling, until the water runs mostly clear. Let it drain. Rinsing is what keeps the grains separate."
+    },
+    {
+      "lead": "Toast the nuts.",
+      "text": "In a dry skillet over medium heat, toast the almonds and pistachios 3 to 4 minutes, stirring, until fragrant and lightly golden. Set aside."
+    },
+    {
+      "lead": "Cook the onion.",
+      "text": "Melt the butter in a heavy saucepan with a tight lid over medium heat. Cook the onion 8 to 10 minutes until soft and golden."
+    },
+    {
+      "lead": "Bloom the spices.",
+      "text": "Add the cinnamon, cardamom, cloves, cumin, and turmeric and stir 1 minute until fragrant. Add the rice and stir 2 minutes to coat each grain in butter."
+    },
+    {
+      "lead": "Simmer.",
+      "text": "Add the stock, salt, apricots, and raisins and bring to a boil. Stir once, cover tightly, and turn the heat to the lowest setting. Cook 15 minutes without lifting the lid."
+    },
+    {
+      "lead": "Rest.",
+      "text": "Take the pan off the heat and let it sit, still covered, 10 minutes. The rice finishes steaming in that time."
+    },
+    {
+      "lead": "Fluff and serve.",
+      "text": "Fluff gently with a fork, fish out the whole spices, and fold in the toasted nuts and herbs."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Don’t lift the lid",
+      "text": "every peek lets out steam the rice needs.",
+      "byLinda": false
+    },
+    {
+      "label": "Fruit choices",
+      "text": "dried cherries, cranberries, or chopped dates all work.",
+      "byLinda": false
+    },
+    {
+      "label": "Ahead of time",
+      "text": "reheat in a covered dish at 325°F with a splash of stock, adding the nuts only before serving so they stay crisp.",
+      "byLinda": false
+    },
+    {
+      "label": "Alongside",
+      "text": "roast lamb, chicken, or a holiday turkey.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Whose pilaf is this, and what does it go with — lamb, Thanksgiving, a holiday table? Which fruits and nuts does your version use?",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "thanksgiving"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 55
+}

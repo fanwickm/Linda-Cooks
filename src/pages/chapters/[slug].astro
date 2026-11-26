@@ -1,0 +1,37 @@
+---
+import Base from "../../layouts/Base.astro";
+import RecipeCard from "../../components/RecipeCard.astro";
+import Icon from "../../components/Icon.astro";
+import { chapters, recipeBySlug, type Chapter } from "../../lib/data";
+
+export function getStaticPaths() {
+  return chapters.map((c) => ({ params: { slug: c.slug }, props: { chapter: c } }));
+}
+const { chapter } = Astro.props as { chapter: Chapter };
+const list = chapter.recipes.map((s) => recipeBySlug.get(s)!).filter(Boolean);
+const i = chapters.indexOf(chapter);
+const prev = chapters[i - 1];
+const next = chapters[i + 1];
+---
+<Base title={chapter.title} description={chapter.intro}>
+  <div class="container-page pt-6 sm:pt-10">
+    <nav class="text-sm text-ink-soft mb-4" aria-label="Breadcrumb"><a href="/recipes" class="hover:text-tomato">Recipes</a></nav>
+    <header class="flex flex-col sm:flex-row sm:items-center gap-5">
+      <div class="grid place-items-center size-24 rounded-full bg-card border border-line text-tomato shadow-sm shrink-0">
+        <Icon name={chapter.slug} size={48} />
+      </div>
+      <div>
+        <p class="eyebrow">Chapter {String(chapter.number).padStart(2, "0")}</p>
+        <h1 class="text-4xl sm:text-5xl font-semibold mt-1">{chapter.title}</h1>
+        <p class="mt-2 text-xl font-serif italic text-ink-soft max-w-2xl">{chapter.intro}</p>
+      </div>
+    </header>
+    <div class="mt-8 grid gap-4 grid-cols-2 lg:grid-cols-3">
+      {list.map((r, k) => <RecipeCard recipe={r} eager={k < 4} />)}
+    </div>
+    <nav class="mt-12 flex justify-between gap-3 border-t border-line pt-6" aria-label="Other chapters">
+      {prev ? <a href={`/chapters/${prev.slug}`} class="btn btn-ghost"><Icon name="chevronLeft" size={18} />{prev.title}</a> : <span />}
+      {next ? <a href={`/chapters/${next.slug}`} class="btn btn-ghost">{next.title}<Icon name="chevronRight" size={18} /></a> : <span />}
+    </nav>
+  </div>
+</Base>

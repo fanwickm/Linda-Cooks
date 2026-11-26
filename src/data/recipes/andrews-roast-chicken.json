@@ -1,0 +1,148 @@
+{
+  "slug": "andrews-roast-chicken",
+  "title": "Andrew’s Roast Chicken",
+  "chapter": "poultry",
+  "order": 42,
+  "source": "From Andrew",
+  "contributors": [
+    "andrew"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 4",
+    "servings": 4
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "Cook",
+      "text": "1–1¼ hr",
+      "min": 60,
+      "max": 75
+    },
+    {
+      "label": "Rest",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 whole chicken, 4–4½ pounds",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "1 tablespoon kosher salt",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "½ teaspoon freshly ground black pepper",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "3 tablespoons unsalted butter, softened",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 lemon, halved",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "1 head garlic, halved crosswise",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "head"
+        },
+        {
+          "raw": "A few sprigs thyme"
+        },
+        {
+          "raw": "1 pound carrots or small potatoes, cut into chunks (optional)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "1 tablespoon olive oil",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Dry and salt.",
+      "text": "Pat the chicken very dry inside and out. Season all over with the salt and pepper; if there is time, refrigerate uncovered overnight for crisper skin."
+    },
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 425°F. Let the chicken sit out 30 minutes while it heats."
+    },
+    {
+      "lead": "Butter and stuff.",
+      "text": "Rub the butter over the skin. Put the lemon halves, garlic, and thyme inside the cavity and tie the legs together."
+    },
+    {
+      "lead": "Into the pan.",
+      "text": "Toss the vegetables with the oil and a pinch of salt and spread them in a roasting pan or skillet. Set the chicken on top, breast side up."
+    },
+    {
+      "lead": "Roast.",
+      "text": "Roast 60 to 75 minutes, until the skin is golden, the juices run clear, and the thickest part of the thigh reads 165°F."
+    },
+    {
+      "lead": "Rest and carve.",
+      "text": "Rest 15 minutes, then carve. Squeeze the roasted lemon over the pan juices and spoon them over the meat."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Dry skin is crisp skin",
+      "text": "the overnight uncovered rest in the refrigerator makes the biggest difference.",
+      "byLinda": false
+    },
+    {
+      "label": "Simple pan sauce",
+      "text": "set the pan over medium heat, add ½ cup stock or white wine, scrape up the browned bits, and swirl in a tablespoon of butter.",
+      "byLinda": false
+    },
+    {
+      "label": "Spatchcocked",
+      "text": "cut out the backbone, flatten the bird, and roast at 450°F for about 45 minutes.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — a classic butter-and-lemon roast chicken. What makes Andrew’s distinct: the seasoning, a spatchcock, a particular pan or vegetables underneath, a gravy? And when does he make it?",
+  "isBestGuess": true,
+  "contributorName": "Andrew",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "sunday-dinner"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 90
+}

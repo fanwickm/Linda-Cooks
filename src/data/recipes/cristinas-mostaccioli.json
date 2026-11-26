@@ -1,0 +1,167 @@
+{
+  "slug": "cristinas-mostaccioli",
+  "title": "Cristina’s Mostaccioli",
+  "chapter": "pasta-dumplings-grains",
+  "order": 25,
+  "source": "From Cristina",
+  "contributors": [
+    "cristina"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 8",
+    "servings": 8
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "1 hr 15 min",
+      "min": 75,
+      "max": 75
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "1 pound mostaccioli or penne rigate",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "1 tablespoon olive oil",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "raw": "1 pound sweet or hot Italian sausage, removed from casings",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "1 medium onion, chopped",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "medium"
+        },
+        {
+          "raw": "3 garlic cloves, minced",
+          "qty": 3.0,
+          "qtyText": "3"
+        },
+        {
+          "raw": "1 can (28 ounces) crushed tomatoes",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "can"
+        },
+        {
+          "raw": "1 can (15 ounces) tomato sauce",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "can"
+        },
+        {
+          "raw": "1 teaspoon dried oregano, pinch of red pepper flakes",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "Salt and pepper"
+        },
+        {
+          "raw": "1 cup whole-milk ricotta (optional)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "3 cups shredded low-moisture mozzarella (12 ounces)",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "cups"
+        },
+        {
+          "raw": "½ cup grated Parmesan or Pecorino Romano",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "cup"
+        },
+        {
+          "raw": "Chopped basil or parsley, to finish"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make the sauce.",
+      "text": "Brown the sausage in the oil in a large pot over medium-high heat, breaking it up, about 8 minutes. Add the onion and cook 5 minutes, then the garlic for 1 minute. Add the crushed tomatoes, tomato sauce, oregano, and pepper flakes. Simmer 25 minutes and season."
+    },
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 375°F and oil a 9×13-inch baking dish."
+    },
+    {
+      "lead": "Undercook the pasta.",
+      "text": "Boil the pasta in well-salted water for 3 minutes less than the package says. It will finish in the oven; fully cooked pasta turns mushy."
+    },
+    {
+      "lead": "Combine.",
+      "text": "Drain the pasta and stir it into the sauce. Stir in half the mozzarella. If using ricotta, spread half the pasta in the dish, dollop the ricotta over it, then add the rest of the pasta. Otherwise just pour it all in."
+    },
+    {
+      "lead": "Top and bake.",
+      "text": "Scatter the remaining mozzarella and the Parmesan over the top. Bake uncovered 25 to 30 minutes, until bubbling and browned in spots."
+    },
+    {
+      "lead": "Rest and serve.",
+      "text": "Let it sit 10 minutes, then scatter the herbs over and serve."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Ahead of time",
+      "text": "assemble a day ahead and refrigerate covered; bake 40 to 45 minutes, covering with foil for the first 20.",
+      "byLinda": false
+    },
+    {
+      "label": "Sauciness",
+      "text": "the pasta drinks sauce as it sits. If assembling ahead, keep a cup of sauce aside to spoon over before baking.",
+      "byLinda": false
+    },
+    {
+      "label": "Feeds a crowd",
+      "text": "it doubles easily into two dishes, and one can go straight into the freezer.",
+      "byLinda": false
+    },
+    {
+      "label": "Mostaccioli vs. penne",
+      "text": "mostaccioli are smooth or ridged tubes cut on the bias; penne rigate is the easiest substitute.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — baked mostaccioli with a meat sauce and two cheeses. Tell me about Cristina’s version and when it gets made. Does she use sausage or beef, ricotta or not, and is it baked or just tossed and served?",
+  "isBestGuess": true,
+  "contributorName": "Cristina",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 95
+}

@@ -1,0 +1,182 @@
+{
+  "slug": "grandmas-mint-jelly",
+  "title": "Grandma’s Mint Jelly",
+  "chapter": "preserves-pickles-condiments",
+  "order": 75,
+  "source": "From Grandma  ·  Easter, spring dinners, and Sunday roasts",
+  "contributors": [
+    "grandma"
+  ],
+  "occasionText": "Easter, spring dinners, and Sunday roasts",
+  "yield": {
+    "text": "Makes about 4 half-pint jars",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "15 min",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "label": "",
+      "text": "Steep 15 min",
+      "min": null,
+      "max": null
+    }
+  ],
+  "headnote": "A staple in Grandma’s refrigerator, and always on the table when there was lamb.",
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Mint infusion",
+      "items": [
+        {
+          "raw": "1½ packed cups (45 g) fresh mint leaves, plus 2 tablespoons finely chopped",
+          "qty": 1.5,
+          "qtyText": "1½"
+        },
+        {
+          "raw": "2¼ cups (530 ml) water",
+          "qty": 2.25,
+          "qtyText": "2¼",
+          "unit": "cups",
+          "metric": {
+            "qty": 530.0,
+            "unit": "ml",
+            "span": " cups (530 ml)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jelly",
+      "items": [
+        {
+          "raw": "2 tablespoons fresh lemon juice",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 tablespoons cider vinegar",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "3½ cups (700 g) granulated sugar",
+          "qty": 3.5,
+          "qtyText": "3½",
+          "unit": "cups",
+          "metric": {
+            "qty": 700.0,
+            "unit": "g",
+            "span": " cups (700 g)"
+          }
+        },
+        {
+          "raw": "1 pouch (3 ounces / 85 ml) liquid pectin",
+          "qty": 1.0,
+          "qtyText": "1"
+        },
+        {
+          "raw": "½ teaspoon mint flavoring, if it needs more flavor",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "2–3 drops green food coloring (optional)",
+          "qty": [
+            2.0,
+            3.0
+          ],
+          "qtyText": "2–3"
+        }
+      ]
+    },
+    {
+      "name": "Equipment",
+      "items": [
+        {
+          "raw": "4 half-pint jars with new lids and bands",
+          "qty": 4.0,
+          "qtyText": "4"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make the infusion.",
+      "text": "Bruise the 1½ cups of mint leaves by crushing them in your hands or with a rolling pin. Bring the water to a boil, pour it over the leaves in a heatproof bowl, cover, and steep 15 minutes. Strain through a fine sieve, pressing on the leaves. Measure 1½ cups of mint liquid, adding water if you are short."
+    },
+    {
+      "lead": "Get the jars ready.",
+      "text": "Wash the jars, lids, and bands in hot soapy water. Sterilize the jars in boiling water for 10 minutes and keep them hot until filling — hot jelly in a cold jar can crack it."
+    },
+    {
+      "lead": "Boil the jelly.",
+      "text": "In a large, deep saucepan, combine the 1½ cups mint liquid, the lemon juice, vinegar, and sugar. Stir over high heat until the sugar dissolves, then bring to a full rolling boil — a boil that does not stop when you stir it."
+    },
+    {
+      "lead": "Add the pectin.",
+      "text": "Stir in the liquid pectin all at once, with the chopped mint, the mint flavoring if the mint taste is weak, and the coloring if using. Return to a full rolling boil and boil hard for exactly 1 minute, stirring constantly. Remove from the heat and skim off any foam."
+    },
+    {
+      "lead": "Fill the jars.",
+      "text": "Ladle the hot jelly into the hot jars, leaving ¼ inch of headspace. Wipe the rims with a clean damp cloth, center the lids, and screw the bands on firmly."
+    },
+    {
+      "lead": "Turn them upside down.",
+      "text": "Turn the sealed jars upside down for 5 minutes, then turn them upright. This is how Linda does it — she does not water-bath them."
+    },
+    {
+      "lead": "Cool and check the seals.",
+      "text": "Leave the jars undisturbed 24 hours; the jelly can take up to 2 days to fully set. Press the center of each lid — if it pops back, refrigerate that jar and use it first."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Linda’s notes",
+      "text": "she usually adds ½ teaspoon mint flavoring when the jelly needs more flavor, and seals the jars by turning them upside down rather than processing them.",
+      "byLinda": true
+    },
+    {
+      "label": "Food-safety note",
+      "text": "turning jars upside down is the old-fashioned method. Current USDA guidance is a 10-minute boiling-water bath (longer above 1,000 feet) for jars kept at room temperature; jars that are not water-bathed are safest kept in the refrigerator.",
+      "byLinda": false
+    },
+    {
+      "label": "Do not change the ratio",
+      "text": "liquid pectin sets only with the right balance of sugar and acid. Do not reduce the sugar, and make two batches rather than doubling.",
+      "byLinda": false
+    },
+    {
+      "label": "Serving",
+      "text": "serve at room temperature with roast leg of lamb or lamb chops. Spearmint gives the classic flavor.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": null,
+  "isBestGuess": false,
+  "contributorName": "Grandma",
+  "lindasTouch": true,
+  "lindasTouchReason": "Linda’s notes: mint flavouring, jars sealed upside down",
+  "occasions": [
+    "easter-spring",
+    "sunday-dinner"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 35
+}

@@ -1,0 +1,197 @@
+{
+  "slug": "cristinas-lasagna",
+  "title": "Cristina’s Lasagna",
+  "chapter": "pasta-dumplings-grains",
+  "order": 24,
+  "source": "From Cristina",
+  "contributors": [
+    "cristina"
+  ],
+  "occasionText": null,
+  "yield": {
+    "text": "Serves 10–12",
+    "servings": 10
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "45 min",
+      "min": 45,
+      "max": 45
+    },
+    {
+      "label": "Cook",
+      "text": "2 hr 30 min",
+      "min": 150,
+      "max": 150
+    },
+    {
+      "label": "Rest",
+      "text": "30 min",
+      "min": 30,
+      "max": 30
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": "Meat sauce",
+      "items": [
+        {
+          "raw": "2 tablespoons olive oil",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "1 pound ground beef (85%)",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "1 pound sweet Italian sausage, removed from casings",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "1 large onion, finely chopped",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "large"
+        },
+        {
+          "raw": "4 garlic cloves, minced",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "2 tablespoons tomato paste",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "2 cans (28 ounces each) crushed tomatoes",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "cans"
+        },
+        {
+          "raw": "1 teaspoon dried oregano, a handful of basil leaves, salt, pepper",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        }
+      ]
+    },
+    {
+      "name": "Ricotta layer",
+      "items": [
+        {
+          "raw": "2 pounds whole-milk ricotta",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "pounds"
+        },
+        {
+          "raw": "2 large eggs",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "large"
+        },
+        {
+          "raw": "1 cup grated Parmesan, plus ½ cup for the top",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "cup"
+        },
+        {
+          "raw": "¼ cup chopped parsley, ½ teaspoon salt, pepper",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup"
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "items": [
+        {
+          "raw": "1 pound lasagna noodles, boiled 2 minutes short of the package time",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "pound"
+        },
+        {
+          "raw": "1½ pounds low-moisture mozzarella, shredded",
+          "qty": 1.5,
+          "qtyText": "1½",
+          "unit": "pounds"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Make the sauce.",
+      "text": "Brown the beef and sausage in the oil in a heavy pot over medium-high heat, breaking them up, about 10 minutes. Add the onion and cook 5 minutes, then the garlic and tomato paste for 2 minutes. Add the tomatoes and oregano, season, and simmer partly covered 1 hour, stirring now and then. Stir in torn basil at the end. You want about 8 cups of thick sauce."
+    },
+    {
+      "lead": "Mix the ricotta.",
+      "text": "Stir the ricotta, eggs, 1 cup Parmesan, parsley, salt, and pepper together."
+    },
+    {
+      "lead": "Heat the oven.",
+      "text": "Set it to 375°F. Have a 9×13-inch baking dish, at least 3 inches deep."
+    },
+    {
+      "lead": "Layer.",
+      "text": "Spread 1 cup of sauce over the bottom of the dish. Add a layer of noodles, slightly overlapping. Spread a third of the ricotta over them, then a quarter of the mozzarella, then 1½ cups of sauce. Repeat twice more. Finish with a last layer of noodles, the remaining sauce, mozzarella, and ½ cup Parmesan."
+    },
+    {
+      "lead": "Bake covered, then uncovered.",
+      "text": "Cover with foil (tent it or oil the underside so the cheese does not stick). Bake 45 minutes. Uncover and bake 20 to 30 minutes more, until bubbling at the edges and browned on top, and a knife in the center comes out hot."
+    },
+    {
+      "lead": "Rest it.",
+      "text": "Let it stand at least 30 minutes before cutting. This is not optional — cut it hot and it slides apart into soup. Rested, it cuts into clean squares."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Ahead of time",
+      "text": "assemble up to 2 days ahead and refrigerate; add 15 minutes covered. Or freeze unbaked, well wrapped, for 3 months; thaw overnight in the refrigerator before baking.",
+      "byLinda": false
+    },
+    {
+      "label": "Sauce first",
+      "text": "the sauce is better made a day ahead, and it takes the pressure off assembly day.",
+      "byLinda": false
+    },
+    {
+      "label": "No-boil noodles",
+      "text": "use them straight from the box, but add an extra ½ cup of sauce or water so they have liquid to absorb.",
+      "byLinda": false
+    },
+    {
+      "label": "Baking sheet underneath",
+      "text": "a deep lasagna can bubble over. Put a foil-lined sheet on the rack below.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — an Italian-American lasagna with a ricotta layer, meat sauce, and mozzarella. Tell me about Cristina and when her lasagna shows up. What is in her sauce? Does she boil the noodles, use no-boil, or make them fresh? Ricotta or béchamel? Anything else layered in — sausage, meatballs, hard-boiled egg?",
+  "isBestGuess": true,
+  "contributorName": "Cristina",
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "sunday-dinner"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 225
+}

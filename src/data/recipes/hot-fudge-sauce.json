@@ -1,0 +1,158 @@
+{
+  "slug": "hot-fudge-sauce",
+  "title": "Hot Fudge Sauce",
+  "chapter": "desserts",
+  "order": 74,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes about 2 cups",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "5 min",
+      "min": 5,
+      "max": 5
+    },
+    {
+      "label": "Cook",
+      "text": "10 min",
+      "min": 10,
+      "max": 10
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "¾ cup (180 ml) heavy cream",
+          "qty": 0.75,
+          "qtyText": "¾",
+          "unit": "cup",
+          "metric": {
+            "qty": 180.0,
+            "unit": "ml",
+            "span": " cup (180 ml)"
+          }
+        },
+        {
+          "raw": "⅓ cup (110 g) light corn syrup",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup",
+          "metric": {
+            "qty": 110.0,
+            "unit": "g",
+            "span": " cup (110 g)"
+          }
+        },
+        {
+          "raw": "⅓ cup (70 g) packed dark brown sugar",
+          "qty": 0.3333333333333333,
+          "qtyText": "⅓",
+          "unit": "cup",
+          "metric": {
+            "qty": 70.0,
+            "unit": "g",
+            "span": " cup (70 g)"
+          }
+        },
+        {
+          "raw": "¼ cup (20 g) unsweetened cocoa powder, preferably Dutch-process",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "cup",
+          "metric": {
+            "qty": 20.0,
+            "unit": "g",
+            "span": " cup (20 g)"
+          }
+        },
+        {
+          "raw": "¼ teaspoon kosher salt",
+          "qty": 0.25,
+          "qtyText": "¼",
+          "unit": "teaspoon"
+        },
+        {
+          "raw": "6 ounces (170 g) bittersweet chocolate, chopped, divided",
+          "qty": 6.0,
+          "qtyText": "6",
+          "unit": "ounces",
+          "metric": {
+            "qty": 170.0,
+            "unit": "g",
+            "span": " ounces (170 g)"
+          }
+        },
+        {
+          "raw": "2 tablespoons (28 g) unsalted butter",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "tablespoons",
+          "metric": {
+            "qty": 28.0,
+            "unit": "g",
+            "span": " tablespoons (28 g)"
+          }
+        },
+        {
+          "raw": "1 teaspoon vanilla extract",
+          "qty": 1.0,
+          "qtyText": "1",
+          "unit": "teaspoon"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Start the base.",
+      "text": "In a small heavy saucepan, combine the cream, corn syrup, brown sugar, cocoa, salt, and half the chocolate. Set over medium heat and stir until the chocolate melts and the mixture comes to a boil."
+    },
+    {
+      "lead": "Simmer.",
+      "text": "Reduce the heat to low and simmer gently for 5 minutes, stirring often, until slightly thickened and glossy."
+    },
+    {
+      "lead": "Finish off the heat.",
+      "text": "Pull the pan off the burner and stir in the remaining chocolate, the butter, and the vanilla until completely smooth."
+    },
+    {
+      "lead": "Cool slightly and serve.",
+      "text": "Let it stand a few minutes; it thickens as it cools. Spoon over ice cream while warm."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Storage",
+      "text": "keeps 2 weeks in a jar in the refrigerator, where it sets nearly solid. Warm the jar in a pan of hot water, or microwave in 15-second bursts, stirring between.",
+      "byLinda": false
+    },
+    {
+      "label": "Why corn syrup",
+      "text": "it keeps the sauce smooth and stops the sugar from crystallizing when it is reheated. Honey works in a pinch but adds its own flavor.",
+      "byLinda": false
+    },
+    {
+      "label": "Thicker or thinner",
+      "text": "simmer a few minutes longer for a chewier fudge, or stir in a splash of cream for a pouring sauce.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "Who makes the hot fudge, and when does it come out — a sundae night, birthdays, over the molten cakes? Tell me if yours is the thick, chewy kind or a thinner pouring sauce.",
+  "isBestGuess": false,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 15
+}

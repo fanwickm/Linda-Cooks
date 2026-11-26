@@ -1,0 +1,11 @@
+---
+import Base from "../layouts/Base.astro";
+import RecipeBrowser from "../components/RecipeBrowser.astro";
+---
+<Base title="Search">
+  <div class="container-page pt-6 sm:pt-10">
+    <h1 class="text-4xl sm:text-5xl font-semibold">Search</h1>
+    <p class="mt-2 text-ink-soft">Titles, ingredients and the people behind them.</p>
+    <div class="mt-2"><RecipeBrowser autofocus /></div>
+  </div>
+</Base>

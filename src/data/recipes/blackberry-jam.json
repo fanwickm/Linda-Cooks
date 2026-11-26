@@ -1,0 +1,152 @@
+{
+  "slug": "blackberry-jam",
+  "title": "Blackberry Jam",
+  "chapter": "preserves-pickles-condiments",
+  "order": 76,
+  "source": null,
+  "contributors": [],
+  "occasionText": null,
+  "yield": {
+    "text": "Makes about 4 half-pint jars",
+    "servings": null
+  },
+  "times": [
+    {
+      "label": "Prep",
+      "text": "20 min",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "label": "Cook",
+      "text": "20–25 min",
+      "min": 20,
+      "max": 25
+    },
+    {
+      "label": "",
+      "text": "Process 10 min",
+      "min": null,
+      "max": null
+    }
+  ],
+  "headnote": null,
+  "quotes": [],
+  "ingredientGroups": [
+    {
+      "name": null,
+      "items": [
+        {
+          "raw": "2 pounds (900 g) fresh blackberries (about 6 cups)",
+          "qty": 2.0,
+          "qtyText": "2",
+          "unit": "pounds",
+          "metric": {
+            "qty": 900.0,
+            "unit": "g",
+            "span": " pounds (900 g)"
+          }
+        },
+        {
+          "raw": "3 cups (600 g) granulated sugar",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "cups",
+          "metric": {
+            "qty": 600.0,
+            "unit": "g",
+            "span": " cups (600 g)"
+          }
+        },
+        {
+          "raw": "3 tablespoons fresh lemon juice",
+          "qty": 3.0,
+          "qtyText": "3",
+          "unit": "tablespoons"
+        },
+        {
+          "raw": "½ teaspoon unsalted butter (optional, to reduce foam)",
+          "qty": 0.5,
+          "qtyText": "½",
+          "unit": "teaspoon"
+        }
+      ]
+    },
+    {
+      "name": "Equipment",
+      "items": [
+        {
+          "raw": "4 half-pint jars with new lids and bands, a large pot for water-bath canning, and a rack",
+          "qty": 4.0,
+          "qtyText": "4"
+        },
+        {
+          "raw": "A small plate in the freezer, for testing the set"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "lead": "Get the jars ready.",
+      "text": "Wash the jars, lids, and bands in hot soapy water. Set the jars on the rack in the canning pot, cover with water by 1 inch, and bring to a simmer. Put a small plate in the freezer for testing the set later."
+    },
+    {
+      "lead": "Crush the berries.",
+      "text": "Rinse the berries gently and crush them in a wide, heavy pot with a potato masher. You should have about 4 cups of crushed fruit. For a less seedy jam, press half of it through a sieve and discard the seeds."
+    },
+    {
+      "lead": "Dissolve the sugar.",
+      "text": "Stir in the sugar and lemon juice and cook over medium heat, stirring, until the sugar has fully dissolved and the berries look glossy. Add the butter if using."
+    },
+    {
+      "lead": "Boil to the set.",
+      "text": "Raise the heat and bring to a hard boil, stirring often and scraping the bottom. Cook 10 to 15 minutes, until the jam reaches 220°F (or 8°F above the boiling point of water, if you live at altitude) on an instant-read thermometer and the bubbles turn slow and thick."
+    },
+    {
+      "lead": "Test it.",
+      "text": "Drop a teaspoon of jam on the frozen plate, return it to the freezer for 1 minute, then push it with your finger. If it wrinkles, it is ready. If it runs, boil 2 minutes more and test again."
+    },
+    {
+      "lead": "Fill the jars.",
+      "text": "Skim off any foam. Ladle the hot jam into the hot jars, leaving ¼ inch of headspace. Wipe the rims clean, center the lids, and screw the bands on fingertip-tight."
+    },
+    {
+      "lead": "Process.",
+      "text": "Lower the jars into the canner, covered by at least 1 inch of water. Bring to a full boil, cover, and process 10 minutes (above 1,000 feet, process 15 minutes up to 3,000 feet, 20 minutes up to 6,000 feet, 25 minutes up to 8,000 feet, and 30 minutes up to 10,000 feet). Turn off the heat, wait 5 minutes, then lift the jars onto a towel and leave them 24 hours. Refrigerate any jar whose lid flexes when pressed."
+    }
+  ],
+  "notes": [
+    {
+      "label": "Don’t overcook",
+      "text": "jam keeps thickening as it cools. Pull it at the first wrinkle; past that it turns stiff and loses its fresh berry flavor.",
+      "byLinda": false
+    },
+    {
+      "label": "Storage",
+      "text": "sealed jars keep up to a year in a cool, dark place. Opened jars keep about a month in the refrigerator.",
+      "byLinda": false
+    },
+    {
+      "label": "Frozen berries",
+      "text": "work well. Thaw them in a bowl and use them with all their juice.",
+      "byLinda": false
+    },
+    {
+      "label": "Small batch",
+      "text": "skip the canning entirely and keep the jars in the refrigerator for up to 3 weeks, or freeze them for up to 6 months.",
+      "byLinda": false
+    }
+  ],
+  "openQuestion": "This is a best guess — a classic blackberry jam set with lemon instead of boxed pectin. Who makes it, and where do the berries come from? Tell me if your jam is seedless or seeds-in, and whether the family recipe uses pectin.",
+  "isBestGuess": true,
+  "lindasTouch": false,
+  "lindasTouchReason": null,
+  "occasions": [
+    "summer"
+  ],
+  "keyIngredients": [],
+  "course": null,
+  "cardScan": null,
+  "totalMinutes": 40
+}

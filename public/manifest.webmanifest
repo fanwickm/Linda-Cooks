@@ -1,0 +1,1 @@
+{ "name": "Linda’s Kitchen", "short_name": "Linda’s Kitchen", "start_url": "/", "display": "standalone", "background_color": "#fbf6ec", "theme_color": "#b2372a", "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }, { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }] }
