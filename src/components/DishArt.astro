@@ -1,8 +1,9 @@
 ---
 // Photo slot. Shows the real photo if public/images/recipes/<slug>.jpg exists,
 // otherwise a warm illustrated placeholder with the dish name.
-import Icon from "./Icon.astro";
 import type { Recipe } from "../lib/data";
+import art from "../data/dish-art.json";
+import emojiSet from "@iconify-json/fluent-emoji-flat/icons.json";
 
 interface Props { recipe: Recipe; size?: "sm" | "md" | "lg"; class?: string; eager?: boolean }
 const { recipe, size = "md", class: cls = "", eager = false } = Astro.props;
@@ -22,29 +23,24 @@ const PALETTE: Record<string, [string, string, string]> = {
   "preserves-pickles-condiments": ["#e5dcef", "#4d3a6b", "#f2edf7"],
 };
 const [bg, fg, bg2] = PALETTE[recipe.chapter] ?? ["#eee", "#333", "#f8f8f8"];
-const titleSize = size === "lg" ? "text-3xl sm:text-4xl" : size === "sm" ? "text-base" : "text-xl";
-const iconSize = size === "lg" ? 56 : size === "sm" ? 26 : 36;
-const shortTitle = recipe.title.replace(/ with .*/, "");
-const pid = `p-${recipe.slug}-${Math.random().toString(36).slice(2, 7)}`;
+// Illustration for the plate: Fluent Emoji (MIT, Microsoft), picked per recipe in src/data/dish-art.json.
+const emojiName = (art.recipes as Record<string, string>)[recipe.slug] ?? (art.chapters as Record<string, string>)[recipe.chapter];
+const emoji = (emojiSet as any).icons[emojiName];
+if (!emoji) throw new Error(`dish-art.json: no illustration called "${emojiName}" (for ${recipe.slug})`);
+const plate = size === "lg" ? "w-[46%] max-w-[15rem]" : size === "sm" ? "w-[52%]" : "w-[48%]";
 ---
 {recipe.photo ? (
   <img src={recipe.photo} alt={recipe.title} class={`object-cover w-full h-full ${cls}`} loading={eager ? "eager" : "lazy"} decoding="async" />
 ) : (
   <div
-    class={`relative w-full h-full overflow-hidden flex flex-col items-center justify-center text-center p-4 ${cls}`}
-    style={`background: radial-gradient(circle at 30% 20%, ${bg2}, ${bg}); color: ${fg}`}
+    class={`dish-art relative w-full h-full overflow-hidden grid place-items-center ${cls}`}
+    style={`--art-bg:${bg};--art-bg2:${bg2};--art-fg:${fg}`}
     role="img"
-    aria-label={`${recipe.title} (illustration — photo coming soon)`}
+    aria-label={`${recipe.title} (illustration, photo coming soon)`}
   >
-    <svg class="absolute inset-0 w-full h-full opacity-[.13]" aria-hidden="true">
-      <defs>
-        <pattern id={pid} width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
-          <line x1="0" y1="0" x2="0" y2="22" stroke="currentColor" stroke-width="1.2" />
-        </pattern>
-      </defs>
-      <rect width="100%" height="100%" fill={`url(#${pid})`} />
-    </svg>
-    <div class="relative rounded-full bg-white/60 p-3 mb-2 shadow-sm"><Icon name={recipe.chapter} size={iconSize} /></div>
-    {size !== "sm" && <span class={`relative font-serif font-semibold leading-tight ${titleSize}`} aria-hidden="true">{shortTitle}</span>}
+    <div class={`dish-plate ${plate}`}>
+      <svg viewBox="0 0 32 32" class="w-[58%] h-[58%] drop-shadow-[0_3px_3px_rgba(60,40,20,.25)]" aria-hidden="true" set:html={emoji.body} />
+    </div>
+    {size === "lg" && <span class="absolute right-3 bottom-3 rounded-full bg-white/75 px-3 py-1 text-xs font-semibold tracking-wide" style={`color:${fg}`} aria-hidden="true">Photo coming soon</span>}
   </div>
 )}

@@ -1,5 +1,5 @@
 [
-  { "id": "linda-mitchell", "name": "Linda Mitchell", "short": "Linda", "aliases": ["Linda"], "relationship": "The hostess and the heart of the book", "photo": "/images/people/linda.jpg", "isLinda": true },
+  { "id": "linda-mitchell", "name": "Linda Mitchell", "short": "Linda", "aliases": ["Linda"], "relationship": "The hostess and the heart of the book", "photo": "/images/people/linda-avatar.jpg", "isLinda": true },
   { "id": "bob-mitchell", "name": "Bob Mitchell", "short": "Bob", "aliases": ["Bob", "Small Bob"], "relationship": "Family cook — roasts, soups and fresh pasta", "photo": null },
   { "id": "karen-massimino", "name": "Karen Massimino", "short": "Aunt Karen", "aliases": ["Aunt Karen", "Karen"], "relationship": "Aunt Karen — bread, Brie and Christmas toffee", "photo": null },
   { "id": "lorraine-massimino", "name": "Lorraine Massimino", "short": "Lorraine", "aliases": ["Lorraine"], "relationship": "Meatballs and Sunday sauce", "photo": null },

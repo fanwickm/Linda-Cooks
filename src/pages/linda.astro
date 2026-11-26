@@ -11,7 +11,7 @@ const quotes = lindaQuotes();
 <Base title="Meet Linda" description="Linda Mitchell — the hostess and the heart of the Linda M Cookbook.">
   <section class="container-page pt-6 sm:pt-12 grid md:grid-cols-[1fr_1.2fr] gap-8 md:gap-14 items-center">
     <div class="relative mx-auto w-[80%] max-w-sm md:max-w-none md:w-full">
-      <img src={LINDA.photo!} alt="Linda Mitchell" width="720" height="874" class="w-full rounded-[2rem] border-[10px] border-card shadow-xl rotate-[-1.5deg]" fetchpriority="high" />
+      <img src="/images/people/linda.jpg" alt="Linda Mitchell, smiling, in a family portrait" width="880" height="1056" class="w-full aspect-[5/6] object-cover object-[50%_20%] rounded-t-[999px] rounded-b-3xl border-[10px] border-card shadow-xl" fetchpriority="high" />
     </div>
     <div>
       <p class="eyebrow">The hostess · the heart of the book</p>
@@ -37,8 +37,8 @@ const quotes = lindaQuotes();
       <h2 id="ph-h" class="text-3xl font-semibold">Photos</h2>
       <div class="mt-5 -mx-4 px-4 flex gap-5 overflow-x-auto snap-x scroll-px-4 pb-4">
         {linda.photos.map((p: any, i: number) => (
-          <figure class:list={["snap-start shrink-0 w-64 sm:w-80 bg-card p-3 pb-2 shadow-md", i % 2 ? "rotate-[1.5deg]" : "rotate-[-1.5deg]"]}>
-            <img src={p.src} alt={p.alt} class="w-full aspect-[4/5] object-cover" loading="lazy" />
+          <figure class:list={["snap-start shrink-0 bg-card p-3 pb-2 shadow-md", p.wide ? "w-[85vw] max-w-[40rem]" : "w-64 sm:w-80", i % 2 ? "rotate-[1deg]" : "rotate-[-1deg]"]}>
+            <img src={p.src} alt={p.alt} class:list={["w-full object-cover", p.wide ? "h-80 sm:h-[25rem] object-[50%_30%]" : "aspect-[4/5]"]} loading="lazy" />
             <figcaption class="font-hand text-2xl text-center mt-1">{p.caption}</figcaption>
           </figure>
         ))}

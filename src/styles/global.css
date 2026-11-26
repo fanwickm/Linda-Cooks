@@ -151,3 +151,22 @@ html.festive {
   html.print-card .card-hide { display: none !important; }
   html.print-card .recipe-body { font-size: 9pt; columns: 2; column-gap: 1.5rem; }
 }
+
+/* Illustrated stand-in for a dish photo: a plate on a gingham tablecloth in the chapter's colour. */
+.dish-art {
+  background-color: var(--art-bg2);
+  background-image:
+    linear-gradient(90deg, color-mix(in srgb, var(--art-bg) 75%, transparent) 50%, transparent 50%),
+    linear-gradient(color-mix(in srgb, var(--art-bg) 75%, transparent) 50%, transparent 50%);
+  background-size: 2.5rem 2.5rem;
+}
+.dish-art::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(circle at 50% 45%, transparent 35%, color-mix(in srgb, var(--art-fg) 22%, transparent) 130%);
+}
+.dish-plate {
+  position: relative; z-index: 1; aspect-ratio: 1; border-radius: 50%;
+  display: grid; place-items: center;
+  background: radial-gradient(circle, #fff 0 52%, #f3eee4 53% 56%, #fffdf8 57% 100%);
+  box-shadow: 0 .5rem 1.1rem -.35rem color-mix(in srgb, var(--art-fg) 55%, transparent), inset 0 0 0 1px rgba(60, 40, 20, .08);
+}
