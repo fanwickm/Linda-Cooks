@@ -99,9 +99,9 @@ It answers only from the cookbook (about 45k tokens, cached between questions) a
 
 ## Photos
 
-- Dish photos go in `public/images/recipes/<slug>.jpg`. Until one exists, the page shows an illustrated placeholder.
+- Dish photos go in `public/images/recipes/<slug>.jpg`. Until one exists, the page shows a black-and-white stand-in stock photo from `public/images/stand-ins/` (tagged "Stand-in photo"), or an illustrated plate chosen in `src/data/dish-art.json`.
 - Original recipe-card scans go in `public/images/cards/<slug>.jpg`, and a flip button appears on the recipe.
-- Photos of Linda are cropped to show only her. EXIF data, including location, has been removed.
+- Linda's portrait and avatar are cropped from the family group portrait, which also appears in full on the Meet Linda page. It shows other family members, so keep `SITE_PASSWORD` set.
 
 ## Testing notes
 
